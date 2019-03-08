@@ -43325,13 +43325,14 @@ class MainWindow extends _react.default.Component {
       color: this.props.color,
       theme: this.props.theme,
       chrome: true,
-      height: "800px",
-      width: "600px",
-      padding: "0px"
+      height: "600px",
+      width: "800px",
+      padding: "8px"
     }, _react.default.createElement(_windows.TitleBar, {
       title: "Circult Emulator",
       controls: true,
-      style: "-webkit-app-region: drag"
+      style: "-webkit-app-region: drag",
+      onCloseClick: () => remote.process.exit()
     }));
   }
 

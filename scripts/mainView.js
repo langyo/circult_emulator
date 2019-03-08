@@ -27,11 +27,15 @@ class MainWindow extends React.Component {
                 color={this.props.color}
                 theme={this.props.theme}
                 chrome
-                height="800px"
-                width="600px"
-                padding="0px"
+                height="600px"
+                width="800px"
+                padding="8px"
             >
-                <TitleBar title="Circult Emulator" controls style="-webkit-app-region: drag"/>
+                <TitleBar
+                    title="Circult Emulator"
+                    controls style="-webkit-app-region: drag"
+                    onCloseClick={() => remote.process.exit()}
+                />
                 
             </Window>
         );

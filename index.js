@@ -6,12 +6,12 @@ let mainWnd = null;
 
 function createMainWnd() {
     mainWnd = new BrowserWindow({
-        width:800,
-        height:600,
-        minWidth:800,
-        maxWidth: 800,
-        minHeight: 600,
-        maxHeight: 600,
+        width:816,
+        height:616,
+        minWidth:816,
+        maxWidth: 816,
+        minHeight: 616,
+        maxHeight: 616,
         useContentSize: true,
         show: false,
         frame: false,

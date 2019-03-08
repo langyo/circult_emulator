@@ -12,37 +12,75 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import shortid from "shortid";
 
-import { Window, TitleBar, Text } from 'react-desktop/windows';
+import { Window, TitleBar } from 'react-desktop/windows';
 import { withStyles } from "@material-ui/core/styles";
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
+import Typography from '@material-ui/core/Typography';
+import MenuItem from '@material-ui/core/MenuItem';
+import Menu from '@material-ui/core/Menu';
+import IconButton from '@material-ui/core/IconButton';
 import Fab from '@material-ui/core/Fab';
-import AddIcon from 'mdi-material-ui/plus';
 
-import indigo from '@material-ui/core/colors/indigo';
-import pink from '@material-ui/core/colors/pink';
+import AddIcon from 'mdi-material-ui/plus';
+import MenuIcon from 'mdi-material-ui/menu';
+
+import blue from '@material-ui/core/colors/blue';
 import red from '@material-ui/core/colors/red';
 
 const theme = createMuiTheme({
-  palette: {
-    primary: pink,
-    secondary: pink,
-    error: red,
-    contrastThreshold: 3,
-    tonalOffset: 0.2
-  },
-});
-
-const styles = theme => ({
-    fab: {
-        margin: theme.spacing.unit,
+    palette: {
+        primary: blue,
+        secondary: blue,
+        error: red
+    },
+    typography: {
+        useNextVariants: true,
     }
 });
 
-class MainWindow extends React.Component {
+const styles = theme => ({
+    menu: {
+        position: 'absolute',
+        top: theme.spacing.unit * 2,
+        left: theme.spacing.unit * 2
+    },
+    fab: {
+        position: 'absolute',
+        bottom: theme.spacing.unit * 2,
+        right: theme.spacing.unit * 2
+    }
+});
+
+const options = [
+    "实验环境设置",
+    "软件设置",
+    "导入...",
+    "导出...",
+    "更换材质",
+    "关于"
+];
+
+class MainWindow extends Reflux.Component {
     static defaultProps = {
         color: '#66ccff',
         theme: 'light'
+    };
+
+    state = {
+        anchorEl: null
+    }
+
+    handleOpenMenu = event => {
+        this.setState({ anchorEl: event.currentTarget });
+    };
+
+    handleMenuItemClick = (event, index) => {
+        this.setState({ anchorEl: null });
+    };
+
+    handleCloseMenu = () => {
+        this.setState({ anchorEl: null });
     };
 
     render() {
@@ -63,7 +101,24 @@ class MainWindow extends React.Component {
                     onCloseClick={() => remote.process.exit()}
                 />
                 <MuiThemeProvider theme={theme}>
-                    <Fab color="primary" aria-label="Add" className={classes.fab}>
+                    <Menu
+                        anchorEl={this.state.anchorEl}
+                        open={Boolean(this.state.anchorEl)}
+                        onClose={this.handleCloseMenu}
+                    >
+                        {options.map((option, index) => (
+                            <MenuItem
+                                key={index}
+                                onClick={event => this.handleMenuItemClick(event, index)}
+                            >
+                                <Typography variant="button">{option}</Typography>
+                            </MenuItem>
+                        ))}
+                    </Menu>
+                    <IconButton className={classes.menu} onClick={this.handleOpenMenu}>
+                        <MenuIcon />
+                    </IconButton>
+                    <Fab color="primary" className={classes.fab}>
                         <AddIcon />
                     </Fab>
                 </MuiThemeProvider>
@@ -74,6 +129,6 @@ class MainWindow extends React.Component {
 
 MainWindow.propTypes = {
     classes: PropTypes.object.isRequired,
-  };
-  
-  export default withStyles(styles)(MainWindow);
+};
+
+export default withStyles(styles)(MainWindow);

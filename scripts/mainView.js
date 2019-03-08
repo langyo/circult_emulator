@@ -46,7 +46,8 @@ const styles = theme => ({
     menu: {
         position: 'absolute',
         top: theme.spacing.unit * 2,
-        left: theme.spacing.unit * 2
+        left: theme.spacing.unit * 2,
+        zIndex: 9999
     },
     fab: {
         position: 'absolute',

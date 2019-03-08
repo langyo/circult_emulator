@@ -21,12 +21,15 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import IconButton from '@material-ui/core/IconButton';
 import Fab from '@material-ui/core/Fab';
+import Paper from '@material-ui/core/Paper';
 
 import AddIcon from 'mdi-material-ui/plus';
 import MenuIcon from 'mdi-material-ui/menu';
 
 import blue from '@material-ui/core/colors/blue';
 import red from '@material-ui/core/colors/red';
+
+import GridLayout from 'react-grid-layout';
 
 const theme = createMuiTheme({
     palette: {
@@ -97,7 +100,8 @@ class MainWindow extends Reflux.Component {
             >
                 <TitleBar
                     title="Circult Emulator"
-                    controls style="-webkit-app-region: drag"
+                    controls
+                    style="-webkit-app-region: drag"
                     onCloseClick={() => remote.process.exit()}
                 />
                 <MuiThemeProvider theme={theme}>
@@ -121,6 +125,23 @@ class MainWindow extends Reflux.Component {
                     <Fab color="primary" className={classes.fab}>
                         <AddIcon />
                     </Fab>
+                    <GridLayout cols={12} rowHeight={30} width={800}>
+                        <div key="a" data-grid={{ x: 2, y: 3, w: 1, h: 2 }}>
+                            <Paper elevation={1} style={{ width: "100%", height: "100%", "z-index": 100}}>
+                                <Typography>{1}</Typography>
+                            </Paper>
+                        </div>
+                        <div key="b" data-grid={{ x: 1, y: 0, w: 3, h: 2 }}>
+                            <Paper elevation={1} style={{ width: "100%", height: "100%", "z-index": 100}}>
+                                <Typography>{1}</Typography>
+                            </Paper>
+                        </div>
+                        <div key="c" data-grid={{ x: 4, y: 0, w: 1, h: 2 }}>
+                            <Paper elevation={1} style={{ width: "100%", height: "100%", "z-index": 100}}>
+                                <Typography>{1}</Typography>
+                            </Paper>
+                        </div>
+                    </GridLayout>
                 </MuiThemeProvider>
             </Window>
         );

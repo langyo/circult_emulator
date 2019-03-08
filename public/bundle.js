@@ -361,7 +361,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../Fade":30,"../styles/withStyles":99,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":217,"classnames":114,"prop-types":76,"react":344}],20:[function(require,module,exports){
+},{"../Fade":30,"../styles/withStyles":99,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":218,"classnames":114,"prop-types":76,"react":357}],20:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -921,7 +921,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../NoSsr":53,"../styles/withStyles":99,"../utils/ownerWindow":106,"./TouchRipple":23,"./createRippleHandler":24,"./focusVisible":25,"@babel/runtime/helpers/assertThisInitialized":2,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":217,"classnames":114,"keycode":211,"prop-types":76,"react":344,"react-dom":309}],22:[function(require,module,exports){
+},{"../NoSsr":53,"../styles/withStyles":99,"../utils/ownerWindow":106,"./TouchRipple":23,"./createRippleHandler":24,"./focusVisible":25,"@babel/runtime/helpers/assertThisInitialized":2,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":218,"classnames":114,"keycode":211,"prop-types":76,"react":357,"react-dom":310}],22:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -1072,7 +1072,7 @@ Ripple.defaultProps = {
 var _default = Ripple;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":217,"classnames":114,"prop-types":76,"react":344,"react-transition-group/Transition":332}],23:[function(require,module,exports){
+},{"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":218,"classnames":114,"prop-types":76,"react":357,"react-transition-group/Transition":345}],23:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -1437,7 +1437,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withStyles":99,"./Ripple":22,"@babel/runtime/helpers/assertThisInitialized":2,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"@babel/runtime/helpers/toConsumableArray":17,"_process":217,"classnames":114,"prop-types":76,"react":344,"react-dom":309,"react-transition-group/TransitionGroup":333}],24:[function(require,module,exports){
+},{"../styles/withStyles":99,"./Ripple":22,"@babel/runtime/helpers/assertThisInitialized":2,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"@babel/runtime/helpers/toConsumableArray":17,"_process":218,"classnames":114,"prop-types":76,"react":357,"react-dom":310,"react-transition-group/TransitionGroup":346}],24:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1557,7 +1557,7 @@ function listenForFocusKeys(win) {
   win.addEventListener('keyup', handleKeyUpEvent);
 }
 }).call(this,require('_process'))
-},{"../utils/ownerDocument":105,"@babel/runtime/helpers/interopRequireDefault":9,"_process":217,"keycode":211,"warning":382}],26:[function(require,module,exports){
+},{"../utils/ownerDocument":105,"@babel/runtime/helpers/interopRequireDefault":9,"_process":218,"keycode":211,"warning":395}],26:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -1825,7 +1825,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../ButtonBase":26,"../styles/withStyles":99,"../utils/helpers":104,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":217,"classnames":114,"prop-types":76,"react":344}],28:[function(require,module,exports){
+},{"../ButtonBase":26,"../styles/withStyles":99,"../utils/helpers":104,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":218,"classnames":114,"prop-types":76,"react":357}],28:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -2020,7 +2020,7 @@ var _default = (0, _withTheme.default)()(Fade);
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/transitions":98,"../styles/withTheme":100,"../transitions/utils":102,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":217,"prop-types":76,"react":344,"react-transition-group/Transition":332}],30:[function(require,module,exports){
+},{"../styles/transitions":98,"../styles/withTheme":100,"../transitions/utils":102,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":218,"prop-types":76,"react":357,"react-transition-group/Transition":345}],30:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -2275,7 +2275,7 @@ var _default = (0, _withTheme.default)()(Grow);
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withTheme":100,"../transitions/utils":102,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":217,"prop-types":76,"react":344,"react-transition-group/Transition":332}],32:[function(require,module,exports){
+},{"../styles/withTheme":100,"../transitions/utils":102,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":218,"prop-types":76,"react":357,"react-transition-group/Transition":345}],32:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -2464,7 +2464,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../ButtonBase":26,"../styles/colorManipulator":79,"../styles/withStyles":99,"../utils/helpers":104,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":217,"classnames":114,"prop-types":76,"react":344}],34:[function(require,module,exports){
+},{"../ButtonBase":26,"../styles/colorManipulator":79,"../styles/withStyles":99,"../utils/helpers":104,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":218,"classnames":114,"prop-types":76,"react":357}],34:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -2759,7 +2759,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../ButtonBase":26,"../styles/withStyles":99,"../utils/reactHelpers":107,"./MergeListContext":36,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":217,"classnames":114,"prop-types":76,"react":344}],36:[function(require,module,exports){
+},{"../ButtonBase":26,"../styles/withStyles":99,"../utils/reactHelpers":107,"./MergeListContext":36,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":218,"classnames":114,"prop-types":76,"react":357}],36:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -2804,7 +2804,7 @@ MergeListContext.propTypes = process.env.NODE_ENV !== "production" ? {
 var _default = MergeListContext;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../List/ListContext":39,"@babel/runtime/helpers/interopRequireDefault":9,"_process":217,"prop-types":76,"react":344}],37:[function(require,module,exports){
+},{"../List/ListContext":39,"@babel/runtime/helpers/interopRequireDefault":9,"_process":218,"prop-types":76,"react":357}],37:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -2947,7 +2947,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withStyles":99,"./ListContext":39,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":217,"classnames":114,"prop-types":76,"react":344}],39:[function(require,module,exports){
+},{"../styles/withStyles":99,"./ListContext":39,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":218,"classnames":114,"prop-types":76,"react":357}],39:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -2966,7 +2966,7 @@ var ListContext = _react.default.createContext({});
 
 var _default = ListContext;
 exports.default = _default;
-},{"@babel/runtime/helpers/interopRequireDefault":9,"react":344}],40:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":9,"react":357}],40:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -3106,7 +3106,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../ListItem":37,"../styles/withStyles":99,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":217,"classnames":114,"prop-types":76,"react":344}],42:[function(require,module,exports){
+},{"../ListItem":37,"../styles/withStyles":99,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":218,"classnames":114,"prop-types":76,"react":357}],42:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -3365,7 +3365,7 @@ MenuList.propTypes = process.env.NODE_ENV !== "production" ? {
 var _default = MenuList;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../List":40,"../utils/ownerDocument":105,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":217,"keycode":211,"prop-types":76,"react":344,"react-dom":309,"warning":382}],44:[function(require,module,exports){
+},{"../List":40,"../utils/ownerDocument":105,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":218,"keycode":211,"prop-types":76,"react":357,"react-dom":310,"warning":395}],44:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -3670,7 +3670,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../MenuList":44,"../Popover":57,"../styles/withStyles":99,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":217,"dom-helpers/util/scrollbarSize":133,"prop-types":76,"react":344,"react-dom":309}],46:[function(require,module,exports){
+},{"../MenuList":44,"../Popover":57,"../styles/withStyles":99,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":218,"dom-helpers/util/scrollbarSize":133,"prop-types":76,"react":357,"react-dom":310}],46:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -4201,7 +4201,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../Backdrop":20,"../Portal":59,"../RootRef":61,"../styles/withStyles":99,"../utils/helpers":104,"../utils/ownerDocument":105,"./ModalManager":48,"./manageAriaHidden":51,"@babel/runtime/helpers/assertThisInitialized":2,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":217,"classnames":114,"keycode":211,"prop-types":76,"react":344,"react-dom":309,"warning":382}],48:[function(require,module,exports){
+},{"../Backdrop":20,"../Portal":59,"../RootRef":61,"../styles/withStyles":99,"../utils/helpers":104,"../utils/ownerDocument":105,"./ModalManager":48,"./manageAriaHidden":51,"@babel/runtime/helpers/assertThisInitialized":2,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":218,"classnames":114,"keycode":211,"prop-types":76,"react":357,"react-dom":310,"warning":395}],48:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -4642,7 +4642,7 @@ NoSsr.defaultProps = {
 var _default = NoSsr;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/possibleConstructorReturn":15,"@material-ui/utils":110,"_process":217,"prop-types":76,"react":344}],53:[function(require,module,exports){
+},{"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/possibleConstructorReturn":15,"@material-ui/utils":110,"_process":218,"prop-types":76,"react":357}],53:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -4767,7 +4767,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withStyles":99,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":217,"classnames":114,"prop-types":76,"react":344,"warning":382}],55:[function(require,module,exports){
+},{"../styles/withStyles":99,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":218,"classnames":114,"prop-types":76,"react":357,"warning":395}],55:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -5367,7 +5367,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../Grow":32,"../Modal":49,"../Paper":55,"../styles/withStyles":99,"../utils/ownerDocument":105,"../utils/ownerWindow":106,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":217,"debounce":120,"prop-types":76,"react":344,"react-dom":309,"react-event-listener":310,"warning":382}],57:[function(require,module,exports){
+},{"../Grow":32,"../Modal":49,"../Paper":55,"../styles/withStyles":99,"../utils/ownerDocument":105,"../utils/ownerWindow":106,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"_process":218,"debounce":120,"prop-types":76,"react":357,"react-dom":310,"react-event-listener":312,"warning":395}],57:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -5541,7 +5541,7 @@ Portal.propTypes = process.env.NODE_ENV !== "production" ? (0, _utils.exactProp)
 var _default = Portal;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../utils/ownerDocument":105,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/possibleConstructorReturn":15,"@material-ui/utils":110,"_process":217,"prop-types":76,"react":344,"react-dom":309}],59:[function(require,module,exports){
+},{"../utils/ownerDocument":105,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/possibleConstructorReturn":15,"@material-ui/utils":110,"_process":218,"prop-types":76,"react":357,"react-dom":310}],59:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -5679,7 +5679,7 @@ RootRef.propTypes = process.env.NODE_ENV !== "production" ? (0, _utils.exactProp
 var _default = RootRef;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../utils/reactHelpers":107,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/possibleConstructorReturn":15,"@material-ui/utils":110,"_process":217,"prop-types":76,"react":344,"react-dom":309}],61:[function(require,module,exports){
+},{"../utils/reactHelpers":107,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/possibleConstructorReturn":15,"@material-ui/utils":110,"_process":218,"prop-types":76,"react":357,"react-dom":310}],61:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -5880,7 +5880,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withStyles":99,"../utils/helpers":104,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":217,"classnames":114,"prop-types":76,"react":344}],63:[function(require,module,exports){
+},{"../styles/withStyles":99,"../utils/helpers":104,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":218,"classnames":114,"prop-types":76,"react":357}],63:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -6240,7 +6240,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withStyles":99,"../utils/chainPropTypes":103,"../utils/helpers":104,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":217,"classnames":114,"prop-types":76,"react":344}],65:[function(require,module,exports){
+},{"../styles/withStyles":99,"../utils/chainPropTypes":103,"../utils/helpers":104,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":218,"classnames":114,"prop-types":76,"react":357}],65:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -6581,7 +6581,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 module.exports = checkPropTypes;
 
 }).call(this,require('_process'))
-},{"./lib/ReactPropTypesSecret":77,"_process":217}],74:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":77,"_process":218}],74:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -7201,7 +7201,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 };
 
 }).call(this,require('_process'))
-},{"./checkPropTypes":73,"./lib/ReactPropTypesSecret":77,"_process":217,"object-assign":72}],76:[function(require,module,exports){
+},{"./checkPropTypes":73,"./lib/ReactPropTypesSecret":77,"_process":218,"object-assign":72}],76:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -7233,7 +7233,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./factoryWithThrowingShims":74,"./factoryWithTypeCheckers":75,"_process":217}],77:[function(require,module,exports){
+},{"./factoryWithThrowingShims":74,"./factoryWithTypeCheckers":75,"_process":218}],77:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -7455,7 +7455,7 @@ if (!_utils.ponyfillGlobal.__MUI_STYLES__.MuiThemeProvider) {
 var _default = _utils.ponyfillGlobal.__MUI_STYLES__.MuiThemeProvider;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"./themeListener":97,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/interopRequireWildcard":10,"@babel/runtime/helpers/possibleConstructorReturn":15,"@material-ui/utils":110,"_process":217,"brcast":113,"prop-types":76,"react":344,"warning":382}],79:[function(require,module,exports){
+},{"./themeListener":97,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/interopRequireWildcard":10,"@babel/runtime/helpers/possibleConstructorReturn":15,"@material-ui/utils":110,"_process":218,"brcast":113,"prop-types":76,"react":357,"warning":395}],79:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -7744,7 +7744,7 @@ function lighten(color, coefficient) {
   return recomposeColor(color);
 }
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/interopRequireDefault":9,"_process":217,"warning":382}],80:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":9,"_process":218,"warning":395}],80:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -7885,7 +7885,7 @@ function createGenerateClassName() {
   };
 }
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/interopRequireDefault":9,"_process":217,"warning":382}],82:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":9,"_process":218,"warning":395}],82:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -8005,7 +8005,7 @@ function createMuiTheme() {
 var _default = createMuiTheme;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"./createBreakpoints":80,"./createMixins":82,"./createPalette":84,"./createTypography":86,"./shadows":94,"./shape":95,"./spacing":96,"./transitions":98,"./zIndex":101,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":217,"deepmerge":121,"is-plain-object":171,"warning":382}],84:[function(require,module,exports){
+},{"./createBreakpoints":80,"./createMixins":82,"./createPalette":84,"./createTypography":86,"./shadows":94,"./shape":95,"./spacing":96,"./transitions":98,"./zIndex":101,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":218,"deepmerge":121,"is-plain-object":171,"warning":395}],84:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -8213,7 +8213,7 @@ function createPalette(palette) {
   return paletteOutput;
 }
 }).call(this,require('_process'))
-},{"../colors/common":67,"../colors/grey":68,"../colors/indigo":69,"../colors/pink":70,"../colors/red":71,"./colorManipulator":79,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":217,"deepmerge":121,"warning":382}],85:[function(require,module,exports){
+},{"../colors/common":67,"../colors/grey":68,"../colors/indigo":69,"../colors/pink":70,"../colors/red":71,"./colorManipulator":79,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":218,"deepmerge":121,"warning":395}],85:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8421,7 +8421,7 @@ function createTypography(palette, typography) {
   });
 }
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@material-ui/utils":110,"_process":217,"deepmerge":121,"warning":382}],87:[function(require,module,exports){
+},{"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@material-ui/utils":110,"_process":218,"deepmerge":121,"warning":395}],87:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -8478,7 +8478,7 @@ function getStylesCreator(stylesOrCreator) {
 var _default = getStylesCreator;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/typeof":18,"_process":217,"deepmerge":121,"warning":382}],88:[function(require,module,exports){
+},{"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/typeof":18,"_process":218,"deepmerge":121,"warning":395}],88:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8654,7 +8654,7 @@ function mergeClasses() {
 var _default = mergeClasses;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@material-ui/utils":110,"_process":217,"warning":382}],92:[function(require,module,exports){
+},{"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"@material-ui/utils":110,"_process":218,"warning":395}],92:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8892,7 +8892,7 @@ var _default = {
 };
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":217,"warning":382}],99:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"_process":218,"warning":395}],99:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -9293,7 +9293,7 @@ if (!_utils.ponyfillGlobal.__MUI_STYLES__.withStyles) {
 var _default = _utils.ponyfillGlobal.__MUI_STYLES__.withStyles;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"./createGenerateClassName":81,"./createMuiTheme":83,"./getStylesCreator":87,"./getThemeProps":88,"./jssPreset":90,"./mergeClasses":91,"./multiKeyStore":92,"./reactJssContext":93,"./themeListener":97,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"@material-ui/utils":110,"_process":217,"hoist-non-react-statics":136,"jss":187,"prop-types":76,"react":344,"warning":382}],100:[function(require,module,exports){
+},{"./createGenerateClassName":81,"./createMuiTheme":83,"./getStylesCreator":87,"./getThemeProps":88,"./jssPreset":90,"./mergeClasses":91,"./multiKeyStore":92,"./reactJssContext":93,"./themeListener":97,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"@material-ui/utils":110,"_process":218,"hoist-non-react-statics":136,"jss":187,"prop-types":76,"react":357,"warning":395}],100:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -9435,7 +9435,7 @@ if (!_utils.ponyfillGlobal.__MUI_STYLES__.withTheme) {
 var _default = _utils.ponyfillGlobal.__MUI_STYLES__.withTheme;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"./createMuiTheme":83,"./themeListener":97,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"@material-ui/utils":110,"_process":217,"hoist-non-react-statics":136,"prop-types":76,"react":344}],101:[function(require,module,exports){
+},{"./createMuiTheme":83,"./themeListener":97,"@babel/runtime/helpers/classCallCheck":3,"@babel/runtime/helpers/createClass":4,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/getPrototypeOf":7,"@babel/runtime/helpers/inherits":8,"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/objectWithoutProperties":13,"@babel/runtime/helpers/possibleConstructorReturn":15,"@material-ui/utils":110,"_process":218,"hoist-non-react-statics":136,"prop-types":76,"react":357}],101:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9503,7 +9503,7 @@ function chainPropTypes(propType1, propType2) {
 var _default = chainPropTypes;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"_process":217}],104:[function(require,module,exports){
+},{"_process":218}],104:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -9597,7 +9597,7 @@ function createChainedFunction() {
   }, function () {});
 }
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/typeof":18,"_process":217,"warning":382}],105:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":9,"@babel/runtime/helpers/typeof":18,"_process":218,"warning":395}],105:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9672,7 +9672,7 @@ function setRef(ref, value) {
     ref.current = value;
   }
 }
-},{"@babel/runtime/helpers/interopRequireDefault":9,"classnames":114,"react":344}],108:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":9,"classnames":114,"react":357}],108:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -9718,7 +9718,7 @@ function exactProp(propTypes) {
 var _default = exactProp;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"_process":217}],109:[function(require,module,exports){
+},{"@babel/runtime/helpers/defineProperty":5,"@babel/runtime/helpers/extends":6,"@babel/runtime/helpers/interopRequireDefault":9,"_process":218}],109:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -11729,7 +11729,7 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 
 module.exports = hoistNonReactStatics;
 
-},{"react-is":330}],137:[function(require,module,exports){
+},{"react-is":339}],137:[function(require,module,exports){
 'use strict';
 
 var uppercasePattern = /[A-Z]/g;
@@ -13792,7 +13792,7 @@ if (process.env.NODE_ENV !== 'production') {
 module.exports = warning;
 
 }).call(this,require('_process'))
-},{"_process":217}],179:[function(require,module,exports){
+},{"_process":218}],179:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -16322,7 +16322,7 @@ exports['default'] = function () {
   };
 };
 }).call(this,require('_process'))
-},{"../StyleSheet":186,"./moduleId":207,"_process":217,"warning":210}],202:[function(require,module,exports){
+},{"../StyleSheet":186,"./moduleId":207,"_process":218,"warning":210}],202:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -16390,7 +16390,7 @@ exports['default'] = function (str) {
   return CSS.escape(str);
 };
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"_process":217}],204:[function(require,module,exports){
+},{"_process":218}],204:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -16440,7 +16440,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
 exports['default'] = function (value) {
   return value && value[_symbolObservable2['default']] && value === value[_symbolObservable2['default']]();
 };
-},{"symbol-observable":380}],206:[function(require,module,exports){
+},{"symbol-observable":393}],206:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -16603,7 +16603,7 @@ function toCssValue(value) {
 }
 },{}],210:[function(require,module,exports){
 arguments[4][178][0].apply(exports,arguments)
-},{"_process":217,"dup":178}],211:[function(require,module,exports){
+},{"_process":218,"dup":178}],211:[function(require,module,exports){
 // Source: http://jsfiddle.net/vWx8V/
 // http://stackoverflow.com/questions/5603195/full-list-of-javascript-keycodes
 
@@ -16781,6 +16781,1858 @@ for (var alias in aliases) {
 }
 
 },{}],212:[function(require,module,exports){
+(function (global){
+/**
+ * Lodash (Custom Build) <https://lodash.com/>
+ * Build: `lodash modularize exports="npm" -o ./`
+ * Copyright JS Foundation and other contributors <https://js.foundation/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/** Used as the size to enable large array optimizations. */
+var LARGE_ARRAY_SIZE = 200;
+
+/** Used to stand-in for `undefined` hash values. */
+var HASH_UNDEFINED = '__lodash_hash_undefined__';
+
+/** Used to compose bitmasks for value comparisons. */
+var COMPARE_PARTIAL_FLAG = 1,
+    COMPARE_UNORDERED_FLAG = 2;
+
+/** Used as references for various `Number` constants. */
+var MAX_SAFE_INTEGER = 9007199254740991;
+
+/** `Object#toString` result references. */
+var argsTag = '[object Arguments]',
+    arrayTag = '[object Array]',
+    asyncTag = '[object AsyncFunction]',
+    boolTag = '[object Boolean]',
+    dateTag = '[object Date]',
+    errorTag = '[object Error]',
+    funcTag = '[object Function]',
+    genTag = '[object GeneratorFunction]',
+    mapTag = '[object Map]',
+    numberTag = '[object Number]',
+    nullTag = '[object Null]',
+    objectTag = '[object Object]',
+    promiseTag = '[object Promise]',
+    proxyTag = '[object Proxy]',
+    regexpTag = '[object RegExp]',
+    setTag = '[object Set]',
+    stringTag = '[object String]',
+    symbolTag = '[object Symbol]',
+    undefinedTag = '[object Undefined]',
+    weakMapTag = '[object WeakMap]';
+
+var arrayBufferTag = '[object ArrayBuffer]',
+    dataViewTag = '[object DataView]',
+    float32Tag = '[object Float32Array]',
+    float64Tag = '[object Float64Array]',
+    int8Tag = '[object Int8Array]',
+    int16Tag = '[object Int16Array]',
+    int32Tag = '[object Int32Array]',
+    uint8Tag = '[object Uint8Array]',
+    uint8ClampedTag = '[object Uint8ClampedArray]',
+    uint16Tag = '[object Uint16Array]',
+    uint32Tag = '[object Uint32Array]';
+
+/**
+ * Used to match `RegExp`
+ * [syntax characters](http://ecma-international.org/ecma-262/7.0/#sec-patterns).
+ */
+var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
+
+/** Used to detect host constructors (Safari). */
+var reIsHostCtor = /^\[object .+?Constructor\]$/;
+
+/** Used to detect unsigned integer values. */
+var reIsUint = /^(?:0|[1-9]\d*)$/;
+
+/** Used to identify `toStringTag` values of typed arrays. */
+var typedArrayTags = {};
+typedArrayTags[float32Tag] = typedArrayTags[float64Tag] =
+typedArrayTags[int8Tag] = typedArrayTags[int16Tag] =
+typedArrayTags[int32Tag] = typedArrayTags[uint8Tag] =
+typedArrayTags[uint8ClampedTag] = typedArrayTags[uint16Tag] =
+typedArrayTags[uint32Tag] = true;
+typedArrayTags[argsTag] = typedArrayTags[arrayTag] =
+typedArrayTags[arrayBufferTag] = typedArrayTags[boolTag] =
+typedArrayTags[dataViewTag] = typedArrayTags[dateTag] =
+typedArrayTags[errorTag] = typedArrayTags[funcTag] =
+typedArrayTags[mapTag] = typedArrayTags[numberTag] =
+typedArrayTags[objectTag] = typedArrayTags[regexpTag] =
+typedArrayTags[setTag] = typedArrayTags[stringTag] =
+typedArrayTags[weakMapTag] = false;
+
+/** Detect free variable `global` from Node.js. */
+var freeGlobal = typeof global == 'object' && global && global.Object === Object && global;
+
+/** Detect free variable `self`. */
+var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
+
+/** Used as a reference to the global object. */
+var root = freeGlobal || freeSelf || Function('return this')();
+
+/** Detect free variable `exports`. */
+var freeExports = typeof exports == 'object' && exports && !exports.nodeType && exports;
+
+/** Detect free variable `module`. */
+var freeModule = freeExports && typeof module == 'object' && module && !module.nodeType && module;
+
+/** Detect the popular CommonJS extension `module.exports`. */
+var moduleExports = freeModule && freeModule.exports === freeExports;
+
+/** Detect free variable `process` from Node.js. */
+var freeProcess = moduleExports && freeGlobal.process;
+
+/** Used to access faster Node.js helpers. */
+var nodeUtil = (function() {
+  try {
+    return freeProcess && freeProcess.binding && freeProcess.binding('util');
+  } catch (e) {}
+}());
+
+/* Node.js helper references. */
+var nodeIsTypedArray = nodeUtil && nodeUtil.isTypedArray;
+
+/**
+ * A specialized version of `_.filter` for arrays without support for
+ * iteratee shorthands.
+ *
+ * @private
+ * @param {Array} [array] The array to iterate over.
+ * @param {Function} predicate The function invoked per iteration.
+ * @returns {Array} Returns the new filtered array.
+ */
+function arrayFilter(array, predicate) {
+  var index = -1,
+      length = array == null ? 0 : array.length,
+      resIndex = 0,
+      result = [];
+
+  while (++index < length) {
+    var value = array[index];
+    if (predicate(value, index, array)) {
+      result[resIndex++] = value;
+    }
+  }
+  return result;
+}
+
+/**
+ * Appends the elements of `values` to `array`.
+ *
+ * @private
+ * @param {Array} array The array to modify.
+ * @param {Array} values The values to append.
+ * @returns {Array} Returns `array`.
+ */
+function arrayPush(array, values) {
+  var index = -1,
+      length = values.length,
+      offset = array.length;
+
+  while (++index < length) {
+    array[offset + index] = values[index];
+  }
+  return array;
+}
+
+/**
+ * A specialized version of `_.some` for arrays without support for iteratee
+ * shorthands.
+ *
+ * @private
+ * @param {Array} [array] The array to iterate over.
+ * @param {Function} predicate The function invoked per iteration.
+ * @returns {boolean} Returns `true` if any element passes the predicate check,
+ *  else `false`.
+ */
+function arraySome(array, predicate) {
+  var index = -1,
+      length = array == null ? 0 : array.length;
+
+  while (++index < length) {
+    if (predicate(array[index], index, array)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+/**
+ * The base implementation of `_.times` without support for iteratee shorthands
+ * or max array length checks.
+ *
+ * @private
+ * @param {number} n The number of times to invoke `iteratee`.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array} Returns the array of results.
+ */
+function baseTimes(n, iteratee) {
+  var index = -1,
+      result = Array(n);
+
+  while (++index < n) {
+    result[index] = iteratee(index);
+  }
+  return result;
+}
+
+/**
+ * The base implementation of `_.unary` without support for storing metadata.
+ *
+ * @private
+ * @param {Function} func The function to cap arguments for.
+ * @returns {Function} Returns the new capped function.
+ */
+function baseUnary(func) {
+  return function(value) {
+    return func(value);
+  };
+}
+
+/**
+ * Checks if a `cache` value for `key` exists.
+ *
+ * @private
+ * @param {Object} cache The cache to query.
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function cacheHas(cache, key) {
+  return cache.has(key);
+}
+
+/**
+ * Gets the value at `key` of `object`.
+ *
+ * @private
+ * @param {Object} [object] The object to query.
+ * @param {string} key The key of the property to get.
+ * @returns {*} Returns the property value.
+ */
+function getValue(object, key) {
+  return object == null ? undefined : object[key];
+}
+
+/**
+ * Converts `map` to its key-value pairs.
+ *
+ * @private
+ * @param {Object} map The map to convert.
+ * @returns {Array} Returns the key-value pairs.
+ */
+function mapToArray(map) {
+  var index = -1,
+      result = Array(map.size);
+
+  map.forEach(function(value, key) {
+    result[++index] = [key, value];
+  });
+  return result;
+}
+
+/**
+ * Creates a unary function that invokes `func` with its argument transformed.
+ *
+ * @private
+ * @param {Function} func The function to wrap.
+ * @param {Function} transform The argument transform.
+ * @returns {Function} Returns the new function.
+ */
+function overArg(func, transform) {
+  return function(arg) {
+    return func(transform(arg));
+  };
+}
+
+/**
+ * Converts `set` to an array of its values.
+ *
+ * @private
+ * @param {Object} set The set to convert.
+ * @returns {Array} Returns the values.
+ */
+function setToArray(set) {
+  var index = -1,
+      result = Array(set.size);
+
+  set.forEach(function(value) {
+    result[++index] = value;
+  });
+  return result;
+}
+
+/** Used for built-in method references. */
+var arrayProto = Array.prototype,
+    funcProto = Function.prototype,
+    objectProto = Object.prototype;
+
+/** Used to detect overreaching core-js shims. */
+var coreJsData = root['__core-js_shared__'];
+
+/** Used to resolve the decompiled source of functions. */
+var funcToString = funcProto.toString;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/** Used to detect methods masquerading as native. */
+var maskSrcKey = (function() {
+  var uid = /[^.]+$/.exec(coreJsData && coreJsData.keys && coreJsData.keys.IE_PROTO || '');
+  return uid ? ('Symbol(src)_1.' + uid) : '';
+}());
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var nativeObjectToString = objectProto.toString;
+
+/** Used to detect if a method is native. */
+var reIsNative = RegExp('^' +
+  funcToString.call(hasOwnProperty).replace(reRegExpChar, '\\$&')
+  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
+);
+
+/** Built-in value references. */
+var Buffer = moduleExports ? root.Buffer : undefined,
+    Symbol = root.Symbol,
+    Uint8Array = root.Uint8Array,
+    propertyIsEnumerable = objectProto.propertyIsEnumerable,
+    splice = arrayProto.splice,
+    symToStringTag = Symbol ? Symbol.toStringTag : undefined;
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeGetSymbols = Object.getOwnPropertySymbols,
+    nativeIsBuffer = Buffer ? Buffer.isBuffer : undefined,
+    nativeKeys = overArg(Object.keys, Object);
+
+/* Built-in method references that are verified to be native. */
+var DataView = getNative(root, 'DataView'),
+    Map = getNative(root, 'Map'),
+    Promise = getNative(root, 'Promise'),
+    Set = getNative(root, 'Set'),
+    WeakMap = getNative(root, 'WeakMap'),
+    nativeCreate = getNative(Object, 'create');
+
+/** Used to detect maps, sets, and weakmaps. */
+var dataViewCtorString = toSource(DataView),
+    mapCtorString = toSource(Map),
+    promiseCtorString = toSource(Promise),
+    setCtorString = toSource(Set),
+    weakMapCtorString = toSource(WeakMap);
+
+/** Used to convert symbols to primitives and strings. */
+var symbolProto = Symbol ? Symbol.prototype : undefined,
+    symbolValueOf = symbolProto ? symbolProto.valueOf : undefined;
+
+/**
+ * Creates a hash object.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function Hash(entries) {
+  var index = -1,
+      length = entries == null ? 0 : entries.length;
+
+  this.clear();
+  while (++index < length) {
+    var entry = entries[index];
+    this.set(entry[0], entry[1]);
+  }
+}
+
+/**
+ * Removes all key-value entries from the hash.
+ *
+ * @private
+ * @name clear
+ * @memberOf Hash
+ */
+function hashClear() {
+  this.__data__ = nativeCreate ? nativeCreate(null) : {};
+  this.size = 0;
+}
+
+/**
+ * Removes `key` and its value from the hash.
+ *
+ * @private
+ * @name delete
+ * @memberOf Hash
+ * @param {Object} hash The hash to modify.
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function hashDelete(key) {
+  var result = this.has(key) && delete this.__data__[key];
+  this.size -= result ? 1 : 0;
+  return result;
+}
+
+/**
+ * Gets the hash value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf Hash
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function hashGet(key) {
+  var data = this.__data__;
+  if (nativeCreate) {
+    var result = data[key];
+    return result === HASH_UNDEFINED ? undefined : result;
+  }
+  return hasOwnProperty.call(data, key) ? data[key] : undefined;
+}
+
+/**
+ * Checks if a hash value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf Hash
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function hashHas(key) {
+  var data = this.__data__;
+  return nativeCreate ? (data[key] !== undefined) : hasOwnProperty.call(data, key);
+}
+
+/**
+ * Sets the hash `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf Hash
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the hash instance.
+ */
+function hashSet(key, value) {
+  var data = this.__data__;
+  this.size += this.has(key) ? 0 : 1;
+  data[key] = (nativeCreate && value === undefined) ? HASH_UNDEFINED : value;
+  return this;
+}
+
+// Add methods to `Hash`.
+Hash.prototype.clear = hashClear;
+Hash.prototype['delete'] = hashDelete;
+Hash.prototype.get = hashGet;
+Hash.prototype.has = hashHas;
+Hash.prototype.set = hashSet;
+
+/**
+ * Creates an list cache object.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function ListCache(entries) {
+  var index = -1,
+      length = entries == null ? 0 : entries.length;
+
+  this.clear();
+  while (++index < length) {
+    var entry = entries[index];
+    this.set(entry[0], entry[1]);
+  }
+}
+
+/**
+ * Removes all key-value entries from the list cache.
+ *
+ * @private
+ * @name clear
+ * @memberOf ListCache
+ */
+function listCacheClear() {
+  this.__data__ = [];
+  this.size = 0;
+}
+
+/**
+ * Removes `key` and its value from the list cache.
+ *
+ * @private
+ * @name delete
+ * @memberOf ListCache
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function listCacheDelete(key) {
+  var data = this.__data__,
+      index = assocIndexOf(data, key);
+
+  if (index < 0) {
+    return false;
+  }
+  var lastIndex = data.length - 1;
+  if (index == lastIndex) {
+    data.pop();
+  } else {
+    splice.call(data, index, 1);
+  }
+  --this.size;
+  return true;
+}
+
+/**
+ * Gets the list cache value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf ListCache
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function listCacheGet(key) {
+  var data = this.__data__,
+      index = assocIndexOf(data, key);
+
+  return index < 0 ? undefined : data[index][1];
+}
+
+/**
+ * Checks if a list cache value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf ListCache
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function listCacheHas(key) {
+  return assocIndexOf(this.__data__, key) > -1;
+}
+
+/**
+ * Sets the list cache `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf ListCache
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the list cache instance.
+ */
+function listCacheSet(key, value) {
+  var data = this.__data__,
+      index = assocIndexOf(data, key);
+
+  if (index < 0) {
+    ++this.size;
+    data.push([key, value]);
+  } else {
+    data[index][1] = value;
+  }
+  return this;
+}
+
+// Add methods to `ListCache`.
+ListCache.prototype.clear = listCacheClear;
+ListCache.prototype['delete'] = listCacheDelete;
+ListCache.prototype.get = listCacheGet;
+ListCache.prototype.has = listCacheHas;
+ListCache.prototype.set = listCacheSet;
+
+/**
+ * Creates a map cache object to store key-value pairs.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function MapCache(entries) {
+  var index = -1,
+      length = entries == null ? 0 : entries.length;
+
+  this.clear();
+  while (++index < length) {
+    var entry = entries[index];
+    this.set(entry[0], entry[1]);
+  }
+}
+
+/**
+ * Removes all key-value entries from the map.
+ *
+ * @private
+ * @name clear
+ * @memberOf MapCache
+ */
+function mapCacheClear() {
+  this.size = 0;
+  this.__data__ = {
+    'hash': new Hash,
+    'map': new (Map || ListCache),
+    'string': new Hash
+  };
+}
+
+/**
+ * Removes `key` and its value from the map.
+ *
+ * @private
+ * @name delete
+ * @memberOf MapCache
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function mapCacheDelete(key) {
+  var result = getMapData(this, key)['delete'](key);
+  this.size -= result ? 1 : 0;
+  return result;
+}
+
+/**
+ * Gets the map value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf MapCache
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function mapCacheGet(key) {
+  return getMapData(this, key).get(key);
+}
+
+/**
+ * Checks if a map value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf MapCache
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function mapCacheHas(key) {
+  return getMapData(this, key).has(key);
+}
+
+/**
+ * Sets the map `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf MapCache
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the map cache instance.
+ */
+function mapCacheSet(key, value) {
+  var data = getMapData(this, key),
+      size = data.size;
+
+  data.set(key, value);
+  this.size += data.size == size ? 0 : 1;
+  return this;
+}
+
+// Add methods to `MapCache`.
+MapCache.prototype.clear = mapCacheClear;
+MapCache.prototype['delete'] = mapCacheDelete;
+MapCache.prototype.get = mapCacheGet;
+MapCache.prototype.has = mapCacheHas;
+MapCache.prototype.set = mapCacheSet;
+
+/**
+ *
+ * Creates an array cache object to store unique values.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [values] The values to cache.
+ */
+function SetCache(values) {
+  var index = -1,
+      length = values == null ? 0 : values.length;
+
+  this.__data__ = new MapCache;
+  while (++index < length) {
+    this.add(values[index]);
+  }
+}
+
+/**
+ * Adds `value` to the array cache.
+ *
+ * @private
+ * @name add
+ * @memberOf SetCache
+ * @alias push
+ * @param {*} value The value to cache.
+ * @returns {Object} Returns the cache instance.
+ */
+function setCacheAdd(value) {
+  this.__data__.set(value, HASH_UNDEFINED);
+  return this;
+}
+
+/**
+ * Checks if `value` is in the array cache.
+ *
+ * @private
+ * @name has
+ * @memberOf SetCache
+ * @param {*} value The value to search for.
+ * @returns {number} Returns `true` if `value` is found, else `false`.
+ */
+function setCacheHas(value) {
+  return this.__data__.has(value);
+}
+
+// Add methods to `SetCache`.
+SetCache.prototype.add = SetCache.prototype.push = setCacheAdd;
+SetCache.prototype.has = setCacheHas;
+
+/**
+ * Creates a stack cache object to store key-value pairs.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function Stack(entries) {
+  var data = this.__data__ = new ListCache(entries);
+  this.size = data.size;
+}
+
+/**
+ * Removes all key-value entries from the stack.
+ *
+ * @private
+ * @name clear
+ * @memberOf Stack
+ */
+function stackClear() {
+  this.__data__ = new ListCache;
+  this.size = 0;
+}
+
+/**
+ * Removes `key` and its value from the stack.
+ *
+ * @private
+ * @name delete
+ * @memberOf Stack
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function stackDelete(key) {
+  var data = this.__data__,
+      result = data['delete'](key);
+
+  this.size = data.size;
+  return result;
+}
+
+/**
+ * Gets the stack value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf Stack
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function stackGet(key) {
+  return this.__data__.get(key);
+}
+
+/**
+ * Checks if a stack value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf Stack
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function stackHas(key) {
+  return this.__data__.has(key);
+}
+
+/**
+ * Sets the stack `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf Stack
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the stack cache instance.
+ */
+function stackSet(key, value) {
+  var data = this.__data__;
+  if (data instanceof ListCache) {
+    var pairs = data.__data__;
+    if (!Map || (pairs.length < LARGE_ARRAY_SIZE - 1)) {
+      pairs.push([key, value]);
+      this.size = ++data.size;
+      return this;
+    }
+    data = this.__data__ = new MapCache(pairs);
+  }
+  data.set(key, value);
+  this.size = data.size;
+  return this;
+}
+
+// Add methods to `Stack`.
+Stack.prototype.clear = stackClear;
+Stack.prototype['delete'] = stackDelete;
+Stack.prototype.get = stackGet;
+Stack.prototype.has = stackHas;
+Stack.prototype.set = stackSet;
+
+/**
+ * Creates an array of the enumerable property names of the array-like `value`.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @param {boolean} inherited Specify returning inherited property names.
+ * @returns {Array} Returns the array of property names.
+ */
+function arrayLikeKeys(value, inherited) {
+  var isArr = isArray(value),
+      isArg = !isArr && isArguments(value),
+      isBuff = !isArr && !isArg && isBuffer(value),
+      isType = !isArr && !isArg && !isBuff && isTypedArray(value),
+      skipIndexes = isArr || isArg || isBuff || isType,
+      result = skipIndexes ? baseTimes(value.length, String) : [],
+      length = result.length;
+
+  for (var key in value) {
+    if ((inherited || hasOwnProperty.call(value, key)) &&
+        !(skipIndexes && (
+           // Safari 9 has enumerable `arguments.length` in strict mode.
+           key == 'length' ||
+           // Node.js 0.10 has enumerable non-index properties on buffers.
+           (isBuff && (key == 'offset' || key == 'parent')) ||
+           // PhantomJS 2 has enumerable non-index properties on typed arrays.
+           (isType && (key == 'buffer' || key == 'byteLength' || key == 'byteOffset')) ||
+           // Skip index properties.
+           isIndex(key, length)
+        ))) {
+      result.push(key);
+    }
+  }
+  return result;
+}
+
+/**
+ * Gets the index at which the `key` is found in `array` of key-value pairs.
+ *
+ * @private
+ * @param {Array} array The array to inspect.
+ * @param {*} key The key to search for.
+ * @returns {number} Returns the index of the matched value, else `-1`.
+ */
+function assocIndexOf(array, key) {
+  var length = array.length;
+  while (length--) {
+    if (eq(array[length][0], key)) {
+      return length;
+    }
+  }
+  return -1;
+}
+
+/**
+ * The base implementation of `getAllKeys` and `getAllKeysIn` which uses
+ * `keysFunc` and `symbolsFunc` to get the enumerable property names and
+ * symbols of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @param {Function} keysFunc The function to get the keys of `object`.
+ * @param {Function} symbolsFunc The function to get the symbols of `object`.
+ * @returns {Array} Returns the array of property names and symbols.
+ */
+function baseGetAllKeys(object, keysFunc, symbolsFunc) {
+  var result = keysFunc(object);
+  return isArray(object) ? result : arrayPush(result, symbolsFunc(object));
+}
+
+/**
+ * The base implementation of `getTag` without fallbacks for buggy environments.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the `toStringTag`.
+ */
+function baseGetTag(value) {
+  if (value == null) {
+    return value === undefined ? undefinedTag : nullTag;
+  }
+  return (symToStringTag && symToStringTag in Object(value))
+    ? getRawTag(value)
+    : objectToString(value);
+}
+
+/**
+ * The base implementation of `_.isArguments`.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an `arguments` object,
+ */
+function baseIsArguments(value) {
+  return isObjectLike(value) && baseGetTag(value) == argsTag;
+}
+
+/**
+ * The base implementation of `_.isEqual` which supports partial comparisons
+ * and tracks traversed objects.
+ *
+ * @private
+ * @param {*} value The value to compare.
+ * @param {*} other The other value to compare.
+ * @param {boolean} bitmask The bitmask flags.
+ *  1 - Unordered comparison
+ *  2 - Partial comparison
+ * @param {Function} [customizer] The function to customize comparisons.
+ * @param {Object} [stack] Tracks traversed `value` and `other` objects.
+ * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+ */
+function baseIsEqual(value, other, bitmask, customizer, stack) {
+  if (value === other) {
+    return true;
+  }
+  if (value == null || other == null || (!isObjectLike(value) && !isObjectLike(other))) {
+    return value !== value && other !== other;
+  }
+  return baseIsEqualDeep(value, other, bitmask, customizer, baseIsEqual, stack);
+}
+
+/**
+ * A specialized version of `baseIsEqual` for arrays and objects which performs
+ * deep comparisons and tracks traversed objects enabling objects with circular
+ * references to be compared.
+ *
+ * @private
+ * @param {Object} object The object to compare.
+ * @param {Object} other The other object to compare.
+ * @param {number} bitmask The bitmask flags. See `baseIsEqual` for more details.
+ * @param {Function} customizer The function to customize comparisons.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Object} [stack] Tracks traversed `object` and `other` objects.
+ * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
+ */
+function baseIsEqualDeep(object, other, bitmask, customizer, equalFunc, stack) {
+  var objIsArr = isArray(object),
+      othIsArr = isArray(other),
+      objTag = objIsArr ? arrayTag : getTag(object),
+      othTag = othIsArr ? arrayTag : getTag(other);
+
+  objTag = objTag == argsTag ? objectTag : objTag;
+  othTag = othTag == argsTag ? objectTag : othTag;
+
+  var objIsObj = objTag == objectTag,
+      othIsObj = othTag == objectTag,
+      isSameTag = objTag == othTag;
+
+  if (isSameTag && isBuffer(object)) {
+    if (!isBuffer(other)) {
+      return false;
+    }
+    objIsArr = true;
+    objIsObj = false;
+  }
+  if (isSameTag && !objIsObj) {
+    stack || (stack = new Stack);
+    return (objIsArr || isTypedArray(object))
+      ? equalArrays(object, other, bitmask, customizer, equalFunc, stack)
+      : equalByTag(object, other, objTag, bitmask, customizer, equalFunc, stack);
+  }
+  if (!(bitmask & COMPARE_PARTIAL_FLAG)) {
+    var objIsWrapped = objIsObj && hasOwnProperty.call(object, '__wrapped__'),
+        othIsWrapped = othIsObj && hasOwnProperty.call(other, '__wrapped__');
+
+    if (objIsWrapped || othIsWrapped) {
+      var objUnwrapped = objIsWrapped ? object.value() : object,
+          othUnwrapped = othIsWrapped ? other.value() : other;
+
+      stack || (stack = new Stack);
+      return equalFunc(objUnwrapped, othUnwrapped, bitmask, customizer, stack);
+    }
+  }
+  if (!isSameTag) {
+    return false;
+  }
+  stack || (stack = new Stack);
+  return equalObjects(object, other, bitmask, customizer, equalFunc, stack);
+}
+
+/**
+ * The base implementation of `_.isNative` without bad shim checks.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a native function,
+ *  else `false`.
+ */
+function baseIsNative(value) {
+  if (!isObject(value) || isMasked(value)) {
+    return false;
+  }
+  var pattern = isFunction(value) ? reIsNative : reIsHostCtor;
+  return pattern.test(toSource(value));
+}
+
+/**
+ * The base implementation of `_.isTypedArray` without Node.js optimizations.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
+ */
+function baseIsTypedArray(value) {
+  return isObjectLike(value) &&
+    isLength(value.length) && !!typedArrayTags[baseGetTag(value)];
+}
+
+/**
+ * The base implementation of `_.keys` which doesn't treat sparse arrays as dense.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ */
+function baseKeys(object) {
+  if (!isPrototype(object)) {
+    return nativeKeys(object);
+  }
+  var result = [];
+  for (var key in Object(object)) {
+    if (hasOwnProperty.call(object, key) && key != 'constructor') {
+      result.push(key);
+    }
+  }
+  return result;
+}
+
+/**
+ * A specialized version of `baseIsEqualDeep` for arrays with support for
+ * partial deep comparisons.
+ *
+ * @private
+ * @param {Array} array The array to compare.
+ * @param {Array} other The other array to compare.
+ * @param {number} bitmask The bitmask flags. See `baseIsEqual` for more details.
+ * @param {Function} customizer The function to customize comparisons.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Object} stack Tracks traversed `array` and `other` objects.
+ * @returns {boolean} Returns `true` if the arrays are equivalent, else `false`.
+ */
+function equalArrays(array, other, bitmask, customizer, equalFunc, stack) {
+  var isPartial = bitmask & COMPARE_PARTIAL_FLAG,
+      arrLength = array.length,
+      othLength = other.length;
+
+  if (arrLength != othLength && !(isPartial && othLength > arrLength)) {
+    return false;
+  }
+  // Assume cyclic values are equal.
+  var stacked = stack.get(array);
+  if (stacked && stack.get(other)) {
+    return stacked == other;
+  }
+  var index = -1,
+      result = true,
+      seen = (bitmask & COMPARE_UNORDERED_FLAG) ? new SetCache : undefined;
+
+  stack.set(array, other);
+  stack.set(other, array);
+
+  // Ignore non-index properties.
+  while (++index < arrLength) {
+    var arrValue = array[index],
+        othValue = other[index];
+
+    if (customizer) {
+      var compared = isPartial
+        ? customizer(othValue, arrValue, index, other, array, stack)
+        : customizer(arrValue, othValue, index, array, other, stack);
+    }
+    if (compared !== undefined) {
+      if (compared) {
+        continue;
+      }
+      result = false;
+      break;
+    }
+    // Recursively compare arrays (susceptible to call stack limits).
+    if (seen) {
+      if (!arraySome(other, function(othValue, othIndex) {
+            if (!cacheHas(seen, othIndex) &&
+                (arrValue === othValue || equalFunc(arrValue, othValue, bitmask, customizer, stack))) {
+              return seen.push(othIndex);
+            }
+          })) {
+        result = false;
+        break;
+      }
+    } else if (!(
+          arrValue === othValue ||
+            equalFunc(arrValue, othValue, bitmask, customizer, stack)
+        )) {
+      result = false;
+      break;
+    }
+  }
+  stack['delete'](array);
+  stack['delete'](other);
+  return result;
+}
+
+/**
+ * A specialized version of `baseIsEqualDeep` for comparing objects of
+ * the same `toStringTag`.
+ *
+ * **Note:** This function only supports comparing values with tags of
+ * `Boolean`, `Date`, `Error`, `Number`, `RegExp`, or `String`.
+ *
+ * @private
+ * @param {Object} object The object to compare.
+ * @param {Object} other The other object to compare.
+ * @param {string} tag The `toStringTag` of the objects to compare.
+ * @param {number} bitmask The bitmask flags. See `baseIsEqual` for more details.
+ * @param {Function} customizer The function to customize comparisons.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Object} stack Tracks traversed `object` and `other` objects.
+ * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
+ */
+function equalByTag(object, other, tag, bitmask, customizer, equalFunc, stack) {
+  switch (tag) {
+    case dataViewTag:
+      if ((object.byteLength != other.byteLength) ||
+          (object.byteOffset != other.byteOffset)) {
+        return false;
+      }
+      object = object.buffer;
+      other = other.buffer;
+
+    case arrayBufferTag:
+      if ((object.byteLength != other.byteLength) ||
+          !equalFunc(new Uint8Array(object), new Uint8Array(other))) {
+        return false;
+      }
+      return true;
+
+    case boolTag:
+    case dateTag:
+    case numberTag:
+      // Coerce booleans to `1` or `0` and dates to milliseconds.
+      // Invalid dates are coerced to `NaN`.
+      return eq(+object, +other);
+
+    case errorTag:
+      return object.name == other.name && object.message == other.message;
+
+    case regexpTag:
+    case stringTag:
+      // Coerce regexes to strings and treat strings, primitives and objects,
+      // as equal. See http://www.ecma-international.org/ecma-262/7.0/#sec-regexp.prototype.tostring
+      // for more details.
+      return object == (other + '');
+
+    case mapTag:
+      var convert = mapToArray;
+
+    case setTag:
+      var isPartial = bitmask & COMPARE_PARTIAL_FLAG;
+      convert || (convert = setToArray);
+
+      if (object.size != other.size && !isPartial) {
+        return false;
+      }
+      // Assume cyclic values are equal.
+      var stacked = stack.get(object);
+      if (stacked) {
+        return stacked == other;
+      }
+      bitmask |= COMPARE_UNORDERED_FLAG;
+
+      // Recursively compare objects (susceptible to call stack limits).
+      stack.set(object, other);
+      var result = equalArrays(convert(object), convert(other), bitmask, customizer, equalFunc, stack);
+      stack['delete'](object);
+      return result;
+
+    case symbolTag:
+      if (symbolValueOf) {
+        return symbolValueOf.call(object) == symbolValueOf.call(other);
+      }
+  }
+  return false;
+}
+
+/**
+ * A specialized version of `baseIsEqualDeep` for objects with support for
+ * partial deep comparisons.
+ *
+ * @private
+ * @param {Object} object The object to compare.
+ * @param {Object} other The other object to compare.
+ * @param {number} bitmask The bitmask flags. See `baseIsEqual` for more details.
+ * @param {Function} customizer The function to customize comparisons.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Object} stack Tracks traversed `object` and `other` objects.
+ * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
+ */
+function equalObjects(object, other, bitmask, customizer, equalFunc, stack) {
+  var isPartial = bitmask & COMPARE_PARTIAL_FLAG,
+      objProps = getAllKeys(object),
+      objLength = objProps.length,
+      othProps = getAllKeys(other),
+      othLength = othProps.length;
+
+  if (objLength != othLength && !isPartial) {
+    return false;
+  }
+  var index = objLength;
+  while (index--) {
+    var key = objProps[index];
+    if (!(isPartial ? key in other : hasOwnProperty.call(other, key))) {
+      return false;
+    }
+  }
+  // Assume cyclic values are equal.
+  var stacked = stack.get(object);
+  if (stacked && stack.get(other)) {
+    return stacked == other;
+  }
+  var result = true;
+  stack.set(object, other);
+  stack.set(other, object);
+
+  var skipCtor = isPartial;
+  while (++index < objLength) {
+    key = objProps[index];
+    var objValue = object[key],
+        othValue = other[key];
+
+    if (customizer) {
+      var compared = isPartial
+        ? customizer(othValue, objValue, key, other, object, stack)
+        : customizer(objValue, othValue, key, object, other, stack);
+    }
+    // Recursively compare objects (susceptible to call stack limits).
+    if (!(compared === undefined
+          ? (objValue === othValue || equalFunc(objValue, othValue, bitmask, customizer, stack))
+          : compared
+        )) {
+      result = false;
+      break;
+    }
+    skipCtor || (skipCtor = key == 'constructor');
+  }
+  if (result && !skipCtor) {
+    var objCtor = object.constructor,
+        othCtor = other.constructor;
+
+    // Non `Object` object instances with different constructors are not equal.
+    if (objCtor != othCtor &&
+        ('constructor' in object && 'constructor' in other) &&
+        !(typeof objCtor == 'function' && objCtor instanceof objCtor &&
+          typeof othCtor == 'function' && othCtor instanceof othCtor)) {
+      result = false;
+    }
+  }
+  stack['delete'](object);
+  stack['delete'](other);
+  return result;
+}
+
+/**
+ * Creates an array of own enumerable property names and symbols of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names and symbols.
+ */
+function getAllKeys(object) {
+  return baseGetAllKeys(object, keys, getSymbols);
+}
+
+/**
+ * Gets the data for `map`.
+ *
+ * @private
+ * @param {Object} map The map to query.
+ * @param {string} key The reference key.
+ * @returns {*} Returns the map data.
+ */
+function getMapData(map, key) {
+  var data = map.__data__;
+  return isKeyable(key)
+    ? data[typeof key == 'string' ? 'string' : 'hash']
+    : data.map;
+}
+
+/**
+ * Gets the native function at `key` of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @param {string} key The key of the method to get.
+ * @returns {*} Returns the function if it's native, else `undefined`.
+ */
+function getNative(object, key) {
+  var value = getValue(object, key);
+  return baseIsNative(value) ? value : undefined;
+}
+
+/**
+ * A specialized version of `baseGetTag` which ignores `Symbol.toStringTag` values.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the raw `toStringTag`.
+ */
+function getRawTag(value) {
+  var isOwn = hasOwnProperty.call(value, symToStringTag),
+      tag = value[symToStringTag];
+
+  try {
+    value[symToStringTag] = undefined;
+    var unmasked = true;
+  } catch (e) {}
+
+  var result = nativeObjectToString.call(value);
+  if (unmasked) {
+    if (isOwn) {
+      value[symToStringTag] = tag;
+    } else {
+      delete value[symToStringTag];
+    }
+  }
+  return result;
+}
+
+/**
+ * Creates an array of the own enumerable symbols of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of symbols.
+ */
+var getSymbols = !nativeGetSymbols ? stubArray : function(object) {
+  if (object == null) {
+    return [];
+  }
+  object = Object(object);
+  return arrayFilter(nativeGetSymbols(object), function(symbol) {
+    return propertyIsEnumerable.call(object, symbol);
+  });
+};
+
+/**
+ * Gets the `toStringTag` of `value`.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the `toStringTag`.
+ */
+var getTag = baseGetTag;
+
+// Fallback for data views, maps, sets, and weak maps in IE 11 and promises in Node.js < 6.
+if ((DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag) ||
+    (Map && getTag(new Map) != mapTag) ||
+    (Promise && getTag(Promise.resolve()) != promiseTag) ||
+    (Set && getTag(new Set) != setTag) ||
+    (WeakMap && getTag(new WeakMap) != weakMapTag)) {
+  getTag = function(value) {
+    var result = baseGetTag(value),
+        Ctor = result == objectTag ? value.constructor : undefined,
+        ctorString = Ctor ? toSource(Ctor) : '';
+
+    if (ctorString) {
+      switch (ctorString) {
+        case dataViewCtorString: return dataViewTag;
+        case mapCtorString: return mapTag;
+        case promiseCtorString: return promiseTag;
+        case setCtorString: return setTag;
+        case weakMapCtorString: return weakMapTag;
+      }
+    }
+    return result;
+  };
+}
+
+/**
+ * Checks if `value` is a valid array-like index.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
+ * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
+ */
+function isIndex(value, length) {
+  length = length == null ? MAX_SAFE_INTEGER : length;
+  return !!length &&
+    (typeof value == 'number' || reIsUint.test(value)) &&
+    (value > -1 && value % 1 == 0 && value < length);
+}
+
+/**
+ * Checks if `value` is suitable for use as unique object key.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
+ */
+function isKeyable(value) {
+  var type = typeof value;
+  return (type == 'string' || type == 'number' || type == 'symbol' || type == 'boolean')
+    ? (value !== '__proto__')
+    : (value === null);
+}
+
+/**
+ * Checks if `func` has its source masked.
+ *
+ * @private
+ * @param {Function} func The function to check.
+ * @returns {boolean} Returns `true` if `func` is masked, else `false`.
+ */
+function isMasked(func) {
+  return !!maskSrcKey && (maskSrcKey in func);
+}
+
+/**
+ * Checks if `value` is likely a prototype object.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a prototype, else `false`.
+ */
+function isPrototype(value) {
+  var Ctor = value && value.constructor,
+      proto = (typeof Ctor == 'function' && Ctor.prototype) || objectProto;
+
+  return value === proto;
+}
+
+/**
+ * Converts `value` to a string using `Object.prototype.toString`.
+ *
+ * @private
+ * @param {*} value The value to convert.
+ * @returns {string} Returns the converted string.
+ */
+function objectToString(value) {
+  return nativeObjectToString.call(value);
+}
+
+/**
+ * Converts `func` to its source code.
+ *
+ * @private
+ * @param {Function} func The function to convert.
+ * @returns {string} Returns the source code.
+ */
+function toSource(func) {
+  if (func != null) {
+    try {
+      return funcToString.call(func);
+    } catch (e) {}
+    try {
+      return (func + '');
+    } catch (e) {}
+  }
+  return '';
+}
+
+/**
+ * Performs a
+ * [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
+ * comparison between two values to determine if they are equivalent.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to compare.
+ * @param {*} other The other value to compare.
+ * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+ * @example
+ *
+ * var object = { 'a': 1 };
+ * var other = { 'a': 1 };
+ *
+ * _.eq(object, object);
+ * // => true
+ *
+ * _.eq(object, other);
+ * // => false
+ *
+ * _.eq('a', 'a');
+ * // => true
+ *
+ * _.eq('a', Object('a'));
+ * // => false
+ *
+ * _.eq(NaN, NaN);
+ * // => true
+ */
+function eq(value, other) {
+  return value === other || (value !== value && other !== other);
+}
+
+/**
+ * Checks if `value` is likely an `arguments` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an `arguments` object,
+ *  else `false`.
+ * @example
+ *
+ * _.isArguments(function() { return arguments; }());
+ * // => true
+ *
+ * _.isArguments([1, 2, 3]);
+ * // => false
+ */
+var isArguments = baseIsArguments(function() { return arguments; }()) ? baseIsArguments : function(value) {
+  return isObjectLike(value) && hasOwnProperty.call(value, 'callee') &&
+    !propertyIsEnumerable.call(value, 'callee');
+};
+
+/**
+ * Checks if `value` is classified as an `Array` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an array, else `false`.
+ * @example
+ *
+ * _.isArray([1, 2, 3]);
+ * // => true
+ *
+ * _.isArray(document.body.children);
+ * // => false
+ *
+ * _.isArray('abc');
+ * // => false
+ *
+ * _.isArray(_.noop);
+ * // => false
+ */
+var isArray = Array.isArray;
+
+/**
+ * Checks if `value` is array-like. A value is considered array-like if it's
+ * not a function and has a `value.length` that's an integer greater than or
+ * equal to `0` and less than or equal to `Number.MAX_SAFE_INTEGER`.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
+ * @example
+ *
+ * _.isArrayLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isArrayLike(document.body.children);
+ * // => true
+ *
+ * _.isArrayLike('abc');
+ * // => true
+ *
+ * _.isArrayLike(_.noop);
+ * // => false
+ */
+function isArrayLike(value) {
+  return value != null && isLength(value.length) && !isFunction(value);
+}
+
+/**
+ * Checks if `value` is a buffer.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.3.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a buffer, else `false`.
+ * @example
+ *
+ * _.isBuffer(new Buffer(2));
+ * // => true
+ *
+ * _.isBuffer(new Uint8Array(2));
+ * // => false
+ */
+var isBuffer = nativeIsBuffer || stubFalse;
+
+/**
+ * Performs a deep comparison between two values to determine if they are
+ * equivalent.
+ *
+ * **Note:** This method supports comparing arrays, array buffers, booleans,
+ * date objects, error objects, maps, numbers, `Object` objects, regexes,
+ * sets, strings, symbols, and typed arrays. `Object` objects are compared
+ * by their own, not inherited, enumerable properties. Functions and DOM
+ * nodes are compared by strict equality, i.e. `===`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to compare.
+ * @param {*} other The other value to compare.
+ * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+ * @example
+ *
+ * var object = { 'a': 1 };
+ * var other = { 'a': 1 };
+ *
+ * _.isEqual(object, other);
+ * // => true
+ *
+ * object === other;
+ * // => false
+ */
+function isEqual(value, other) {
+  return baseIsEqual(value, other);
+}
+
+/**
+ * Checks if `value` is classified as a `Function` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a function, else `false`.
+ * @example
+ *
+ * _.isFunction(_);
+ * // => true
+ *
+ * _.isFunction(/abc/);
+ * // => false
+ */
+function isFunction(value) {
+  if (!isObject(value)) {
+    return false;
+  }
+  // The use of `Object#toString` avoids issues with the `typeof` operator
+  // in Safari 9 which returns 'object' for typed arrays and other constructors.
+  var tag = baseGetTag(value);
+  return tag == funcTag || tag == genTag || tag == asyncTag || tag == proxyTag;
+}
+
+/**
+ * Checks if `value` is a valid array-like length.
+ *
+ * **Note:** This method is loosely based on
+ * [`ToLength`](http://ecma-international.org/ecma-262/7.0/#sec-tolength).
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
+ * @example
+ *
+ * _.isLength(3);
+ * // => true
+ *
+ * _.isLength(Number.MIN_VALUE);
+ * // => false
+ *
+ * _.isLength(Infinity);
+ * // => false
+ *
+ * _.isLength('3');
+ * // => false
+ */
+function isLength(value) {
+  return typeof value == 'number' &&
+    value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
+}
+
+/**
+ * Checks if `value` is the
+ * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+ * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(_.noop);
+ * // => true
+ *
+ * _.isObject(null);
+ * // => false
+ */
+function isObject(value) {
+  var type = typeof value;
+  return value != null && (type == 'object' || type == 'function');
+}
+
+/**
+ * Checks if `value` is object-like. A value is object-like if it's not `null`
+ * and has a `typeof` result of "object".
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+ * @example
+ *
+ * _.isObjectLike({});
+ * // => true
+ *
+ * _.isObjectLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isObjectLike(_.noop);
+ * // => false
+ *
+ * _.isObjectLike(null);
+ * // => false
+ */
+function isObjectLike(value) {
+  return value != null && typeof value == 'object';
+}
+
+/**
+ * Checks if `value` is classified as a typed array.
+ *
+ * @static
+ * @memberOf _
+ * @since 3.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
+ * @example
+ *
+ * _.isTypedArray(new Uint8Array);
+ * // => true
+ *
+ * _.isTypedArray([]);
+ * // => false
+ */
+var isTypedArray = nodeIsTypedArray ? baseUnary(nodeIsTypedArray) : baseIsTypedArray;
+
+/**
+ * Creates an array of the own enumerable property names of `object`.
+ *
+ * **Note:** Non-object values are coerced to objects. See the
+ * [ES spec](http://ecma-international.org/ecma-262/7.0/#sec-object.keys)
+ * for more details.
+ *
+ * @static
+ * @since 0.1.0
+ * @memberOf _
+ * @category Object
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ * @example
+ *
+ * function Foo() {
+ *   this.a = 1;
+ *   this.b = 2;
+ * }
+ *
+ * Foo.prototype.c = 3;
+ *
+ * _.keys(new Foo);
+ * // => ['a', 'b'] (iteration order is not guaranteed)
+ *
+ * _.keys('hi');
+ * // => ['0', '1']
+ */
+function keys(object) {
+  return isArrayLike(object) ? arrayLikeKeys(object) : baseKeys(object);
+}
+
+/**
+ * This method returns a new empty array.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.13.0
+ * @category Util
+ * @returns {Array} Returns the new empty array.
+ * @example
+ *
+ * var arrays = _.times(2, _.stubArray);
+ *
+ * console.log(arrays);
+ * // => [[], []]
+ *
+ * console.log(arrays[0] === arrays[1]);
+ * // => false
+ */
+function stubArray() {
+  return [];
+}
+
+/**
+ * This method returns `false`.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.13.0
+ * @category Util
+ * @returns {boolean} Returns `false`.
+ * @example
+ *
+ * _.times(2, _.stubFalse);
+ * // => [false, false]
+ */
+function stubFalse() {
+  return false;
+}
+
+module.exports = isEqual;
+
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{}],213:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -16794,7 +18646,7 @@ var _createIcon2 = _interopRequireDefault(_createIcon);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = (0, _createIcon2.default)('M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z');
-},{"./util/createIcon":214}],213:[function(require,module,exports){
+},{"./util/createIcon":215}],214:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -16808,7 +18660,7 @@ var _createIcon2 = _interopRequireDefault(_createIcon);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = (0, _createIcon2.default)('M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z');
-},{"./util/createIcon":214}],214:[function(require,module,exports){
+},{"./util/createIcon":215}],215:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -16836,7 +18688,7 @@ exports.default = function (path) {
   Icon.muiName = 'SvgIcon';
   return Icon;
 };
-},{"@material-ui/core/SvgIcon":63,"react":344}],215:[function(require,module,exports){
+},{"@material-ui/core/SvgIcon":63,"react":357}],216:[function(require,module,exports){
 /**
  * Secure random string generator with custom alphabet.
  *
@@ -16888,9 +18740,9 @@ module.exports = function (random, alphabet, size) {
  * @return {number[]} Random bytes.
  */
 
-},{}],216:[function(require,module,exports){
+},{}],217:[function(require,module,exports){
 arguments[4][72][0].apply(exports,arguments)
-},{"dup":72}],217:[function(require,module,exports){
+},{"dup":72}],218:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -17076,17 +18928,17 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],218:[function(require,module,exports){
+},{}],219:[function(require,module,exports){
 arguments[4][73][0].apply(exports,arguments)
-},{"./lib/ReactPropTypesSecret":222,"_process":217,"dup":73}],219:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":223,"_process":218,"dup":73}],220:[function(require,module,exports){
 arguments[4][74][0].apply(exports,arguments)
-},{"./lib/ReactPropTypesSecret":222,"dup":74}],220:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":223,"dup":74}],221:[function(require,module,exports){
 arguments[4][75][0].apply(exports,arguments)
-},{"./checkPropTypes":218,"./lib/ReactPropTypesSecret":222,"_process":217,"dup":75,"object-assign":216}],221:[function(require,module,exports){
+},{"./checkPropTypes":219,"./lib/ReactPropTypesSecret":223,"_process":218,"dup":75,"object-assign":217}],222:[function(require,module,exports){
 arguments[4][76][0].apply(exports,arguments)
-},{"./factoryWithThrowingShims":219,"./factoryWithTypeCheckers":220,"_process":217,"dup":76}],222:[function(require,module,exports){
+},{"./factoryWithThrowingShims":220,"./factoryWithTypeCheckers":221,"_process":218,"dup":76}],223:[function(require,module,exports){
 arguments[4][77][0].apply(exports,arguments)
-},{"dup":77}],223:[function(require,module,exports){
+},{"dup":77}],224:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -17110,7 +18962,7 @@ function appendImportantToEachValue(style) {
   });
 }
 module.exports = exports['default'];
-},{"./append-px-if-needed":224,"./map-object":236}],224:[function(require,module,exports){
+},{"./append-px-if-needed":225,"./map-object":237}],225:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -17160,7 +19012,7 @@ function appendPxIfNeeded(propertyName, value) {
   return needsPxSuffix ? value + 'px' : value;
 }
 module.exports = exports['default'];
-},{}],225:[function(require,module,exports){
+},{}],226:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -17194,7 +19046,7 @@ var camelCasePropsToDashCase = function camelCasePropsToDashCase(prefixedStyle) 
 
 exports.default = camelCasePropsToDashCase;
 module.exports = exports['default'];
-},{}],226:[function(require,module,exports){
+},{}],227:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -17288,7 +19140,7 @@ StyleRoot = (0, _enhancer2.default)(StyleRoot);
 
 exports.default = StyleRoot;
 module.exports = exports['default'];
-},{"../enhancer":230,"../style-keeper":250,"./style-sheet":227,"prop-types":221,"react":344}],227:[function(require,module,exports){
+},{"../enhancer":231,"../style-keeper":251,"./style-sheet":228,"prop-types":222,"react":357}],228:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -17363,7 +19215,7 @@ var StyleSheet = (_temp = _class = function (_PureComponent) {
 }, _temp);
 exports.default = StyleSheet;
 module.exports = exports['default'];
-},{"../style-keeper":250,"prop-types":221,"react":344}],228:[function(require,module,exports){
+},{"../style-keeper":251,"prop-types":222,"react":357}],229:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -17470,7 +19322,7 @@ var Style = (_temp = _class = function (_PureComponent) {
 }, _temp);
 exports.default = Style;
 module.exports = exports['default'];
-},{"../css-rule-set-to-string":229,"prop-types":221,"react":344}],229:[function(require,module,exports){
+},{"../css-rule-set-to-string":230,"prop-types":222,"react":357}],230:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -17515,7 +19367,7 @@ function cssRuleSetToString(selector, rules, userAgent) {
   return selector + '{' + serializedRules + '}';
 }
 module.exports = exports['default'];
-},{"./append-px-if-needed":224,"./camel-case-props-to-dash-case":225,"./map-object":236,"./prefixer":248}],230:[function(require,module,exports){
+},{"./append-px-if-needed":225,"./camel-case-props-to-dash-case":226,"./map-object":237,"./prefixer":249}],231:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -17756,7 +19608,7 @@ function enhanceWithRadium(configOrComposedComponent) {
 }
 module.exports = exports['default'];
 }).call(this,require('_process'))
-},{"./resolve-styles.js":249,"./style-keeper.js":250,"_process":217,"prop-types":221,"react":344}],231:[function(require,module,exports){
+},{"./resolve-styles.js":250,"./style-keeper.js":251,"_process":218,"prop-types":222,"react":357}],232:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -17768,7 +19620,7 @@ var getStateKey = function getStateKey(elementKey) {
 
 exports.default = getStateKey;
 module.exports = exports['default'];
-},{}],232:[function(require,module,exports){
+},{}],233:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -17789,7 +19641,7 @@ var getState = function getState(state, elementKey, value) {
 
 exports.default = getState;
 module.exports = exports['default'];
-},{"./get-state-key":231}],233:[function(require,module,exports){
+},{"./get-state-key":232}],234:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -17817,7 +19669,7 @@ function hash(text) {
   return (hashValue >>> 0).toString(16);
 }
 module.exports = exports['default'];
-},{}],234:[function(require,module,exports){
+},{}],235:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -17874,7 +19726,7 @@ if (process.env.NODE_ENV !== 'production') {
 exports.default = Radium;
 module.exports = exports['default'];
 }).call(this,require('_process'))
-},{"./components/style":228,"./components/style-root":226,"./enhancer":230,"./get-state":232,"./keyframes":235,"./plugins":239,"./resolve-styles":249,"_process":217}],235:[function(require,module,exports){
+},{"./components/style":229,"./components/style-root":227,"./enhancer":231,"./get-state":233,"./keyframes":236,"./plugins":240,"./resolve-styles":250,"_process":218}],236:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -17910,7 +19762,7 @@ function keyframes(keyframeRules, name) {
 }
 
 module.exports = exports['default'];
-},{"./css-rule-set-to-string":229,"./hash":233,"./prefixer":248}],236:[function(require,module,exports){
+},{"./css-rule-set-to-string":230,"./hash":234,"./prefixer":249}],237:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -17924,7 +19776,7 @@ function mapObject(object, mapper) {
   }, {});
 }
 module.exports = exports["default"];
-},{}],237:[function(require,module,exports){
+},{}],238:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -17984,7 +19836,7 @@ function mergeStyles(styles) {
 
   return result;
 }
-},{}],238:[function(require,module,exports){
+},{}],239:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -18046,7 +19898,7 @@ if (process.env.NODE_ENV !== 'production') {
 exports.default = _checkProps;
 module.exports = exports['default'];
 }).call(this,require('_process'))
-},{"_process":217}],239:[function(require,module,exports){
+},{"_process":218}],240:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -18100,7 +19952,7 @@ exports.default = {
 /* eslint-disable block-scoped-const */
 
 module.exports = exports['default'];
-},{"./check-props-plugin":238,"./keyframes-plugin":240,"./merge-style-array-plugin":241,"./prefix-plugin":243,"./remove-nested-styles-plugin":244,"./resolve-interaction-styles-plugin":245,"./resolve-media-queries-plugin":246,"./visited-plugin":247}],240:[function(require,module,exports){
+},{"./check-props-plugin":239,"./keyframes-plugin":241,"./merge-style-array-plugin":242,"./prefix-plugin":244,"./remove-nested-styles-plugin":245,"./resolve-interaction-styles-plugin":246,"./resolve-media-queries-plugin":247,"./visited-plugin":248}],241:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -18131,7 +19983,7 @@ function keyframesPlugin(_ref) {
   return { style: newStyle };
 }
 module.exports = exports['default'];
-},{}],241:[function(require,module,exports){
+},{}],242:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -18152,7 +20004,7 @@ var mergeStyleArrayPlugin = function mergeStyleArrayPlugin(_ref) {
 
 exports.default = mergeStyleArrayPlugin;
 module.exports = exports['default'];
-},{}],242:[function(require,module,exports){
+},{}],243:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -18195,7 +20047,7 @@ exports.default = {
   __triggerForTests: _handleMouseUp
 };
 module.exports = exports['default'];
-},{}],243:[function(require,module,exports){
+},{}],244:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -18213,7 +20065,7 @@ function prefixPlugin(_ref) {
   return { style: newStyle };
 }
 module.exports = exports['default'];
-},{"../prefixer":248}],244:[function(require,module,exports){
+},{"../prefixer":249}],245:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -18239,7 +20091,7 @@ function removeNestedStyles(_ref) {
 }
 
 module.exports = exports['default'];
-},{}],245:[function(require,module,exports){
+},{}],246:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -18362,7 +20214,7 @@ var resolveInteractionStyles = function resolveInteractionStyles(config) {
 
 exports.default = resolveInteractionStyles;
 module.exports = exports['default'];
-},{"./mouse-up-listener":242}],246:[function(require,module,exports){
+},{"./mouse-up-listener":243}],247:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -18538,7 +20390,7 @@ function resolveMediaQueries(_ref3) {
   };
 }
 module.exports = exports['default'];
-},{}],247:[function(require,module,exports){
+},{}],248:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -18581,7 +20433,7 @@ function visited(_ref) {
 }
 
 module.exports = exports['default'];
-},{}],248:[function(require,module,exports){
+},{}],249:[function(require,module,exports){
 (function (process,global){
 'use strict';
 
@@ -18662,7 +20514,7 @@ function getPrefixedStyle(style, userAgent) {
   return prefixedStyle;
 }
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"_process":217,"inline-style-prefixer":138}],249:[function(require,module,exports){
+},{"_process":218,"inline-style-prefixer":138}],250:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -19025,7 +20877,7 @@ if (process.env.NODE_ENV !== 'production') {
 exports.default = resolveStyles;
 module.exports = exports['default'];
 }).call(this,require('_process'))
-},{"./append-important-to-each-value":223,"./css-rule-set-to-string":229,"./get-state":232,"./get-state-key":231,"./hash":233,"./merge-styles":237,"./plugins/":239,"_process":217,"exenv":135,"react":344}],250:[function(require,module,exports){
+},{"./append-important-to-each-value":224,"./css-rule-set-to-string":230,"./get-state":233,"./get-state-key":232,"./hash":234,"./merge-styles":238,"./plugins/":240,"_process":218,"exenv":135,"react":357}],251:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -19093,7 +20945,7 @@ var StyleKeeper = function () {
 
 exports.default = StyleKeeper;
 module.exports = exports['default'];
-},{}],251:[function(require,module,exports){
+},{}],252:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -19206,7 +21058,7 @@ var Button = (_dec = (0, _hidden2.default)(), _dec2 = (0, _windows2.ThemeContext
   onClick: _propTypes2.default.func
 }), _class2.contextTypes = _extends({}, _windows.colorContextTypes), _temp)) || _class) || _class) || _class);
 exports.default = Button;
-},{"../../color":292,"../../style/color/windows":298,"../../style/hidden":300,"../../style/theme/windows":303,"./styles/windows10":252,"prop-types":221,"radium":234,"react":344}],252:[function(require,module,exports){
+},{"../../color":293,"../../style/color/windows":299,"../../style/hidden":301,"../../style/theme/windows":304,"./styles/windows10":253,"prop-types":222,"radium":235,"react":357}],253:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -19263,7 +21115,7 @@ exports.default = {
     transition: 'transform .1s ease-in'
   }
 };
-},{}],253:[function(require,module,exports){
+},{}],254:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -19408,7 +21260,7 @@ var Checkbox = (_dec = (0, _ValueRef2.default)(), _dec2 = (0, _hidden2.default)(
   onChange: _propTypes2.default.func
 }), _class2.contextTypes = _extends({}, _windows.colorContextTypes, _windows2.themeContextTypes), _temp)) || _class) || _class) || _class) || _class) || _class);
 exports.default = Checkbox;
-},{"../../ValueRef":287,"../../style/color/windows":298,"../../style/hidden":300,"../../style/theme/windows":303,"./styles/windows10":254,"prop-types":221,"radium":234,"react":344}],254:[function(require,module,exports){
+},{"../../ValueRef":288,"../../style/color/windows":299,"../../style/hidden":301,"../../style/theme/windows":304,"./styles/windows10":255,"prop-types":222,"radium":235,"react":357}],255:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -19507,7 +21359,7 @@ exports.default = {
     height: '16px'
   }
 };
-},{}],255:[function(require,module,exports){
+},{}],256:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -19521,7 +21373,7 @@ var _windows2 = _interopRequireDefault(_windows);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _windows2.default;
-},{"../../Text/windows":279}],256:[function(require,module,exports){
+},{"../../Text/windows":280}],257:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -19618,7 +21470,7 @@ var Details = (_dec = (0, _windows.ColorContext)(), _dec2 = (0, _windows2.ThemeC
   background: _propTypes2.default.string
 }, _class2.contextTypes = _extends({}, _windows.colorContextTypes), _temp)) || _class) || _class);
 exports.default = Details;
-},{"../../../color":292,"../../../style/color/windows":298,"../../../style/theme/windows":303,"prop-types":221,"react":344}],257:[function(require,module,exports){
+},{"../../../color":293,"../../../style/color/windows":299,"../../../style/theme/windows":304,"prop-types":222,"react":357}],258:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -19737,7 +21589,7 @@ var Item = (_dec = applyChildenClasses(), _dec2 = (0, _windows.ColorContext)(), 
   selected: _propTypes2.default.bool
 }), _temp)) || _class) || _class) || _class);
 exports.default = Item;
-},{"../../../style/color/windows":298,"../../../style/theme/windows":303,"../Details":256,"../Master":258,"prop-types":221,"react":344}],258:[function(require,module,exports){
+},{"../../../style/color/windows":299,"../../../style/theme/windows":304,"../Details":257,"../Master":259,"prop-types":222,"react":357}],259:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -19920,7 +21772,7 @@ var Master = (_dec = (0, _windows.ColorContext)(), _dec2 = (0, _windows2.ThemeCo
   masterDetails: _propTypes2.default.object
 }), _temp2)) || _class) || _class) || _class);
 exports.default = Master;
-},{"../../../color":292,"../../../style/color/windows":298,"../../../style/theme/windows":303,"../../../styleHelper":295,"prop-types":221,"radium":234,"react":344}],259:[function(require,module,exports){
+},{"../../../color":293,"../../../style/color/windows":299,"../../../style/theme/windows":304,"../../../styleHelper":296,"prop-types":222,"radium":235,"react":357}],260:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -20005,7 +21857,7 @@ var Pane = (_dec = (0, _windows.ThemeContext)(), _dec(_class = (_temp = _class2 
   return Pane;
 }(_react.Component), _class2.contextTypes = _extends({}, _windows.themeContextTypes), _temp)) || _class);
 exports.default = Pane;
-},{"../../style/theme/windows":303,"../../styleHelper":295,"react":344}],260:[function(require,module,exports){
+},{"../../style/theme/windows":304,"../../styleHelper":296,"react":357}],261:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -20201,7 +22053,7 @@ var MasterDetailsView = (_dec = applyChildenClasses(), _dec2 = (0, _windows.Colo
   masterDetails: _propTypes2.default.object
 }, _class2.contextTypes = _extends({}, _windows2.themeContextTypes), _temp)) || _class) || _class) || _class);
 exports.default = MasterDetailsView;
-},{"../../style/color/windows":298,"../../style/theme/windows":303,"./Details":256,"./Item":257,"./Master":258,"./Pane":259,"prop-types":221,"react":344}],261:[function(require,module,exports){
+},{"../../style/color/windows":299,"../../style/theme/windows":304,"./Details":257,"./Item":258,"./Master":259,"./Pane":260,"prop-types":222,"react":357}],262:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -20284,7 +22136,7 @@ var Content = (_dec = (0, _padding2.default)(), _dec2 = (0, _margin2.default)(),
   content: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.element, _propTypes2.default.array])
 }), _temp)) || _class) || _class) || _class) || _class);
 exports.default = Content;
-},{"../../../../style/alignment":296,"../../../../style/background/windows":297,"../../../../style/margin":301,"../../../../style/padding":302,"../../style/windows10":269,"prop-types":221,"react":344}],262:[function(require,module,exports){
+},{"../../../../style/alignment":297,"../../../../style/background/windows":298,"../../../../style/margin":302,"../../../../style/padding":303,"../../style/windows10":270,"prop-types":222,"react":357}],263:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -20423,7 +22275,7 @@ var Title = (0, _radium2.default)(_class = (_temp = _class2 = function (_Compone
 }, _temp)) || _class;
 
 exports.default = Title;
-},{"../../style/windows10":269,"prop-types":221,"radium":234,"react":344}],263:[function(require,module,exports){
+},{"../../style/windows10":270,"prop-types":222,"radium":235,"react":357}],264:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -20555,7 +22407,7 @@ var Item = (_dec = (0, _padding2.default)(), _dec2 = (0, _margin2.default)(), _d
   paneTheme: _propTypes2.default.string
 }), _temp)) || _class) || _class) || _class) || _class) || _class) || _class);
 exports.default = Item;
-},{"../../../style/alignment":296,"../../../style/background/windows":297,"../../../style/color/windows":298,"../../../style/margin":301,"../../../style/padding":302,"../../../style/theme/windows":303,"../style/windows10":269,"./Content":261,"./Title":262,"prop-types":221,"radium":234,"react":344}],264:[function(require,module,exports){
+},{"../../../style/alignment":297,"../../../style/background/windows":298,"../../../style/color/windows":299,"../../../style/margin":302,"../../../style/padding":303,"../../../style/theme/windows":304,"../style/windows10":270,"./Content":262,"./Title":263,"prop-types":222,"radium":235,"react":357}],265:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -20643,7 +22495,7 @@ var Button = (_dec = (0, _windows.ColorContext)(), _dec2 = (0, _windows2.ThemeCo
   onClick: _propTypes2.default.func
 }, _class2.contextTypes = _extends({}, _windows.colorContextTypes, _windows2.themeContextTypes), _temp)) || _class) || _class) || _class);
 exports.default = Button;
-},{"../../../../color":292,"../../../../style/color/windows":298,"../../../../style/theme/windows":303,"prop-types":221,"radium":234,"react":344}],265:[function(require,module,exports){
+},{"../../../../color":293,"../../../../style/color/windows":299,"../../../../style/theme/windows":304,"prop-types":222,"radium":235,"react":357}],266:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -20769,7 +22621,7 @@ var Item = (_dec = (0, _windows3.ColorContext)(), _dec2 = (0, _windows4.ThemeCon
   selected: _propTypes2.default.bool
 }, _class2.contextTypes = _extends({}, _windows3.colorContextTypes, _windows4.themeContextTypes), _temp)) || _class) || _class) || _class);
 exports.default = Item;
-},{"../../../../color":292,"../../../../style/color/windows":298,"../../../../style/theme/windows":303,"../style/windows10":267,"prop-types":221,"radium":234,"react":344}],266:[function(require,module,exports){
+},{"../../../../color":293,"../../../../style/color/windows":299,"../../../../style/theme/windows":304,"../style/windows10":268,"prop-types":222,"radium":235,"react":357}],267:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -20896,7 +22748,7 @@ var Pane = (_temp = _class = function (_Component) {
   paneExpandedLength: '200px'
 }, _temp);
 exports.default = Pane;
-},{"./Button":264,"./Item":265,"./style/windows10":267,"prop-types":221,"react":344}],267:[function(require,module,exports){
+},{"./Button":265,"./Item":266,"./style/windows10":268,"prop-types":222,"react":357}],268:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -20984,7 +22836,7 @@ exports.default = {
     transition: 'transform 0s ease-in'
   }
 };
-},{}],268:[function(require,module,exports){
+},{}],269:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21097,7 +22949,7 @@ var NavPane = (_dec = applyChildenClasses(), _dec2 = (0, _windows3.ColorContext)
   paneExpandedLength: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number])
 }), _class2.contextTypes = _extends({}, _windows4.themeContextTypes), _temp)) || _class) || _class) || _class);
 exports.default = NavPane;
-},{"../../style/color/windows":298,"../../style/theme/windows":303,"./Item":263,"./Pane":266,"./style/windows10":269,"prop-types":221,"react":344}],269:[function(require,module,exports){
+},{"../../style/color/windows":299,"../../style/theme/windows":304,"./Item":264,"./Pane":267,"./style/windows10":270,"prop-types":222,"react":357}],270:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21149,7 +23001,7 @@ exports.default = {
     color: '#ffffff'
   }
 };
-},{}],270:[function(require,module,exports){
+},{}],271:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21277,7 +23129,7 @@ var ProgressCircle = (_dec = (0, _windows.ColorContext)(), _dec(_class = (_temp 
   size: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number])
 }), _class2.contextTypes = _extends({}, _windows.colorContextTypes), _temp)) || _class);
 exports.default = ProgressCircle;
-},{"../../style/color/windows":298,"../../style/hidden":300,"./progressCircleAnimation":271,"./styles/windows10":272,"prop-types":221,"react":344}],271:[function(require,module,exports){
+},{"../../style/color/windows":299,"../../style/hidden":301,"./progressCircleAnimation":272,"./styles/windows10":273,"prop-types":222,"react":357}],272:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21364,7 +23216,7 @@ function stopAnimation(animation) {
     window.cancelAnimationFrame(animations[animation][1]);
   }
 }
-},{"../../animation/bezierEasing":291}],272:[function(require,module,exports){
+},{"../../animation/bezierEasing":292}],273:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21388,7 +23240,7 @@ exports.default = {
     left: 0
   }
 };
-},{}],273:[function(require,module,exports){
+},{}],274:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21552,7 +23404,7 @@ var Radio = (_dec = (0, _ValueRef2.default)(), _dec2 = (0, _hidden2.default)(), 
   onChange: _propTypes2.default.func
 }), _class2.contextTypes = _extends({}, _windows5.themeContextTypes, _windows6.colorContextTypes), _temp)) || _class) || _class) || _class) || _class) || _class);
 exports.default = Radio;
-},{"../../Text/windows":279,"../../ValueRef":287,"../../style/color/windows":298,"../../style/hidden":300,"../../style/theme/windows":303,"./styles/windows":274,"prop-types":221,"radium":234,"react":344}],274:[function(require,module,exports){
+},{"../../Text/windows":280,"../../ValueRef":288,"../../style/color/windows":299,"../../style/hidden":301,"../../style/theme/windows":304,"./styles/windows":275,"prop-types":222,"radium":235,"react":357}],275:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21664,7 +23516,7 @@ exports.default = {
     background: '#999999'
   }
 };
-},{}],275:[function(require,module,exports){
+},{}],276:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21838,7 +23690,7 @@ var TextArea = (_dec = (0, _ValueRef2.default)(), _dec2 = (0, _hidden2.default)(
   labelStyle: _propTypes2.default.object
 }), _class2.contextTypes = _extends({}, _windows5.themeContextTypes, _windows6.colorContextTypes), _temp)) || _class) || _class) || _class) || _class) || _class) || _class) || _class);
 exports.default = TextArea;
-},{"../../Text/windows":279,"../../ValueRef":287,"../../placeholderStyle":294,"../../style/background/windows":297,"../../style/color/windows":298,"../../style/dimension":299,"../../style/hidden":300,"../../style/margin":301,"../../style/theme/windows":303,"./styles/windows10":276,"prop-types":221,"radium":234,"react":344,"react-dom":309}],276:[function(require,module,exports){
+},{"../../Text/windows":280,"../../ValueRef":288,"../../placeholderStyle":295,"../../style/background/windows":298,"../../style/color/windows":299,"../../style/dimension":300,"../../style/hidden":301,"../../style/margin":302,"../../style/theme/windows":304,"./styles/windows10":277,"prop-types":222,"radium":235,"react":357,"react-dom":310}],277:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21904,7 +23756,7 @@ exports.default = {
 
   labalDarkTheme: {}
 };
-},{}],277:[function(require,module,exports){
+},{}],278:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -22081,7 +23933,7 @@ var TextInput = (_dec = (0, _ValueRef2.default)(), _dec2 = (0, _hidden2.default)
   password: _propTypes2.default.bool
 }), _class2.contextTypes = _extends({}, _windows5.themeContextTypes, _windows6.colorContextTypes), _temp)) || _class) || _class) || _class) || _class) || _class) || _class) || _class);
 exports.default = TextInput;
-},{"../../Text/windows":279,"../../ValueRef":287,"../../placeholderStyle":294,"../../style/background/windows":297,"../../style/color/windows":298,"../../style/dimension":299,"../../style/hidden":300,"../../style/margin":301,"../../style/theme/windows":303,"./styles/windows10":278,"prop-types":221,"radium":234,"react":344,"react-dom":309}],278:[function(require,module,exports){
+},{"../../Text/windows":280,"../../ValueRef":288,"../../placeholderStyle":295,"../../style/background/windows":298,"../../style/color/windows":299,"../../style/dimension":300,"../../style/hidden":301,"../../style/margin":302,"../../style/theme/windows":304,"./styles/windows10":279,"prop-types":222,"radium":235,"react":357,"react-dom":310}],279:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -22147,7 +23999,7 @@ exports.default = {
 
   labalDarkTheme: {}
 };
-},{}],279:[function(require,module,exports){
+},{}],280:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -22254,7 +24106,7 @@ var Text = (_dec = (0, _margin2.default)(), _dec2 = (0, _padding2.default)(), _d
   color: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.bool])
 }), _class2.contextTypes = _extends({}, _windows3.colorContextTypes, _windows4.themeContextTypes), _temp)) || _class) || _class) || _class) || _class) || _class) || _class) || _class);
 exports.default = Text;
-},{"../../style/alignment":296,"../../style/background/windows":297,"../../style/color/windows":298,"../../style/dimension":299,"../../style/hidden":300,"../../style/margin":301,"../../style/padding":302,"../../style/theme/windows":303,"./styles/windows10":280,"prop-types":221,"react":344}],280:[function(require,module,exports){
+},{"../../style/alignment":297,"../../style/background/windows":298,"../../style/color/windows":299,"../../style/dimension":300,"../../style/hidden":301,"../../style/margin":302,"../../style/padding":303,"../../style/theme/windows":304,"./styles/windows10":281,"prop-types":222,"react":357}],281:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -22271,7 +24123,7 @@ exports.default = {
     display: 'flex'
   }
 };
-},{}],281:[function(require,module,exports){
+},{}],282:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -22396,7 +24248,7 @@ var Close = (_dec = (0, _windowFocus2.default)(), _dec(_class = (0, _radium2.def
   return Close;
 }(_react.Component), _class2.contextTypes = _extends({}, _windows.themeContextTypes, _windows2.backgroundContextTypes), _temp)) || _class) || _class);
 exports.default = Close;
-},{"../../../color":292,"../../../style/background/windows":297,"../../../style/theme/windows":303,"../../../windowFocus":305,"radium":234,"react":344}],282:[function(require,module,exports){
+},{"../../../color":293,"../../../style/background/windows":298,"../../../style/theme/windows":304,"../../../windowFocus":306,"radium":235,"react":357}],283:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -22552,7 +24404,7 @@ var Maximize = (_dec = (0, _windowFocus2.default)(), _dec(_class = (0, _radium2.
   isMaximized: _propTypes2.default.bool
 }), _temp)) || _class) || _class);
 exports.default = Maximize;
-},{"../../../color":292,"../../../style/background/windows":297,"../../../style/theme/windows":303,"../../../windowFocus":305,"prop-types":221,"radium":234,"react":344}],283:[function(require,module,exports){
+},{"../../../color":293,"../../../style/background/windows":298,"../../../style/theme/windows":304,"../../../windowFocus":306,"prop-types":222,"radium":235,"react":357}],284:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -22680,7 +24532,7 @@ var Minimize = (_dec = (0, _windowFocus2.default)(), _dec(_class = (0, _radium2.
   return Minimize;
 }(_react.Component), _class2.contextTypes = _extends({}, _windows.themeContextTypes, _windows2.backgroundContextTypes), _temp)) || _class) || _class);
 exports.default = Minimize;
-},{"../../../color":292,"../../../style/background/windows":297,"../../../style/theme/windows":303,"../../../windowFocus":305,"radium":234,"react":344}],284:[function(require,module,exports){
+},{"../../../color":293,"../../../style/background/windows":298,"../../../style/theme/windows":304,"../../../windowFocus":306,"radium":235,"react":357}],285:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -22763,7 +24615,7 @@ var Controls = (_temp = _class = function (_Component) {
   onMaximizeClick: _propTypes2.default.func
 }, _temp);
 exports.default = Controls;
-},{"./Close":281,"./Maximize":282,"./Minimize":283,"prop-types":221,"react":344}],285:[function(require,module,exports){
+},{"./Close":282,"./Maximize":283,"./Minimize":284,"prop-types":222,"react":357}],286:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -22907,7 +24759,7 @@ var TitleBar = (_dec = (0, _windows2.default)(function (nextProps, prevProps, ba
   isMaximized: _propTypes2.default.bool
 }, _class2.contextTypes = _extends({}, _windows4.themeContextTypes), _temp)) || _class) || _class) || _class) || _class);
 exports.default = TitleBar;
-},{"../../style/background/windows":297,"../../style/color/windows":298,"../../style/hidden":300,"../../style/theme/windows":303,"../../windowFocus":305,"./Controls":284,"./styles/windows10":286,"prop-types":221,"react":344}],286:[function(require,module,exports){
+},{"../../style/background/windows":298,"../../style/color/windows":299,"../../style/hidden":301,"../../style/theme/windows":304,"../../windowFocus":306,"./Controls":285,"./styles/windows10":287,"prop-types":222,"react":357}],287:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -22950,7 +24802,7 @@ exports.default = {
     color: '#a9a9a9'
   }
 };
-},{}],287:[function(require,module,exports){
+},{}],288:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -23010,7 +24862,7 @@ function ValueRef(ComposedComponent) {
     return _class;
   }(_react.Component);
 }
-},{"react":344,"react-dom":309}],288:[function(require,module,exports){
+},{"react":357,"react-dom":310}],289:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -23148,7 +25000,7 @@ var View = (_dec = (0, _width2.default)(), _dec2 = (0, _dimension2.default)(), _
   layout: 'horizontal'
 }, _temp)) || _class) || _class) || _class) || _class) || _class) || _class) || _class) || _class) || _class);
 exports.default = View;
-},{"../../style/alignment":296,"../../style/background/windows":297,"../../style/color/windows":298,"../../style/dimension":299,"../../style/hidden":300,"../../style/margin":301,"../../style/padding":302,"../../style/theme/windows":303,"../../style/width":304,"prop-types":221,"react":344}],289:[function(require,module,exports){
+},{"../../style/alignment":297,"../../style/background/windows":298,"../../style/color/windows":299,"../../style/dimension":300,"../../style/hidden":301,"../../style/margin":302,"../../style/padding":303,"../../style/theme/windows":304,"../../style/width":305,"prop-types":222,"react":357}],290:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -23298,7 +25150,7 @@ var Window = (_dec = (0, _windowFocus2.default)(), _dec2 = (0, _alignment2.defau
   chrome: _propTypes2.default.bool
 }), _class2.contextTypes = _extends({}, _windows7.colorContextTypes, _windows8.themeContextTypes), _temp)) || _class) || _class) || _class) || _class) || _class) || _class);
 exports.default = Window;
-},{"../../TitleBar/windows":285,"../../View/windows":288,"../../style/alignment":296,"../../style/color/windows":298,"../../style/dimension":299,"../../style/hidden":300,"../../style/padding":302,"../../style/theme/windows":303,"../../windowFocus":305,"./styles/windows10":290,"prop-types":221,"react":344}],290:[function(require,module,exports){
+},{"../../TitleBar/windows":286,"../../View/windows":289,"../../style/alignment":297,"../../style/color/windows":299,"../../style/dimension":300,"../../style/hidden":301,"../../style/padding":303,"../../style/theme/windows":304,"../../windowFocus":306,"./styles/windows10":291,"prop-types":222,"react":357}],291:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -23335,7 +25187,7 @@ exports.default = {
     display: 'flex'
   }
 };
-},{}],291:[function(require,module,exports){
+},{}],292:[function(require,module,exports){
 'use strict';
 
 /**
@@ -23524,7 +25376,7 @@ BezierEasing.css = {
 };
 
 module.exports = BezierEasing;
-},{}],292:[function(require,module,exports){
+},{}],293:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -23632,7 +25484,7 @@ function isDarkColor(color) {
 
   return luma < 40;
 }
-},{}],293:[function(require,module,exports){
+},{}],294:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -23664,7 +25516,7 @@ function windowBlur() {
 function windowIsFocused() {
   return isWindowFocused;
 }
-},{}],294:[function(require,module,exports){
+},{}],295:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -23760,7 +25612,7 @@ var _default = function (_Component) {
 }(_react.Component);
 
 exports.default = _default;
-},{"radium":234,"react":344}],295:[function(require,module,exports){
+},{"radium":235,"react":357}],296:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -23943,7 +25795,7 @@ function styleHelper(options, propTypes, mapStyleCallback, mapStylesCallback, ma
 
   return doStyleHelper;
 }
-},{"react":344}],296:[function(require,module,exports){
+},{"react":357}],297:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24021,7 +25873,7 @@ function mapAlignmentStyle(key, value, props) {
   }
   return [finalKey, finalValue];
 }
-},{"../styleHelper":295,"prop-types":221}],297:[function(require,module,exports){
+},{"../styleHelper":296,"prop-types":222}],298:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24141,7 +25993,7 @@ var backgroundContextTypes = exports.backgroundContextTypes = {
 function removeBackgroundProps(props) {
   return (0, _styleHelper.extractProps)(props, backgroundPropTypes)[0];
 }
-},{"../../style/color/windows":298,"../../styleHelper":295,"prop-types":221,"radium":234,"react":344}],298:[function(require,module,exports){
+},{"../../style/color/windows":299,"../../styleHelper":296,"prop-types":222,"radium":235,"react":357}],299:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24223,7 +26075,7 @@ function ColorContext() {
     }(_react.Component), _class.propTypes = _extends({}, colorPropTypes), _class.contextTypes = _extends({}, colorContextTypes), _class.childContextTypes = _extends({}, colorContextTypes), _temp;
   };
 }
-},{"../../styleHelper":295,"prop-types":221,"react":344}],299:[function(require,module,exports){
+},{"../../styleHelper":296,"prop-types":222,"react":357}],300:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24262,7 +26114,7 @@ function removeDimensionProps(props) {
 function mapDimensionStyle(key, value) {
   return [key, (0, _styleHelper.parseDimension)(value)];
 }
-},{"../styleHelper":295,"prop-types":221}],300:[function(require,module,exports){
+},{"../styleHelper":296,"prop-types":222}],301:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24300,7 +26152,7 @@ function removeHiddenProps(props) {
 function mapHiddenStyle(key, value) {
   return value ? ['display', 'none'] : null;
 }
-},{"../styleHelper":295,"prop-types":221}],301:[function(require,module,exports){
+},{"../styleHelper":296,"prop-types":222}],302:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24342,7 +26194,7 @@ function removeMarginProps(props) {
 function mapMarginStyle(key, value) {
   return [key, (0, _styleHelper.parseDimension)(value)];
 }
-},{"../styleHelper":295,"prop-types":221}],302:[function(require,module,exports){
+},{"../styleHelper":296,"prop-types":222}],303:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24405,7 +26257,7 @@ function removeDuplicatePaddingProps(styles, props) {
 function mapPaddingStyle(key, value) {
   return [key, (0, _styleHelper.parseDimension)(value)];
 }
-},{"../styleHelper":295,"prop-types":221}],303:[function(require,module,exports){
+},{"../styleHelper":296,"prop-types":222}],304:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24485,7 +26337,7 @@ function ThemeContext() {
     }(_react.Component), _class.propTypes = _extends({}, themePropTypes), _class.contextTypes = _extends({}, themeContextTypes), _class.childContextTypes = _extends({}, themeContextTypes), _temp;
   };
 }
-},{"../../styleHelper":295,"prop-types":221,"react":344}],304:[function(require,module,exports){
+},{"../../styleHelper":296,"prop-types":222,"react":357}],305:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24534,7 +26386,7 @@ function mapWidthStyles(styles) {
   }
   return styles;
 }
-},{"../styleHelper":295,"prop-types":221}],305:[function(require,module,exports){
+},{"../styleHelper":296,"prop-types":222}],306:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24617,7 +26469,7 @@ function WindowFocus(options, ComposedComponent) {
     return _class2;
   }(_react.Component);
 }
-},{"./monitor":293,"react":344}],306:[function(require,module,exports){
+},{"./monitor":294,"react":357}],307:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24779,7 +26631,7 @@ Object.defineProperty(exports, 'Window', {
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-},{"./src/Button/windows":251,"./src/Checkbox/windows":253,"./src/Label/windows":255,"./src/MasterDetailsView/windows":260,"./src/MasterDetailsView/windows/Details":256,"./src/MasterDetailsView/windows/Item":257,"./src/MasterDetailsView/windows/Master":258,"./src/NavPane/windows":268,"./src/NavPane/windows/Item":263,"./src/ProgressCircle/windows":270,"./src/Radio/windows":273,"./src/Text/windows":279,"./src/TextArea/windows":275,"./src/TextInput/windows":277,"./src/TitleBar/windows":285,"./src/View/windows":288,"./src/Window/windows":289}],307:[function(require,module,exports){
+},{"./src/Button/windows":252,"./src/Checkbox/windows":254,"./src/Label/windows":256,"./src/MasterDetailsView/windows":261,"./src/MasterDetailsView/windows/Details":257,"./src/MasterDetailsView/windows/Item":258,"./src/MasterDetailsView/windows/Master":259,"./src/NavPane/windows":269,"./src/NavPane/windows/Item":264,"./src/ProgressCircle/windows":271,"./src/Radio/windows":274,"./src/Text/windows":280,"./src/TextArea/windows":276,"./src/TextInput/windows":278,"./src/TitleBar/windows":286,"./src/View/windows":289,"./src/Window/windows":290}],308:[function(require,module,exports){
 (function (process){
 /** @license React v16.6.1
  * react-dom.development.js
@@ -44510,7 +46362,7 @@ module.exports = reactDom;
 }
 
 }).call(this,require('_process'))
-},{"_process":217,"object-assign":216,"prop-types/checkPropTypes":218,"react":344,"scheduler":369,"scheduler/tracing":370}],308:[function(require,module,exports){
+},{"_process":218,"object-assign":217,"prop-types/checkPropTypes":219,"react":357,"scheduler":382,"scheduler/tracing":383}],309:[function(require,module,exports){
 /** @license React v16.6.1
  * react-dom.production.min.js
  *
@@ -44761,7 +46613,7 @@ void 0:t("40");return a._reactRootContainer?(Oh(function(){$h(null,null,a,!1,fun
 Ka,La,Ca.injectEventPluginsByName,qa,Ra,function(a){za(a,Qa)},Ib,Jb,Jd,Ea]},unstable_createRoot:function(a,b){Yh(a)?void 0:t("299","unstable_createRoot");return new Xh(a,!0,null!=b&&!0===b.hydrate)}};(function(a){var b=a.findFiberByHostInstance;return Ve(n({},a,{findHostInstanceByFiber:function(a){a=nd(a);return null===a?null:a.stateNode},findFiberByHostInstance:function(a){return b?b(a):null}}))})({findFiberByHostInstance:Ia,bundleType:0,version:"16.6.3",rendererPackageName:"react-dom"});
 var ei={default:bi},fi=ei&&bi||ei;module.exports=fi.default||fi;
 
-},{"object-assign":216,"react":344,"scheduler":369}],309:[function(require,module,exports){
+},{"object-assign":217,"react":357,"scheduler":382}],310:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -44803,7 +46655,2213 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react-dom.development.js":307,"./cjs/react-dom.production.min.js":308,"_process":217}],310:[function(require,module,exports){
+},{"./cjs/react-dom.development.js":308,"./cjs/react-dom.production.min.js":309,"_process":218}],311:[function(require,module,exports){
+(function (global, factory) {
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('react-dom'), require('react')) :
+	typeof define === 'function' && define.amd ? define(['react-dom', 'react'], factory) :
+	(global.ReactDraggable = factory(global.ReactDOM,global.React));
+}(this, (function (ReactDOM,React) { 'use strict';
+
+	ReactDOM = ReactDOM && ReactDOM.hasOwnProperty('default') ? ReactDOM['default'] : ReactDOM;
+	React = React && React.hasOwnProperty('default') ? React['default'] : React;
+
+	function createCommonjsModule(fn, module) {
+		return module = { exports: {} }, fn(module, module.exports), module.exports;
+	}
+
+	/**
+	 * Copyright (c) 2013-present, Facebook, Inc.
+	 *
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
+	 *
+	 * 
+	 */
+
+	function makeEmptyFunction(arg) {
+	  return function () {
+	    return arg;
+	  };
+	}
+
+	/**
+	 * This function accepts and discards inputs; it has no side effects. This is
+	 * primarily useful idiomatically for overridable function endpoints which
+	 * always need to be callable, since JS lacks a null-call idiom ala Cocoa.
+	 */
+	var emptyFunction = function emptyFunction() {};
+
+	emptyFunction.thatReturns = makeEmptyFunction;
+	emptyFunction.thatReturnsFalse = makeEmptyFunction(false);
+	emptyFunction.thatReturnsTrue = makeEmptyFunction(true);
+	emptyFunction.thatReturnsNull = makeEmptyFunction(null);
+	emptyFunction.thatReturnsThis = function () {
+	  return this;
+	};
+	emptyFunction.thatReturnsArgument = function (arg) {
+	  return arg;
+	};
+
+	var emptyFunction_1 = emptyFunction;
+
+	/**
+	 * Copyright (c) 2013-present, Facebook, Inc.
+	 *
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
+	 *
+	 */
+
+	/**
+	 * Use invariant() to assert state which your program assumes to be true.
+	 *
+	 * Provide sprintf-style format (only %s is supported) and arguments
+	 * to provide information about what broke and what you were
+	 * expecting.
+	 *
+	 * The invariant message will be stripped in production, but the invariant
+	 * will remain to ensure logic does not differ in production.
+	 */
+
+	var validateFormat = function validateFormat(format) {};
+
+	{
+	  validateFormat = function validateFormat(format) {
+	    if (format === undefined) {
+	      throw new Error('invariant requires an error message argument');
+	    }
+	  };
+	}
+
+	function invariant(condition, format, a, b, c, d, e, f) {
+	  validateFormat(format);
+
+	  if (!condition) {
+	    var error;
+	    if (format === undefined) {
+	      error = new Error('Minified exception occurred; use the non-minified dev environment ' + 'for the full error message and additional helpful warnings.');
+	    } else {
+	      var args = [a, b, c, d, e, f];
+	      var argIndex = 0;
+	      error = new Error(format.replace(/%s/g, function () {
+	        return args[argIndex++];
+	      }));
+	      error.name = 'Invariant Violation';
+	    }
+
+	    error.framesToPop = 1; // we don't care about invariant's own frame
+	    throw error;
+	  }
+	}
+
+	var invariant_1 = invariant;
+
+	/**
+	 * Similar to invariant but only logs a warning if the condition is not met.
+	 * This can be used to log issues in development environments in critical
+	 * paths. Removing the logging code for production environments will keep the
+	 * same logic and follow the same code paths.
+	 */
+
+	var warning = emptyFunction_1;
+
+	{
+	  var printWarning = function printWarning(format) {
+	    for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+	      args[_key - 1] = arguments[_key];
+	    }
+
+	    var argIndex = 0;
+	    var message = 'Warning: ' + format.replace(/%s/g, function () {
+	      return args[argIndex++];
+	    });
+	    if (typeof console !== 'undefined') {
+	      console.error(message);
+	    }
+	    try {
+	      // --- Welcome to debugging React ---
+	      // This error was thrown as a convenience so that you can use this stack
+	      // to find the callsite that caused this warning to fire.
+	      throw new Error(message);
+	    } catch (x) {}
+	  };
+
+	  warning = function warning(condition, format) {
+	    if (format === undefined) {
+	      throw new Error('`warning(condition, format, ...args)` requires a warning ' + 'message argument');
+	    }
+
+	    if (format.indexOf('Failed Composite propType: ') === 0) {
+	      return; // Ignore CompositeComponent proptype check.
+	    }
+
+	    if (!condition) {
+	      for (var _len2 = arguments.length, args = Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
+	        args[_key2 - 2] = arguments[_key2];
+	      }
+
+	      printWarning.apply(undefined, [format].concat(args));
+	    }
+	  };
+	}
+
+	var warning_1 = warning;
+
+	/*
+	object-assign
+	(c) Sindre Sorhus
+	@license MIT
+	*/
+	/* eslint-disable no-unused-vars */
+	var getOwnPropertySymbols = Object.getOwnPropertySymbols;
+	var hasOwnProperty = Object.prototype.hasOwnProperty;
+	var propIsEnumerable = Object.prototype.propertyIsEnumerable;
+
+	function toObject(val) {
+		if (val === null || val === undefined) {
+			throw new TypeError('Object.assign cannot be called with null or undefined');
+		}
+
+		return Object(val);
+	}
+
+	function shouldUseNative() {
+		try {
+			if (!Object.assign) {
+				return false;
+			}
+
+			// Detect buggy property enumeration order in older V8 versions.
+
+			// https://bugs.chromium.org/p/v8/issues/detail?id=4118
+			var test1 = new String('abc');  // eslint-disable-line no-new-wrappers
+			test1[5] = 'de';
+			if (Object.getOwnPropertyNames(test1)[0] === '5') {
+				return false;
+			}
+
+			// https://bugs.chromium.org/p/v8/issues/detail?id=3056
+			var test2 = {};
+			for (var i = 0; i < 10; i++) {
+				test2['_' + String.fromCharCode(i)] = i;
+			}
+			var order2 = Object.getOwnPropertyNames(test2).map(function (n) {
+				return test2[n];
+			});
+			if (order2.join('') !== '0123456789') {
+				return false;
+			}
+
+			// https://bugs.chromium.org/p/v8/issues/detail?id=3056
+			var test3 = {};
+			'abcdefghijklmnopqrst'.split('').forEach(function (letter) {
+				test3[letter] = letter;
+			});
+			if (Object.keys(Object.assign({}, test3)).join('') !==
+					'abcdefghijklmnopqrst') {
+				return false;
+			}
+
+			return true;
+		} catch (err) {
+			// We don't expect any of the above to throw, but better to be safe.
+			return false;
+		}
+	}
+
+	var objectAssign = shouldUseNative() ? Object.assign : function (target, source) {
+		var from;
+		var to = toObject(target);
+		var symbols;
+
+		for (var s = 1; s < arguments.length; s++) {
+			from = Object(arguments[s]);
+
+			for (var key in from) {
+				if (hasOwnProperty.call(from, key)) {
+					to[key] = from[key];
+				}
+			}
+
+			if (getOwnPropertySymbols) {
+				symbols = getOwnPropertySymbols(from);
+				for (var i = 0; i < symbols.length; i++) {
+					if (propIsEnumerable.call(from, symbols[i])) {
+						to[symbols[i]] = from[symbols[i]];
+					}
+				}
+			}
+		}
+
+		return to;
+	};
+
+	/**
+	 * Copyright (c) 2013-present, Facebook, Inc.
+	 *
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
+	 */
+
+	var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
+
+	var ReactPropTypesSecret_1 = ReactPropTypesSecret;
+
+	{
+	  var invariant$1 = invariant_1;
+	  var warning$1 = warning_1;
+	  var ReactPropTypesSecret$1 = ReactPropTypesSecret_1;
+	  var loggedTypeFailures = {};
+	}
+
+	/**
+	 * Assert that the values match with the type specs.
+	 * Error messages are memorized and will only be shown once.
+	 *
+	 * @param {object} typeSpecs Map of name to a ReactPropType
+	 * @param {object} values Runtime values that need to be type-checked
+	 * @param {string} location e.g. "prop", "context", "child context"
+	 * @param {string} componentName Name of the component for error messages.
+	 * @param {?Function} getStack Returns the component stack.
+	 * @private
+	 */
+	function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
+	  {
+	    for (var typeSpecName in typeSpecs) {
+	      if (typeSpecs.hasOwnProperty(typeSpecName)) {
+	        var error;
+	        // Prop type validation may throw. In case they do, we don't want to
+	        // fail the render phase where it didn't fail before. So we log it.
+	        // After these have been cleaned up, we'll let them throw.
+	        try {
+	          // This is intentionally an invariant that gets caught. It's the same
+	          // behavior as without this statement except with a better message.
+	          invariant$1(typeof typeSpecs[typeSpecName] === 'function', '%s: %s type `%s` is invalid; it must be a function, usually from ' + 'the `prop-types` package, but received `%s`.', componentName || 'React class', location, typeSpecName, typeof typeSpecs[typeSpecName]);
+	          error = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, ReactPropTypesSecret$1);
+	        } catch (ex) {
+	          error = ex;
+	        }
+	        warning$1(!error || error instanceof Error, '%s: type specification of %s `%s` is invalid; the type checker ' + 'function must return `null` or an `Error` but returned a %s. ' + 'You may have forgotten to pass an argument to the type checker ' + 'creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and ' + 'shape all require an argument).', componentName || 'React class', location, typeSpecName, typeof error);
+	        if (error instanceof Error && !(error.message in loggedTypeFailures)) {
+	          // Only monitor this failure once because there tends to be a lot of the
+	          // same error.
+	          loggedTypeFailures[error.message] = true;
+
+	          var stack = getStack ? getStack() : '';
+
+	          warning$1(false, 'Failed %s type: %s%s', location, error.message, stack != null ? stack : '');
+	        }
+	      }
+	    }
+	  }
+	}
+
+	var checkPropTypes_1 = checkPropTypes;
+
+	var factoryWithTypeCheckers = function(isValidElement, throwOnDirectAccess) {
+	  /* global Symbol */
+	  var ITERATOR_SYMBOL = typeof Symbol === 'function' && Symbol.iterator;
+	  var FAUX_ITERATOR_SYMBOL = '@@iterator'; // Before Symbol spec.
+
+	  /**
+	   * Returns the iterator method function contained on the iterable object.
+	   *
+	   * Be sure to invoke the function with the iterable as context:
+	   *
+	   *     var iteratorFn = getIteratorFn(myIterable);
+	   *     if (iteratorFn) {
+	   *       var iterator = iteratorFn.call(myIterable);
+	   *       ...
+	   *     }
+	   *
+	   * @param {?object} maybeIterable
+	   * @return {?function}
+	   */
+	  function getIteratorFn(maybeIterable) {
+	    var iteratorFn = maybeIterable && (ITERATOR_SYMBOL && maybeIterable[ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL]);
+	    if (typeof iteratorFn === 'function') {
+	      return iteratorFn;
+	    }
+	  }
+
+	  /**
+	   * Collection of methods that allow declaration and validation of props that are
+	   * supplied to React components. Example usage:
+	   *
+	   *   var Props = require('ReactPropTypes');
+	   *   var MyArticle = React.createClass({
+	   *     propTypes: {
+	   *       // An optional string prop named "description".
+	   *       description: Props.string,
+	   *
+	   *       // A required enum prop named "category".
+	   *       category: Props.oneOf(['News','Photos']).isRequired,
+	   *
+	   *       // A prop named "dialog" that requires an instance of Dialog.
+	   *       dialog: Props.instanceOf(Dialog).isRequired
+	   *     },
+	   *     render: function() { ... }
+	   *   });
+	   *
+	   * A more formal specification of how these methods are used:
+	   *
+	   *   type := array|bool|func|object|number|string|oneOf([...])|instanceOf(...)
+	   *   decl := ReactPropTypes.{type}(.isRequired)?
+	   *
+	   * Each and every declaration produces a function with the same signature. This
+	   * allows the creation of custom validation functions. For example:
+	   *
+	   *  var MyLink = React.createClass({
+	   *    propTypes: {
+	   *      // An optional string or URI prop named "href".
+	   *      href: function(props, propName, componentName) {
+	   *        var propValue = props[propName];
+	   *        if (propValue != null && typeof propValue !== 'string' &&
+	   *            !(propValue instanceof URI)) {
+	   *          return new Error(
+	   *            'Expected a string or an URI for ' + propName + ' in ' +
+	   *            componentName
+	   *          );
+	   *        }
+	   *      }
+	   *    },
+	   *    render: function() {...}
+	   *  });
+	   *
+	   * @internal
+	   */
+
+	  var ANONYMOUS = '<<anonymous>>';
+
+	  // Important!
+	  // Keep this list in sync with production version in `./factoryWithThrowingShims.js`.
+	  var ReactPropTypes = {
+	    array: createPrimitiveTypeChecker('array'),
+	    bool: createPrimitiveTypeChecker('boolean'),
+	    func: createPrimitiveTypeChecker('function'),
+	    number: createPrimitiveTypeChecker('number'),
+	    object: createPrimitiveTypeChecker('object'),
+	    string: createPrimitiveTypeChecker('string'),
+	    symbol: createPrimitiveTypeChecker('symbol'),
+
+	    any: createAnyTypeChecker(),
+	    arrayOf: createArrayOfTypeChecker,
+	    element: createElementTypeChecker(),
+	    instanceOf: createInstanceTypeChecker,
+	    node: createNodeChecker(),
+	    objectOf: createObjectOfTypeChecker,
+	    oneOf: createEnumTypeChecker,
+	    oneOfType: createUnionTypeChecker,
+	    shape: createShapeTypeChecker,
+	    exact: createStrictShapeTypeChecker,
+	  };
+
+	  /**
+	   * inlined Object.is polyfill to avoid requiring consumers ship their own
+	   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+	   */
+	  /*eslint-disable no-self-compare*/
+	  function is(x, y) {
+	    // SameValue algorithm
+	    if (x === y) {
+	      // Steps 1-5, 7-10
+	      // Steps 6.b-6.e: +0 != -0
+	      return x !== 0 || 1 / x === 1 / y;
+	    } else {
+	      // Step 6.a: NaN == NaN
+	      return x !== x && y !== y;
+	    }
+	  }
+	  /*eslint-enable no-self-compare*/
+
+	  /**
+	   * We use an Error-like object for backward compatibility as people may call
+	   * PropTypes directly and inspect their output. However, we don't use real
+	   * Errors anymore. We don't inspect their stack anyway, and creating them
+	   * is prohibitively expensive if they are created too often, such as what
+	   * happens in oneOfType() for any type before the one that matched.
+	   */
+	  function PropTypeError(message) {
+	    this.message = message;
+	    this.stack = '';
+	  }
+	  // Make `instanceof Error` still work for returned errors.
+	  PropTypeError.prototype = Error.prototype;
+
+	  function createChainableTypeChecker(validate) {
+	    {
+	      var manualPropTypeCallCache = {};
+	      var manualPropTypeWarningCount = 0;
+	    }
+	    function checkType(isRequired, props, propName, componentName, location, propFullName, secret) {
+	      componentName = componentName || ANONYMOUS;
+	      propFullName = propFullName || propName;
+
+	      if (secret !== ReactPropTypesSecret_1) {
+	        if (throwOnDirectAccess) {
+	          // New behavior only for users of `prop-types` package
+	          invariant_1(
+	            false,
+	            'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
+	            'Use `PropTypes.checkPropTypes()` to call them. ' +
+	            'Read more at http://fb.me/use-check-prop-types'
+	          );
+	        } else if ("development" !== 'production' && typeof console !== 'undefined') {
+	          // Old behavior for people using React.PropTypes
+	          var cacheKey = componentName + ':' + propName;
+	          if (
+	            !manualPropTypeCallCache[cacheKey] &&
+	            // Avoid spamming the console because they are often not actionable except for lib authors
+	            manualPropTypeWarningCount < 3
+	          ) {
+	            warning_1(
+	              false,
+	              'You are manually calling a React.PropTypes validation ' +
+	              'function for the `%s` prop on `%s`. This is deprecated ' +
+	              'and will throw in the standalone `prop-types` package. ' +
+	              'You may be seeing this warning due to a third-party PropTypes ' +
+	              'library. See https://fb.me/react-warning-dont-call-proptypes ' + 'for details.',
+	              propFullName,
+	              componentName
+	            );
+	            manualPropTypeCallCache[cacheKey] = true;
+	            manualPropTypeWarningCount++;
+	          }
+	        }
+	      }
+	      if (props[propName] == null) {
+	        if (isRequired) {
+	          if (props[propName] === null) {
+	            return new PropTypeError('The ' + location + ' `' + propFullName + '` is marked as required ' + ('in `' + componentName + '`, but its value is `null`.'));
+	          }
+	          return new PropTypeError('The ' + location + ' `' + propFullName + '` is marked as required in ' + ('`' + componentName + '`, but its value is `undefined`.'));
+	        }
+	        return null;
+	      } else {
+	        return validate(props, propName, componentName, location, propFullName);
+	      }
+	    }
+
+	    var chainedCheckType = checkType.bind(null, false);
+	    chainedCheckType.isRequired = checkType.bind(null, true);
+
+	    return chainedCheckType;
+	  }
+
+	  function createPrimitiveTypeChecker(expectedType) {
+	    function validate(props, propName, componentName, location, propFullName, secret) {
+	      var propValue = props[propName];
+	      var propType = getPropType(propValue);
+	      if (propType !== expectedType) {
+	        // `propValue` being instance of, say, date/regexp, pass the 'object'
+	        // check, but we can offer a more precise error message here rather than
+	        // 'of type `object`'.
+	        var preciseType = getPreciseType(propValue);
+
+	        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'));
+	      }
+	      return null;
+	    }
+	    return createChainableTypeChecker(validate);
+	  }
+
+	  function createAnyTypeChecker() {
+	    return createChainableTypeChecker(emptyFunction_1.thatReturnsNull);
+	  }
+
+	  function createArrayOfTypeChecker(typeChecker) {
+	    function validate(props, propName, componentName, location, propFullName) {
+	      if (typeof typeChecker !== 'function') {
+	        return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside arrayOf.');
+	      }
+	      var propValue = props[propName];
+	      if (!Array.isArray(propValue)) {
+	        var propType = getPropType(propValue);
+	        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an array.'));
+	      }
+	      for (var i = 0; i < propValue.length; i++) {
+	        var error = typeChecker(propValue, i, componentName, location, propFullName + '[' + i + ']', ReactPropTypesSecret_1);
+	        if (error instanceof Error) {
+	          return error;
+	        }
+	      }
+	      return null;
+	    }
+	    return createChainableTypeChecker(validate);
+	  }
+
+	  function createElementTypeChecker() {
+	    function validate(props, propName, componentName, location, propFullName) {
+	      var propValue = props[propName];
+	      if (!isValidElement(propValue)) {
+	        var propType = getPropType(propValue);
+	        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected a single ReactElement.'));
+	      }
+	      return null;
+	    }
+	    return createChainableTypeChecker(validate);
+	  }
+
+	  function createInstanceTypeChecker(expectedClass) {
+	    function validate(props, propName, componentName, location, propFullName) {
+	      if (!(props[propName] instanceof expectedClass)) {
+	        var expectedClassName = expectedClass.name || ANONYMOUS;
+	        var actualClassName = getClassName(props[propName]);
+	        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + actualClassName + '` supplied to `' + componentName + '`, expected ') + ('instance of `' + expectedClassName + '`.'));
+	      }
+	      return null;
+	    }
+	    return createChainableTypeChecker(validate);
+	  }
+
+	  function createEnumTypeChecker(expectedValues) {
+	    if (!Array.isArray(expectedValues)) {
+	      warning_1(false, 'Invalid argument supplied to oneOf, expected an instance of array.');
+	      return emptyFunction_1.thatReturnsNull;
+	    }
+
+	    function validate(props, propName, componentName, location, propFullName) {
+	      var propValue = props[propName];
+	      for (var i = 0; i < expectedValues.length; i++) {
+	        if (is(propValue, expectedValues[i])) {
+	          return null;
+	        }
+	      }
+
+	      var valuesString = JSON.stringify(expectedValues);
+	      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of value `' + propValue + '` ' + ('supplied to `' + componentName + '`, expected one of ' + valuesString + '.'));
+	    }
+	    return createChainableTypeChecker(validate);
+	  }
+
+	  function createObjectOfTypeChecker(typeChecker) {
+	    function validate(props, propName, componentName, location, propFullName) {
+	      if (typeof typeChecker !== 'function') {
+	        return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside objectOf.');
+	      }
+	      var propValue = props[propName];
+	      var propType = getPropType(propValue);
+	      if (propType !== 'object') {
+	        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an object.'));
+	      }
+	      for (var key in propValue) {
+	        if (propValue.hasOwnProperty(key)) {
+	          var error = typeChecker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret_1);
+	          if (error instanceof Error) {
+	            return error;
+	          }
+	        }
+	      }
+	      return null;
+	    }
+	    return createChainableTypeChecker(validate);
+	  }
+
+	  function createUnionTypeChecker(arrayOfTypeCheckers) {
+	    if (!Array.isArray(arrayOfTypeCheckers)) {
+	      warning_1(false, 'Invalid argument supplied to oneOfType, expected an instance of array.');
+	      return emptyFunction_1.thatReturnsNull;
+	    }
+
+	    for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+	      var checker = arrayOfTypeCheckers[i];
+	      if (typeof checker !== 'function') {
+	        warning_1(
+	          false,
+	          'Invalid argument supplied to oneOfType. Expected an array of check functions, but ' +
+	          'received %s at index %s.',
+	          getPostfixForTypeWarning(checker),
+	          i
+	        );
+	        return emptyFunction_1.thatReturnsNull;
+	      }
+	    }
+
+	    function validate(props, propName, componentName, location, propFullName) {
+	      for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+	        var checker = arrayOfTypeCheckers[i];
+	        if (checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret_1) == null) {
+	          return null;
+	        }
+	      }
+
+	      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`.'));
+	    }
+	    return createChainableTypeChecker(validate);
+	  }
+
+	  function createNodeChecker() {
+	    function validate(props, propName, componentName, location, propFullName) {
+	      if (!isNode(props[propName])) {
+	        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`, expected a ReactNode.'));
+	      }
+	      return null;
+	    }
+	    return createChainableTypeChecker(validate);
+	  }
+
+	  function createShapeTypeChecker(shapeTypes) {
+	    function validate(props, propName, componentName, location, propFullName) {
+	      var propValue = props[propName];
+	      var propType = getPropType(propValue);
+	      if (propType !== 'object') {
+	        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+	      }
+	      for (var key in shapeTypes) {
+	        var checker = shapeTypes[key];
+	        if (!checker) {
+	          continue;
+	        }
+	        var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret_1);
+	        if (error) {
+	          return error;
+	        }
+	      }
+	      return null;
+	    }
+	    return createChainableTypeChecker(validate);
+	  }
+
+	  function createStrictShapeTypeChecker(shapeTypes) {
+	    function validate(props, propName, componentName, location, propFullName) {
+	      var propValue = props[propName];
+	      var propType = getPropType(propValue);
+	      if (propType !== 'object') {
+	        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+	      }
+	      // We need to check all keys in case some are required but missing from
+	      // props.
+	      var allKeys = objectAssign({}, props[propName], shapeTypes);
+	      for (var key in allKeys) {
+	        var checker = shapeTypes[key];
+	        if (!checker) {
+	          return new PropTypeError(
+	            'Invalid ' + location + ' `' + propFullName + '` key `' + key + '` supplied to `' + componentName + '`.' +
+	            '\nBad object: ' + JSON.stringify(props[propName], null, '  ') +
+	            '\nValid keys: ' +  JSON.stringify(Object.keys(shapeTypes), null, '  ')
+	          );
+	        }
+	        var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret_1);
+	        if (error) {
+	          return error;
+	        }
+	      }
+	      return null;
+	    }
+
+	    return createChainableTypeChecker(validate);
+	  }
+
+	  function isNode(propValue) {
+	    switch (typeof propValue) {
+	      case 'number':
+	      case 'string':
+	      case 'undefined':
+	        return true;
+	      case 'boolean':
+	        return !propValue;
+	      case 'object':
+	        if (Array.isArray(propValue)) {
+	          return propValue.every(isNode);
+	        }
+	        if (propValue === null || isValidElement(propValue)) {
+	          return true;
+	        }
+
+	        var iteratorFn = getIteratorFn(propValue);
+	        if (iteratorFn) {
+	          var iterator = iteratorFn.call(propValue);
+	          var step;
+	          if (iteratorFn !== propValue.entries) {
+	            while (!(step = iterator.next()).done) {
+	              if (!isNode(step.value)) {
+	                return false;
+	              }
+	            }
+	          } else {
+	            // Iterator will provide entry [k,v] tuples rather than values.
+	            while (!(step = iterator.next()).done) {
+	              var entry = step.value;
+	              if (entry) {
+	                if (!isNode(entry[1])) {
+	                  return false;
+	                }
+	              }
+	            }
+	          }
+	        } else {
+	          return false;
+	        }
+
+	        return true;
+	      default:
+	        return false;
+	    }
+	  }
+
+	  function isSymbol(propType, propValue) {
+	    // Native Symbol.
+	    if (propType === 'symbol') {
+	      return true;
+	    }
+
+	    // 19.4.3.5 Symbol.prototype[@@toStringTag] === 'Symbol'
+	    if (propValue['@@toStringTag'] === 'Symbol') {
+	      return true;
+	    }
+
+	    // Fallback for non-spec compliant Symbols which are polyfilled.
+	    if (typeof Symbol === 'function' && propValue instanceof Symbol) {
+	      return true;
+	    }
+
+	    return false;
+	  }
+
+	  // Equivalent of `typeof` but with special handling for array and regexp.
+	  function getPropType(propValue) {
+	    var propType = typeof propValue;
+	    if (Array.isArray(propValue)) {
+	      return 'array';
+	    }
+	    if (propValue instanceof RegExp) {
+	      // Old webkits (at least until Android 4.0) return 'function' rather than
+	      // 'object' for typeof a RegExp. We'll normalize this here so that /bla/
+	      // passes PropTypes.object.
+	      return 'object';
+	    }
+	    if (isSymbol(propType, propValue)) {
+	      return 'symbol';
+	    }
+	    return propType;
+	  }
+
+	  // This handles more types than `getPropType`. Only used for error messages.
+	  // See `createPrimitiveTypeChecker`.
+	  function getPreciseType(propValue) {
+	    if (typeof propValue === 'undefined' || propValue === null) {
+	      return '' + propValue;
+	    }
+	    var propType = getPropType(propValue);
+	    if (propType === 'object') {
+	      if (propValue instanceof Date) {
+	        return 'date';
+	      } else if (propValue instanceof RegExp) {
+	        return 'regexp';
+	      }
+	    }
+	    return propType;
+	  }
+
+	  // Returns a string that is postfixed to a warning about an invalid type.
+	  // For example, "undefined" or "of type array"
+	  function getPostfixForTypeWarning(value) {
+	    var type = getPreciseType(value);
+	    switch (type) {
+	      case 'array':
+	      case 'object':
+	        return 'an ' + type;
+	      case 'boolean':
+	      case 'date':
+	      case 'regexp':
+	        return 'a ' + type;
+	      default:
+	        return type;
+	    }
+	  }
+
+	  // Returns class name of the object, if any.
+	  function getClassName(propValue) {
+	    if (!propValue.constructor || !propValue.constructor.name) {
+	      return ANONYMOUS;
+	    }
+	    return propValue.constructor.name;
+	  }
+
+	  ReactPropTypes.checkPropTypes = checkPropTypes_1;
+	  ReactPropTypes.PropTypes = ReactPropTypes;
+
+	  return ReactPropTypes;
+	};
+
+	var propTypes = createCommonjsModule(function (module) {
+	/**
+	 * Copyright (c) 2013-present, Facebook, Inc.
+	 *
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
+	 */
+
+	{
+	  var REACT_ELEMENT_TYPE = (typeof Symbol === 'function' &&
+	    Symbol.for &&
+	    Symbol.for('react.element')) ||
+	    0xeac7;
+
+	  var isValidElement = function(object) {
+	    return typeof object === 'object' &&
+	      object !== null &&
+	      object.$$typeof === REACT_ELEMENT_TYPE;
+	  };
+
+	  // By explicitly using `prop-types` you are opting into new development behavior.
+	  // http://fb.me/prop-types-in-prod
+	  var throwOnDirectAccess = true;
+	  module.exports = factoryWithTypeCheckers(isValidElement, throwOnDirectAccess);
+	}
+	});
+
+	var classnames = createCommonjsModule(function (module) {
+	/*!
+	  Copyright (c) 2016 Jed Watson.
+	  Licensed under the MIT License (MIT), see
+	  http://jedwatson.github.io/classnames
+	*/
+	/* global define */
+
+	(function () {
+
+		var hasOwn = {}.hasOwnProperty;
+
+		function classNames () {
+			var classes = [];
+
+			for (var i = 0; i < arguments.length; i++) {
+				var arg = arguments[i];
+				if (!arg) continue;
+
+				var argType = typeof arg;
+
+				if (argType === 'string' || argType === 'number') {
+					classes.push(arg);
+				} else if (Array.isArray(arg)) {
+					classes.push(classNames.apply(null, arg));
+				} else if (argType === 'object') {
+					for (var key in arg) {
+						if (hasOwn.call(arg, key) && arg[key]) {
+							classes.push(key);
+						}
+					}
+				}
+			}
+
+			return classes.join(' ');
+		}
+
+		if ('object' !== 'undefined' && module.exports) {
+			module.exports = classNames;
+		} else if (typeof undefined === 'function' && typeof undefined.amd === 'object' && undefined.amd) {
+			// register as 'classnames', consistent with npm package name
+			undefined('classnames', [], function () {
+				return classNames;
+			});
+		} else {
+			window.classNames = classNames;
+		}
+	}());
+	});
+
+	// @credits https://gist.github.com/rogozhnikoff/a43cfed27c41e4e68cdc
+	function findInArray(array /*: Array<any> | TouchList*/, callback /*: Function*/) /*: any*/ {
+	  for (var i = 0, length = array.length; i < length; i++) {
+	    if (callback.apply(callback, [array[i], i, array])) return array[i];
+	  }
+	}
+
+	function isFunction(func /*: any*/) /*: boolean*/ {
+	  return typeof func === 'function' || Object.prototype.toString.call(func) === '[object Function]';
+	}
+
+	function isNum(num /*: any*/) /*: boolean*/ {
+	  return typeof num === 'number' && !isNaN(num);
+	}
+
+	function int(a /*: string*/) /*: number*/ {
+	  return parseInt(a, 10);
+	}
+
+	function dontSetMe(props /*: Object*/, propName /*: string*/, componentName /*: string*/) {
+	  if (props[propName]) {
+	    return new Error('Invalid prop ' + propName + ' passed to ' + componentName + ' - do not set this, set it on the child.');
+	  }
+	}
+
+	var prefixes = ['Moz', 'Webkit', 'O', 'ms'];
+	function getPrefix() /*: string*/ {
+	  var prop /*: string*/ = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'transform';
+
+	  // Checking specifically for 'window.document' is for pseudo-browser server-side
+	  // environments that define 'window' as the global context.
+	  // E.g. React-rails (see https://github.com/reactjs/react-rails/pull/84)
+	  if (typeof window === 'undefined' || typeof window.document === 'undefined') return '';
+
+	  var style = window.document.documentElement.style;
+
+	  if (prop in style) return '';
+
+	  for (var i = 0; i < prefixes.length; i++) {
+	    if (browserPrefixToKey(prop, prefixes[i]) in style) return prefixes[i];
+	  }
+
+	  return '';
+	}
+
+	function browserPrefixToKey(prop /*: string*/, prefix /*: string*/) /*: string*/ {
+	  return prefix ? '' + prefix + kebabToTitleCase(prop) : prop;
+	}
+
+	function kebabToTitleCase(str /*: string*/) /*: string*/ {
+	  var out = '';
+	  var shouldCapitalize = true;
+	  for (var i = 0; i < str.length; i++) {
+	    if (shouldCapitalize) {
+	      out += str[i].toUpperCase();
+	      shouldCapitalize = false;
+	    } else if (str[i] === '-') {
+	      shouldCapitalize = true;
+	    } else {
+	      out += str[i];
+	    }
+	  }
+	  return out;
+	}
+
+	// Default export is the prefix itself, like 'Moz', 'Webkit', etc
+	// Note that you may have to re-test for certain things; for instance, Chrome 50
+	// can handle unprefixed `transform`, but not unprefixed `user-select`
+	var browserPrefix = getPrefix();
+
+	var classCallCheck = function (instance, Constructor) {
+	  if (!(instance instanceof Constructor)) {
+	    throw new TypeError("Cannot call a class as a function");
+	  }
+	};
+
+	var createClass = function () {
+	  function defineProperties(target, props) {
+	    for (var i = 0; i < props.length; i++) {
+	      var descriptor = props[i];
+	      descriptor.enumerable = descriptor.enumerable || false;
+	      descriptor.configurable = true;
+	      if ("value" in descriptor) descriptor.writable = true;
+	      Object.defineProperty(target, descriptor.key, descriptor);
+	    }
+	  }
+
+	  return function (Constructor, protoProps, staticProps) {
+	    if (protoProps) defineProperties(Constructor.prototype, protoProps);
+	    if (staticProps) defineProperties(Constructor, staticProps);
+	    return Constructor;
+	  };
+	}();
+
+	var defineProperty = function (obj, key, value) {
+	  if (key in obj) {
+	    Object.defineProperty(obj, key, {
+	      value: value,
+	      enumerable: true,
+	      configurable: true,
+	      writable: true
+	    });
+	  } else {
+	    obj[key] = value;
+	  }
+
+	  return obj;
+	};
+
+	var _extends = Object.assign || function (target) {
+	  for (var i = 1; i < arguments.length; i++) {
+	    var source = arguments[i];
+
+	    for (var key in source) {
+	      if (Object.prototype.hasOwnProperty.call(source, key)) {
+	        target[key] = source[key];
+	      }
+	    }
+	  }
+
+	  return target;
+	};
+
+	var inherits = function (subClass, superClass) {
+	  if (typeof superClass !== "function" && superClass !== null) {
+	    throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);
+	  }
+
+	  subClass.prototype = Object.create(superClass && superClass.prototype, {
+	    constructor: {
+	      value: subClass,
+	      enumerable: false,
+	      writable: true,
+	      configurable: true
+	    }
+	  });
+	  if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
+	};
+
+	var possibleConstructorReturn = function (self, call) {
+	  if (!self) {
+	    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+	  }
+
+	  return call && (typeof call === "object" || typeof call === "function") ? call : self;
+	};
+
+	var slicedToArray = function () {
+	  function sliceIterator(arr, i) {
+	    var _arr = [];
+	    var _n = true;
+	    var _d = false;
+	    var _e = undefined;
+
+	    try {
+	      for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
+	        _arr.push(_s.value);
+
+	        if (i && _arr.length === i) break;
+	      }
+	    } catch (err) {
+	      _d = true;
+	      _e = err;
+	    } finally {
+	      try {
+	        if (!_n && _i["return"]) _i["return"]();
+	      } finally {
+	        if (_d) throw _e;
+	      }
+	    }
+
+	    return _arr;
+	  }
+
+	  return function (arr, i) {
+	    if (Array.isArray(arr)) {
+	      return arr;
+	    } else if (Symbol.iterator in Object(arr)) {
+	      return sliceIterator(arr, i);
+	    } else {
+	      throw new TypeError("Invalid attempt to destructure non-iterable instance");
+	    }
+	  };
+	}();
+
+	/*:: import type {ControlPosition, MouseTouchEvent} from './types';*/
+
+
+	var matchesSelectorFunc = '';
+	function matchesSelector(el /*: Node*/, selector /*: string*/) /*: boolean*/ {
+	  if (!matchesSelectorFunc) {
+	    matchesSelectorFunc = findInArray(['matches', 'webkitMatchesSelector', 'mozMatchesSelector', 'msMatchesSelector', 'oMatchesSelector'], function (method) {
+	      // $FlowIgnore: Doesn't think elements are indexable
+	      return isFunction(el[method]);
+	    });
+	  }
+
+	  // Might not be found entirely (not an Element?) - in that case, bail
+	  // $FlowIgnore: Doesn't think elements are indexable
+	  if (!isFunction(el[matchesSelectorFunc])) return false;
+
+	  // $FlowIgnore: Doesn't think elements are indexable
+	  return el[matchesSelectorFunc](selector);
+	}
+
+	// Works up the tree to the draggable itself attempting to match selector.
+	function matchesSelectorAndParentsTo(el /*: Node*/, selector /*: string*/, baseNode /*: Node*/) /*: boolean*/ {
+	  var node = el;
+	  do {
+	    if (matchesSelector(node, selector)) return true;
+	    if (node === baseNode) return false;
+	    node = node.parentNode;
+	  } while (node);
+
+	  return false;
+	}
+
+	function addEvent(el /*: ?Node*/, event /*: string*/, handler /*: Function*/) /*: void*/ {
+	  if (!el) {
+	    return;
+	  }
+	  if (el.attachEvent) {
+	    el.attachEvent('on' + event, handler);
+	  } else if (el.addEventListener) {
+	    el.addEventListener(event, handler, true);
+	  } else {
+	    // $FlowIgnore: Doesn't think elements are indexable
+	    el['on' + event] = handler;
+	  }
+	}
+
+	function removeEvent(el /*: ?Node*/, event /*: string*/, handler /*: Function*/) /*: void*/ {
+	  if (!el) {
+	    return;
+	  }
+	  if (el.detachEvent) {
+	    el.detachEvent('on' + event, handler);
+	  } else if (el.removeEventListener) {
+	    el.removeEventListener(event, handler, true);
+	  } else {
+	    // $FlowIgnore: Doesn't think elements are indexable
+	    el['on' + event] = null;
+	  }
+	}
+
+	function outerHeight(node /*: HTMLElement*/) /*: number*/ {
+	  // This is deliberately excluding margin for our calculations, since we are using
+	  // offsetTop which is including margin. See getBoundPosition
+	  var height = node.clientHeight;
+	  var computedStyle = node.ownerDocument.defaultView.getComputedStyle(node);
+	  height += int(computedStyle.borderTopWidth);
+	  height += int(computedStyle.borderBottomWidth);
+	  return height;
+	}
+
+	function outerWidth(node /*: HTMLElement*/) /*: number*/ {
+	  // This is deliberately excluding margin for our calculations, since we are using
+	  // offsetLeft which is including margin. See getBoundPosition
+	  var width = node.clientWidth;
+	  var computedStyle = node.ownerDocument.defaultView.getComputedStyle(node);
+	  width += int(computedStyle.borderLeftWidth);
+	  width += int(computedStyle.borderRightWidth);
+	  return width;
+	}
+	function innerHeight(node /*: HTMLElement*/) /*: number*/ {
+	  var height = node.clientHeight;
+	  var computedStyle = node.ownerDocument.defaultView.getComputedStyle(node);
+	  height -= int(computedStyle.paddingTop);
+	  height -= int(computedStyle.paddingBottom);
+	  return height;
+	}
+
+	function innerWidth(node /*: HTMLElement*/) /*: number*/ {
+	  var width = node.clientWidth;
+	  var computedStyle = node.ownerDocument.defaultView.getComputedStyle(node);
+	  width -= int(computedStyle.paddingLeft);
+	  width -= int(computedStyle.paddingRight);
+	  return width;
+	}
+
+	// Get from offsetParent
+	function offsetXYFromParent(evt /*: {clientX: number, clientY: number}*/, offsetParent /*: HTMLElement*/) /*: ControlPosition*/ {
+	  var isBody = offsetParent === offsetParent.ownerDocument.body;
+	  var offsetParentRect = isBody ? { left: 0, top: 0 } : offsetParent.getBoundingClientRect();
+
+	  var x = evt.clientX + offsetParent.scrollLeft - offsetParentRect.left;
+	  var y = evt.clientY + offsetParent.scrollTop - offsetParentRect.top;
+
+	  return { x: x, y: y };
+	}
+
+	function createCSSTransform(_ref) /*: Object*/ {
+	  var x = _ref.x,
+	      y = _ref.y;
+
+	  // Replace unitless items with px
+	  return defineProperty({}, browserPrefixToKey('transform', browserPrefix), 'translate(' + x + 'px,' + y + 'px)');
+	}
+
+	function createSVGTransform(_ref3) /*: string*/ {
+	  var x = _ref3.x,
+	      y = _ref3.y;
+
+	  return 'translate(' + x + ',' + y + ')';
+	}
+
+	function getTouch(e /*: MouseTouchEvent*/, identifier /*: number*/) /*: ?{clientX: number, clientY: number}*/ {
+	  return e.targetTouches && findInArray(e.targetTouches, function (t) {
+	    return identifier === t.identifier;
+	  }) || e.changedTouches && findInArray(e.changedTouches, function (t) {
+	    return identifier === t.identifier;
+	  });
+	}
+
+	function getTouchIdentifier(e /*: MouseTouchEvent*/) /*: ?number*/ {
+	  if (e.targetTouches && e.targetTouches[0]) return e.targetTouches[0].identifier;
+	  if (e.changedTouches && e.changedTouches[0]) return e.changedTouches[0].identifier;
+	}
+
+	// User-select Hacks:
+	//
+	// Useful for preventing blue highlights all over everything when dragging.
+
+	// Note we're passing `document` b/c we could be iframed
+	function addUserSelectStyles(doc /*: ?Document*/) {
+	  if (!doc) return;
+	  var styleEl = doc.getElementById('react-draggable-style-el');
+	  if (!styleEl) {
+	    styleEl = doc.createElement('style');
+	    styleEl.type = 'text/css';
+	    styleEl.id = 'react-draggable-style-el';
+	    styleEl.innerHTML = '.react-draggable-transparent-selection *::-moz-selection {background: transparent;}\n';
+	    styleEl.innerHTML += '.react-draggable-transparent-selection *::selection {background: transparent;}\n';
+	    doc.getElementsByTagName('head')[0].appendChild(styleEl);
+	  }
+	  if (doc.body) addClassName(doc.body, 'react-draggable-transparent-selection');
+	}
+
+	function removeUserSelectStyles(doc /*: ?Document*/) {
+	  try {
+	    if (doc && doc.body) removeClassName(doc.body, 'react-draggable-transparent-selection');
+	    // $FlowIgnore: IE
+	    if (doc.selection) {
+	      // $FlowIgnore: IE
+	      doc.selection.empty();
+	    } else {
+	      window.getSelection().removeAllRanges(); // remove selection caused by scroll
+	    }
+	  } catch (e) {
+	    // probably IE
+	  }
+	}
+
+	function styleHacks() /*: Object*/ {
+	  var childStyle /*: Object*/ = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+	  // Workaround IE pointer events; see #51
+	  // https://github.com/mzabriskie/react-draggable/issues/51#issuecomment-103488278
+	  return _extends({
+	    touchAction: 'none'
+	  }, childStyle);
+	}
+
+	function addClassName(el /*: HTMLElement*/, className /*: string*/) {
+	  if (el.classList) {
+	    el.classList.add(className);
+	  } else {
+	    if (!el.className.match(new RegExp('(?:^|\\s)' + className + '(?!\\S)'))) {
+	      el.className += ' ' + className;
+	    }
+	  }
+	}
+
+	function removeClassName(el /*: HTMLElement*/, className /*: string*/) {
+	  if (el.classList) {
+	    el.classList.remove(className);
+	  } else {
+	    el.className = el.className.replace(new RegExp('(?:^|\\s)' + className + '(?!\\S)', 'g'), '');
+	  }
+	}
+
+	/*:: import type Draggable from '../Draggable';*/
+	/*:: import type {Bounds, ControlPosition, DraggableData, MouseTouchEvent} from './types';*/
+	/*:: import type DraggableCore from '../DraggableCore';*/
+
+
+	function getBoundPosition(draggable /*: Draggable*/, x /*: number*/, y /*: number*/) /*: [number, number]*/ {
+	  // If no bounds, short-circuit and move on
+	  if (!draggable.props.bounds) return [x, y];
+
+	  // Clone new bounds
+	  var bounds = draggable.props.bounds;
+
+	  bounds = typeof bounds === 'string' ? bounds : cloneBounds(bounds);
+	  var node = findDOMNode(draggable);
+
+	  if (typeof bounds === 'string') {
+	    var ownerDocument = node.ownerDocument;
+
+	    var ownerWindow = ownerDocument.defaultView;
+	    var boundNode = void 0;
+	    if (bounds === 'parent') {
+	      boundNode = node.parentNode;
+	    } else {
+	      boundNode = ownerDocument.querySelector(bounds);
+	    }
+	    if (!(boundNode instanceof ownerWindow.HTMLElement)) {
+	      throw new Error('Bounds selector "' + bounds + '" could not find an element.');
+	    }
+	    var nodeStyle = ownerWindow.getComputedStyle(node);
+	    var boundNodeStyle = ownerWindow.getComputedStyle(boundNode);
+	    // Compute bounds. This is a pain with padding and offsets but this gets it exactly right.
+	    bounds = {
+	      left: -node.offsetLeft + int(boundNodeStyle.paddingLeft) + int(nodeStyle.marginLeft),
+	      top: -node.offsetTop + int(boundNodeStyle.paddingTop) + int(nodeStyle.marginTop),
+	      right: innerWidth(boundNode) - outerWidth(node) - node.offsetLeft + int(boundNodeStyle.paddingRight) - int(nodeStyle.marginRight),
+	      bottom: innerHeight(boundNode) - outerHeight(node) - node.offsetTop + int(boundNodeStyle.paddingBottom) - int(nodeStyle.marginBottom)
+	    };
+	  }
+
+	  // Keep x and y below right and bottom limits...
+	  if (isNum(bounds.right)) x = Math.min(x, bounds.right);
+	  if (isNum(bounds.bottom)) y = Math.min(y, bounds.bottom);
+
+	  // But above left and top limits.
+	  if (isNum(bounds.left)) x = Math.max(x, bounds.left);
+	  if (isNum(bounds.top)) y = Math.max(y, bounds.top);
+
+	  return [x, y];
+	}
+
+	function snapToGrid(grid /*: [number, number]*/, pendingX /*: number*/, pendingY /*: number*/) /*: [number, number]*/ {
+	  var x = Math.round(pendingX / grid[0]) * grid[0];
+	  var y = Math.round(pendingY / grid[1]) * grid[1];
+	  return [x, y];
+	}
+
+	function canDragX(draggable /*: Draggable*/) /*: boolean*/ {
+	  return draggable.props.axis === 'both' || draggable.props.axis === 'x';
+	}
+
+	function canDragY(draggable /*: Draggable*/) /*: boolean*/ {
+	  return draggable.props.axis === 'both' || draggable.props.axis === 'y';
+	}
+
+	// Get {x, y} positions from event.
+	function getControlPosition(e /*: MouseTouchEvent*/, touchIdentifier /*: ?number*/, draggableCore /*: DraggableCore*/) /*: ?ControlPosition*/ {
+	  var touchObj = typeof touchIdentifier === 'number' ? getTouch(e, touchIdentifier) : null;
+	  if (typeof touchIdentifier === 'number' && !touchObj) return null; // not the right touch
+	  var node = findDOMNode(draggableCore);
+	  // User can provide an offsetParent if desired.
+	  var offsetParent = draggableCore.props.offsetParent || node.offsetParent || node.ownerDocument.body;
+	  return offsetXYFromParent(touchObj || e, offsetParent);
+	}
+
+	// Create an data object exposed by <DraggableCore>'s events
+	function createCoreData(draggable /*: DraggableCore*/, x /*: number*/, y /*: number*/) /*: DraggableData*/ {
+	  var state = draggable.state;
+	  var isStart = !isNum(state.lastX);
+	  var node = findDOMNode(draggable);
+
+	  if (isStart) {
+	    // If this is our first move, use the x and y as last coords.
+	    return {
+	      node: node,
+	      deltaX: 0, deltaY: 0,
+	      lastX: x, lastY: y,
+	      x: x, y: y
+	    };
+	  } else {
+	    // Otherwise calculate proper values.
+	    return {
+	      node: node,
+	      deltaX: x - state.lastX, deltaY: y - state.lastY,
+	      lastX: state.lastX, lastY: state.lastY,
+	      x: x, y: y
+	    };
+	  }
+	}
+
+	// Create an data exposed by <Draggable>'s events
+	function createDraggableData(draggable /*: Draggable*/, coreData /*: DraggableData*/) /*: DraggableData*/ {
+	  var scale = draggable.props.scale;
+	  return {
+	    node: coreData.node,
+	    x: draggable.state.x + coreData.deltaX / scale,
+	    y: draggable.state.y + coreData.deltaY / scale,
+	    deltaX: coreData.deltaX / scale,
+	    deltaY: coreData.deltaY / scale,
+	    lastX: draggable.state.x,
+	    lastY: draggable.state.y
+	  };
+	}
+
+	// A lot faster than stringify/parse
+	function cloneBounds(bounds /*: Bounds*/) /*: Bounds*/ {
+	  return {
+	    left: bounds.left,
+	    top: bounds.top,
+	    right: bounds.right,
+	    bottom: bounds.bottom
+	  };
+	}
+
+	function findDOMNode(draggable /*: Draggable | DraggableCore*/) /*: HTMLElement*/ {
+	  var node = ReactDOM.findDOMNode(draggable);
+	  if (!node) {
+	    throw new Error('<DraggableCore>: Unmounted during event!');
+	  }
+	  // $FlowIgnore we can't assert on HTMLElement due to tests... FIXME
+	  return node;
+	}
+
+	/*eslint no-console:0*/
+	function log() {
+	}
+
+	/*:: import type {EventHandler, MouseTouchEvent} from './utils/types';*/
+
+
+	// Simple abstraction for dragging events names.
+	/*:: import type {Element as ReactElement} from 'react';*/
+	var eventsFor = {
+	  touch: {
+	    start: 'touchstart',
+	    move: 'touchmove',
+	    stop: 'touchend'
+	  },
+	  mouse: {
+	    start: 'mousedown',
+	    move: 'mousemove',
+	    stop: 'mouseup'
+	  }
+	};
+
+	// Default to mouse events.
+	var dragEventFor = eventsFor.mouse;
+
+	/*:: type DraggableCoreState = {
+	  dragging: boolean,
+	  lastX: number,
+	  lastY: number,
+	  touchIdentifier: ?number
+	};*/
+	/*:: export type DraggableBounds = {
+	  left: number,
+	  right: number,
+	  top: number,
+	  bottom: number,
+	};*/
+	/*:: export type DraggableData = {
+	  node: HTMLElement,
+	  x: number, y: number,
+	  deltaX: number, deltaY: number,
+	  lastX: number, lastY: number,
+	};*/
+	/*:: export type DraggableEventHandler = (e: MouseEvent, data: DraggableData) => void;*/
+	/*:: export type ControlPosition = {x: number, y: number};*/
+
+
+	//
+	// Define <DraggableCore>.
+	//
+	// <DraggableCore> is for advanced usage of <Draggable>. It maintains minimal internal state so it can
+	// work well with libraries that require more control over the element.
+	//
+
+	/*:: export type DraggableCoreProps = {
+	  allowAnyClick: boolean,
+	  cancel: string,
+	  children: ReactElement<any>,
+	  disabled: boolean,
+	  enableUserSelectHack: boolean,
+	  offsetParent: HTMLElement,
+	  grid: [number, number],
+	  handle: string,
+	  onStart: DraggableEventHandler,
+	  onDrag: DraggableEventHandler,
+	  onStop: DraggableEventHandler,
+	  onMouseDown: (e: MouseEvent) => void,
+	};*/
+
+	var DraggableCore = function (_React$Component) {
+	  inherits(DraggableCore, _React$Component);
+
+	  function DraggableCore() {
+	    var _ref;
+
+	    var _temp, _this, _ret;
+
+	    classCallCheck(this, DraggableCore);
+
+	    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+	      args[_key] = arguments[_key];
+	    }
+
+	    return _ret = (_temp = (_this = possibleConstructorReturn(this, (_ref = DraggableCore.__proto__ || Object.getPrototypeOf(DraggableCore)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
+	      dragging: false,
+	      // Used while dragging to determine deltas.
+	      lastX: NaN, lastY: NaN,
+	      touchIdentifier: null
+	    }, _this.handleDragStart = function (e) {
+	      // Make it possible to attach event handlers on top of this one.
+	      _this.props.onMouseDown(e);
+
+	      // Only accept left-clicks.
+	      if (!_this.props.allowAnyClick && typeof e.button === 'number' && e.button !== 0) return false;
+
+	      // Get nodes. Be sure to grab relative document (could be iframed)
+	      var thisNode = ReactDOM.findDOMNode(_this);
+	      if (!thisNode || !thisNode.ownerDocument || !thisNode.ownerDocument.body) {
+	        throw new Error('<DraggableCore> not mounted on DragStart!');
+	      }
+	      var ownerDocument = thisNode.ownerDocument;
+
+	      // Short circuit if handle or cancel prop was provided and selector doesn't match.
+
+	      if (_this.props.disabled || !(e.target instanceof ownerDocument.defaultView.Node) || _this.props.handle && !matchesSelectorAndParentsTo(e.target, _this.props.handle, thisNode) || _this.props.cancel && matchesSelectorAndParentsTo(e.target, _this.props.cancel, thisNode)) {
+	        return;
+	      }
+
+	      // Set touch identifier in component state if this is a touch event. This allows us to
+	      // distinguish between individual touches on multitouch screens by identifying which
+	      // touchpoint was set to this element.
+	      var touchIdentifier = getTouchIdentifier(e);
+	      _this.setState({ touchIdentifier: touchIdentifier });
+
+	      // Get the current drag point from the event. This is used as the offset.
+	      var position = getControlPosition(e, touchIdentifier, _this);
+	      if (position == null) return; // not possible but satisfies flow
+	      var x = position.x,
+	          y = position.y;
+
+	      // Create an event object with all the data parents need to make a decision here.
+
+	      var coreEvent = createCoreData(_this, x, y);
+
+	      // Call event handler. If it returns explicit false, cancel.
+	      log('calling', _this.props.onStart);
+	      var shouldUpdate = _this.props.onStart(e, coreEvent);
+	      if (shouldUpdate === false) return;
+
+	      // Add a style to the body to disable user-select. This prevents text from
+	      // being selected all over the page.
+	      if (_this.props.enableUserSelectHack) addUserSelectStyles(ownerDocument);
+
+	      // Initiate dragging. Set the current x and y as offsets
+	      // so we know how much we've moved during the drag. This allows us
+	      // to drag elements around even if they have been moved, without issue.
+	      _this.setState({
+	        dragging: true,
+
+	        lastX: x,
+	        lastY: y
+	      });
+
+	      // Add events to the document directly so we catch when the user's mouse/touch moves outside of
+	      // this element. We use different events depending on whether or not we have detected that this
+	      // is a touch-capable device.
+	      addEvent(ownerDocument, dragEventFor.move, _this.handleDrag);
+	      addEvent(ownerDocument, dragEventFor.stop, _this.handleDragStop);
+	    }, _this.handleDrag = function (e) {
+
+	      // Prevent scrolling on mobile devices, like ipad/iphone.
+	      if (e.type === 'touchmove') e.preventDefault();
+
+	      // Get the current drag point from the event. This is used as the offset.
+	      var position = getControlPosition(e, _this.state.touchIdentifier, _this);
+	      if (position == null) return;
+	      var x = position.x,
+	          y = position.y;
+
+	      // Snap to grid if prop has been provided
+
+	      if (Array.isArray(_this.props.grid)) {
+	        var _deltaX = x - _this.state.lastX,
+	            _deltaY = y - _this.state.lastY;
+
+	        var _snapToGrid = snapToGrid(_this.props.grid, _deltaX, _deltaY);
+
+	        var _snapToGrid2 = slicedToArray(_snapToGrid, 2);
+
+	        _deltaX = _snapToGrid2[0];
+	        _deltaY = _snapToGrid2[1];
+
+	        if (!_deltaX && !_deltaY) return; // skip useless drag
+	        x = _this.state.lastX + _deltaX, y = _this.state.lastY + _deltaY;
+	      }
+
+	      var coreEvent = createCoreData(_this, x, y);
+
+	      // Call event handler. If it returns explicit false, trigger end.
+	      var shouldUpdate = _this.props.onDrag(e, coreEvent);
+	      if (shouldUpdate === false) {
+	        try {
+	          // $FlowIgnore
+	          _this.handleDragStop(new MouseEvent('mouseup'));
+	        } catch (err) {
+	          // Old browsers
+	          var event = ((document.createEvent('MouseEvents') /*: any*/) /*: MouseTouchEvent*/);
+	          // I see why this insanity was deprecated
+	          // $FlowIgnore
+	          event.initMouseEvent('mouseup', true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+	          _this.handleDragStop(event);
+	        }
+	        return;
+	      }
+
+	      _this.setState({
+	        lastX: x,
+	        lastY: y
+	      });
+	    }, _this.handleDragStop = function (e) {
+	      if (!_this.state.dragging) return;
+
+	      var position = getControlPosition(e, _this.state.touchIdentifier, _this);
+	      if (position == null) return;
+	      var x = position.x,
+	          y = position.y;
+
+	      var coreEvent = createCoreData(_this, x, y);
+
+	      var thisNode = ReactDOM.findDOMNode(_this);
+	      if (thisNode) {
+	        // Remove user-select hack
+	        if (_this.props.enableUserSelectHack) removeUserSelectStyles(thisNode.ownerDocument);
+	      }
+
+	      // Reset the el.
+	      _this.setState({
+	        dragging: false,
+	        lastX: NaN,
+	        lastY: NaN
+	      });
+
+	      // Call event handler
+	      _this.props.onStop(e, coreEvent);
+
+	      if (thisNode) {
+	        removeEvent(thisNode.ownerDocument, dragEventFor.move, _this.handleDrag);
+	        removeEvent(thisNode.ownerDocument, dragEventFor.stop, _this.handleDragStop);
+	      }
+	    }, _this.onMouseDown = function (e) {
+	      dragEventFor = eventsFor.mouse; // on touchscreen laptops we could switch back to mouse
+
+	      return _this.handleDragStart(e);
+	    }, _this.onMouseUp = function (e) {
+	      dragEventFor = eventsFor.mouse;
+
+	      return _this.handleDragStop(e);
+	    }, _this.onTouchStart = function (e) {
+	      // We're on a touch device now, so change the event handlers
+	      dragEventFor = eventsFor.touch;
+
+	      return _this.handleDragStart(e);
+	    }, _this.onTouchEnd = function (e) {
+	      // We're on a touch device now, so change the event handlers
+	      dragEventFor = eventsFor.touch;
+
+	      return _this.handleDragStop(e);
+	    }, _temp), possibleConstructorReturn(_this, _ret);
+	  }
+
+	  createClass(DraggableCore, [{
+	    key: 'componentWillUnmount',
+	    value: function componentWillUnmount() {
+	      // Remove any leftover event handlers. Remove both touch and mouse handlers in case
+	      // some browser quirk caused a touch event to fire during a mouse move, or vice versa.
+	      var thisNode = ReactDOM.findDOMNode(this);
+	      if (thisNode) {
+	        var ownerDocument = thisNode.ownerDocument;
+
+	        removeEvent(ownerDocument, eventsFor.mouse.move, this.handleDrag);
+	        removeEvent(ownerDocument, eventsFor.touch.move, this.handleDrag);
+	        removeEvent(ownerDocument, eventsFor.mouse.stop, this.handleDragStop);
+	        removeEvent(ownerDocument, eventsFor.touch.stop, this.handleDragStop);
+	        if (this.props.enableUserSelectHack) removeUserSelectStyles(ownerDocument);
+	      }
+	    }
+
+	    // Same as onMouseDown (start drag), but now consider this a touch device.
+
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      // Reuse the child provided
+	      // This makes it flexible to use whatever element is wanted (div, ul, etc)
+	      return React.cloneElement(React.Children.only(this.props.children), {
+	        style: styleHacks(this.props.children.props.style),
+
+	        // Note: mouseMove handler is attached to document so it will still function
+	        // when the user drags quickly and leaves the bounds of the element.
+	        onMouseDown: this.onMouseDown,
+	        onTouchStart: this.onTouchStart,
+	        onMouseUp: this.onMouseUp,
+	        onTouchEnd: this.onTouchEnd
+	      });
+	    }
+	  }]);
+	  return DraggableCore;
+	}(React.Component);
+
+	DraggableCore.displayName = 'DraggableCore';
+	DraggableCore.propTypes = {
+	  /**
+	   * `allowAnyClick` allows dragging using any mouse button.
+	   * By default, we only accept the left button.
+	   *
+	   * Defaults to `false`.
+	   */
+	  allowAnyClick: propTypes.bool,
+
+	  /**
+	   * `disabled`, if true, stops the <Draggable> from dragging. All handlers,
+	   * with the exception of `onMouseDown`, will not fire.
+	   */
+	  disabled: propTypes.bool,
+
+	  /**
+	   * By default, we add 'user-select:none' attributes to the document body
+	   * to prevent ugly text selection during drag. If this is causing problems
+	   * for your app, set this to `false`.
+	   */
+	  enableUserSelectHack: propTypes.bool,
+
+	  /**
+	   * `offsetParent`, if set, uses the passed DOM node to compute drag offsets
+	   * instead of using the parent node.
+	   */
+	  offsetParent: function offsetParent(props /*: DraggableCoreProps*/, propName /*: $Keys<DraggableCoreProps>*/) {
+	    if (props[propName] && props[propName].nodeType !== 1) {
+	      throw new Error('Draggable\'s offsetParent must be a DOM Node.');
+	    }
+	  },
+
+	  /**
+	   * `grid` specifies the x and y that dragging should snap to.
+	   */
+	  grid: propTypes.arrayOf(propTypes.number),
+
+	  /**
+	   * `scale` specifies the scale of the area you are dragging inside of. It allows
+	   * the drag deltas to scale correctly with how far zoomed in/out you are.
+	   */
+	  scale: propTypes.number,
+
+	  /**
+	   * `handle` specifies a selector to be used as the handle that initiates drag.
+	   *
+	   * Example:
+	   *
+	   * ```jsx
+	   *   let App = React.createClass({
+	   *       render: function () {
+	   *         return (
+	   *            <Draggable handle=".handle">
+	   *              <div>
+	   *                  <div className="handle">Click me to drag</div>
+	   *                  <div>This is some other content</div>
+	   *              </div>
+	   *           </Draggable>
+	   *         );
+	   *       }
+	   *   });
+	   * ```
+	   */
+	  handle: propTypes.string,
+
+	  /**
+	   * `cancel` specifies a selector to be used to prevent drag initialization.
+	   *
+	   * Example:
+	   *
+	   * ```jsx
+	   *   let App = React.createClass({
+	   *       render: function () {
+	   *           return(
+	   *               <Draggable cancel=".cancel">
+	   *                   <div>
+	   *                     <div className="cancel">You can't drag from here</div>
+	   *                     <div>Dragging here works fine</div>
+	   *                   </div>
+	   *               </Draggable>
+	   *           );
+	   *       }
+	   *   });
+	   * ```
+	   */
+	  cancel: propTypes.string,
+
+	  /**
+	   * Called when dragging starts.
+	   * If this function returns the boolean false, dragging will be canceled.
+	   */
+	  onStart: propTypes.func,
+
+	  /**
+	   * Called while dragging.
+	   * If this function returns the boolean false, dragging will be canceled.
+	   */
+	  onDrag: propTypes.func,
+
+	  /**
+	   * Called when dragging stops.
+	   * If this function returns the boolean false, the drag will remain active.
+	   */
+	  onStop: propTypes.func,
+
+	  /**
+	   * A workaround option which can be passed if onMouseDown needs to be accessed,
+	   * since it'll always be blocked (as there is internal use of onMouseDown)
+	   */
+	  onMouseDown: propTypes.func,
+
+	  /**
+	   * These properties should be defined on the child, not here.
+	   */
+	  className: dontSetMe,
+	  style: dontSetMe,
+	  transform: dontSetMe
+	};
+	DraggableCore.defaultProps = {
+	  allowAnyClick: false, // by default only accept left click
+	  cancel: null,
+	  disabled: false,
+	  enableUserSelectHack: true,
+	  offsetParent: null,
+	  handle: null,
+	  grid: null,
+	  transform: null,
+	  onStart: function onStart() {},
+	  onDrag: function onDrag() {},
+	  onStop: function onStop() {},
+	  onMouseDown: function onMouseDown() {}
+	};
+
+	/*:: import type {DraggableEventHandler} from './utils/types';*/
+	/*:: import type {Element as ReactElement} from 'react';*/
+	/*:: type DraggableState = {
+	  dragging: boolean,
+	  dragged: boolean,
+	  x: number, y: number,
+	  slackX: number, slackY: number,
+	  isElementSVG: boolean
+	};*/
+
+
+	//
+	// Define <Draggable>
+	//
+
+	/*:: export type DraggableProps = {
+	  ...$Exact<DraggableCoreProps>,
+	  axis: 'both' | 'x' | 'y' | 'none',
+	  bounds: DraggableBounds | string | false,
+	  defaultClassName: string,
+	  defaultClassNameDragging: string,
+	  defaultClassNameDragged: string,
+	  defaultPosition: ControlPosition,
+	  position: ControlPosition,
+	  scale: number
+	};*/
+
+	var Draggable = function (_React$Component) {
+	  inherits(Draggable, _React$Component);
+
+	  function Draggable(props /*: DraggableProps*/) {
+	    classCallCheck(this, Draggable);
+
+	    var _this = possibleConstructorReturn(this, (Draggable.__proto__ || Object.getPrototypeOf(Draggable)).call(this, props));
+
+	    _this.onDragStart = function (e, coreData) {
+
+	      // Short-circuit if user's callback killed it.
+	      var shouldStart = _this.props.onStart(e, createDraggableData(_this, coreData));
+	      // Kills start event on core as well, so move handlers are never bound.
+	      if (shouldStart === false) return false;
+
+	      _this.setState({ dragging: true, dragged: true });
+	    };
+
+	    _this.onDrag = function (e, coreData) {
+	      if (!_this.state.dragging) return false;
+
+	      var uiData = createDraggableData(_this, coreData);
+
+	      var newState /*: $Shape<DraggableState>*/ = {
+	        x: uiData.x,
+	        y: uiData.y
+	      };
+
+	      // Keep within bounds.
+	      if (_this.props.bounds) {
+	        // Save original x and y.
+	        var _x = newState.x,
+	            _y = newState.y;
+
+	        // Add slack to the values used to calculate bound position. This will ensure that if
+	        // we start removing slack, the element won't react to it right away until it's been
+	        // completely removed.
+
+	        newState.x += _this.state.slackX;
+	        newState.y += _this.state.slackY;
+
+	        // Get bound position. This will ceil/floor the x and y within the boundaries.
+
+	        var _getBoundPosition = getBoundPosition(_this, newState.x, newState.y),
+	            _getBoundPosition2 = slicedToArray(_getBoundPosition, 2),
+	            newStateX = _getBoundPosition2[0],
+	            newStateY = _getBoundPosition2[1];
+
+	        newState.x = newStateX;
+	        newState.y = newStateY;
+
+	        // Recalculate slack by noting how much was shaved by the boundPosition handler.
+	        newState.slackX = _this.state.slackX + (_x - newState.x);
+	        newState.slackY = _this.state.slackY + (_y - newState.y);
+
+	        // Update the event we fire to reflect what really happened after bounds took effect.
+	        uiData.x = newState.x;
+	        uiData.y = newState.y;
+	        uiData.deltaX = newState.x - _this.state.x;
+	        uiData.deltaY = newState.y - _this.state.y;
+	      }
+
+	      // Short-circuit if user's callback killed it.
+	      var shouldUpdate = _this.props.onDrag(e, uiData);
+	      if (shouldUpdate === false) return false;
+
+	      _this.setState(newState);
+	    };
+
+	    _this.onDragStop = function (e, coreData) {
+	      if (!_this.state.dragging) return false;
+
+	      // Short-circuit if user's callback killed it.
+	      var shouldStop = _this.props.onStop(e, createDraggableData(_this, coreData));
+	      if (shouldStop === false) return false;
+
+	      var newState /*: $Shape<DraggableState>*/ = {
+	        dragging: false,
+	        slackX: 0,
+	        slackY: 0
+	      };
+
+	      // If this is a controlled component, the result of this operation will be to
+	      // revert back to the old position. We expect a handler on `onDragStop`, at the least.
+	      var controlled = Boolean(_this.props.position);
+	      if (controlled) {
+	        var _this$props$position = _this.props.position,
+	            _x2 = _this$props$position.x,
+	            _y2 = _this$props$position.y;
+
+	        newState.x = _x2;
+	        newState.y = _y2;
+	      }
+
+	      _this.setState(newState);
+	    };
+
+	    _this.state = {
+	      // Whether or not we are currently dragging.
+	      dragging: false,
+
+	      // Whether or not we have been dragged before.
+	      dragged: false,
+
+	      // Current transform x and y.
+	      x: props.position ? props.position.x : props.defaultPosition.x,
+	      y: props.position ? props.position.y : props.defaultPosition.y,
+
+	      // Used for compensating for out-of-bounds drags
+	      slackX: 0, slackY: 0,
+
+	      // Can only determine if SVG after mounting
+	      isElementSVG: false
+	    };
+	    return _this;
+	  }
+
+	  createClass(Draggable, [{
+	    key: 'componentWillMount',
+	    value: function componentWillMount() {
+	      if (this.props.position && !(this.props.onDrag || this.props.onStop)) {
+	        // eslint-disable-next-line
+	        console.warn('A `position` was applied to this <Draggable>, without drag handlers. This will make this ' + 'component effectively undraggable. Please attach `onDrag` or `onStop` handlers so you can adjust the ' + '`position` of this element.');
+	      }
+	    }
+	  }, {
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      // Check to see if the element passed is an instanceof SVGElement
+	      if (typeof window.SVGElement !== 'undefined' && ReactDOM.findDOMNode(this) instanceof window.SVGElement) {
+	        this.setState({ isElementSVG: true });
+	      }
+	    }
+	  }, {
+	    key: 'componentWillReceiveProps',
+	    value: function componentWillReceiveProps(nextProps /*: Object*/) {
+	      // Set x/y if position has changed
+	      if (nextProps.position && (!this.props.position || nextProps.position.x !== this.props.position.x || nextProps.position.y !== this.props.position.y)) {
+	        this.setState({ x: nextProps.position.x, y: nextProps.position.y });
+	      }
+	    }
+	  }, {
+	    key: 'componentWillUnmount',
+	    value: function componentWillUnmount() {
+	      this.setState({ dragging: false }); // prevents invariant if unmounted while dragging
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() /*: ReactElement<any>*/ {
+	      var _classNames;
+
+	      var style = {},
+	          svgTransform = null;
+
+	      // If this is controlled, we don't want to move it - unless it's dragging.
+	      var controlled = Boolean(this.props.position);
+	      var draggable = !controlled || this.state.dragging;
+
+	      var position = this.props.position || this.props.defaultPosition;
+	      var transformOpts = {
+	        // Set left if horizontal drag is enabled
+	        x: canDragX(this) && draggable ? this.state.x : position.x,
+
+	        // Set top if vertical drag is enabled
+	        y: canDragY(this) && draggable ? this.state.y : position.y
+	      };
+
+	      // If this element was SVG, we use the `transform` attribute.
+	      if (this.state.isElementSVG) {
+	        svgTransform = createSVGTransform(transformOpts);
+	      } else {
+	        // Add a CSS transform to move the element around. This allows us to move the element around
+	        // without worrying about whether or not it is relatively or absolutely positioned.
+	        // If the item you are dragging already has a transform set, wrap it in a <span> so <Draggable>
+	        // has a clean slate.
+	        style = createCSSTransform(transformOpts);
+	      }
+
+	      var _props = this.props,
+	          defaultClassName = _props.defaultClassName,
+	          defaultClassNameDragging = _props.defaultClassNameDragging,
+	          defaultClassNameDragged = _props.defaultClassNameDragged;
+
+
+	      var children = React.Children.only(this.props.children);
+
+	      // Mark with class while dragging
+	      var className = classnames(children.props.className || '', defaultClassName, (_classNames = {}, defineProperty(_classNames, defaultClassNameDragging, this.state.dragging), defineProperty(_classNames, defaultClassNameDragged, this.state.dragged), _classNames));
+
+	      // Reuse the child provided
+	      // This makes it flexible to use whatever element is wanted (div, ul, etc)
+	      return React.createElement(
+	        DraggableCore,
+	        _extends({}, this.props, { onStart: this.onDragStart, onDrag: this.onDrag, onStop: this.onDragStop }),
+	        React.cloneElement(children, {
+	          className: className,
+	          style: _extends({}, children.props.style, style),
+	          transform: svgTransform
+	        })
+	      );
+	    }
+	  }]);
+	  return Draggable;
+	}(React.Component);
+
+	Draggable.displayName = 'Draggable';
+	Draggable.propTypes = _extends({}, DraggableCore.propTypes, {
+
+	  /**
+	   * `axis` determines which axis the draggable can move.
+	   *
+	   *  Note that all callbacks will still return data as normal. This only
+	   *  controls flushing to the DOM.
+	   *
+	   * 'both' allows movement horizontally and vertically.
+	   * 'x' limits movement to horizontal axis.
+	   * 'y' limits movement to vertical axis.
+	   * 'none' limits all movement.
+	   *
+	   * Defaults to 'both'.
+	   */
+	  axis: propTypes.oneOf(['both', 'x', 'y', 'none']),
+
+	  /**
+	   * `bounds` determines the range of movement available to the element.
+	   * Available values are:
+	   *
+	   * 'parent' restricts movement within the Draggable's parent node.
+	   *
+	   * Alternatively, pass an object with the following properties, all of which are optional:
+	   *
+	   * {left: LEFT_BOUND, right: RIGHT_BOUND, bottom: BOTTOM_BOUND, top: TOP_BOUND}
+	   *
+	   * All values are in px.
+	   *
+	   * Example:
+	   *
+	   * ```jsx
+	   *   let App = React.createClass({
+	   *       render: function () {
+	   *         return (
+	   *            <Draggable bounds={{right: 300, bottom: 300}}>
+	   *              <div>Content</div>
+	   *           </Draggable>
+	   *         );
+	   *       }
+	   *   });
+	   * ```
+	   */
+	  bounds: propTypes.oneOfType([propTypes.shape({
+	    left: propTypes.number,
+	    right: propTypes.number,
+	    top: propTypes.number,
+	    bottom: propTypes.number
+	  }), propTypes.string, propTypes.oneOf([false])]),
+
+	  defaultClassName: propTypes.string,
+	  defaultClassNameDragging: propTypes.string,
+	  defaultClassNameDragged: propTypes.string,
+
+	  /**
+	   * `defaultPosition` specifies the x and y that the dragged item should start at
+	   *
+	   * Example:
+	   *
+	   * ```jsx
+	   *      let App = React.createClass({
+	   *          render: function () {
+	   *              return (
+	   *                  <Draggable defaultPosition={{x: 25, y: 25}}>
+	   *                      <div>I start with transformX: 25px and transformY: 25px;</div>
+	   *                  </Draggable>
+	   *              );
+	   *          }
+	   *      });
+	   * ```
+	   */
+	  defaultPosition: propTypes.shape({
+	    x: propTypes.number,
+	    y: propTypes.number
+	  }),
+
+	  /**
+	   * `position`, if present, defines the current position of the element.
+	   *
+	   *  This is similar to how form elements in React work - if no `position` is supplied, the component
+	   *  is uncontrolled.
+	   *
+	   * Example:
+	   *
+	   * ```jsx
+	   *      let App = React.createClass({
+	   *          render: function () {
+	   *              return (
+	   *                  <Draggable position={{x: 25, y: 25}}>
+	   *                      <div>I start with transformX: 25px and transformY: 25px;</div>
+	   *                  </Draggable>
+	   *              );
+	   *          }
+	   *      });
+	   * ```
+	   */
+	  position: propTypes.shape({
+	    x: propTypes.number,
+	    y: propTypes.number
+	  }),
+
+	  /**
+	   * These properties should be defined on the child, not here.
+	   */
+	  className: dontSetMe,
+	  style: dontSetMe,
+	  transform: dontSetMe
+	});
+	Draggable.defaultProps = _extends({}, DraggableCore.defaultProps, {
+	  axis: 'both',
+	  bounds: false,
+	  defaultClassName: 'react-draggable',
+	  defaultClassNameDragging: 'react-draggable-dragging',
+	  defaultClassNameDragged: 'react-draggable-dragged',
+	  defaultPosition: { x: 0, y: 0 },
+	  position: null,
+	  scale: 1
+	});
+
+	// Previous versions of this lib exported <Draggable> as the root export. As to not break
+	// them, or TypeScript, we export *both* as the root and as 'default'.
+	// See https://github.com/mzabriskie/react-draggable/pull/254
+	// and https://github.com/mzabriskie/react-draggable/issues/266
+	Draggable.default = Draggable;
+	Draggable.DraggableCore = DraggableCore;
+
+	return Draggable;
+
+})));
+
+
+},{"react":357,"react-dom":310}],312:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -44989,41 +49047,2146 @@ exports.withOptions = withOptions;
 exports.default = EventListener;
 
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/classCallCheck":312,"@babel/runtime/helpers/createClass":313,"@babel/runtime/helpers/extends":314,"@babel/runtime/helpers/getPrototypeOf":315,"@babel/runtime/helpers/inherits":316,"@babel/runtime/helpers/objectWithoutProperties":317,"@babel/runtime/helpers/possibleConstructorReturn":319,"@babel/runtime/helpers/typeof":321,"_process":217,"prop-types":326,"react":344,"warning":382}],311:[function(require,module,exports){
+},{"@babel/runtime/helpers/classCallCheck":314,"@babel/runtime/helpers/createClass":315,"@babel/runtime/helpers/extends":316,"@babel/runtime/helpers/getPrototypeOf":317,"@babel/runtime/helpers/inherits":318,"@babel/runtime/helpers/objectWithoutProperties":319,"@babel/runtime/helpers/possibleConstructorReturn":321,"@babel/runtime/helpers/typeof":323,"_process":218,"prop-types":328,"react":357,"warning":395}],313:[function(require,module,exports){
 arguments[4][2][0].apply(exports,arguments)
-},{"dup":2}],312:[function(require,module,exports){
+},{"dup":2}],314:[function(require,module,exports){
 arguments[4][3][0].apply(exports,arguments)
-},{"dup":3}],313:[function(require,module,exports){
+},{"dup":3}],315:[function(require,module,exports){
 arguments[4][4][0].apply(exports,arguments)
-},{"dup":4}],314:[function(require,module,exports){
+},{"dup":4}],316:[function(require,module,exports){
 arguments[4][6][0].apply(exports,arguments)
-},{"dup":6}],315:[function(require,module,exports){
+},{"dup":6}],317:[function(require,module,exports){
 arguments[4][7][0].apply(exports,arguments)
-},{"dup":7}],316:[function(require,module,exports){
+},{"dup":7}],318:[function(require,module,exports){
 arguments[4][8][0].apply(exports,arguments)
-},{"./setPrototypeOf":320,"dup":8}],317:[function(require,module,exports){
+},{"./setPrototypeOf":322,"dup":8}],319:[function(require,module,exports){
 arguments[4][13][0].apply(exports,arguments)
-},{"./objectWithoutPropertiesLoose":318,"dup":13}],318:[function(require,module,exports){
+},{"./objectWithoutPropertiesLoose":320,"dup":13}],320:[function(require,module,exports){
 arguments[4][14][0].apply(exports,arguments)
-},{"dup":14}],319:[function(require,module,exports){
+},{"dup":14}],321:[function(require,module,exports){
 arguments[4][15][0].apply(exports,arguments)
-},{"../helpers/typeof":321,"./assertThisInitialized":311,"dup":15}],320:[function(require,module,exports){
+},{"../helpers/typeof":323,"./assertThisInitialized":313,"dup":15}],322:[function(require,module,exports){
 arguments[4][16][0].apply(exports,arguments)
-},{"dup":16}],321:[function(require,module,exports){
+},{"dup":16}],323:[function(require,module,exports){
 arguments[4][18][0].apply(exports,arguments)
-},{"dup":18}],322:[function(require,module,exports){
+},{"dup":18}],324:[function(require,module,exports){
 arguments[4][72][0].apply(exports,arguments)
-},{"dup":72}],323:[function(require,module,exports){
+},{"dup":72}],325:[function(require,module,exports){
 arguments[4][73][0].apply(exports,arguments)
-},{"./lib/ReactPropTypesSecret":327,"_process":217,"dup":73}],324:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":329,"_process":218,"dup":73}],326:[function(require,module,exports){
 arguments[4][74][0].apply(exports,arguments)
-},{"./lib/ReactPropTypesSecret":327,"dup":74}],325:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":329,"dup":74}],327:[function(require,module,exports){
 arguments[4][75][0].apply(exports,arguments)
-},{"./checkPropTypes":323,"./lib/ReactPropTypesSecret":327,"_process":217,"dup":75,"object-assign":322}],326:[function(require,module,exports){
+},{"./checkPropTypes":325,"./lib/ReactPropTypesSecret":329,"_process":218,"dup":75,"object-assign":324}],328:[function(require,module,exports){
 arguments[4][76][0].apply(exports,arguments)
-},{"./factoryWithThrowingShims":324,"./factoryWithTypeCheckers":325,"_process":217,"dup":76}],327:[function(require,module,exports){
+},{"./factoryWithThrowingShims":326,"./factoryWithTypeCheckers":327,"_process":218,"dup":76}],329:[function(require,module,exports){
 arguments[4][77][0].apply(exports,arguments)
-},{"dup":77}],328:[function(require,module,exports){
+},{"dup":77}],330:[function(require,module,exports){
+"use strict";
+
+exports.__esModule = true;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = require("react");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = require("prop-types");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _reactDraggable = require("react-draggable");
+
+var _reactResizable = require("react-resizable");
+
+var _utils = require("./utils");
+
+var _classnames = require("classnames");
+
+var _classnames2 = _interopRequireDefault(_classnames);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/**
+ * An individual item within a ReactGridLayout.
+ */
+var GridItem = function (_React$Component) {
+  _inherits(GridItem, _React$Component);
+
+  function GridItem() {
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, GridItem);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.state = {
+      resizing: null,
+      dragging: null,
+      className: ""
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  // Helper for generating column width
+  GridItem.prototype.calcColWidth = function calcColWidth() {
+    var _props = this.props,
+        margin = _props.margin,
+        containerPadding = _props.containerPadding,
+        containerWidth = _props.containerWidth,
+        cols = _props.cols;
+
+    return (containerWidth - margin[0] * (cols - 1) - containerPadding[0] * 2) / cols;
+  };
+
+  /**
+   * Return position on the page given an x, y, w, h.
+   * left, top, width, height are all in pixels.
+   * @param  {Number}  x             X coordinate in grid units.
+   * @param  {Number}  y             Y coordinate in grid units.
+   * @param  {Number}  w             W coordinate in grid units.
+   * @param  {Number}  h             H coordinate in grid units.
+   * @return {Object}                Object containing coords.
+   */
+
+
+  GridItem.prototype.calcPosition = function calcPosition(x, y, w, h, state) {
+    var _props2 = this.props,
+        margin = _props2.margin,
+        containerPadding = _props2.containerPadding,
+        rowHeight = _props2.rowHeight;
+
+    var colWidth = this.calcColWidth();
+
+    var out = {
+      left: Math.round((colWidth + margin[0]) * x + containerPadding[0]),
+      top: Math.round((rowHeight + margin[1]) * y + containerPadding[1]),
+      // 0 * Infinity === NaN, which causes problems with resize constraints;
+      // Fix this if it occurs.
+      // Note we do it here rather than later because Math.round(Infinity) causes deopt
+      width: w === Infinity ? w : Math.round(colWidth * w + Math.max(0, w - 1) * margin[0]),
+      height: h === Infinity ? h : Math.round(rowHeight * h + Math.max(0, h - 1) * margin[1])
+    };
+
+    if (state && state.resizing) {
+      out.width = Math.round(state.resizing.width);
+      out.height = Math.round(state.resizing.height);
+    }
+
+    if (state && state.dragging) {
+      out.top = Math.round(state.dragging.top);
+      out.left = Math.round(state.dragging.left);
+    }
+
+    return out;
+  };
+
+  /**
+   * Translate x and y coordinates from pixels to grid units.
+   * @param  {Number} top  Top position (relative to parent) in pixels.
+   * @param  {Number} left Left position (relative to parent) in pixels.
+   * @return {Object} x and y in grid units.
+   */
+
+
+  GridItem.prototype.calcXY = function calcXY(top, left) {
+    var _props3 = this.props,
+        margin = _props3.margin,
+        cols = _props3.cols,
+        rowHeight = _props3.rowHeight,
+        w = _props3.w,
+        h = _props3.h,
+        maxRows = _props3.maxRows;
+
+    var colWidth = this.calcColWidth();
+
+    // left = colWidth * x + margin * (x + 1)
+    // l = cx + m(x+1)
+    // l = cx + mx + m
+    // l - m = cx + mx
+    // l - m = x(c + m)
+    // (l - m) / (c + m) = x
+    // x = (left - margin) / (coldWidth + margin)
+    var x = Math.round((left - margin[0]) / (colWidth + margin[0]));
+    var y = Math.round((top - margin[1]) / (rowHeight + margin[1]));
+
+    // Capping
+    x = Math.max(Math.min(x, cols - w), 0);
+    y = Math.max(Math.min(y, maxRows - h), 0);
+
+    return { x: x, y: y };
+  };
+
+  /**
+   * Given a height and width in pixel values, calculate grid units.
+   * @param  {Number} height Height in pixels.
+   * @param  {Number} width  Width in pixels.
+   * @return {Object} w, h as grid units.
+   */
+
+
+  GridItem.prototype.calcWH = function calcWH(_ref) {
+    var height = _ref.height,
+        width = _ref.width;
+    var _props4 = this.props,
+        margin = _props4.margin,
+        maxRows = _props4.maxRows,
+        cols = _props4.cols,
+        rowHeight = _props4.rowHeight,
+        x = _props4.x,
+        y = _props4.y;
+
+    var colWidth = this.calcColWidth();
+
+    // width = colWidth * w - (margin * (w - 1))
+    // ...
+    // w = (width + margin) / (colWidth + margin)
+    var w = Math.round((width + margin[0]) / (colWidth + margin[0]));
+    var h = Math.round((height + margin[1]) / (rowHeight + margin[1]));
+
+    // Capping
+    w = Math.max(Math.min(w, cols - x), 0);
+    h = Math.max(Math.min(h, maxRows - y), 0);
+    return { w: w, h: h };
+  };
+
+  /**
+   * This is where we set the grid item's absolute placement. It gets a little tricky because we want to do it
+   * well when server rendering, and the only way to do that properly is to use percentage width/left because
+   * we don't know exactly what the browser viewport is.
+   * Unfortunately, CSS Transforms, which are great for performance, break in this instance because a percentage
+   * left is relative to the item itself, not its container! So we cannot use them on the server rendering pass.
+   *
+   * @param  {Object} pos Position object with width, height, left, top.
+   * @return {Object}     Style object.
+   */
+
+
+  GridItem.prototype.createStyle = function createStyle(pos) {
+    var _props5 = this.props,
+        usePercentages = _props5.usePercentages,
+        containerWidth = _props5.containerWidth,
+        useCSSTransforms = _props5.useCSSTransforms;
+
+
+    var style = void 0;
+    // CSS Transforms support (default)
+    if (useCSSTransforms) {
+      style = (0, _utils.setTransform)(pos);
+    } else {
+      // top,left (slow)
+      style = (0, _utils.setTopLeft)(pos);
+
+      // This is used for server rendering.
+      if (usePercentages) {
+        style.left = (0, _utils.perc)(pos.left / containerWidth);
+        style.width = (0, _utils.perc)(pos.width / containerWidth);
+      }
+    }
+
+    return style;
+  };
+
+  /**
+   * Mix a Draggable instance into a child.
+   * @param  {Element} child    Child element.
+   * @return {Element}          Child wrapped in Draggable.
+   */
+
+
+  GridItem.prototype.mixinDraggable = function mixinDraggable(child) {
+    return _react2.default.createElement(
+      _reactDraggable.DraggableCore,
+      {
+        onStart: this.onDragHandler("onDragStart"),
+        onDrag: this.onDragHandler("onDrag"),
+        onStop: this.onDragHandler("onDragStop"),
+        handle: this.props.handle,
+        cancel: ".react-resizable-handle" + (this.props.cancel ? "," + this.props.cancel : "")
+      },
+      child
+    );
+  };
+
+  /**
+   * Mix a Resizable instance into a child.
+   * @param  {Element} child    Child element.
+   * @param  {Object} position  Position object (pixel values)
+   * @return {Element}          Child wrapped in Resizable.
+   */
+
+
+  GridItem.prototype.mixinResizable = function mixinResizable(child, position) {
+    var _props6 = this.props,
+        cols = _props6.cols,
+        x = _props6.x,
+        minW = _props6.minW,
+        minH = _props6.minH,
+        maxW = _props6.maxW,
+        maxH = _props6.maxH;
+
+    // This is the max possible width - doesn't go to infinity because of the width of the window
+
+    var maxWidth = this.calcPosition(0, 0, cols - x, 0).width;
+
+    // Calculate min/max constraints using our min & maxes
+    var mins = this.calcPosition(0, 0, minW, minH);
+    var maxes = this.calcPosition(0, 0, maxW, maxH);
+    var minConstraints = [mins.width, mins.height];
+    var maxConstraints = [Math.min(maxes.width, maxWidth), Math.min(maxes.height, Infinity)];
+    return _react2.default.createElement(
+      _reactResizable.Resizable,
+      {
+        width: position.width,
+        height: position.height,
+        minConstraints: minConstraints,
+        maxConstraints: maxConstraints,
+        onResizeStop: this.onResizeHandler("onResizeStop"),
+        onResizeStart: this.onResizeHandler("onResizeStart"),
+        onResize: this.onResizeHandler("onResize")
+      },
+      child
+    );
+  };
+
+  /**
+   * Wrapper around drag events to provide more useful data.
+   * All drag events call the function with the given handler name,
+   * with the signature (index, x, y).
+   *
+   * @param  {String} handlerName Handler name to wrap.
+   * @return {Function}           Handler function.
+   */
+
+
+  GridItem.prototype.onDragHandler = function onDragHandler(handlerName) {
+    var _this2 = this;
+
+    return function (e, _ref2) {
+      var node = _ref2.node,
+          deltaX = _ref2.deltaX,
+          deltaY = _ref2.deltaY;
+
+      var handler = _this2.props[handlerName];
+      if (!handler) return;
+
+      var newPosition = { top: 0, left: 0 };
+
+      // Get new XY
+      switch (handlerName) {
+        case "onDragStart":
+          {
+            // TODO: this wont work on nested parents
+            var offsetParent = node.offsetParent;
+
+            if (!offsetParent) return;
+            var parentRect = offsetParent.getBoundingClientRect();
+            var clientRect = node.getBoundingClientRect();
+            newPosition.left = clientRect.left - parentRect.left + offsetParent.scrollLeft;
+            newPosition.top = clientRect.top - parentRect.top + offsetParent.scrollTop;
+            _this2.setState({ dragging: newPosition });
+            break;
+          }
+        case "onDrag":
+          if (!_this2.state.dragging) throw new Error("onDrag called before onDragStart.");
+          newPosition.left = _this2.state.dragging.left + deltaX;
+          newPosition.top = _this2.state.dragging.top + deltaY;
+          _this2.setState({ dragging: newPosition });
+          break;
+        case "onDragStop":
+          if (!_this2.state.dragging) throw new Error("onDragEnd called before onDragStart.");
+          newPosition.left = _this2.state.dragging.left;
+          newPosition.top = _this2.state.dragging.top;
+          _this2.setState({ dragging: null });
+          break;
+        default:
+          throw new Error("onDragHandler called with unrecognized handlerName: " + handlerName);
+      }
+
+      var _calcXY = _this2.calcXY(newPosition.top, newPosition.left),
+          x = _calcXY.x,
+          y = _calcXY.y;
+
+      return handler.call(_this2, _this2.props.i, x, y, { e: e, node: node, newPosition: newPosition });
+    };
+  };
+
+  /**
+   * Wrapper around drag events to provide more useful data.
+   * All drag events call the function with the given handler name,
+   * with the signature (index, x, y).
+   *
+   * @param  {String} handlerName Handler name to wrap.
+   * @return {Function}           Handler function.
+   */
+
+
+  GridItem.prototype.onResizeHandler = function onResizeHandler(handlerName) {
+    var _this3 = this;
+
+    return function (e, _ref3) {
+      var node = _ref3.node,
+          size = _ref3.size;
+
+      var handler = _this3.props[handlerName];
+      if (!handler) return;
+      var _props7 = _this3.props,
+          cols = _props7.cols,
+          x = _props7.x,
+          i = _props7.i,
+          maxW = _props7.maxW,
+          minW = _props7.minW,
+          maxH = _props7.maxH,
+          minH = _props7.minH;
+
+      // Get new XY
+
+      var _calcWH = _this3.calcWH(size),
+          w = _calcWH.w,
+          h = _calcWH.h;
+
+      // Cap w at numCols
+
+
+      w = Math.min(w, cols - x);
+      // Ensure w is at least 1
+      w = Math.max(w, 1);
+
+      // Min/max capping
+      w = Math.max(Math.min(w, maxW), minW);
+      h = Math.max(Math.min(h, maxH), minH);
+
+      _this3.setState({ resizing: handlerName === "onResizeStop" ? null : size });
+
+      handler.call(_this3, i, w, h, { e: e, node: node, size: size });
+    };
+  };
+
+  GridItem.prototype.render = function render() {
+    var _props8 = this.props,
+        x = _props8.x,
+        y = _props8.y,
+        w = _props8.w,
+        h = _props8.h,
+        isDraggable = _props8.isDraggable,
+        isResizable = _props8.isResizable,
+        useCSSTransforms = _props8.useCSSTransforms;
+
+
+    var pos = this.calcPosition(x, y, w, h, this.state);
+    var child = _react2.default.Children.only(this.props.children);
+
+    // Create the child element. We clone the existing element but modify its className and style.
+    var newChild = _react2.default.cloneElement(child, {
+      className: (0, _classnames2.default)("react-grid-item", child.props.className, this.props.className, {
+        static: this.props.static,
+        resizing: Boolean(this.state.resizing),
+        "react-draggable": isDraggable,
+        "react-draggable-dragging": Boolean(this.state.dragging),
+        cssTransforms: useCSSTransforms
+      }),
+      // We can set the width and height on the child, but unfortunately we can't set the position.
+      style: _extends({}, this.props.style, child.props.style, this.createStyle(pos))
+    });
+
+    // Resizable support. This is usually on but the user can toggle it off.
+    if (isResizable) newChild = this.mixinResizable(newChild, pos);
+
+    // Draggable support. This is always on, except for with placeholders.
+    if (isDraggable) newChild = this.mixinDraggable(newChild);
+
+    return newChild;
+  };
+
+  return GridItem;
+}(_react2.default.Component);
+
+GridItem.propTypes = {
+  // Children must be only a single element
+  children: _propTypes2.default.element,
+
+  // General grid attributes
+  cols: _propTypes2.default.number.isRequired,
+  containerWidth: _propTypes2.default.number.isRequired,
+  rowHeight: _propTypes2.default.number.isRequired,
+  margin: _propTypes2.default.array.isRequired,
+  maxRows: _propTypes2.default.number.isRequired,
+  containerPadding: _propTypes2.default.array.isRequired,
+
+  // These are all in grid units
+  x: _propTypes2.default.number.isRequired,
+  y: _propTypes2.default.number.isRequired,
+  w: _propTypes2.default.number.isRequired,
+  h: _propTypes2.default.number.isRequired,
+
+  // All optional
+  minW: function minW(props, propName) {
+    var value = props[propName];
+    if (typeof value !== "number") return new Error("minWidth not Number");
+    if (value > props.w || value > props.maxW) return new Error("minWidth larger than item width/maxWidth");
+  },
+
+  maxW: function maxW(props, propName) {
+    var value = props[propName];
+    if (typeof value !== "number") return new Error("maxWidth not Number");
+    if (value < props.w || value < props.minW) return new Error("maxWidth smaller than item width/minWidth");
+  },
+
+  minH: function minH(props, propName) {
+    var value = props[propName];
+    if (typeof value !== "number") return new Error("minHeight not Number");
+    if (value > props.h || value > props.maxH) return new Error("minHeight larger than item height/maxHeight");
+  },
+
+  maxH: function maxH(props, propName) {
+    var value = props[propName];
+    if (typeof value !== "number") return new Error("maxHeight not Number");
+    if (value < props.h || value < props.minH) return new Error("maxHeight smaller than item height/minHeight");
+  },
+
+  // ID is nice to have for callbacks
+  i: _propTypes2.default.string.isRequired,
+
+  // Functions
+  onDragStop: _propTypes2.default.func,
+  onDragStart: _propTypes2.default.func,
+  onDrag: _propTypes2.default.func,
+  onResizeStop: _propTypes2.default.func,
+  onResizeStart: _propTypes2.default.func,
+  onResize: _propTypes2.default.func,
+
+  // Flags
+  isDraggable: _propTypes2.default.bool.isRequired,
+  isResizable: _propTypes2.default.bool.isRequired,
+  static: _propTypes2.default.bool,
+
+  // Use CSS transforms instead of top/left
+  useCSSTransforms: _propTypes2.default.bool.isRequired,
+
+  // Others
+  className: _propTypes2.default.string,
+  // Selector for draggable handle
+  handle: _propTypes2.default.string,
+  // Selector for draggable cancel (see react-draggable)
+  cancel: _propTypes2.default.string
+};
+GridItem.defaultProps = {
+  className: "",
+  cancel: "",
+  handle: "",
+  minH: 1,
+  minW: 1,
+  maxH: Infinity,
+  maxW: Infinity
+};
+exports.default = GridItem;
+},{"./utils":335,"classnames":114,"prop-types":222,"react":357,"react-draggable":311,"react-resizable":344}],331:[function(require,module,exports){
+(function (process){
+"use strict";
+
+exports.__esModule = true;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = require("react");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = require("prop-types");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _lodash = require("lodash.isequal");
+
+var _lodash2 = _interopRequireDefault(_lodash);
+
+var _classnames = require("classnames");
+
+var _classnames2 = _interopRequireDefault(_classnames);
+
+var _utils = require("./utils");
+
+var _GridItem = require("./GridItem");
+
+var _GridItem2 = _interopRequireDefault(_GridItem);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+// End Types
+
+/**
+ * A reactive, fluid grid layout with draggable, resizable components.
+ */
+
+// Types
+var ReactGridLayout = function (_React$Component) {
+  _inherits(ReactGridLayout, _React$Component);
+
+  // TODO publish internal ReactClass displayName transform
+  function ReactGridLayout(props, context) {
+    _classCallCheck(this, ReactGridLayout);
+
+    var _this = _possibleConstructorReturn(this, _React$Component.call(this, props, context));
+
+    _initialiseProps.call(_this);
+
+    (0, _utils.autoBindHandlers)(_this, ["onDragStart", "onDrag", "onDragStop", "onResizeStart", "onResize", "onResizeStop"]);
+    return _this;
+  }
+
+  ReactGridLayout.prototype.componentDidMount = function componentDidMount() {
+    this.setState({ mounted: true });
+    // Possibly call back with layout on mount. This should be done after correcting the layout width
+    // to ensure we don't rerender with the wrong width.
+    this.onLayoutMaybeChanged(this.state.layout, this.props.layout);
+  };
+
+  ReactGridLayout.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+    var newLayoutBase = void 0;
+    // Legacy support for compactType
+    // Allow parent to set layout directly.
+    if (!(0, _lodash2.default)(nextProps.layout, this.props.layout) || nextProps.compactType !== this.props.compactType) {
+      newLayoutBase = nextProps.layout;
+    } else if (!(0, _utils.childrenEqual)(this.props.children, nextProps.children)) {
+      // If children change, also regenerate the layout. Use our state
+      // as the base in case because it may be more up to date than
+      // what is in props.
+      newLayoutBase = this.state.layout;
+    }
+
+    // We need to regenerate the layout.
+    if (newLayoutBase) {
+      var newLayout = (0, _utils.synchronizeLayoutWithChildren)(newLayoutBase, nextProps.children, nextProps.cols, this.compactType(nextProps));
+      var _oldLayout = this.state.layout;
+      this.setState({ layout: newLayout });
+      this.onLayoutMaybeChanged(newLayout, _oldLayout);
+    }
+  };
+
+  /**
+   * Calculates a pixel value for the container.
+   * @return {String} Container height in pixels.
+   */
+
+
+  ReactGridLayout.prototype.containerHeight = function containerHeight() {
+    if (!this.props.autoSize) return;
+    var nbRow = (0, _utils.bottom)(this.state.layout);
+    var containerPaddingY = this.props.containerPadding ? this.props.containerPadding[1] : this.props.margin[1];
+    return nbRow * this.props.rowHeight + (nbRow - 1) * this.props.margin[1] + containerPaddingY * 2 + "px";
+  };
+
+  ReactGridLayout.prototype.compactType = function compactType(props) {
+    if (!props) props = this.props;
+    return props.verticalCompact === false ? null : props.compactType;
+  };
+
+  /**
+   * When dragging starts
+   * @param {String} i Id of the child
+   * @param {Number} x X position of the move
+   * @param {Number} y Y position of the move
+   * @param {Event} e The mousedown event
+   * @param {Element} node The current dragging DOM element
+   */
+
+
+  ReactGridLayout.prototype.onDragStart = function onDragStart(i, x, y, _ref) {
+    var e = _ref.e,
+        node = _ref.node;
+    var layout = this.state.layout;
+
+    var l = (0, _utils.getLayoutItem)(layout, i);
+    if (!l) return;
+
+    this.setState({
+      oldDragItem: (0, _utils.cloneLayoutItem)(l),
+      oldLayout: this.state.layout
+    });
+
+    return this.props.onDragStart(layout, l, l, null, e, node);
+  };
+
+  /**
+   * Each drag movement create a new dragelement and move the element to the dragged location
+   * @param {String} i Id of the child
+   * @param {Number} x X position of the move
+   * @param {Number} y Y position of the move
+   * @param {Event} e The mousedown event
+   * @param {Element} node The current dragging DOM element
+   */
+
+
+  ReactGridLayout.prototype.onDrag = function onDrag(i, x, y, _ref2) {
+    var e = _ref2.e,
+        node = _ref2.node;
+    var oldDragItem = this.state.oldDragItem;
+    var layout = this.state.layout;
+    var cols = this.props.cols;
+
+    var l = (0, _utils.getLayoutItem)(layout, i);
+    if (!l) return;
+
+    // Create placeholder (display only)
+    var placeholder = {
+      w: l.w,
+      h: l.h,
+      x: l.x,
+      y: l.y,
+      placeholder: true,
+      i: i
+    };
+
+    // Move the element to the dragged location.
+    var isUserAction = true;
+    layout = (0, _utils.moveElement)(layout, l, x, y, isUserAction, this.props.preventCollision, this.compactType(), cols);
+
+    this.props.onDrag(layout, oldDragItem, l, placeholder, e, node);
+
+    this.setState({
+      layout: (0, _utils.compact)(layout, this.compactType(), cols),
+      activeDrag: placeholder
+    });
+  };
+
+  /**
+   * When dragging stops, figure out which position the element is closest to and update its x and y.
+   * @param  {String} i Index of the child.
+   * @param {Number} x X position of the move
+   * @param {Number} y Y position of the move
+   * @param {Event} e The mousedown event
+   * @param {Element} node The current dragging DOM element
+   */
+
+
+  ReactGridLayout.prototype.onDragStop = function onDragStop(i, x, y, _ref3) {
+    var e = _ref3.e,
+        node = _ref3.node;
+    var oldDragItem = this.state.oldDragItem;
+    var layout = this.state.layout;
+    var _props = this.props,
+        cols = _props.cols,
+        preventCollision = _props.preventCollision;
+
+    var l = (0, _utils.getLayoutItem)(layout, i);
+    if (!l) return;
+
+    // Move the element here
+    var isUserAction = true;
+    layout = (0, _utils.moveElement)(layout, l, x, y, isUserAction, preventCollision, this.compactType(), cols);
+
+    this.props.onDragStop(layout, oldDragItem, l, null, e, node);
+
+    // Set state
+    var newLayout = (0, _utils.compact)(layout, this.compactType(), cols);
+    var oldLayout = this.state.oldLayout;
+
+    this.setState({
+      activeDrag: null,
+      layout: newLayout,
+      oldDragItem: null,
+      oldLayout: null
+    });
+
+    this.onLayoutMaybeChanged(newLayout, oldLayout);
+  };
+
+  ReactGridLayout.prototype.onLayoutMaybeChanged = function onLayoutMaybeChanged(newLayout, oldLayout) {
+    if (!oldLayout) oldLayout = this.state.layout;
+    if (!(0, _lodash2.default)(oldLayout, newLayout)) {
+      this.props.onLayoutChange(newLayout);
+    }
+  };
+
+  ReactGridLayout.prototype.onResizeStart = function onResizeStart(i, w, h, _ref4) {
+    var e = _ref4.e,
+        node = _ref4.node;
+    var layout = this.state.layout;
+
+    var l = (0, _utils.getLayoutItem)(layout, i);
+    if (!l) return;
+
+    this.setState({
+      oldResizeItem: (0, _utils.cloneLayoutItem)(l),
+      oldLayout: this.state.layout
+    });
+
+    this.props.onResizeStart(layout, l, l, null, e, node);
+  };
+
+  ReactGridLayout.prototype.onResize = function onResize(i, w, h, _ref5) {
+    var e = _ref5.e,
+        node = _ref5.node;
+    var _state = this.state,
+        layout = _state.layout,
+        oldResizeItem = _state.oldResizeItem;
+    var _props2 = this.props,
+        cols = _props2.cols,
+        preventCollision = _props2.preventCollision;
+
+    var l = (0, _utils.getLayoutItem)(layout, i);
+    if (!l) return;
+
+    // Something like quad tree should be used
+    // to find collisions faster
+    var hasCollisions = void 0;
+    if (preventCollision) {
+      var collisions = (0, _utils.getAllCollisions)(layout, _extends({}, l, { w: w, h: h })).filter(function (layoutItem) {
+        return layoutItem.i !== l.i;
+      });
+      hasCollisions = collisions.length > 0;
+
+      // If we're colliding, we need adjust the placeholder.
+      if (hasCollisions) {
+        // adjust w && h to maximum allowed space
+        var leastX = Infinity,
+            leastY = Infinity;
+        collisions.forEach(function (layoutItem) {
+          if (layoutItem.x > l.x) leastX = Math.min(leastX, layoutItem.x);
+          if (layoutItem.y > l.y) leastY = Math.min(leastY, layoutItem.y);
+        });
+
+        if (Number.isFinite(leastX)) l.w = leastX - l.x;
+        if (Number.isFinite(leastY)) l.h = leastY - l.y;
+      }
+    }
+
+    if (!hasCollisions) {
+      // Set new width and height.
+      l.w = w;
+      l.h = h;
+    }
+
+    // Create placeholder element (display only)
+    var placeholder = {
+      w: l.w,
+      h: l.h,
+      x: l.x,
+      y: l.y,
+      static: true,
+      i: i
+    };
+
+    this.props.onResize(layout, oldResizeItem, l, placeholder, e, node);
+
+    // Re-compact the layout and set the drag placeholder.
+    this.setState({
+      layout: (0, _utils.compact)(layout, this.compactType(), cols),
+      activeDrag: placeholder
+    });
+  };
+
+  ReactGridLayout.prototype.onResizeStop = function onResizeStop(i, w, h, _ref6) {
+    var e = _ref6.e,
+        node = _ref6.node;
+    var _state2 = this.state,
+        layout = _state2.layout,
+        oldResizeItem = _state2.oldResizeItem;
+    var cols = this.props.cols;
+
+    var l = (0, _utils.getLayoutItem)(layout, i);
+
+    this.props.onResizeStop(layout, oldResizeItem, l, null, e, node);
+
+    // Set state
+    var newLayout = (0, _utils.compact)(layout, this.compactType(), cols);
+    var oldLayout = this.state.oldLayout;
+
+    this.setState({
+      activeDrag: null,
+      layout: newLayout,
+      oldResizeItem: null,
+      oldLayout: null
+    });
+
+    this.onLayoutMaybeChanged(newLayout, oldLayout);
+  };
+
+  /**
+   * Create a placeholder object.
+   * @return {Element} Placeholder div.
+   */
+
+
+  ReactGridLayout.prototype.placeholder = function placeholder() {
+    var activeDrag = this.state.activeDrag;
+
+    if (!activeDrag) return null;
+    var _props3 = this.props,
+        width = _props3.width,
+        cols = _props3.cols,
+        margin = _props3.margin,
+        containerPadding = _props3.containerPadding,
+        rowHeight = _props3.rowHeight,
+        maxRows = _props3.maxRows,
+        useCSSTransforms = _props3.useCSSTransforms;
+
+    // {...this.state.activeDrag} is pretty slow, actually
+
+    return _react2.default.createElement(
+      _GridItem2.default,
+      {
+        w: activeDrag.w,
+        h: activeDrag.h,
+        x: activeDrag.x,
+        y: activeDrag.y,
+        i: activeDrag.i,
+        className: "react-grid-placeholder",
+        containerWidth: width,
+        cols: cols,
+        margin: margin,
+        containerPadding: containerPadding || margin,
+        maxRows: maxRows,
+        rowHeight: rowHeight,
+        isDraggable: false,
+        isResizable: false,
+        useCSSTransforms: useCSSTransforms
+      },
+      _react2.default.createElement("div", null)
+    );
+  };
+
+  /**
+   * Given a grid item, set its style attributes & surround in a <Draggable>.
+   * @param  {Element} child React element.
+   * @return {Element}       Element wrapped in draggable and properly placed.
+   */
+
+
+  ReactGridLayout.prototype.processGridItem = function processGridItem(child) {
+    if (!child || !child.key) return;
+    var l = (0, _utils.getLayoutItem)(this.state.layout, String(child.key));
+    if (!l) return null;
+    var _props4 = this.props,
+        width = _props4.width,
+        cols = _props4.cols,
+        margin = _props4.margin,
+        containerPadding = _props4.containerPadding,
+        rowHeight = _props4.rowHeight,
+        maxRows = _props4.maxRows,
+        isDraggable = _props4.isDraggable,
+        isResizable = _props4.isResizable,
+        useCSSTransforms = _props4.useCSSTransforms,
+        draggableCancel = _props4.draggableCancel,
+        draggableHandle = _props4.draggableHandle;
+    var mounted = this.state.mounted;
+
+    // Parse 'static'. Any properties defined directly on the grid item will take precedence.
+
+    var draggable = Boolean(!l.static && isDraggable && (l.isDraggable || l.isDraggable == null));
+    var resizable = Boolean(!l.static && isResizable && (l.isResizable || l.isResizable == null));
+
+    return _react2.default.createElement(
+      _GridItem2.default,
+      {
+        containerWidth: width,
+        cols: cols,
+        margin: margin,
+        containerPadding: containerPadding || margin,
+        maxRows: maxRows,
+        rowHeight: rowHeight,
+        cancel: draggableCancel,
+        handle: draggableHandle,
+        onDragStop: this.onDragStop,
+        onDragStart: this.onDragStart,
+        onDrag: this.onDrag,
+        onResizeStart: this.onResizeStart,
+        onResize: this.onResize,
+        onResizeStop: this.onResizeStop,
+        isDraggable: draggable,
+        isResizable: resizable,
+        useCSSTransforms: useCSSTransforms && mounted,
+        usePercentages: !mounted,
+        w: l.w,
+        h: l.h,
+        x: l.x,
+        y: l.y,
+        i: l.i,
+        minH: l.minH,
+        minW: l.minW,
+        maxH: l.maxH,
+        maxW: l.maxW,
+        "static": l.static
+      },
+      child
+    );
+  };
+
+  ReactGridLayout.prototype.render = function render() {
+    var _this2 = this;
+
+    var _props5 = this.props,
+        className = _props5.className,
+        style = _props5.style;
+
+
+    var mergedClassName = (0, _classnames2.default)("react-grid-layout", className);
+    var mergedStyle = _extends({
+      height: this.containerHeight()
+    }, style);
+
+    return _react2.default.createElement(
+      "div",
+      { className: mergedClassName, style: mergedStyle },
+      _react2.default.Children.map(this.props.children, function (child) {
+        return _this2.processGridItem(child);
+      }),
+      this.placeholder()
+    );
+  };
+
+  return ReactGridLayout;
+}(_react2.default.Component);
+
+ReactGridLayout.displayName = "ReactGridLayout";
+ReactGridLayout.propTypes = {
+  //
+  // Basic props
+  //
+  className: _propTypes2.default.string,
+  style: _propTypes2.default.object,
+
+  // This can be set explicitly. If it is not set, it will automatically
+  // be set to the container width. Note that resizes will *not* cause this to adjust.
+  // If you need that behavior, use WidthProvider.
+  width: _propTypes2.default.number,
+
+  // If true, the container height swells and contracts to fit contents
+  autoSize: _propTypes2.default.bool,
+  // # of cols.
+  cols: _propTypes2.default.number,
+
+  // A selector that will not be draggable.
+  draggableCancel: _propTypes2.default.string,
+  // A selector for the draggable handler
+  draggableHandle: _propTypes2.default.string,
+
+  // Deprecated
+  verticalCompact: function verticalCompact(props) {
+    if (props.verticalCompact === false && process.env.NODE_ENV !== "production") {
+      console.warn(
+      // eslint-disable-line no-console
+      "`verticalCompact` on <ReactGridLayout> is deprecated and will be removed soon. " + 'Use `compactType`: "horizontal" | "vertical" | null.');
+    }
+  },
+  // Choose vertical or hotizontal compaction
+  compactType: _propTypes2.default.oneOf(["vertical", "horizontal"]),
+
+  // layout is an array of object with the format:
+  // {x: Number, y: Number, w: Number, h: Number, i: String}
+  layout: function layout(props) {
+    var layout = props.layout;
+    // I hope you're setting the data-grid property on the grid items
+    if (layout === undefined) return;
+    (0, _utils.validateLayout)(layout, "layout");
+  },
+
+  //
+  // Grid Dimensions
+  //
+
+  // Margin between items [x, y] in px
+  margin: _propTypes2.default.arrayOf(_propTypes2.default.number),
+  // Padding inside the container [x, y] in px
+  containerPadding: _propTypes2.default.arrayOf(_propTypes2.default.number),
+  // Rows have a static height, but you can change this based on breakpoints if you like
+  rowHeight: _propTypes2.default.number,
+  // Default Infinity, but you can specify a max here if you like.
+  // Note that this isn't fully fleshed out and won't error if you specify a layout that
+  // extends beyond the row capacity. It will, however, not allow users to drag/resize
+  // an item past the barrier. They can push items beyond the barrier, though.
+  // Intentionally not documented for this reason.
+  maxRows: _propTypes2.default.number,
+
+  //
+  // Flags
+  //
+  isDraggable: _propTypes2.default.bool,
+  isResizable: _propTypes2.default.bool,
+  // If true, grid items won't change position when being dragged over.
+  preventCollision: _propTypes2.default.bool,
+  // Use CSS transforms instead of top/left
+  useCSSTransforms: _propTypes2.default.bool,
+
+  //
+  // Callbacks
+  //
+
+  // Callback so you can save the layout. Calls after each drag & resize stops.
+  onLayoutChange: _propTypes2.default.func,
+
+  // Calls when drag starts. Callback is of the signature (layout, oldItem, newItem, placeholder, e, ?node).
+  // All callbacks below have the same signature. 'start' and 'stop' callbacks omit the 'placeholder'.
+  onDragStart: _propTypes2.default.func,
+  // Calls on each drag movement.
+  onDrag: _propTypes2.default.func,
+  // Calls when drag is complete.
+  onDragStop: _propTypes2.default.func,
+  //Calls when resize starts.
+  onResizeStart: _propTypes2.default.func,
+  // Calls when resize movement happens.
+  onResize: _propTypes2.default.func,
+  // Calls when resize is complete.
+  onResizeStop: _propTypes2.default.func,
+
+  //
+  // Other validations
+  //
+
+  // Children must not have duplicate keys.
+  children: function children(props, propName) {
+    var children = props[propName];
+
+    // Check children keys for duplicates. Throw if found.
+    var keys = {};
+    _react2.default.Children.forEach(children, function (child) {
+      if (keys[child.key]) {
+        throw new Error('Duplicate child key "' + child.key + '" found! This will cause problems in ReactGridLayout.');
+      }
+      keys[child.key] = true;
+    });
+  }
+};
+ReactGridLayout.defaultProps = {
+  autoSize: true,
+  cols: 12,
+  className: "",
+  style: {},
+  draggableHandle: "",
+  draggableCancel: "",
+  containerPadding: null,
+  rowHeight: 150,
+  maxRows: Infinity, // infinite vertical growth
+  layout: [],
+  margin: [10, 10],
+  isDraggable: true,
+  isResizable: true,
+  useCSSTransforms: true,
+  verticalCompact: true,
+  compactType: "vertical",
+  preventCollision: false,
+  onLayoutChange: _utils.noop,
+  onDragStart: _utils.noop,
+  onDrag: _utils.noop,
+  onDragStop: _utils.noop,
+  onResizeStart: _utils.noop,
+  onResize: _utils.noop,
+  onResizeStop: _utils.noop
+};
+
+var _initialiseProps = function _initialiseProps() {
+  this.state = {
+    activeDrag: null,
+    layout: (0, _utils.synchronizeLayoutWithChildren)(this.props.layout, this.props.children, this.props.cols,
+    // Legacy support for verticalCompact: false
+    this.compactType()),
+    mounted: false,
+    oldDragItem: null,
+    oldLayout: null,
+    oldResizeItem: null
+  };
+};
+
+exports.default = ReactGridLayout;
+}).call(this,require('_process'))
+},{"./GridItem":330,"./utils":335,"_process":218,"classnames":114,"lodash.isequal":212,"prop-types":222,"react":357}],332:[function(require,module,exports){
+"use strict";
+
+exports.__esModule = true;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = require("react");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = require("prop-types");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _lodash = require("lodash.isequal");
+
+var _lodash2 = _interopRequireDefault(_lodash);
+
+var _utils = require("./utils");
+
+var _responsiveUtils = require("./responsiveUtils");
+
+var _ReactGridLayout = require("./ReactGridLayout");
+
+var _ReactGridLayout2 = _interopRequireDefault(_ReactGridLayout);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var type = function type(obj) {
+  return Object.prototype.toString.call(obj);
+};
+
+var ResponsiveReactGridLayout = function (_React$Component) {
+  _inherits(ResponsiveReactGridLayout, _React$Component);
+
+  function ResponsiveReactGridLayout() {
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, ResponsiveReactGridLayout);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.state = _this.generateInitialState(), _this.onLayoutChange = function (layout) {
+      var _extends2;
+
+      _this.props.onLayoutChange(layout, _extends({}, _this.props.layouts, (_extends2 = {}, _extends2[_this.state.breakpoint] = layout, _extends2)));
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+  // This should only include propTypes needed in this code; RGL itself
+  // will do validation of the rest props passed to it.
+
+
+  ResponsiveReactGridLayout.prototype.generateInitialState = function generateInitialState() {
+    var _props = this.props,
+        width = _props.width,
+        breakpoints = _props.breakpoints,
+        layouts = _props.layouts,
+        cols = _props.cols;
+
+    var breakpoint = (0, _responsiveUtils.getBreakpointFromWidth)(breakpoints, width);
+    var colNo = (0, _responsiveUtils.getColsFromBreakpoint)(breakpoint, cols);
+    // verticalCompact compatibility, now deprecated
+    var compactType = this.props.verticalCompact === false ? null : this.props.compactType;
+    // Get the initial layout. This can tricky; we try to generate one however possible if one doesn't exist
+    // for this layout.
+    var initialLayout = (0, _responsiveUtils.findOrGenerateResponsiveLayout)(layouts, breakpoints, breakpoint, breakpoint, colNo, compactType);
+
+    return {
+      layout: initialLayout,
+      breakpoint: breakpoint,
+      cols: colNo
+    };
+  };
+
+  ResponsiveReactGridLayout.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+    // Allow parent to set width or breakpoint directly.
+    if (nextProps.width != this.props.width || nextProps.breakpoint !== this.props.breakpoint || !(0, _lodash2.default)(nextProps.breakpoints, this.props.breakpoints) || !(0, _lodash2.default)(nextProps.cols, this.props.cols)) {
+      this.onWidthChange(nextProps);
+    } else if (!(0, _lodash2.default)(nextProps.layouts, this.props.layouts)) {
+      // Allow parent to set layouts directly.
+      var _state = this.state,
+          _breakpoint = _state.breakpoint,
+          _cols = _state.cols;
+
+      // Since we're setting an entirely new layout object, we must generate a new responsive layout
+      // if one does not exist.
+
+      var newLayout = (0, _responsiveUtils.findOrGenerateResponsiveLayout)(nextProps.layouts, nextProps.breakpoints, _breakpoint, _breakpoint, _cols, nextProps.compactType);
+      this.setState({ layout: newLayout });
+    }
+  };
+
+  // wrap layouts so we do not need to pass layouts to child
+
+
+  /**
+   * When the width changes work through breakpoints and reset state with the new width & breakpoint.
+   * Width changes are necessary to figure out the widget widths.
+   */
+  ResponsiveReactGridLayout.prototype.onWidthChange = function onWidthChange(nextProps) {
+    var breakpoints = nextProps.breakpoints,
+        cols = nextProps.cols,
+        layouts = nextProps.layouts,
+        compactType = nextProps.compactType;
+
+    var newBreakpoint = nextProps.breakpoint || (0, _responsiveUtils.getBreakpointFromWidth)(nextProps.breakpoints, nextProps.width);
+
+    var lastBreakpoint = this.state.breakpoint;
+
+    // Breakpoint change
+    if (lastBreakpoint !== newBreakpoint || this.props.breakpoints !== breakpoints || this.props.cols !== cols) {
+      // Preserve the current layout if the current breakpoint is not present in the next layouts.
+      if (!(lastBreakpoint in layouts)) layouts[lastBreakpoint] = (0, _utils.cloneLayout)(this.state.layout);
+
+      // Find or generate a new layout.
+      var newCols = (0, _responsiveUtils.getColsFromBreakpoint)(newBreakpoint, cols);
+      var _layout = (0, _responsiveUtils.findOrGenerateResponsiveLayout)(layouts, breakpoints, newBreakpoint, lastBreakpoint, newCols, compactType);
+
+      // This adds missing items.
+      _layout = (0, _utils.synchronizeLayoutWithChildren)(_layout, nextProps.children, newCols, compactType);
+
+      // Store the new layout.
+      layouts[newBreakpoint] = _layout;
+
+      // callbacks
+      this.props.onLayoutChange(_layout, layouts);
+      this.props.onBreakpointChange(newBreakpoint, newCols);
+      this.props.onWidthChange(nextProps.width, nextProps.margin, newCols, nextProps.containerPadding);
+
+      this.setState({
+        breakpoint: newBreakpoint,
+        layout: _layout,
+        cols: newCols
+      });
+    }
+  };
+
+  ResponsiveReactGridLayout.prototype.render = function render() {
+    /* eslint-disable no-unused-vars */
+    var _props2 = this.props,
+        breakpoint = _props2.breakpoint,
+        breakpoints = _props2.breakpoints,
+        cols = _props2.cols,
+        layouts = _props2.layouts,
+        onBreakpointChange = _props2.onBreakpointChange,
+        onLayoutChange = _props2.onLayoutChange,
+        onWidthChange = _props2.onWidthChange,
+        other = _objectWithoutProperties(_props2, ["breakpoint", "breakpoints", "cols", "layouts", "onBreakpointChange", "onLayoutChange", "onWidthChange"]);
+    /* eslint-enable no-unused-vars */
+
+    return _react2.default.createElement(_ReactGridLayout2.default, _extends({}, other, {
+      onLayoutChange: this.onLayoutChange,
+      layout: this.state.layout,
+      cols: this.state.cols
+    }));
+  };
+
+  return ResponsiveReactGridLayout;
+}(_react2.default.Component);
+
+ResponsiveReactGridLayout.propTypes = {
+  //
+  // Basic props
+  //
+
+  // Optional, but if you are managing width yourself you may want to set the breakpoint
+  // yourself as well.
+  breakpoint: _propTypes2.default.string,
+
+  // {name: pxVal}, e.g. {lg: 1200, md: 996, sm: 768, xs: 480}
+  breakpoints: _propTypes2.default.object,
+
+  // # of cols. This is a breakpoint -> cols map
+  cols: _propTypes2.default.object,
+
+  // layouts is an object mapping breakpoints to layouts.
+  // e.g. {lg: Layout, md: Layout, ...}
+  layouts: function layouts(props, propName) {
+    if (type(props[propName]) !== "[object Object]") {
+      throw new Error("Layout property must be an object. Received: " + type(props[propName]));
+    }
+    Object.keys(props[propName]).forEach(function (key) {
+      if (!(key in props.breakpoints)) {
+        throw new Error("Each key in layouts must align with a key in breakpoints.");
+      }
+      (0, _utils.validateLayout)(props.layouts[key], "layouts." + key);
+    });
+  },
+
+
+  // The width of this component.
+  // Required in this propTypes stanza because generateInitialState() will fail without it.
+  width: _propTypes2.default.number.isRequired,
+
+  //
+  // Callbacks
+  //
+
+  // Calls back with breakpoint and new # cols
+  onBreakpointChange: _propTypes2.default.func,
+
+  // Callback so you can save the layout.
+  // Calls back with (currentLayout, allLayouts). allLayouts are keyed by breakpoint.
+  onLayoutChange: _propTypes2.default.func,
+
+  // Calls back with (containerWidth, margin, cols, containerPadding)
+  onWidthChange: _propTypes2.default.func
+};
+ResponsiveReactGridLayout.defaultProps = {
+  breakpoints: { lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0 },
+  cols: { lg: 12, md: 10, sm: 6, xs: 4, xxs: 2 },
+  layouts: {},
+  onBreakpointChange: _utils.noop,
+  onLayoutChange: _utils.noop,
+  onWidthChange: _utils.noop
+};
+exports.default = ResponsiveReactGridLayout;
+},{"./ReactGridLayout":331,"./responsiveUtils":334,"./utils":335,"lodash.isequal":212,"prop-types":222,"react":357}],333:[function(require,module,exports){
+"use strict";
+
+exports.__esModule = true;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+exports.default = WidthProvider;
+
+var _react = require("react");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = require("prop-types");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _reactDom = require("react-dom");
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/*
+ * A simple HOC that provides facility for listening to container resizes.
+ */
+function WidthProvider(ComposedComponent) {
+  var _class, _temp2;
+
+  return _temp2 = _class = function (_React$Component) {
+    _inherits(WidthProvider, _React$Component);
+
+    function WidthProvider() {
+      var _temp, _this, _ret;
+
+      _classCallCheck(this, WidthProvider);
+
+      for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+        args[_key] = arguments[_key];
+      }
+
+      return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.state = {
+        width: 1280
+      }, _this.mounted = false, _this.onWindowResize = function () {
+        if (!_this.mounted) return;
+        // eslint-disable-next-line
+        var node = _reactDom2.default.findDOMNode(_this); // Flow casts this to Text | Element
+        if (node instanceof HTMLElement) _this.setState({ width: node.offsetWidth });
+      }, _temp), _possibleConstructorReturn(_this, _ret);
+    }
+
+    WidthProvider.prototype.componentDidMount = function componentDidMount() {
+      this.mounted = true;
+
+      window.addEventListener("resize", this.onWindowResize);
+      // Call to properly set the breakpoint and resize the elements.
+      // Note that if you're doing a full-width element, this can get a little wonky if a scrollbar
+      // appears because of the grid. In that case, fire your own resize event, or set `overflow: scroll` on your body.
+      this.onWindowResize();
+    };
+
+    WidthProvider.prototype.componentWillUnmount = function componentWillUnmount() {
+      this.mounted = false;
+      window.removeEventListener("resize", this.onWindowResize);
+    };
+
+    WidthProvider.prototype.render = function render() {
+      var _props = this.props,
+          measureBeforeMount = _props.measureBeforeMount,
+          rest = _objectWithoutProperties(_props, ["measureBeforeMount"]);
+
+      if (measureBeforeMount && !this.mounted) {
+        return _react2.default.createElement("div", { className: this.props.className, style: this.props.style });
+      }
+
+      return _react2.default.createElement(ComposedComponent, _extends({}, rest, this.state));
+    };
+
+    return WidthProvider;
+  }(_react2.default.Component), _class.defaultProps = {
+    measureBeforeMount: false
+  }, _class.propTypes = {
+    // If true, will not render children until mounted. Useful for getting the exact width before
+    // rendering, to prevent any unsightly resizing.
+    measureBeforeMount: _propTypes2.default.bool
+  }, _temp2;
+}
+},{"prop-types":222,"react":357,"react-dom":310}],334:[function(require,module,exports){
+"use strict";
+
+exports.__esModule = true;
+exports.getBreakpointFromWidth = getBreakpointFromWidth;
+exports.getColsFromBreakpoint = getColsFromBreakpoint;
+exports.findOrGenerateResponsiveLayout = findOrGenerateResponsiveLayout;
+exports.sortBreakpoints = sortBreakpoints;
+
+var _utils = require("./utils");
+
+/**
+ * Given a width, find the highest breakpoint that matches is valid for it (width > breakpoint).
+ *
+ * @param  {Object} breakpoints Breakpoints object (e.g. {lg: 1200, md: 960, ...})
+ * @param  {Number} width Screen width.
+ * @return {String}       Highest breakpoint that is less than width.
+ */
+function getBreakpointFromWidth(breakpoints, width) {
+  var sorted = sortBreakpoints(breakpoints);
+  var matching = sorted[0];
+  for (var i = 1, len = sorted.length; i < len; i++) {
+    var breakpointName = sorted[i];
+    if (width > breakpoints[breakpointName]) matching = breakpointName;
+  }
+  return matching;
+}
+
+/**
+ * Given a breakpoint, get the # of cols set for it.
+ * @param  {String} breakpoint Breakpoint name.
+ * @param  {Object} cols       Map of breakpoints to cols.
+ * @return {Number}            Number of cols.
+ */
+
+
+function getColsFromBreakpoint(breakpoint, cols) {
+  if (!cols[breakpoint]) {
+    throw new Error("ResponsiveReactGridLayout: `cols` entry for breakpoint " + breakpoint + " is missing!");
+  }
+  return cols[breakpoint];
+}
+
+/**
+ * Given existing layouts and a new breakpoint, find or generate a new layout.
+ *
+ * This finds the layout above the new one and generates from it, if it exists.
+ *
+ * @param  {Object} layouts     Existing layouts.
+ * @param  {Array} breakpoints All breakpoints.
+ * @param  {String} breakpoint New breakpoint.
+ * @param  {String} breakpoint Last breakpoint (for fallback).
+ * @param  {Number} cols       Column count at new breakpoint.
+ * @param  {Boolean} verticalCompact Whether or not to compact the layout
+ *   vertically.
+ * @return {Array}             New layout.
+ */
+function findOrGenerateResponsiveLayout(layouts, breakpoints, breakpoint, lastBreakpoint, cols, compactType) {
+  // If it already exists, just return it.
+  if (layouts[breakpoint]) return (0, _utils.cloneLayout)(layouts[breakpoint]);
+  // Find or generate the next layout
+  var layout = layouts[lastBreakpoint];
+  var breakpointsSorted = sortBreakpoints(breakpoints);
+  var breakpointsAbove = breakpointsSorted.slice(breakpointsSorted.indexOf(breakpoint));
+  for (var i = 0, len = breakpointsAbove.length; i < len; i++) {
+    var b = breakpointsAbove[i];
+    if (layouts[b]) {
+      layout = layouts[b];
+      break;
+    }
+  }
+  layout = (0, _utils.cloneLayout)(layout || []); // clone layout so we don't modify existing items
+  return (0, _utils.compact)((0, _utils.correctBounds)(layout, { cols: cols }), compactType, cols);
+}
+
+/**
+ * Given breakpoints, return an array of breakpoints sorted by width. This is usually
+ * e.g. ['xxs', 'xs', 'sm', ...]
+ *
+ * @param  {Object} breakpoints Key/value pair of breakpoint names to widths.
+ * @return {Array}              Sorted breakpoints.
+ */
+function sortBreakpoints(breakpoints) {
+  var keys = Object.keys(breakpoints);
+  return keys.sort(function (a, b) {
+    return breakpoints[a] - breakpoints[b];
+  });
+}
+},{"./utils":335}],335:[function(require,module,exports){
+(function (process){
+"use strict";
+
+exports.__esModule = true;
+exports.noop = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+exports.bottom = bottom;
+exports.cloneLayout = cloneLayout;
+exports.cloneLayoutItem = cloneLayoutItem;
+exports.childrenEqual = childrenEqual;
+exports.collides = collides;
+exports.compact = compact;
+exports.compactItem = compactItem;
+exports.correctBounds = correctBounds;
+exports.getLayoutItem = getLayoutItem;
+exports.getFirstCollision = getFirstCollision;
+exports.getAllCollisions = getAllCollisions;
+exports.getStatics = getStatics;
+exports.moveElement = moveElement;
+exports.moveElementAwayFromCollision = moveElementAwayFromCollision;
+exports.perc = perc;
+exports.setTransform = setTransform;
+exports.setTopLeft = setTopLeft;
+exports.sortLayoutItems = sortLayoutItems;
+exports.sortLayoutItemsByRowCol = sortLayoutItemsByRowCol;
+exports.sortLayoutItemsByColRow = sortLayoutItemsByColRow;
+exports.synchronizeLayoutWithChildren = synchronizeLayoutWithChildren;
+exports.validateLayout = validateLayout;
+exports.autoBindHandlers = autoBindHandlers;
+
+var _lodash = require("lodash.isequal");
+
+var _lodash2 = _interopRequireDefault(_lodash);
+
+var _react = require("react");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// All callbacks are of the signature (layout, oldItem, newItem, placeholder, e).
+var isProduction = process.env.NODE_ENV === "production";
+var DEBUG = false;
+
+/**
+ * Return the bottom coordinate of the layout.
+ *
+ * @param  {Array} layout Layout array.
+ * @return {Number}       Bottom coordinate.
+ */
+function bottom(layout) {
+  var max = 0,
+      bottomY = void 0;
+  for (var _i = 0, len = layout.length; _i < len; _i++) {
+    bottomY = layout[_i].y + layout[_i].h;
+    if (bottomY > max) max = bottomY;
+  }
+  return max;
+}
+
+function cloneLayout(layout) {
+  var newLayout = Array(layout.length);
+  for (var _i2 = 0, len = layout.length; _i2 < len; _i2++) {
+    newLayout[_i2] = cloneLayoutItem(layout[_i2]);
+  }
+  return newLayout;
+}
+
+// Fast path to cloning, since this is monomorphic
+function cloneLayoutItem(layoutItem) {
+  return {
+    w: layoutItem.w,
+    h: layoutItem.h,
+    x: layoutItem.x,
+    y: layoutItem.y,
+    i: layoutItem.i,
+    minW: layoutItem.minW,
+    maxW: layoutItem.maxW,
+    minH: layoutItem.minH,
+    maxH: layoutItem.maxH,
+    moved: Boolean(layoutItem.moved),
+    static: Boolean(layoutItem.static),
+    // These can be null
+    isDraggable: layoutItem.isDraggable,
+    isResizable: layoutItem.isResizable
+  };
+}
+
+/**
+ * Comparing React `children` is a bit difficult. This is a good way to compare them.
+ * This will catch differences in keys, order, and length.
+ */
+function childrenEqual(a, b) {
+  return (0, _lodash2.default)(_react2.default.Children.map(a, function (c) {
+    return c.key;
+  }), _react2.default.Children.map(b, function (c) {
+    return c.key;
+  }));
+}
+
+/**
+ * Given two layoutitems, check if they collide.
+ */
+function collides(l1, l2) {
+  if (l1 === l2) return false; // same element
+  if (l1.x + l1.w <= l2.x) return false; // l1 is left of l2
+  if (l1.x >= l2.x + l2.w) return false; // l1 is right of l2
+  if (l1.y + l1.h <= l2.y) return false; // l1 is above l2
+  if (l1.y >= l2.y + l2.h) return false; // l1 is below l2
+  return true; // boxes overlap
+}
+
+/**
+ * Given a layout, compact it. This involves going down each y coordinate and removing gaps
+ * between items.
+ *
+ * @param  {Array} layout Layout.
+ * @param  {Boolean} verticalCompact Whether or not to compact the layout
+ *   vertically.
+ * @return {Array}       Compacted Layout.
+ */
+function compact(layout, compactType, cols) {
+  // Statics go in the compareWith array right away so items flow around them.
+  var compareWith = getStatics(layout);
+  // We go through the items by row and column.
+  var sorted = sortLayoutItems(layout, compactType);
+  // Holding for new items.
+  var out = Array(layout.length);
+
+  for (var _i3 = 0, len = sorted.length; _i3 < len; _i3++) {
+    var l = cloneLayoutItem(sorted[_i3]);
+
+    // Don't move static elements
+    if (!l.static) {
+      l = compactItem(compareWith, l, compactType, cols, sorted);
+
+      // Add to comparison array. We only collide with items before this one.
+      // Statics are already in this array.
+      compareWith.push(l);
+    }
+
+    // Add to output array to make sure they still come out in the right order.
+    out[layout.indexOf(sorted[_i3])] = l;
+
+    // Clear moved flag, if it exists.
+    l.moved = false;
+  }
+
+  return out;
+}
+
+var heightWidth = { x: "w", y: "h" };
+/**
+ * Before moving item down, it will check if the movement will cause collisions and move those items down before.
+ */
+function resolveCompactionCollision(layout, item, moveToCoord, axis) {
+  var sizeProp = heightWidth[axis];
+  item[axis] += 1;
+  var itemIndex = layout.indexOf(item);
+
+  // Go through each item we collide with.
+  for (var _i4 = itemIndex + 1; _i4 < layout.length; _i4++) {
+    var otherItem = layout[_i4];
+    // Ignore static items
+    if (otherItem.static) continue;
+
+    // Optimization: we can break early if we know we're past this el
+    // We can do this b/c it's a sorted layout
+    if (otherItem.y > item.y + item.h) break;
+
+    if (collides(item, otherItem)) {
+      resolveCompactionCollision(layout, otherItem, moveToCoord + item[sizeProp], axis);
+    }
+  }
+
+  item[axis] = moveToCoord;
+}
+
+/**
+ * Compact an item in the layout.
+ */
+function compactItem(compareWith, l, compactType, cols, fullLayout) {
+  var compactV = compactType === "vertical";
+  var compactH = compactType === "horizontal";
+  if (compactV) {
+    // Bottom 'y' possible is the bottom of the layout.
+    // This allows you to do nice stuff like specify {y: Infinity}
+    // This is here because the layout must be sorted in order to get the correct bottom `y`.
+    l.y = Math.min(bottom(compareWith), l.y);
+    // Move the element up as far as it can go without colliding.
+    while (l.y > 0 && !getFirstCollision(compareWith, l)) {
+      l.y--;
+    }
+  } else if (compactH) {
+    l.y = Math.min(bottom(compareWith), l.y);
+    // Move the element left as far as it can go without colliding.
+    while (l.x > 0 && !getFirstCollision(compareWith, l)) {
+      l.x--;
+    }
+  }
+
+  // Move it down, and keep moving it down if it's colliding.
+  var collides = void 0;
+  while (collides = getFirstCollision(compareWith, l)) {
+    if (compactH) {
+      resolveCompactionCollision(fullLayout, l, collides.x + collides.w, "x");
+    } else {
+      resolveCompactionCollision(fullLayout, l, collides.y + collides.h, "y");
+    }
+    // Since we can't grow without bounds horizontally, if we've overflown, let's move it down and try again.
+    if (compactH && l.x + l.w > cols) {
+      l.x = cols - l.w;
+      l.y++;
+    }
+  }
+  return l;
+}
+
+/**
+ * Given a layout, make sure all elements fit within its bounds.
+ *
+ * @param  {Array} layout Layout array.
+ * @param  {Number} bounds Number of columns.
+ */
+function correctBounds(layout, bounds) {
+  var collidesWith = getStatics(layout);
+  for (var _i5 = 0, len = layout.length; _i5 < len; _i5++) {
+    var l = layout[_i5];
+    // Overflows right
+    if (l.x + l.w > bounds.cols) l.x = bounds.cols - l.w;
+    // Overflows left
+    if (l.x < 0) {
+      l.x = 0;
+      l.w = bounds.cols;
+    }
+    if (!l.static) collidesWith.push(l);else {
+      // If this is static and collides with other statics, we must move it down.
+      // We have to do something nicer than just letting them overlap.
+      while (getFirstCollision(collidesWith, l)) {
+        l.y++;
+      }
+    }
+  }
+  return layout;
+}
+
+/**
+ * Get a layout item by ID. Used so we can override later on if necessary.
+ *
+ * @param  {Array}  layout Layout array.
+ * @param  {String} id     ID
+ * @return {LayoutItem}    Item at ID.
+ */
+function getLayoutItem(layout, id) {
+  for (var _i6 = 0, len = layout.length; _i6 < len; _i6++) {
+    if (layout[_i6].i === id) return layout[_i6];
+  }
+}
+
+/**
+ * Returns the first item this layout collides with.
+ * It doesn't appear to matter which order we approach this from, although
+ * perhaps that is the wrong thing to do.
+ *
+ * @param  {Object} layoutItem Layout item.
+ * @return {Object|undefined}  A colliding layout item, or undefined.
+ */
+function getFirstCollision(layout, layoutItem) {
+  for (var _i7 = 0, len = layout.length; _i7 < len; _i7++) {
+    if (collides(layout[_i7], layoutItem)) return layout[_i7];
+  }
+}
+
+function getAllCollisions(layout, layoutItem) {
+  return layout.filter(function (l) {
+    return collides(l, layoutItem);
+  });
+}
+
+/**
+ * Get all static elements.
+ * @param  {Array} layout Array of layout objects.
+ * @return {Array}        Array of static layout items..
+ */
+function getStatics(layout) {
+  return layout.filter(function (l) {
+    return l.static;
+  });
+}
+
+/**
+ * Move an element. Responsible for doing cascading movements of other elements.
+ *
+ * @param  {Array}      layout            Full layout to modify.
+ * @param  {LayoutItem} l                 element to move.
+ * @param  {Number}     [x]               X position in grid units.
+ * @param  {Number}     [y]               Y position in grid units.
+ */
+function moveElement(layout, l, x, y, isUserAction, preventCollision, compactType, cols) {
+  if (l.static) return layout;
+
+  // Short-circuit if nothing to do.
+  if (l.y === y && l.x === x) return layout;
+
+  log("Moving element " + l.i + " to [" + String(x) + "," + String(y) + "] from [" + l.x + "," + l.y + "]");
+  var oldX = l.x;
+  var oldY = l.y;
+
+  // This is quite a bit faster than extending the object
+  if (typeof x === 'number') l.x = x;
+  if (typeof y === 'number') l.y = y;
+  l.moved = true;
+
+  // If this collides with anything, move it.
+  // When doing this comparison, we have to sort the items we compare with
+  // to ensure, in the case of multiple collisions, that we're getting the
+  // nearest collision.
+  var sorted = sortLayoutItems(layout, compactType);
+  var movingUp = compactType === "vertical" && typeof y === 'number' ? oldY >= y : compactType === "horizontal" && typeof x === 'number' ? oldX >= x : false;
+  if (movingUp) sorted = sorted.reverse();
+  var collisions = getAllCollisions(sorted, l);
+
+  // There was a collision; abort
+  if (preventCollision && collisions.length) {
+    log("Collision prevented on " + l.i + ", reverting.");
+    l.x = oldX;
+    l.y = oldY;
+    l.moved = false;
+    return layout;
+  }
+
+  // Move each item that collides away from this element.
+  for (var _i8 = 0, len = collisions.length; _i8 < len; _i8++) {
+    var collision = collisions[_i8];
+    log("Resolving collision between " + l.i + " at [" + l.x + "," + l.y + "] and " + collision.i + " at [" + collision.x + "," + collision.y + "]");
+
+    // Short circuit so we can't infinite loop
+    if (collision.moved) continue;
+
+    // Don't move static items - we have to move *this* element away
+    if (collision.static) {
+      layout = moveElementAwayFromCollision(layout, collision, l, isUserAction, compactType, cols);
+    } else {
+      layout = moveElementAwayFromCollision(layout, l, collision, isUserAction, compactType, cols);
+    }
+  }
+
+  return layout;
+}
+
+/**
+ * This is where the magic needs to happen - given a collision, move an element away from the collision.
+ * We attempt to move it up if there's room, otherwise it goes below.
+ *
+ * @param  {Array} layout            Full layout to modify.
+ * @param  {LayoutItem} collidesWith Layout item we're colliding with.
+ * @param  {LayoutItem} itemToMove   Layout item we're moving.
+ */
+function moveElementAwayFromCollision(layout, collidesWith, itemToMove, isUserAction, compactType, cols) {
+  var compactH = compactType === "horizontal";
+  var compactV = compactType === "vertical";
+  var preventCollision = false; // we're already colliding
+
+  // If there is enough space above the collision to put this element, move it there.
+  // We only do this on the main collision as this can get funky in cascades and cause
+  // unwanted swapping behavior.
+  if (isUserAction) {
+    // Reset isUserAction flag because we're not in the main collision anymore.
+    isUserAction = false;
+
+    // Make a mock item so we don't modify the item here, only modify in moveElement.
+    var fakeItem = {
+      x: compactH ? Math.max(collidesWith.x - itemToMove.w, 0) : itemToMove.x,
+      y: compactV ? Math.max(collidesWith.y - itemToMove.h, 0) : itemToMove.y,
+      w: itemToMove.w,
+      h: itemToMove.h,
+      i: "-1"
+    };
+
+    // No collision? If so, we can go up there; otherwise, we'll end up moving down as normal
+    if (!getFirstCollision(layout, fakeItem)) {
+      log("Doing reverse collision on " + itemToMove.i + " up to [" + fakeItem.x + "," + fakeItem.y + "].");
+      return moveElement(layout, itemToMove, compactH ? fakeItem.x : undefined, compactV ? fakeItem.y : undefined, isUserAction, preventCollision, compactType, cols);
+    }
+  }
+
+  return moveElement(layout, itemToMove, compactH ? itemToMove.x + 1 : undefined, compactV ? itemToMove.y + 1 : undefined, isUserAction, preventCollision, compactType, cols);
+}
+
+/**
+ * Helper to convert a number to a percentage string.
+ *
+ * @param  {Number} num Any number
+ * @return {String}     That number as a percentage.
+ */
+function perc(num) {
+  return num * 100 + "%";
+}
+
+function setTransform(_ref) {
+  var top = _ref.top,
+      left = _ref.left,
+      width = _ref.width,
+      height = _ref.height;
+
+  // Replace unitless items with px
+  var translate = "translate(" + left + "px," + top + "px)";
+  return {
+    transform: translate,
+    WebkitTransform: translate,
+    MozTransform: translate,
+    msTransform: translate,
+    OTransform: translate,
+    width: width + "px",
+    height: height + "px",
+    position: "absolute"
+  };
+}
+
+function setTopLeft(_ref2) {
+  var top = _ref2.top,
+      left = _ref2.left,
+      width = _ref2.width,
+      height = _ref2.height;
+
+  return {
+    top: top + "px",
+    left: left + "px",
+    width: width + "px",
+    height: height + "px",
+    position: "absolute"
+  };
+}
+
+/**
+ * Get layout items sorted from top left to right and down.
+ *
+ * @return {Array} Array of layout objects.
+ * @return {Array}        Layout, sorted static items first.
+ */
+function sortLayoutItems(layout, compactType) {
+  if (compactType === "horizontal") return sortLayoutItemsByColRow(layout);else return sortLayoutItemsByRowCol(layout);
+}
+
+function sortLayoutItemsByRowCol(layout) {
+  return [].concat(layout).sort(function (a, b) {
+    if (a.y > b.y || a.y === b.y && a.x > b.x) {
+      return 1;
+    } else if (a.y === b.y && a.x === b.x) {
+      // Without this, we can get different sort results in IE vs. Chrome/FF
+      return 0;
+    }
+    return -1;
+  });
+}
+
+function sortLayoutItemsByColRow(layout) {
+  return [].concat(layout).sort(function (a, b) {
+    if (a.x > b.x || a.x === b.x && a.y > b.y) {
+      return 1;
+    }
+    return -1;
+  });
+}
+
+/**
+ * Generate a layout using the initialLayout and children as a template.
+ * Missing entries will be added, extraneous ones will be truncated.
+ *
+ * @param  {Array}  initialLayout Layout passed in through props.
+ * @param  {String} breakpoint    Current responsive breakpoint.
+ * @param  {?String} compact      Compaction option.
+ * @return {Array}                Working layout.
+ */
+function synchronizeLayoutWithChildren(initialLayout, children, cols, compactType) {
+  initialLayout = initialLayout || [];
+
+  // Generate one layout item per child.
+  var layout = [];
+  _react2.default.Children.forEach(children, function (child, i) {
+    // Don't overwrite if it already exists.
+    var exists = getLayoutItem(initialLayout, String(child.key));
+    if (exists) {
+      layout[i] = cloneLayoutItem(exists);
+    } else {
+      if (!isProduction && child.props._grid) {
+        console.warn("`_grid` properties on children have been deprecated as of React 15.2. " + // eslint-disable-line
+        "Please use `data-grid` or add your properties directly to the `layout`.");
+      }
+      var g = child.props["data-grid"] || child.props._grid;
+
+      // Hey, this item has a data-grid property, use it.
+      if (g) {
+        if (!isProduction) {
+          validateLayout([g], "ReactGridLayout.children");
+        }
+        layout[i] = cloneLayoutItem(_extends({}, g, { i: child.key }));
+      } else {
+        // Nothing provided: ensure this is added to the bottom
+        layout[i] = cloneLayoutItem({
+          w: 1,
+          h: 1,
+          x: 0,
+          y: bottom(layout),
+          i: String(child.key)
+        });
+      }
+    }
+  });
+
+  // Correct the layout.
+  layout = correctBounds(layout, { cols: cols });
+  layout = compact(layout, compactType, cols);
+
+  return layout;
+}
+
+/**
+ * Validate a layout. Throws errors.
+ *
+ * @param  {Array}  layout        Array of layout items.
+ * @param  {String} [contextName] Context name for errors.
+ * @throw  {Error}                Validation error.
+ */
+function validateLayout(layout) {
+  var contextName = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "Layout";
+
+  var subProps = ["x", "y", "w", "h"];
+  if (!Array.isArray(layout)) throw new Error(contextName + " must be an array!");
+  for (var _i9 = 0, len = layout.length; _i9 < len; _i9++) {
+    var item = layout[_i9];
+    for (var j = 0; j < subProps.length; j++) {
+      if (typeof item[subProps[j]] !== "number") {
+        throw new Error("ReactGridLayout: " + contextName + "[" + _i9 + "]." + subProps[j] + " must be a number!");
+      }
+    }
+    if (item.i && typeof item.i !== "string") {
+      throw new Error("ReactGridLayout: " + contextName + "[" + _i9 + "].i must be a string!");
+    }
+    if (item.static !== undefined && typeof item.static !== "boolean") {
+      throw new Error("ReactGridLayout: " + contextName + "[" + _i9 + "].static must be a boolean!");
+    }
+  }
+}
+
+// Flow can't really figure this out, so we just use Object
+function autoBindHandlers(el, fns) {
+  fns.forEach(function (key) {
+    return el[key] = el[key].bind(el);
+  });
+}
+
+function log() {
+  var _console;
+
+  if (!DEBUG) return;
+  // eslint-disable-next-line no-console
+  (_console = console).log.apply(_console, arguments);
+}
+
+var noop = exports.noop = function noop() {};
+}).call(this,require('_process'))
+},{"_process":218,"lodash.isequal":212,"react":357}],336:[function(require,module,exports){
+module.exports = require('./build/ReactGridLayout').default;
+module.exports.utils = require('./build/utils');
+module.exports.Responsive = require('./build/ResponsiveReactGridLayout').default;
+module.exports.Responsive.utils = require('./build/responsiveUtils');
+module.exports.WidthProvider = require('./build/components/WidthProvider').default;
+
+},{"./build/ReactGridLayout":331,"./build/ResponsiveReactGridLayout":332,"./build/components/WidthProvider":333,"./build/responsiveUtils":334,"./build/utils":335}],337:[function(require,module,exports){
 (function (process){
 /** @license React v16.6.1
  * react-is.development.js
@@ -45234,7 +51397,7 @@ exports.isStrictMode = isStrictMode;
 }
 
 }).call(this,require('_process'))
-},{"_process":217}],329:[function(require,module,exports){
+},{"_process":218}],338:[function(require,module,exports){
 /** @license React v16.6.1
  * react-is.production.min.js
  *
@@ -45250,7 +51413,7 @@ var b="function"===typeof Symbol&&Symbol.for,c=b?Symbol.for("react.element"):601
 exports.Profiler=g;exports.Portal=d;exports.StrictMode=f;exports.isValidElementType=function(a){return"string"===typeof a||"function"===typeof a||a===e||a===m||a===g||a===f||a===p||"object"===typeof a&&null!==a&&(a.$$typeof===t||a.$$typeof===r||a.$$typeof===h||a.$$typeof===k||a.$$typeof===n)};exports.isAsyncMode=function(a){return v(a)||u(a)===l};exports.isConcurrentMode=v;exports.isContextConsumer=function(a){return u(a)===k};exports.isContextProvider=function(a){return u(a)===h};
 exports.isElement=function(a){return"object"===typeof a&&null!==a&&a.$$typeof===c};exports.isForwardRef=function(a){return u(a)===n};exports.isFragment=function(a){return u(a)===e};exports.isProfiler=function(a){return u(a)===g};exports.isPortal=function(a){return u(a)===d};exports.isStrictMode=function(a){return u(a)===f};
 
-},{}],330:[function(require,module,exports){
+},{}],339:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -45261,7 +51424,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react-is.development.js":328,"./cjs/react-is.production.min.js":329,"_process":217}],331:[function(require,module,exports){
+},{"./cjs/react-is.development.js":337,"./cjs/react-is.production.min.js":338,"_process":218}],340:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', { value: true });
@@ -45425,7 +51588,422 @@ function polyfill(Component) {
 
 exports.polyfill = polyfill;
 
-},{}],332:[function(require,module,exports){
+},{}],341:[function(require,module,exports){
+'use strict';
+
+exports.__esModule = true;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _reactDraggable = require('react-draggable');
+
+var _cloneElement = require('./cloneElement');
+
+var _cloneElement2 = _interopRequireDefault(_cloneElement);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Resizable = function (_React$Component) {
+  _inherits(Resizable, _React$Component);
+
+  function Resizable() {
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, Resizable);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.state = {
+      resizing: false,
+      width: _this.props.width, height: _this.props.height,
+      slackW: 0, slackH: 0
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  Resizable.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+    // If parent changes height/width, set that in our state.
+    if (!this.state.resizing && (nextProps.width !== this.props.width || nextProps.height !== this.props.height)) {
+      this.setState({
+        width: nextProps.width,
+        height: nextProps.height
+      });
+    }
+  };
+
+  Resizable.prototype.lockAspectRatio = function lockAspectRatio(width, height, aspectRatio) {
+    height = width / aspectRatio;
+    width = height * aspectRatio;
+    return [width, height];
+  };
+
+  // If you do this, be careful of constraints
+
+
+  Resizable.prototype.runConstraints = function runConstraints(width, height) {
+    var _ref = [this.props.minConstraints, this.props.maxConstraints],
+        min = _ref[0],
+        max = _ref[1];
+
+
+    if (this.props.lockAspectRatio) {
+      var ratio = this.state.width / this.state.height;
+      height = width / ratio;
+      width = height * ratio;
+    }
+
+    if (!min && !max) return [width, height];
+
+    var oldW = width,
+        oldH = height;
+
+    // Add slack to the values used to calculate bound position. This will ensure that if
+    // we start removing slack, the element won't react to it right away until it's been
+    // completely removed.
+
+    var _state = this.state,
+        slackW = _state.slackW,
+        slackH = _state.slackH;
+
+    width += slackW;
+    height += slackH;
+
+    if (min) {
+      width = Math.max(min[0], width);
+      height = Math.max(min[1], height);
+    }
+    if (max) {
+      width = Math.min(max[0], width);
+      height = Math.min(max[1], height);
+    }
+
+    // If the numbers changed, we must have introduced some slack. Record it for the next iteration.
+    slackW += oldW - width;
+    slackH += oldH - height;
+    if (slackW !== this.state.slackW || slackH !== this.state.slackH) {
+      this.setState({ slackW: slackW, slackH: slackH });
+    }
+
+    return [width, height];
+  };
+
+  /**
+   * Wrapper around drag events to provide more useful data.
+   *
+   * @param  {String} handlerName Handler name to wrap.
+   * @return {Function}           Handler function.
+   */
+
+
+  Resizable.prototype.resizeHandler = function resizeHandler(handlerName) {
+    var _this2 = this;
+
+    return function (e, _ref2) {
+      var node = _ref2.node,
+          deltaX = _ref2.deltaX,
+          deltaY = _ref2.deltaY;
+
+
+      // Axis restrictions
+      var canDragX = _this2.props.axis === 'both' || _this2.props.axis === 'x';
+      var canDragY = _this2.props.axis === 'both' || _this2.props.axis === 'y';
+
+      // Update w/h
+      var width = _this2.state.width + (canDragX ? deltaX : 0);
+      var height = _this2.state.height + (canDragY ? deltaY : 0);
+
+      // Early return if no change
+      var widthChanged = width !== _this2.state.width,
+          heightChanged = height !== _this2.state.height;
+      if (handlerName === 'onResize' && !widthChanged && !heightChanged) return;
+
+      // Set the appropriate state for this handler.
+      var _runConstraints = _this2.runConstraints(width, height);
+
+      width = _runConstraints[0];
+      height = _runConstraints[1];
+      var newState = {};
+      if (handlerName === 'onResizeStart') {
+        newState.resizing = true;
+      } else if (handlerName === 'onResizeStop') {
+        newState.resizing = false;
+        newState.slackW = newState.slackH = 0;
+      } else {
+        // Early return if no change after constraints
+        if (width === _this2.state.width && height === _this2.state.height) return;
+        newState.width = width;
+        newState.height = height;
+      }
+
+      var hasCb = typeof _this2.props[handlerName] === 'function';
+      if (hasCb) {
+        if (typeof e.persist === 'function') e.persist();
+        _this2.setState(newState, function () {
+          return _this2.props[handlerName](e, { node: node, size: { width: width, height: height } });
+        });
+      } else {
+        _this2.setState(newState);
+      }
+    };
+  };
+
+  Resizable.prototype.render = function render() {
+    // eslint-disable-next-line no-unused-vars
+    var _props = this.props,
+        children = _props.children,
+        draggableOpts = _props.draggableOpts,
+        width = _props.width,
+        height = _props.height,
+        handleSize = _props.handleSize,
+        lockAspectRatio = _props.lockAspectRatio,
+        axis = _props.axis,
+        minConstraints = _props.minConstraints,
+        maxConstraints = _props.maxConstraints,
+        onResize = _props.onResize,
+        onResizeStop = _props.onResizeStop,
+        onResizeStart = _props.onResizeStart,
+        p = _objectWithoutProperties(_props, ['children', 'draggableOpts', 'width', 'height', 'handleSize', 'lockAspectRatio', 'axis', 'minConstraints', 'maxConstraints', 'onResize', 'onResizeStop', 'onResizeStart']);
+
+    var className = p.className ? p.className + ' react-resizable' : 'react-resizable';
+
+    // What we're doing here is getting the child of this element, and cloning it with this element's props.
+    // We are then defining its children as:
+    // Its original children (resizable's child's children), and
+    // A draggable handle.
+    return (0, _cloneElement2.default)(children, _extends({}, p, {
+      className: className,
+      children: [children.props.children, _react2.default.createElement(
+        _reactDraggable.DraggableCore,
+        _extends({}, draggableOpts, {
+          key: 'resizableHandle',
+          onStop: this.resizeHandler('onResizeStop'),
+          onStart: this.resizeHandler('onResizeStart'),
+          onDrag: this.resizeHandler('onResize')
+        }),
+        _react2.default.createElement('span', { className: 'react-resizable-handle' })
+      )]
+    }));
+  };
+
+  return Resizable;
+}(_react2.default.Component);
+
+Resizable.propTypes = {
+  //
+  // Required Props
+  //
+
+  // Require that one and only one child be present.
+  children: _propTypes2.default.element.isRequired,
+
+  // Initial w/h
+  width: _propTypes2.default.number.isRequired,
+  height: _propTypes2.default.number.isRequired,
+
+  //
+  // Optional props
+  //
+
+  // If you change this, be sure to update your css
+  handleSize: _propTypes2.default.array,
+
+  // If true, will only allow width/height to move in lockstep
+  lockAspectRatio: _propTypes2.default.bool,
+
+  // Restricts resizing to a particular axis (default: 'both')
+  // 'both' - allows resizing by width or height
+  // 'x' - only allows the width to be changed
+  // 'y' - only allows the height to be changed
+  // 'none' - disables resizing altogether
+  axis: _propTypes2.default.oneOf(['both', 'x', 'y', 'none']),
+
+  // Min/max size
+  minConstraints: _propTypes2.default.arrayOf(_propTypes2.default.number),
+  maxConstraints: _propTypes2.default.arrayOf(_propTypes2.default.number),
+
+  // Callbacks
+  onResizeStop: _propTypes2.default.func,
+  onResizeStart: _propTypes2.default.func,
+  onResize: _propTypes2.default.func,
+
+  // These will be passed wholesale to react-draggable's DraggableCore
+  draggableOpts: _propTypes2.default.object
+};
+Resizable.defaultProps = {
+  handleSize: [20, 20],
+  lockAspectRatio: false,
+  axis: 'both',
+  minConstraints: [20, 20],
+  maxConstraints: [Infinity, Infinity]
+};
+exports.default = Resizable;
+},{"./cloneElement":343,"prop-types":222,"react":357,"react-draggable":311}],342:[function(require,module,exports){
+'use strict';
+
+exports.__esModule = true;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _Resizable = require('./Resizable');
+
+var _Resizable2 = _interopRequireDefault(_Resizable);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+// An example use of Resizable.
+var ResizableBox = function (_React$Component) {
+  _inherits(ResizableBox, _React$Component);
+
+  function ResizableBox() {
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, ResizableBox);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.state = {
+      width: _this.props.width,
+      height: _this.props.height
+    }, _this.onResize = function (e, data) {
+      var size = data.size;
+      var width = size.width,
+          height = size.height;
+
+
+      if (_this.props.onResize) {
+        e.persist && e.persist();
+        _this.setState(size, function () {
+          return _this.props.onResize && _this.props.onResize(e, data);
+        });
+      } else {
+        _this.setState(size);
+      }
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  ResizableBox.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+    if (nextProps.width !== this.props.width || nextProps.height !== this.props.height) {
+      this.setState({
+        width: nextProps.width,
+        height: nextProps.height
+      });
+    }
+  };
+
+  ResizableBox.prototype.render = function render() {
+    // Basic wrapper around a Resizable instance.
+    // If you use Resizable directly, you are responsible for updating the child component
+    // with a new width and height.
+    var _props = this.props,
+        handleSize = _props.handleSize,
+        onResize = _props.onResize,
+        onResizeStart = _props.onResizeStart,
+        onResizeStop = _props.onResizeStop,
+        draggableOpts = _props.draggableOpts,
+        minConstraints = _props.minConstraints,
+        maxConstraints = _props.maxConstraints,
+        lockAspectRatio = _props.lockAspectRatio,
+        axis = _props.axis,
+        width = _props.width,
+        height = _props.height,
+        props = _objectWithoutProperties(_props, ['handleSize', 'onResize', 'onResizeStart', 'onResizeStop', 'draggableOpts', 'minConstraints', 'maxConstraints', 'lockAspectRatio', 'axis', 'width', 'height']);
+
+    return _react2.default.createElement(
+      _Resizable2.default,
+      {
+        handleSize: handleSize,
+        width: this.state.width,
+        height: this.state.height,
+        onResizeStart: onResizeStart,
+        onResize: this.onResize,
+        onResizeStop: onResizeStop,
+        draggableOpts: draggableOpts,
+        minConstraints: minConstraints,
+        maxConstraints: maxConstraints,
+        lockAspectRatio: lockAspectRatio,
+        axis: axis
+      },
+      _react2.default.createElement('div', _extends({ style: { width: this.state.width + 'px', height: this.state.height + 'px' } }, props))
+    );
+  };
+
+  return ResizableBox;
+}(_react2.default.Component);
+
+ResizableBox.propTypes = {
+  height: _propTypes2.default.number,
+  width: _propTypes2.default.number
+};
+ResizableBox.defaultProps = {
+  handleSize: [20, 20]
+};
+exports.default = ResizableBox;
+},{"./Resizable":341,"prop-types":222,"react":357}],343:[function(require,module,exports){
+'use strict';
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// React.addons.cloneWithProps look-alike that merges style & className.
+module.exports = function cloneElement(element, props) {
+  if (props.style && element.props.style) {
+    props.style = _extends({}, element.props.style, props.style);
+  }
+  if (props.className && element.props.className) {
+    props.className = element.props.className + ' ' + props.className;
+  }
+  return _react2.default.cloneElement(element, props);
+};
+},{"react":357}],344:[function(require,module,exports){
+'use strict';
+module.exports = function() {
+  throw new Error("Don't instantiate Resizable directly! Use require('react-resizable').Resizable");
+};
+
+module.exports.Resizable = require('./build/Resizable').default;
+module.exports.ResizableBox = require('./build/ResizableBox').default;
+
+},{"./build/Resizable":341,"./build/ResizableBox":342}],345:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -46030,7 +52608,7 @@ var _default = (0, _reactLifecyclesCompat.polyfill)(Transition);
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"./utils/PropTypes":341,"_process":217,"prop-types":338,"react":344,"react-dom":309,"react-lifecycles-compat":331}],333:[function(require,module,exports){
+},{"./utils/PropTypes":354,"_process":218,"prop-types":351,"react":357,"react-dom":310,"react-lifecycles-compat":340}],346:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -46228,19 +52806,19 @@ var _default = (0, _reactLifecyclesCompat.polyfill)(TransitionGroup);
 exports.default = _default;
 module.exports = exports["default"];
 }).call(this,require('_process'))
-},{"./utils/ChildMapping":340,"_process":217,"prop-types":338,"react":344,"react-lifecycles-compat":331}],334:[function(require,module,exports){
+},{"./utils/ChildMapping":353,"_process":218,"prop-types":351,"react":357,"react-lifecycles-compat":340}],347:[function(require,module,exports){
 arguments[4][72][0].apply(exports,arguments)
-},{"dup":72}],335:[function(require,module,exports){
+},{"dup":72}],348:[function(require,module,exports){
 arguments[4][73][0].apply(exports,arguments)
-},{"./lib/ReactPropTypesSecret":339,"_process":217,"dup":73}],336:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":352,"_process":218,"dup":73}],349:[function(require,module,exports){
 arguments[4][74][0].apply(exports,arguments)
-},{"./lib/ReactPropTypesSecret":339,"dup":74}],337:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":352,"dup":74}],350:[function(require,module,exports){
 arguments[4][75][0].apply(exports,arguments)
-},{"./checkPropTypes":335,"./lib/ReactPropTypesSecret":339,"_process":217,"dup":75,"object-assign":334}],338:[function(require,module,exports){
+},{"./checkPropTypes":348,"./lib/ReactPropTypesSecret":352,"_process":218,"dup":75,"object-assign":347}],351:[function(require,module,exports){
 arguments[4][76][0].apply(exports,arguments)
-},{"./factoryWithThrowingShims":336,"./factoryWithTypeCheckers":337,"_process":217,"dup":76}],339:[function(require,module,exports){
+},{"./factoryWithThrowingShims":349,"./factoryWithTypeCheckers":350,"_process":218,"dup":76}],352:[function(require,module,exports){
 arguments[4][77][0].apply(exports,arguments)
-},{"dup":77}],340:[function(require,module,exports){
+},{"dup":77}],353:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -46391,7 +52969,7 @@ function getNextChildMapping(nextProps, prevChildMapping, onExited) {
   });
   return children;
 }
-},{"react":344}],341:[function(require,module,exports){
+},{"react":357}],354:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -46441,7 +53019,7 @@ var classNamesShape = _propTypes.default.oneOfType([_propTypes.default.string, _
 })]);
 
 exports.classNamesShape = classNamesShape;
-},{"prop-types":338}],342:[function(require,module,exports){
+},{"prop-types":351}],355:[function(require,module,exports){
 (function (process){
 /** @license React v16.6.1
  * react.development.js
@@ -48285,7 +54863,7 @@ module.exports = react;
 }
 
 }).call(this,require('_process'))
-},{"_process":217,"object-assign":216,"prop-types/checkPropTypes":218}],343:[function(require,module,exports){
+},{"_process":218,"object-assign":217,"prop-types/checkPropTypes":219}],356:[function(require,module,exports){
 /** @license React v16.6.1
  * react.production.min.js
  *
@@ -48311,7 +54889,7 @@ _currentValue:a,_currentValue2:a,_threadCount:0,Provider:null,Consumer:null};a.P
 if(null!=b){void 0!==b.ref&&(h=b.ref,f=K.current);void 0!==b.key&&(g=""+b.key);var l=void 0;a.type&&a.type.defaultProps&&(l=a.type.defaultProps);for(c in b)L.call(b,c)&&!M.hasOwnProperty(c)&&(d[c]=void 0===b[c]&&void 0!==l?l[c]:b[c])}c=arguments.length-2;if(1===c)d.children=e;else if(1<c){l=Array(c);for(var m=0;m<c;m++)l[m]=arguments[m+2];d.children=l}return{$$typeof:p,type:a.type,key:g,ref:h,props:d,_owner:f}},createFactory:function(a){var b=N.bind(null,a);b.type=a;return b},isValidElement:O,version:"16.6.3",
 __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentOwner:K,assign:k}};X.unstable_ConcurrentMode=x;X.unstable_Profiler=u;var Y={default:X},Z=Y&&X||Y;module.exports=Z.default||Z;
 
-},{"object-assign":216}],344:[function(require,module,exports){
+},{"object-assign":217}],357:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -48322,13 +54900,13 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react.development.js":342,"./cjs/react.production.min.js":343,"_process":217}],345:[function(require,module,exports){
+},{"./cjs/react.development.js":355,"./cjs/react.production.min.js":356,"_process":218}],358:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-},{}],346:[function(require,module,exports){
+},{}],359:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48375,7 +54953,7 @@ exports.addAction = addAction;
 exports.createdStores = createdStores;
 exports.createdActions = createdActions;
 exports.reset = reset;
-},{}],347:[function(require,module,exports){
+},{}],360:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48613,7 +55191,7 @@ var joinConcat = exports.joinConcat = (0, _joins.instanceJoinCreator)("all");
  * @returns {Object} A subscription obj where `stop` is an unsub function and `listenable` is an array of listenables
  */
 var joinStrict = exports.joinStrict = (0, _joins.instanceJoinCreator)("strict");
-},{"./joins":354,"./utils":356}],348:[function(require,module,exports){
+},{"./joins":367,"./utils":369}],361:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48717,9 +55295,9 @@ var deferWith = exports.deferWith = function deferWith(callback) {
         callback.apply(ctx, [resolver].concat([].splice.call(arguments, 0)));
     };
 };
-},{"./utils":356}],349:[function(require,module,exports){
-arguments[4][345][0].apply(exports,arguments)
-},{"dup":345}],350:[function(require,module,exports){
+},{"./utils":369}],362:[function(require,module,exports){
+arguments[4][358][0].apply(exports,arguments)
+},{"dup":358}],363:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48749,7 +55327,7 @@ function bindMethods(store, definition) {
 
     return store;
 }
-},{}],351:[function(require,module,exports){
+},{}],364:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48839,7 +55417,7 @@ function createAction(definition) {
 
     return functor;
 }
-},{"./ActionMethods":345,"./Keep":346,"./PublisherMethods":348,"./utils":356}],352:[function(require,module,exports){
+},{"./ActionMethods":358,"./Keep":359,"./PublisherMethods":361,"./utils":369}],365:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48926,7 +55504,7 @@ function createStore(definition) {
 
     return store;
 }
-},{"./Keep":346,"./ListenerMethods":347,"./PublisherMethods":348,"./StoreMethods":349,"./bindMethods":350,"./mixer":355,"./utils":356}],353:[function(require,module,exports){
+},{"./Keep":359,"./ListenerMethods":360,"./PublisherMethods":361,"./StoreMethods":362,"./bindMethods":363,"./mixer":368,"./utils":369}],366:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -49069,7 +55647,7 @@ Object.defineProperty(exports, "default", {
 if (!Function.prototype.bind) {
     console.error("Function.prototype.bind not available. " + "ES5 shim required. " + "https://github.com/spoike/refluxjs#es5");
 }
-},{"./ActionMethods":345,"./Keep":346,"./ListenerMethods":347,"./PublisherMethods":348,"./StoreMethods":349,"./createAction":351,"./createStore":352,"./joins":354,"./utils":356}],354:[function(require,module,exports){
+},{"./ActionMethods":358,"./Keep":359,"./ListenerMethods":360,"./PublisherMethods":361,"./StoreMethods":362,"./createAction":364,"./createStore":365,"./joins":367,"./utils":369}],367:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -49197,7 +55775,7 @@ function emitIfAllListenablesEmitted(join) {
     join.callback.apply(join.listener, join.args);
     reset(join);
 }
-},{"./createStore":352,"./utils":356}],355:[function(require,module,exports){
+},{"./createStore":365,"./utils":369}],368:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -49266,7 +55844,7 @@ function mix(def) {
 
     return updated;
 }
-},{"./utils":356}],356:[function(require,module,exports){
+},{"./utils":369}],369:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -49351,7 +55929,7 @@ function throwIf(val, msg) {
         throw Error(msg || val);
     }
 }
-},{"eventemitter3":134}],357:[function(require,module,exports){
+},{"eventemitter3":134}],370:[function(require,module,exports){
 var _ = require('reflux-core/lib/utils'),
     ListenerMethods = require('reflux-core/lib/ListenerMethods');
 
@@ -49370,7 +55948,7 @@ module.exports = _.extend({
 
 }, ListenerMethods);
 
-},{"reflux-core/lib/ListenerMethods":347,"reflux-core/lib/utils":356}],358:[function(require,module,exports){
+},{"reflux-core/lib/ListenerMethods":360,"reflux-core/lib/utils":369}],371:[function(require,module,exports){
 
 /* globals React: false */
 
@@ -49411,7 +55989,7 @@ if (typeof React !== 'undefined' && React) {
 	} catch (e) {}
 }
 
-},{"./defineReact":361,"react":344,"reflux-core":353}],359:[function(require,module,exports){
+},{"./defineReact":374,"react":357,"reflux-core":366}],372:[function(require,module,exports){
 var ListenerMethods = require('reflux-core/lib/ListenerMethods'),
     ListenerMixin = require('./ListenerMixin'),
     _ = require('reflux-core/lib/utils');
@@ -49441,7 +56019,7 @@ module.exports = function(listenable, key) {
     };
 };
 
-},{"./ListenerMixin":357,"reflux-core/lib/ListenerMethods":347,"reflux-core/lib/utils":356}],360:[function(require,module,exports){
+},{"./ListenerMixin":370,"reflux-core/lib/ListenerMethods":360,"reflux-core/lib/utils":369}],373:[function(require,module,exports){
 var ListenerMethods = require('reflux-core/lib/ListenerMethods'),
     ListenerMixin = require('./ListenerMixin'),
     _ = require('reflux-core/lib/utils');
@@ -49478,7 +56056,7 @@ module.exports = function(listenable, key, filterFunc) {
     };
 };
 
-},{"./ListenerMixin":357,"reflux-core/lib/ListenerMethods":347,"reflux-core/lib/utils":356}],361:[function(require,module,exports){
+},{"./ListenerMixin":370,"reflux-core/lib/ListenerMethods":360,"reflux-core/lib/utils":369}],374:[function(require,module,exports){
 /* globals React: false */
 
 var Reflux = require('reflux-core');
@@ -49952,7 +56530,7 @@ function clone(frm, to) {
 module.exports = defineReact;
 
 
-},{"reflux-core":353}],362:[function(require,module,exports){
+},{"reflux-core":366}],375:[function(require,module,exports){
 var Reflux = require('reflux-core');
 
 Reflux.serverMode = typeof window !== 'object';
@@ -49971,7 +56549,7 @@ require('./addES6');
 
 module.exports = Reflux;
 
-},{"./ListenerMixin":357,"./addES6":358,"./connect":359,"./connectFilter":360,"./listenTo":363,"./listenToMany":364,"reflux-core":353}],363:[function(require,module,exports){
+},{"./ListenerMixin":370,"./addES6":371,"./connect":372,"./connectFilter":373,"./listenTo":376,"./listenToMany":377,"reflux-core":366}],376:[function(require,module,exports){
 var ListenerMethods = require('reflux-core/lib/ListenerMethods');
 
 /**
@@ -50008,7 +56586,7 @@ module.exports = function(listenable,callback,initial){
     };
 };
 
-},{"reflux-core/lib/ListenerMethods":347}],364:[function(require,module,exports){
+},{"reflux-core/lib/ListenerMethods":360}],377:[function(require,module,exports){
 var ListenerMethods = require('reflux-core/lib/ListenerMethods');
 
 /**
@@ -50043,7 +56621,7 @@ module.exports = function(listenables){
     };
 };
 
-},{"reflux-core/lib/ListenerMethods":347}],365:[function(require,module,exports){
+},{"reflux-core/lib/ListenerMethods":360}],378:[function(require,module,exports){
 (function (process){
 /** @license React v0.11.3
  * scheduler-tracing.development.js
@@ -50467,7 +57045,7 @@ exports.unstable_unsubscribe = unstable_unsubscribe;
 }
 
 }).call(this,require('_process'))
-},{"_process":217}],366:[function(require,module,exports){
+},{"_process":218}],379:[function(require,module,exports){
 /** @license React v0.11.3
  * scheduler-tracing.production.min.js
  *
@@ -50479,7 +57057,7 @@ exports.unstable_unsubscribe = unstable_unsubscribe;
 
 'use strict';Object.defineProperty(exports,"__esModule",{value:!0});var b=0;exports.__interactionsRef=null;exports.__subscriberRef=null;exports.unstable_clear=function(a){return a()};exports.unstable_getCurrent=function(){return null};exports.unstable_getThreadID=function(){return++b};exports.unstable_trace=function(a,d,c){return c()};exports.unstable_wrap=function(a){return a};exports.unstable_subscribe=function(){};exports.unstable_unsubscribe=function(){};
 
-},{}],367:[function(require,module,exports){
+},{}],380:[function(require,module,exports){
 (function (process,global){
 /** @license React v0.11.3
  * scheduler.development.js
@@ -51117,7 +57695,7 @@ exports.unstable_shouldYield = unstable_shouldYield;
 }
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"_process":217}],368:[function(require,module,exports){
+},{"_process":218}],381:[function(require,module,exports){
 (function (global){
 /** @license React v0.11.3
  * scheduler.production.min.js
@@ -51142,7 +57720,7 @@ b=c.previous;b.next=c.previous=a;a.next=c;a.previous=b}return a};exports.unstabl
 exports.unstable_shouldYield=function(){return!f&&(null!==d&&d.expirationTime<l||w())};
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],369:[function(require,module,exports){
+},{}],382:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -51153,7 +57731,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/scheduler.development.js":367,"./cjs/scheduler.production.min.js":368,"_process":217}],370:[function(require,module,exports){
+},{"./cjs/scheduler.development.js":380,"./cjs/scheduler.production.min.js":381,"_process":218}],383:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -51164,11 +57742,11 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/scheduler-tracing.development.js":365,"./cjs/scheduler-tracing.production.min.js":366,"_process":217}],371:[function(require,module,exports){
+},{"./cjs/scheduler-tracing.development.js":378,"./cjs/scheduler-tracing.production.min.js":379,"_process":218}],384:[function(require,module,exports){
 'use strict';
 module.exports = require('./lib/index');
 
-},{"./lib/index":375}],372:[function(require,module,exports){
+},{"./lib/index":388}],385:[function(require,module,exports){
 'use strict';
 
 var randomFromSeed = require('./random/random-from-seed');
@@ -51273,7 +57851,7 @@ module.exports = {
     shuffled: getShuffled
 };
 
-},{"./random/random-from-seed":378}],373:[function(require,module,exports){
+},{"./random/random-from-seed":391}],386:[function(require,module,exports){
 'use strict';
 
 var generate = require('./generate');
@@ -51321,7 +57899,7 @@ function build(clusterWorkerId) {
 
 module.exports = build;
 
-},{"./alphabet":372,"./generate":374}],374:[function(require,module,exports){
+},{"./alphabet":385,"./generate":387}],387:[function(require,module,exports){
 'use strict';
 
 var alphabet = require('./alphabet');
@@ -51344,7 +57922,7 @@ function generate(number) {
 
 module.exports = generate;
 
-},{"./alphabet":372,"./random/random-byte":377,"nanoid/format":215}],375:[function(require,module,exports){
+},{"./alphabet":385,"./random/random-byte":390,"nanoid/format":216}],388:[function(require,module,exports){
 'use strict';
 
 var alphabet = require('./alphabet');
@@ -51408,7 +57986,7 @@ module.exports.worker = worker;
 module.exports.characters = characters;
 module.exports.isValid = isValid;
 
-},{"./alphabet":372,"./build":373,"./is-valid":376,"./util/cluster-worker-id":379}],376:[function(require,module,exports){
+},{"./alphabet":385,"./build":386,"./is-valid":389,"./util/cluster-worker-id":392}],389:[function(require,module,exports){
 'use strict';
 var alphabet = require('./alphabet');
 
@@ -51425,7 +58003,7 @@ function isShortId(id) {
 
 module.exports = isShortId;
 
-},{"./alphabet":372}],377:[function(require,module,exports){
+},{"./alphabet":385}],390:[function(require,module,exports){
 'use strict';
 
 var crypto = typeof window === 'object' && (window.crypto || window.msCrypto); // IE 11 uses window.msCrypto
@@ -51448,7 +58026,7 @@ if (!crypto || !crypto.getRandomValues) {
 
 module.exports = randomByte;
 
-},{}],378:[function(require,module,exports){
+},{}],391:[function(require,module,exports){
 'use strict';
 
 // Found this seed-based random generator somewhere
@@ -51475,12 +58053,12 @@ module.exports = {
     seed: setSeed
 };
 
-},{}],379:[function(require,module,exports){
+},{}],392:[function(require,module,exports){
 'use strict';
 
 module.exports = 0;
 
-},{}],380:[function(require,module,exports){
+},{}],393:[function(require,module,exports){
 (function (global){
 'use strict';
 
@@ -51512,7 +58090,7 @@ if (typeof self !== 'undefined') {
 var result = (0, _ponyfill2['default'])(root);
 exports['default'] = result;
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./ponyfill.js":381}],381:[function(require,module,exports){
+},{"./ponyfill.js":394}],394:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -51536,7 +58114,7 @@ function symbolObservablePonyfill(root) {
 
 	return result;
 };
-},{}],382:[function(require,module,exports){
+},{}],395:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
@@ -51602,7 +58180,7 @@ if (__DEV__) {
 module.exports = warning;
 
 }).call(this,require('_process'))
-},{"_process":217}],383:[function(require,module,exports){
+},{"_process":218}],396:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -51634,6 +58212,8 @@ var _IconButton = _interopRequireDefault(require("@material-ui/core/IconButton")
 
 var _Fab = _interopRequireDefault(require("@material-ui/core/Fab"));
 
+var _Paper = _interopRequireDefault(require("@material-ui/core/Paper"));
+
 var _plus = _interopRequireDefault(require("mdi-material-ui/plus"));
 
 var _menu = _interopRequireDefault(require("mdi-material-ui/menu"));
@@ -51641,6 +58221,8 @@ var _menu = _interopRequireDefault(require("mdi-material-ui/menu"));
 var _blue = _interopRequireDefault(require("@material-ui/core/colors/blue"));
 
 var _red = _interopRequireDefault(require("@material-ui/core/colors/red"));
+
+var _reactGridLayout = _interopRequireDefault(require("react-grid-layout"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -51745,7 +58327,56 @@ class MainWindow extends _reflux.default.Component {
     }, _react.default.createElement(_menu.default, null)), _react.default.createElement(_Fab.default, {
       color: "primary",
       className: classes.fab
-    }, _react.default.createElement(_plus.default, null))));
+    }, _react.default.createElement(_plus.default, null)), _react.default.createElement(_reactGridLayout.default, {
+      cols: 12,
+      rowHeight: 30,
+      width: 800
+    }, _react.default.createElement("div", {
+      key: "a",
+      "data-grid": {
+        x: 2,
+        y: 3,
+        w: 1,
+        h: 2
+      }
+    }, _react.default.createElement(_Paper.default, {
+      elevation: 1,
+      style: {
+        width: "100%",
+        height: "100%",
+        "z-index": 100
+      }
+    }, _react.default.createElement(_Typography.default, null, 1))), _react.default.createElement("div", {
+      key: "b",
+      "data-grid": {
+        x: 1,
+        y: 0,
+        w: 3,
+        h: 2
+      }
+    }, _react.default.createElement(_Paper.default, {
+      elevation: 1,
+      style: {
+        width: "100%",
+        height: "100%",
+        "z-index": 100
+      }
+    }, _react.default.createElement(_Typography.default, null, 1))), _react.default.createElement("div", {
+      key: "c",
+      "data-grid": {
+        x: 4,
+        y: 0,
+        w: 1,
+        h: 2
+      }
+    }, _react.default.createElement(_Paper.default, {
+      elevation: 1,
+      style: {
+        width: "100%",
+        height: "100%",
+        "z-index": 100
+      }
+    }, _react.default.createElement(_Typography.default, null, 1))))));
   }
 
 }
@@ -51763,7 +58394,7 @@ var _default = (0, _styles.withStyles)(styles)(MainWindow);
 
 exports.default = _default;
 
-},{"@material-ui/core/Fab":28,"@material-ui/core/IconButton":34,"@material-ui/core/Menu":46,"@material-ui/core/MenuItem":42,"@material-ui/core/Typography":65,"@material-ui/core/colors/blue":66,"@material-ui/core/colors/red":71,"@material-ui/core/styles":89,"classnames":114,"mdi-material-ui/menu":212,"mdi-material-ui/plus":213,"prop-types":221,"react":344,"react-desktop/windows":306,"reflux":362,"shortid":371}],384:[function(require,module,exports){
+},{"@material-ui/core/Fab":28,"@material-ui/core/IconButton":34,"@material-ui/core/Menu":46,"@material-ui/core/MenuItem":42,"@material-ui/core/Paper":55,"@material-ui/core/Typography":65,"@material-ui/core/colors/blue":66,"@material-ui/core/colors/red":71,"@material-ui/core/styles":89,"classnames":114,"mdi-material-ui/menu":213,"mdi-material-ui/plus":214,"prop-types":222,"react":357,"react-desktop/windows":307,"react-grid-layout":336,"reflux":375,"shortid":384}],397:[function(require,module,exports){
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -51776,4 +58407,4 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 _reactDom.default.render(_react.default.createElement(_mainView.default, null), document.querySelector('#content'));
 
-},{"./mainView":383,"react":344,"react-dom":309}]},{},[384]);
+},{"./mainView":396,"react":357,"react-dom":310}]},{},[397]);

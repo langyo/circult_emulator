@@ -11,9 +11,33 @@ import Reflux from "reflux";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 import shortid from "shortid";
+
 import { Window, TitleBar, Text } from 'react-desktop/windows';
 import { withStyles } from "@material-ui/core/styles";
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
+import Fab from '@material-ui/core/Fab';
+import AddIcon from 'mdi-material-ui/plus';
+
+import indigo from '@material-ui/core/colors/indigo';
+import pink from '@material-ui/core/colors/pink';
+import red from '@material-ui/core/colors/red';
+
+const theme = createMuiTheme({
+  palette: {
+    primary: pink,
+    secondary: pink,
+    error: red,
+    contrastThreshold: 3,
+    tonalOffset: 0.2
+  },
+});
+
+const styles = theme => ({
+    fab: {
+        margin: theme.spacing.unit,
+    }
+});
 
 class MainWindow extends React.Component {
     static defaultProps = {
@@ -22,6 +46,8 @@ class MainWindow extends React.Component {
     };
 
     render() {
+        const { classes } = this.props;
+
         return (
             <Window
                 color={this.props.color}
@@ -36,10 +62,18 @@ class MainWindow extends React.Component {
                     controls style="-webkit-app-region: drag"
                     onCloseClick={() => remote.process.exit()}
                 />
-                
+                <MuiThemeProvider theme={theme}>
+                    <Fab color="primary" aria-label="Add" className={classes.fab}>
+                        <AddIcon />
+                    </Fab>
+                </MuiThemeProvider>
             </Window>
         );
     }
 }
 
-export default MainWindow;
+MainWindow.propTypes = {
+    classes: PropTypes.object.isRequired,
+  };
+  
+  export default withStyles(styles)(MainWindow);

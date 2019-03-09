@@ -58447,13 +58447,18 @@ const styles = theme => ({
   menu: {
     position: 'absolute',
     top: theme.spacing.unit * 2,
-    left: theme.spacing.unit * 2,
-    zIndex: 9999
+    left: theme.spacing.unit * 2
   },
   fab: {
     position: 'absolute',
     bottom: theme.spacing.unit * 2,
     right: theme.spacing.unit * 2
+  },
+  map: {
+    override: "hidden",
+    margin: "16px",
+    height: "584px",
+    width: "784px"
   }
 });
 
@@ -58495,12 +58500,11 @@ class MainWindow extends _reflux.default.Component {
       theme: this.props.theme,
       chrome: true,
       height: "600px",
-      width: "800px",
-      padding: "8px"
+      width: "800px"
     }, _react.default.createElement(_windows.TitleBar, {
       title: "Circult Emulator",
       controls: true,
-      style: "-webkit-app-region: drag",
+      style: "-webkit-app-region: drag;",
       onCloseClick: () => remote.process.exit()
     }), _react.default.createElement(_styles.MuiThemeProvider, {
       theme: theme
@@ -58519,47 +58523,37 @@ class MainWindow extends _reflux.default.Component {
     }, _react.default.createElement(_menu.default, null)), _react.default.createElement(_Fab.default, {
       color: "primary",
       className: classes.fab
-    }, _react.default.createElement(_plus.default, null)), _react.default.createElement(_reactGridLayout.default, {
+    }, _react.default.createElement(_plus.default, null)), _react.default.createElement("div", {
+      className: classes.map
+    }, _react.default.createElement(_reactGridLayout.default, {
       cols: 12,
       rowHeight: 30,
-      width: 800
+      width: 754
     }, _react.default.createElement("div", {
-      key: "a",
+      key: "1",
       "data-grid": {
-        x: 2,
+        x: 3,
         y: 3,
-        w: 1,
+        w: 2,
         h: 2
       }
     }, _react.default.createElement(_block.default, null)), _react.default.createElement("div", {
-      key: "b",
+      key: "2",
       "data-grid": {
-        x: 1,
-        y: 0,
-        w: 3,
-        h: 2
+        x: 5,
+        y: 3,
+        w: 4,
+        h: 4
       }
-    }, _react.default.createElement(_Paper.default, {
-      elevation: 1,
-      style: {
-        width: "100%",
-        height: "100%"
-      }
-    }, _react.default.createElement(_Typography.default, null, 1))), _react.default.createElement("div", {
-      key: "c",
+    }, _react.default.createElement(_block.default, null)), _react.default.createElement("div", {
+      key: "3",
       "data-grid": {
-        x: 4,
-        y: 0,
-        w: 1,
-        h: 2
+        x: 8,
+        y: 3,
+        w: 4,
+        h: 4
       }
-    }, _react.default.createElement(_Paper.default, {
-      elevation: 1,
-      style: {
-        width: "100%",
-        height: "100%"
-      }
-    }, _react.default.createElement(_Typography.default, null, 1))))));
+    }, _react.default.createElement(_block.default, null))))));
   }
 
 }

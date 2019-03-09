@@ -49,12 +49,17 @@ const styles = theme => ({
         position: 'absolute',
         top: theme.spacing.unit * 2,
         left: theme.spacing.unit * 2,
-        zIndex: 9999
     },
     fab: {
         position: 'absolute',
         bottom: theme.spacing.unit * 2,
         right: theme.spacing.unit * 2
+    },
+    map: {
+        override: "hidden",
+        margin: "16px",
+        height: "584px",
+        width: "784px"
     }
 });
 
@@ -99,12 +104,11 @@ class MainWindow extends Reflux.Component {
                 chrome
                 height="600px"
                 width="800px"
-                padding="8px"
             >
                 <TitleBar
                     title="Circult Emulator"
                     controls
-                    style="-webkit-app-region: drag"
+                    style="-webkit-app-region: drag;"
                     onCloseClick={() => remote.process.exit()}
                 />
                 <MuiThemeProvider theme={theme}>
@@ -130,21 +134,19 @@ class MainWindow extends Reflux.Component {
                         <AddIcon />
                     </Fab>
                     {/* 底部电路方格 */}
-                    <GridLayout cols={12} rowHeight={30} width={800}>
-                        <div key="a" data-grid={{ x: 2, y: 3, w: 1, h: 2 }}>
-                            <Block />
-                        </div>
-                        <div key="b" data-grid={{ x: 1, y: 0, w: 3, h: 2 }}>
-                            <Paper elevation={1} style={{ width: "100%", height: "100%" }}>
-                                <Typography>{1}</Typography>
-                            </Paper>
-                        </div>
-                        <div key="c" data-grid={{ x: 4, y: 0, w: 1, h: 2 }}>
-                            <Paper elevation={1} style={{ width: "100%", height: "100%" }}>
-                                <Typography>{1}</Typography>
-                            </Paper>
-                        </div>
-                    </GridLayout>
+                    <div className={classes.map}>
+                        <GridLayout cols={12} rowHeight={30} width={754}>
+                            <div key="1" data-grid={{ x: 3, y: 3, w: 2, h: 2 }}>
+                                <Block />
+                            </div>
+                            <div key="2" data-grid={{ x: 5, y: 3, w: 4, h: 4 }}>
+                                <Block />
+                            </div>
+                            <div key="3" data-grid={{ x: 8, y: 3, w: 4, h: 4 }}>
+                                <Block />
+                            </div>
+                        </GridLayout>
+                    </div>
                 </MuiThemeProvider>
             </Window>
         );

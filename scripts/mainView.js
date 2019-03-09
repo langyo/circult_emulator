@@ -31,6 +31,8 @@ import red from '@material-ui/core/colors/red';
 
 import GridLayout from 'react-grid-layout';
 
+import Block from './components/block';
+
 const theme = createMuiTheme({
     palette: {
         primary: blue,
@@ -106,6 +108,7 @@ class MainWindow extends Reflux.Component {
                     onCloseClick={() => remote.process.exit()}
                 />
                 <MuiThemeProvider theme={theme}>
+                    {/* 悬浮按钮部分 */}
                     <Menu
                         anchorEl={this.state.anchorEl}
                         open={Boolean(this.state.anchorEl)}
@@ -126,19 +129,18 @@ class MainWindow extends Reflux.Component {
                     <Fab color="primary" className={classes.fab}>
                         <AddIcon />
                     </Fab>
+                    {/* 底部电路方格 */}
                     <GridLayout cols={12} rowHeight={30} width={800}>
                         <div key="a" data-grid={{ x: 2, y: 3, w: 1, h: 2 }}>
-                            <Paper elevation={1} style={{ width: "100%", height: "100%", "z-index": 100}}>
-                                <Typography>{1}</Typography>
-                            </Paper>
+                            <Block />
                         </div>
                         <div key="b" data-grid={{ x: 1, y: 0, w: 3, h: 2 }}>
-                            <Paper elevation={1} style={{ width: "100%", height: "100%", "z-index": 100}}>
+                            <Paper elevation={1} style={{ width: "100%", height: "100%" }}>
                                 <Typography>{1}</Typography>
                             </Paper>
                         </div>
                         <div key="c" data-grid={{ x: 4, y: 0, w: 1, h: 2 }}>
-                            <Paper elevation={1} style={{ width: "100%", height: "100%", "z-index": 100}}>
+                            <Paper elevation={1} style={{ width: "100%", height: "100%" }}>
                                 <Typography>{1}</Typography>
                             </Paper>
                         </div>

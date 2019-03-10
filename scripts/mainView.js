@@ -135,14 +135,14 @@ class MainWindow extends Reflux.Component {
                     </Fab>
                     {/* 底部电路方格 */}
                     <div className={classes.map}>
-                        <GridLayout cols={12} rowHeight={30} width={754}>
-                            <div key="1" data-grid={{ x: 3, y: 3, w: 2, h: 2 }}>
+                        <GridLayout cols={8} rowHeight={95} width={754} margin={[0, 0]}>
+                            <div key="1" data-grid={{ x: 3, y: 3, w: 1, h: 1 }}>
                                 <Block />
                             </div>
-                            <div key="2" data-grid={{ x: 5, y: 3, w: 4, h: 4 }}>
+                            <div key="2" data-grid={{ x: 5, y: 3, w: 1, h: 1 }}>
                                 <Block />
                             </div>
-                            <div key="3" data-grid={{ x: 8, y: 3, w: 4, h: 4 }}>
+                            <div key="3" data-grid={{ x: 8, y: 3, w: 1, h: 1 }}>
                                 <Block />
                             </div>
                         </GridLayout>

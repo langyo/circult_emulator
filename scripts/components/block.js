@@ -9,7 +9,7 @@ const styles = theme => ({
     root: {
         width: "100%",
         height: "100%",
-        border: "solid blue"
+        border: "1px solid grey"
     }
 });
 
@@ -18,7 +18,7 @@ class Block extends Reflux.Component{
         const { classes } = this.props;
         return (
             <div className={classes.root}>
-                <span>{123}</span>
+                
             </div>
         );
     }

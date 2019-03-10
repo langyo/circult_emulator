@@ -58349,7 +58349,7 @@ const styles = theme => ({
   root: {
     width: "100%",
     height: "100%",
-    border: "solid blue"
+    border: "1px solid grey"
   }
 });
 
@@ -58360,7 +58360,7 @@ class Block extends _reflux.default.Component {
     } = this.props;
     return _react.default.createElement("div", {
       className: classes.root
-    }, _react.default.createElement("span", null, 123));
+    });
   }
 
 }
@@ -58526,32 +58526,33 @@ class MainWindow extends _reflux.default.Component {
     }, _react.default.createElement(_plus.default, null)), _react.default.createElement("div", {
       className: classes.map
     }, _react.default.createElement(_reactGridLayout.default, {
-      cols: 12,
-      rowHeight: 30,
-      width: 754
+      cols: 8,
+      rowHeight: 95,
+      width: 754,
+      margin: [0, 0]
     }, _react.default.createElement("div", {
       key: "1",
       "data-grid": {
         x: 3,
         y: 3,
-        w: 2,
-        h: 2
+        w: 1,
+        h: 1
       }
     }, _react.default.createElement(_block.default, null)), _react.default.createElement("div", {
       key: "2",
       "data-grid": {
         x: 5,
         y: 3,
-        w: 4,
-        h: 4
+        w: 1,
+        h: 1
       }
     }, _react.default.createElement(_block.default, null)), _react.default.createElement("div", {
       key: "3",
       "data-grid": {
         x: 8,
         y: 3,
-        w: 4,
-        h: 4
+        w: 1,
+        h: 1
       }
     }, _react.default.createElement(_block.default, null))))));
   }

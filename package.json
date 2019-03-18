@@ -43,6 +43,7 @@
     "react-dom": "^16.6.3",
     "react-grid-layout": "^0.16.6",
     "react-json-view": "^1.19.1",
+    "react-svg": "^8.0.0",
     "react-swipeable-views": "^0.13.0",
     "react-swipeable-views-utils": "^0.13.0",
     "reflux": "^6.4.1",

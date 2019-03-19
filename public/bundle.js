@@ -60544,7 +60544,7 @@ class MainWindow extends _reflux.default.Component {
     }, _react.default.createElement(_macOs.TitleBar, {
       title: "Circult Emulator",
       controls: true,
-      style: "-webkit-app-region: drag;",
+      style: "-webkit-app-region: drag",
       onCloseClick: () => remote.process.exit()
     }), _react.default.createElement(_styles.MuiThemeProvider, {
       theme: theme
@@ -60565,36 +60565,7 @@ class MainWindow extends _reflux.default.Component {
       className: classes.fab
     }, _react.default.createElement(_plus.default, null)), _react.default.createElement("div", {
       className: classes.map
-    }, _react.default.createElement(_reactGridLayout.default, {
-      cols: 8,
-      rowHeight: 95,
-      width: 754,
-      margin: [0, 0]
-    }, _react.default.createElement("div", {
-      key: "1",
-      "data-grid": {
-        x: 3,
-        y: 3,
-        w: 1,
-        h: 1
-      }
-    }, _react.default.createElement(_gridView.default, null)), _react.default.createElement("div", {
-      key: "2",
-      "data-grid": {
-        x: 5,
-        y: 3,
-        w: 1,
-        h: 1
-      }
-    }, _react.default.createElement(_gridView.default, null)), _react.default.createElement("div", {
-      key: "3",
-      "data-grid": {
-        x: 8,
-        y: 3,
-        w: 1,
-        h: 1
-      }
-    }, _react.default.createElement(_gridView.default, null))))));
+    }, _react.default.createElement(_gridView.default, null))));
   }
 
 }
@@ -60639,127 +60610,82 @@ var _reflux = _interopRequireDefault(require("reflux"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _reactGridLayout = require("react-grid-layout");
+var _shortid = _interopRequireDefault(require("shortid"));
+
+var _reactGridLayout = _interopRequireWildcard(require("react-grid-layout"));
 
 var _styles = require("@material-ui/core/styles");
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-const ResponsiveReactGridLayout = (0, _reactGridLayout.WidthProvider)(_reactGridLayout.Responsive);
+const GridLayout = (0, _reactGridLayout.WidthProvider)(_reactGridLayout.default);
 
-const styles = theme => ({});
+const styles = theme => ({
+  layout: {},
+  text: {
+    border: "5px solid blue"
+  }
+});
 
-class GridLayout extends _reflux.default.Component {
-  constructor(props) {
-    super(props);
+class GridView extends _reflux.default.Component {
+  constructor(...args) {
+    super(...args);
 
-    _defineProperty(this, "onBreakpointChange", breakpoint => {
-      this.setState({
-        currentBreakpoint: breakpoint
-      });
-    });
+    _defineProperty(this, "state", {
+      layout: () => {
+        let n = [];
 
-    _defineProperty(this, "onCompactTypeChange", () => {
-      const {
-        compactType: oldCompactType
-      } = this.state;
-      const compactType = oldCompactType === "horizontal" ? "vertical" : oldCompactType === "vertical" ? null : "horizontal";
-      this.setState({
-        compactType
-      });
-    });
+        for (let i = 0; i < 12; ++i) {
+          for (let j = 0; j < 12; ++j) {
+            n.push({
+              x: j,
+              y: i,
+              w: 1,
+              h: 1,
+              i: (i * 12 + j).toString(),
+              id: _shortid.default.generate()
+            });
+          }
+        }
 
-    _defineProperty(this, "onLayoutChange", (layout, layouts) => {
-      this.props.onLayoutChange(layout, layouts);
-    });
-
-    this.state = {
-      currentBreakpoint: "lg",
-      compactType: "vertical",
-      mounted: false,
-      layouts: {
-        lg: props.initialLayout
+        return n;
       }
-    };
-  }
-
-  componentDidMount() {
-    this.setState({
-      mounted: true
     });
-  }
 
-  generateDOM() {
-    return this.state.layouts.lg.map((l, i) => {
-      return _react.default.createElement("div", {
-        key: i,
-        className: l.static ? "static" : ""
-      }, l.static ? _react.default.createElement("span", {
-        className: "text",
-        title: "This item is static and cannot be removed or resized."
-      }, "S", i) : _react.default.createElement("span", {
-        className: "text"
-      }, i));
-    });
+    _defineProperty(this, "onLayoutChange", () => {});
   }
 
   render() {
-    return _react.default.createElement("div", null, _react.default.createElement(ResponsiveReactGridLayout, _extends({}, this.props, {
-      layouts: this.state.layouts,
-      onBreakpointChange: this.onBreakpointChange,
+    const {
+      classes
+    } = this.props;
+    return _react.default.createElement("div", null, _react.default.createElement(GridLayout, {
+      className: "layout",
+      layout: this.state.layout,
       onLayoutChange: this.onLayoutChange,
       measureBeforeMount: false,
       useCSSTransforms: true,
-      compactType: this.state.compactType,
-      preventCollision: !this.state.compactType,
-      margin: [0, 0]
-    }), this.generateDOM()));
+      margin: [0, 0],
+      cols: 12,
+      rowHeight: 30,
+      width: 360
+    }, this.state.layout.map(n => {
+      return _react.default.createElement("div", {
+        key: n.id
+      }, _react.default.createElement("span", {
+        className: classes.text
+      }, n.i));
+    })));
   }
 
 }
 
-GridLayout.propTypes = {
-  onLayoutChange: _propTypes.default.func.isRequired
-};
-GridLayout.defaultProps = {
-  className: "layout",
-  rowHeight: 30,
-  onLayoutChange: function () {},
-  cols: {
-    lg: 12,
-    md: 12,
-    sm: 12,
-    xs: 12,
-    xxs: 12
-  },
-  initialLayout: generateLayout()
-};
-
-function generateLayout() {
-  let n = [];
-
-  for (let i = 0; i < 12; ++i) {
-    for (let j = 0; j < 12; ++j) {
-      n.push({
-        x: j,
-        y: i,
-        w: 1,
-        h: 1,
-        i: (i * 12 + j).toString(),
-        static: true
-      });
-    }
-  }
-
-  return n;
-}
-
-var _default = (0, _styles.withStyles)(GridLayout);
+var _default = (0, _styles.withStyles)(GridView);
 
 exports.default = _default;
 
-},{"@material-ui/core/styles":84,"prop-types":221,"react":376,"react-grid-layout":361,"reflux":394}]},{},[416]);
+},{"@material-ui/core/styles":84,"prop-types":221,"react":376,"react-grid-layout":361,"reflux":394,"shortid":403}]},{},[416]);

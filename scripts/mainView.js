@@ -31,7 +31,7 @@ import red from '@material-ui/core/colors/red';
 
 import GridLayout from 'react-grid-layout';
 
-import Block from './views/gridView';
+import GridView from './views/gridView';
 
 const theme = createMuiTheme({
     palette: {
@@ -108,7 +108,7 @@ class MainWindow extends Reflux.Component {
                 <TitleBar
                     title="Circult Emulator"
                     controls
-                    style="-webkit-app-region: drag;"
+                    style="-webkit-app-region: drag"
                     onCloseClick={() => remote.process.exit()}
                 />
                 <MuiThemeProvider theme={theme}>
@@ -135,17 +135,7 @@ class MainWindow extends Reflux.Component {
                     </Fab>
                     {/* 底部电路方格 */}
                     <div className={classes.map}>
-                        <GridLayout cols={8} rowHeight={95} width={754} margin={[0, 0]}>
-                            <div key="1" data-grid={{ x: 3, y: 3, w: 1, h: 1 }}>
-                                <Block />
-                            </div>
-                            <div key="2" data-grid={{ x: 5, y: 3, w: 1, h: 1 }}>
-                                <Block />
-                            </div>
-                            <div key="3" data-grid={{ x: 8, y: 3, w: 1, h: 1 }}>
-                                <Block />
-                            </div>
-                        </GridLayout>
+                        <GridView />
                     </div>
                 </MuiThemeProvider>
             </Window>

@@ -12,7 +12,7 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import shortid from "shortid";
 
-import { Window, TitleBar } from 'react-desktop/windows';
+import { Window, TitleBar } from 'react-desktop/macOs';
 import { withStyles } from "@material-ui/core/styles";
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
@@ -31,7 +31,7 @@ import red from '@material-ui/core/colors/red';
 
 import GridLayout from 'react-grid-layout';
 
-import Block from './components/block';
+import Block from './views/gridView';
 
 const theme = createMuiTheme({
     palette: {

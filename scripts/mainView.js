@@ -29,10 +29,6 @@ import MenuIcon from 'mdi-material-ui/menu';
 import blue from '@material-ui/core/colors/blue';
 import red from '@material-ui/core/colors/red';
 
-import GridLayout from 'react-grid-layout';
-
-import GridView from './views/gridView';
-
 const theme = createMuiTheme({
     palette: {
         primary: blue,
@@ -59,7 +55,9 @@ const styles = theme => ({
         override: "hidden",
         margin: "16px",
         height: "584px",
-        width: "784px"
+        width: "784px",
+        left: "0px",
+        top: "0px"
     }
 });
 

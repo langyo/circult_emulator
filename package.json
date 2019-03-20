@@ -34,17 +34,16 @@
     "classnames": "^2.2.6",
     "konva": "^3.2.2",
     "lowdb": "^1.0.0",
-    "mdi-material-ui": "^5.8.0",
+    "mdi-material-ui": "^5.10.0",
     "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-desktop": "^0.3.7",
-    "react-dom": "^16.6.3",
+    "react": "^16.8.4",
+    "react-desktop": "^0.3.9",
+    "react-dom": "^16.8.4",
     "react-konva": "^16.8.4",
     "reflux": "^6.4.1",
     "shortid": "^2.2.14",
-    "typescript": "^2.8.3",
     "watchify": "^3.11.1",
-    "webpack": "^4.26.1"
+    "webpack": "^4.29.6"
   },
   "keywords": [],
   "devDependencies": {

@@ -14,7 +14,7 @@ function createMainWnd() {
         transparent: true
     });
 
-    mainWnd.loadURL(`file://${__dirname}/public/index.html`);
+    mainWnd.loadURL(`file://${__dirname}/public/index.window.html`);
 
     mainWnd.on('ready-to-show', ()=>{
         Menu.setApplicationMenu(null);

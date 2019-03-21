@@ -53,7 +53,10 @@ class MainWindow extends Reflux.Component {
                     style="-webkit-app-region: drag"
                     onCloseClick={() => remote.process.exit()}
                 />
-                <webview src="./public/bundle.core.js" />
+                <webview
+                    src="./public/bundle.core.js"
+                    style="display:inline-flex; width:774px; height:574px;"
+                />
             </Window>
         );
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import MainWindow from './mainView';
+import MainWindow from './mainWindow';
 
 ReactDOM.render(<MainWindow />, document.querySelector('#content'));

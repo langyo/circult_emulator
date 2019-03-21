@@ -70,11 +70,6 @@ const options = [
 ];
 
 class MainWindow extends Reflux.Component {
-    static defaultProps = {
-        color: '#66ccff',
-        theme: 'light'
-    };
-
     state = {
         anchorEl: null
     }
@@ -127,7 +122,7 @@ class MainWindow extends Reflux.Component {
 }
 
 MainWindow.propTypes = {
-    classes: PropTypes.object.isRequired,
+    classes: PropTypes.object.isRequired
 };
 
 export default withStyles(styles)(MainWindow);

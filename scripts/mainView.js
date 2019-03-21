@@ -12,7 +12,6 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import shortid from "shortid";
 
-import { Window, TitleBar } from 'react-desktop/macOs';
 import { withStyles } from "@material-ui/core/styles";
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
@@ -96,47 +95,33 @@ class MainWindow extends Reflux.Component {
         const { classes } = this.props;
 
         return (
-            <Window
-                color={this.props.color}
-                theme={this.props.theme}
-                chrome
-                height="600px"
-                width="800px"
-            >
-                <TitleBar
-                    title="Circult Emulator"
-                    controls
-                    style="-webkit-app-region: drag"
-                    onCloseClick={() => remote.process.exit()}
-                />
-                <MuiThemeProvider theme={theme}>
-                    {/* 悬浮按钮部分 */}
-                    <Menu
-                        anchorEl={this.state.anchorEl}
-                        open={Boolean(this.state.anchorEl)}
-                        onClose={this.handleCloseMenu}
-                    >
-                        {options.map((option, index) => (
-                            <MenuItem
-                                key={index}
-                                onClick={event => this.handleMenuItemClick(event, index)}
-                            >
-                                <Typography variant="button">{option}</Typography>
-                            </MenuItem>
-                        ))}
-                    </Menu>
-                    <IconButton className={classes.menu} onClick={this.handleOpenMenu}>
-                        <MenuIcon />
-                    </IconButton>
-                    <Fab color="primary" className={classes.fab}>
-                        <AddIcon />
-                    </Fab>
-                    {/* 底部电路方格 */}
-                    <div className={classes.map}>
-                        <GridView />
-                    </div>
-                </MuiThemeProvider>
-            </Window>
+            <MuiThemeProvider theme={theme}>
+                {/* 悬浮按钮部分 */}
+                <Menu
+                    anchorEl={this.state.anchorEl}
+                    open={Boolean(this.state.anchorEl)}
+                    onClose={this.handleCloseMenu}
+                >
+                    {options.map((option, index) => (
+                        <MenuItem
+                            key={index}
+                            onClick={event => this.handleMenuItemClick(event, index)}
+                        >
+                            <Typography variant="button">{option}</Typography>
+                        </MenuItem>
+                    ))}
+                </Menu>
+                <IconButton className={classes.menu} onClick={this.handleOpenMenu}>
+                    <MenuIcon />
+                </IconButton>
+                <Fab color="primary" className={classes.fab}>
+                    <AddIcon />
+                </Fab>
+                {/* 底部电路方格 */}
+                <div className={classes.map}>
+                    {/* <GridView /> */}
+                </div>
+            </MuiThemeProvider>
         );
     }
 }

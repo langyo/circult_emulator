@@ -6,8 +6,8 @@ let mainWnd = null;
 
 function createMainWnd() {
     mainWnd = new BrowserWindow({
-        width:808,
-        height:608,
+        width:816,
+        height:616,
         useContentSize: true,
         show: false,
         frame: false,

@@ -37567,18 +37567,21 @@ class MainWindow extends _react.default.Component {
       theme: this.props.theme,
       chrome: true,
       height: "600px",
-      width: "800px"
+      width: "800px",
+      padding: "0px, 0px",
+      vecticalAlignment: "center",
+      horizontalAlignment: "center"
     }, _react.default.createElement(_macOs.TitleBar, {
       title: "Circult Emulator",
       controls: true,
       style: "-webkit-app-region: drag",
       onCloseClick: () => remote.process.exit()
     }), _react.default.createElement("webview", {
-      src: "./public/index.core.html",
+      src: "./index.core.html",
       style: {
         display: "inline-flex",
-        width: "774px",
-        height: "574px"
+        width: "790px",
+        height: "570px"
       }
     }));
   }

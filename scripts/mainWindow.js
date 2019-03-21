@@ -20,6 +20,9 @@ class MainWindow extends React.Component {
                 chrome
                 height="600px"
                 width="800px"
+                padding="0px, 0px"
+                vecticalAlignment="center"
+                horizontalAlignment	="center"
             >
                 <TitleBar
                     title="Circult Emulator"
@@ -28,8 +31,8 @@ class MainWindow extends React.Component {
                     onCloseClick={() => remote.process.exit()}
                 />
                 <webview
-                    src="./public/index.core.html"
-                    style={{display:"inline-flex", width:"774px", height:"574px"}}
+                    src="./index.core.html"
+                    style={{display:"inline-flex", width:"790px", height:"570px"}}
                 />
             </Window>
         );

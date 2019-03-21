@@ -1,11 +1,3 @@
-const events = window.require('events');
-const path = window.require('path');
-const fs = window.require('fs');
-
-const electron = window.require('electron');
-const { ipcRenderer, shell } = electron;
-const remote = electron.remote;
-
 import React from "react";
 import Reflux from "reflux";
 import PropTypes from "prop-types";
@@ -28,6 +20,8 @@ import MenuIcon from 'mdi-material-ui/menu';
 import blue from '@material-ui/core/colors/blue';
 import red from '@material-ui/core/colors/red';
 
+import Grid from "./views/grid";
+
 const theme = createMuiTheme({
     palette: {
         primary: blue,
@@ -40,23 +34,25 @@ const theme = createMuiTheme({
 });
 
 const styles = theme => ({
-    menu: {
+    menuButton: {
         position: 'absolute',
         top: theme.spacing.unit * 2,
         left: theme.spacing.unit * 2,
+        zIndex: 9000
+    },
+    menu: {
+        zIndex: 10000
     },
     fab: {
         position: 'absolute',
         bottom: theme.spacing.unit * 2,
-        right: theme.spacing.unit * 2
+        right: theme.spacing.unit * 2,
+        zIndex: 9000
     },
     map: {
         override: "hidden",
-        margin: "16px",
-        height: "584px",
-        width: "784px",
-        left: "0px",
-        top: "0px"
+        height: "100%",
+        width: "100%"
     }
 });
 
@@ -96,6 +92,7 @@ class MainWindow extends Reflux.Component {
                     anchorEl={this.state.anchorEl}
                     open={Boolean(this.state.anchorEl)}
                     onClose={this.handleCloseMenu}
+                    className={classes.menu}
                 >
                     {options.map((option, index) => (
                         <MenuItem
@@ -106,7 +103,7 @@ class MainWindow extends Reflux.Component {
                         </MenuItem>
                     ))}
                 </Menu>
-                <IconButton className={classes.menu} onClick={this.handleOpenMenu}>
+                <IconButton className={classes.menuButton} onClick={this.handleOpenMenu}>
                     <MenuIcon />
                 </IconButton>
                 <Fab color="primary" className={classes.fab}>
@@ -114,7 +111,7 @@ class MainWindow extends Reflux.Component {
                 </Fab>
                 {/* 底部电路方格 */}
                 <div className={classes.map}>
-                    {/* <GridView /> */}
+                    <Grid />
                 </div>
             </MuiThemeProvider>
         );

@@ -1,7 +1,7 @@
 {
   "name": "circult_emulator",
   "version": "0.1.0",
-  "description": "较为简单的电路模拟器",
+  "description": "较简单的电路模拟器",
   "main": "index.js",
   "scripts": {
     "start": "electron ./index.js --inspect=5858",
@@ -48,6 +48,7 @@
     "reflux": "^6.4.1",
     "shortid": "^2.2.14",
     "uglifyjs": "^2.4.11",
+    "use-image": "^1.0.3",
     "watchify": "^3.11.1",
     "webpack": "^4.29.6"
   },

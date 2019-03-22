@@ -1,6 +1,8 @@
 import React from "react";
 import { Stage, Layer, Line } from "react-konva";
 
+import Element from "./element";
+
 class Grid extends React.Component {
   render() {
     let list = [];
@@ -17,7 +19,10 @@ class Grid extends React.Component {
 
     return (
       <Stage width={window.innerWidth} height={window.innerHeight}>
-        <Layer>{list}</Layer>
+        <Layer>
+          {list}
+          {/* <Element src="../svgs/light.svg" /> */}
+        </Layer>
       </Stage>
     );
   }

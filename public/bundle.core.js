@@ -67865,6 +67865,43 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+var _reactKonva = require("react-konva");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class Ammeter extends _react.default.Component {
+  render() {
+    return _react.default.createElement(_reactKonva.Group, null, _react.default.createElement(_reactKonva.Circle, {
+      radius: 30,
+      x: 30,
+      y: 29,
+      strokeWidth: 1.5,
+      stroke: "#000",
+      fill: "#fff"
+    }), _react.default.createElement(_reactKonva.Text, {
+      text: "A",
+      fontFamily: "Helvetica, Arial, sans-serif",
+      fontSize: "24",
+      y: 38.382816,
+      x: 22.007813
+    }));
+  }
+
+}
+
+var _default = Ammeter;
+exports.default = _default;
+
+},{"react":285,"react-konva":271}],326:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
 var _reflux = _interopRequireDefault(require("reflux"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
@@ -68001,7 +68038,7 @@ var _default = (0, _styles.withStyles)(styles)(MainWindow);
 
 exports.default = _default;
 
-},{"./views/grid":328,"@material-ui/core/Fab":11,"@material-ui/core/IconButton":17,"@material-ui/core/Menu":29,"@material-ui/core/MenuItem":25,"@material-ui/core/Paper":38,"@material-ui/core/Typography":48,"@material-ui/core/colors/blue":49,"@material-ui/core/colors/red":54,"@material-ui/core/styles":84,"classnames":113,"mdi-material-ui/menu":233,"mdi-material-ui/plus":234,"prop-types":242,"react":285,"reflux":303,"shortid":312}],326:[function(require,module,exports){
+},{"./views/grid":329,"@material-ui/core/Fab":11,"@material-ui/core/IconButton":17,"@material-ui/core/Menu":29,"@material-ui/core/MenuItem":25,"@material-ui/core/Paper":38,"@material-ui/core/Typography":48,"@material-ui/core/colors/blue":49,"@material-ui/core/colors/red":54,"@material-ui/core/styles":84,"classnames":113,"mdi-material-ui/menu":233,"mdi-material-ui/plus":234,"prop-types":242,"react":285,"reflux":303,"shortid":312}],327:[function(require,module,exports){
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -68014,7 +68051,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 _reactDom.default.render(_react.default.createElement(_mainView.default, null), document.querySelector('#content'));
 
-},{"./mainView":325,"react":285,"react-dom":246}],327:[function(require,module,exports){
+},{"./mainView":326,"react":285,"react-dom":246}],328:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -68049,7 +68086,7 @@ Element.propTypes = {
 var _default = Element;
 exports.default = _default;
 
-},{"prop-types":242,"react":285,"react-konva":271,"reflux":303,"use-image":323}],328:[function(require,module,exports){
+},{"prop-types":242,"react":285,"react-konva":271,"reflux":303,"use-image":323}],329:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -68063,6 +68100,8 @@ var _reactKonva = require("react-konva");
 
 var _element = _interopRequireDefault(require("./element"));
 
+var _ammeter = _interopRequireDefault(require("../components/ammeter"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 class Grid extends _react.default.Component {
@@ -68071,6 +68110,7 @@ class Grid extends _react.default.Component {
 
     for (let i = -50; i < 50; ++i) {
       list.push(_react.default.createElement(_reactKonva.Line, {
+        key: "a" + i,
         x: i * 60 + 30,
         y: 0,
         points: [0, 0, 0, 1000],
@@ -68080,6 +68120,7 @@ class Grid extends _react.default.Component {
 
     for (let i = -50; i < 50; ++i) {
       list.push(_react.default.createElement(_reactKonva.Line, {
+        key: "b" + i,
         x: 0,
         y: i * 60 + 30,
         points: [0, 0, 1000, 0],
@@ -68090,7 +68131,7 @@ class Grid extends _react.default.Component {
     return _react.default.createElement(_reactKonva.Stage, {
       width: window.innerWidth,
       height: window.innerHeight
-    }, _react.default.createElement(_reactKonva.Layer, null, list));
+    }, _react.default.createElement(_reactKonva.Layer, null, list, _react.default.createElement(_ammeter.default, null)));
   }
 
 }
@@ -68098,4 +68139,4 @@ class Grid extends _react.default.Component {
 var _default = Grid;
 exports.default = _default;
 
-},{"./element":327,"react":285,"react-konva":271}]},{},[326]);
+},{"../components/ammeter":325,"./element":328,"react":285,"react-konva":271}]},{},[327]);

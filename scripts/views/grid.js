@@ -23,7 +23,7 @@ class Grid extends React.Component {
       <Stage width={window.innerWidth} height={window.innerHeight}>
         <Layer>
           {list}
-          <Ammeter x={1} y={1}/>
+          <Ammeter x={1} y={4}/>
         </Layer>
       </Stage>
     );

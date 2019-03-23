@@ -1,15 +1,23 @@
-<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Stage, Layer, Rect, Text, Circle, Line, Group } from 'react-konva';
 
- <g>
-  <title>background</title>
-  <rect x="-1" y="-1" width="26.489725" height="26.489725" id="canvas_background" fill="#fff"/>
- </g>
- <g>
-  <title>Layer 1</title>
-  <line stroke="#000" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="0" y1="30" x2="25" y2="30" id="svg_3" stroke-linejoin="null" stroke-linecap="null"/>
-  <line stroke="#000" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="35" y1="30" x2="60" y2="30" id="svg_4" stroke-linejoin="null" stroke-linecap="null"/>
-  <line stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="40" x2="25" y1="20" x1="25" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
-  <line stroke-linecap="null" stroke-linejoin="null" id="svg_7" y2="50" x2="35" y1="10" x1="35" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
- </g>
-</svg>
+class Power extends React.Component {
+    render() {
+        return (
+            <Group x={60 * this.props.x + 30} y={60 * this.props.y + 30}>
+                <Line x={0} y={30} points={[0, 0, 25, 0]} strokeWidth="1.5" stroke="#000" />
+                <Line x={35} y={30} points={[0, 0, 25, 0]} strokeWidth="1.5" stroke="#000" />
+                <Line x={25} y={20} points={[0, 0, 0, 20]} strokeWidth="1.5" stroke="#000" />
+                <Line x={35} y={10} points={[0, 0, 0, 40]} strokeWidth="1.5" stroke="#000" />
+            </Group>
+        )
+    }
+}
+
+Power.propTypes = {
+    x: PropTypes.number,
+    y: PropTypes.number
+}
+
+export default Power;

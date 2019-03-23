@@ -6,14 +6,10 @@ let mainWnd = null;
 
 function createMainWnd() {
     mainWnd = new BrowserWindow({
-        // width:816,
-        // height:616,
         width: 800,
         height: 600,
         useContentSize: true,
-        show: false,
-        // frame: false,
-        // transparent: true
+        show: false
     });
 
     mainWnd.loadURL(`file://${__dirname}/public/index.core.html`);

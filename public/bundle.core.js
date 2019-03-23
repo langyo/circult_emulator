@@ -67874,8 +67874,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 class Ammeter extends _react.default.Component {
   render() {
     return _react.default.createElement(_reactKonva.Group, {
-      x: 30 * this.props.x,
-      y: 30 * this.props.y
+      x: 60 * this.props.x + 30,
+      y: 60 * this.props.y + 30
     }, _react.default.createElement(_reactKonva.Circle, {
       radius: 28,
       x: 30,
@@ -68142,7 +68142,7 @@ class Grid extends _react.default.Component {
       height: window.innerHeight
     }, _react.default.createElement(_reactKonva.Layer, null, list, _react.default.createElement(_ammeter.default, {
       x: 1,
-      y: 1
+      y: 4
     })));
   }
 

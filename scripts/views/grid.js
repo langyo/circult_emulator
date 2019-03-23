@@ -10,12 +10,12 @@ class Grid extends React.Component {
     let list = [];
     for (let i = -50; i < 50; ++i) {
       list.push(
-        <Line key={"a" + i} x={i * 60 + 30} y={0} points={[0, 0, 0, 1000]} stroke="black" />
+        <Line key={"a" + i} x={i * 60 + 30} y={0} points={[0, 0, 0, 1000]} stroke="#bbb" />
       );
     }
     for (let i = -50; i < 50; ++i) {
       list.push(
-        <Line key={"b" + i} x={0} y={i * 60 + 30} points={[0, 0, 1000, 0]} stroke="black" />
+        <Line key={"b" + i} x={0} y={i * 60 + 30} points={[0, 0, 1000, 0]} stroke="#bbb" />
       );
     }
 
@@ -23,7 +23,7 @@ class Grid extends React.Component {
       <Stage width={window.innerWidth} height={window.innerHeight}>
         <Layer>
           {list}
-          <Ammeter />
+          <Ammeter x={1} y={1}/>
         </Layer>
       </Stage>
     );

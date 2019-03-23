@@ -6,15 +6,17 @@ let mainWnd = null;
 
 function createMainWnd() {
     mainWnd = new BrowserWindow({
-        width:816,
-        height:616,
+        // width:816,
+        // height:616,
+        width: 800,
+        height: 600,
         useContentSize: true,
         show: false,
-        frame: false,
-        transparent: true
+        // frame: false,
+        // transparent: true
     });
 
-    mainWnd.loadURL(`file://${__dirname}/public/index.window.html`);
+    mainWnd.loadURL(`file://${__dirname}/public/index.core.html`);
 
     mainWnd.on('ready-to-show', ()=>{
         Menu.setApplicationMenu(null);

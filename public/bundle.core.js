@@ -67865,16 +67865,21 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
 var _reactKonva = require("react-konva");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 class Ammeter extends _react.default.Component {
   render() {
-    return _react.default.createElement(_reactKonva.Group, null, _react.default.createElement(_reactKonva.Circle, {
-      radius: 30,
+    return _react.default.createElement(_reactKonva.Group, {
+      x: 30 * this.props.x,
+      y: 30 * this.props.y
+    }, _react.default.createElement(_reactKonva.Circle, {
+      radius: 28,
       x: 30,
-      y: 29,
+      y: 30,
       strokeWidth: 1.5,
       stroke: "#000",
       fill: "#fff"
@@ -67882,17 +67887,21 @@ class Ammeter extends _react.default.Component {
       text: "A",
       fontFamily: "Helvetica, Arial, sans-serif",
       fontSize: "24",
-      y: 38.382816,
-      x: 22.007813
+      y: 17,
+      x: 22
     }));
   }
 
 }
 
+Ammeter.propTypes = {
+  x: _propTypes.default.number,
+  y: _propTypes.default.number
+};
 var _default = Ammeter;
 exports.default = _default;
 
-},{"react":285,"react-konva":271}],326:[function(require,module,exports){
+},{"prop-types":242,"react":285,"react-konva":271}],326:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -68114,7 +68123,7 @@ class Grid extends _react.default.Component {
         x: i * 60 + 30,
         y: 0,
         points: [0, 0, 0, 1000],
-        stroke: "black"
+        stroke: "#bbb"
       }));
     }
 
@@ -68124,14 +68133,17 @@ class Grid extends _react.default.Component {
         x: 0,
         y: i * 60 + 30,
         points: [0, 0, 1000, 0],
-        stroke: "black"
+        stroke: "#bbb"
       }));
     }
 
     return _react.default.createElement(_reactKonva.Stage, {
       width: window.innerWidth,
       height: window.innerHeight
-    }, _react.default.createElement(_reactKonva.Layer, null, list, _react.default.createElement(_ammeter.default, null)));
+    }, _react.default.createElement(_reactKonva.Layer, null, list, _react.default.createElement(_ammeter.default, {
+      x: 1,
+      y: 1
+    })));
   }
 
 }

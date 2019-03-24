@@ -22,6 +22,8 @@ import red from '@material-ui/core/colors/red';
 
 import Grid from "./views/grid";
 
+import AboutDialog from "./dialogs/about";
+
 const theme = createMuiTheme({
     palette: {
         primary: blue,
@@ -56,31 +58,19 @@ const styles = theme => ({
     }
 });
 
-const options = [
-    "实验环境设置",
-    "软件设置",
-    "导入...",
-    "导出...",
-    "更换材质",
-    "关于"
-];
-
 class MainWindow extends Reflux.Component {
     state = {
-        anchorEl: null
+        anchorEl: null,
+
+        dialogAbout: false
     }
 
-    handleOpenMenu = event => {
-        this.setState({ anchorEl: event.currentTarget });
-    };
+    handleOpenMenu = event => this.setState({ anchorEl: event.currentTarget });
+    handleMenuItemClick = (event, index) => this.setState({ anchorEl: null });
+    handleCloseMenu = () => this.setState({ anchorEl: null });
 
-    handleMenuItemClick = (event, index) => {
-        this.setState({ anchorEl: null });
-    };
-
-    handleCloseMenu = () => {
-        this.setState({ anchorEl: null });
-    };
+    handleDialogAboutOpen = () => this.setState({ dialogAbout: true, anchorEl: null  });
+    handleDialogAboutClose = () => this.setState({ dialogAbout: false, anchorEl: null  });
 
     render() {
         const { classes } = this.props;
@@ -94,14 +84,24 @@ class MainWindow extends Reflux.Component {
                     onClose={this.handleCloseMenu}
                     className={classes.menu}
                 >
-                    {options.map((option, index) => (
-                        <MenuItem
-                            key={index}
-                            onClick={event => this.handleMenuItemClick(event, index)}
-                        >
-                            <Typography variant="button">{option}</Typography>
-                        </MenuItem>
-                    ))}
+                    <MenuItem>
+                        {"实验环境设置"}
+                    </MenuItem>
+                    <MenuItem>
+                        {"软件设置"}
+                    </MenuItem>
+                    <MenuItem>
+                        {"导入..."}
+                    </MenuItem>
+                    <MenuItem>
+                        {"导出..."}
+                    </MenuItem>
+                    <MenuItem>
+                        {"更换材质"}
+                    </MenuItem>
+                    <MenuItem onClick={this.handleDialogAboutOpen}>
+                        {"关于"}
+                    </MenuItem>
                 </Menu>
                 <IconButton className={classes.menuButton} onClick={this.handleOpenMenu}>
                     <MenuIcon />
@@ -112,6 +112,7 @@ class MainWindow extends Reflux.Component {
                 {/* 底部电路方格 */}
                 <div className={classes.map}>
                     <Grid />
+                    <AboutDialog open={this.state.dialogAbout} onClose={this.handleDialogAboutClose} />
                 </div>
             </MuiThemeProvider>
         );

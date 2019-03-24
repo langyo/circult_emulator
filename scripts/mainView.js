@@ -23,8 +23,7 @@ import red from '@material-ui/core/colors/red';
 
 import { Store, Actions } from './store';
 
-import Grid from "./views/grid";
-
+import MainCanva from "./views/mainCanva";
 import ChooseComponentDialog from "./dialogs/chooseComponent";
 import AboutDialog from "./dialogs/about";
 
@@ -142,7 +141,7 @@ class MainWindow extends Reflux.Component {
                 </Tooltip>
                 {/* 底部电路方格 */}
                 <div className={classes.map}>
-                    <Grid />
+                    <MainCanva />
                     <ChooseComponentDialog
                         open={this.state.dialogChooseComponent}
                         onClose={this.handleDialogChooseComponentClose}

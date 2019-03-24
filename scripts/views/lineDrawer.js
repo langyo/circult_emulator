@@ -12,16 +12,7 @@ class Grid extends Reflux.Component {
 
   render() {
     let list = [];
-    for (let i = -50; i < 50; ++i) {
-      list.push(
-        <Line key={"a" + i} x={i * 60 + 30} y={0} points={[0, 0, 0, 1000]} stroke="#bbb" />
-      );
-    }
-    for (let i = -50; i < 50; ++i) {
-      list.push(
-        <Line key={"b" + i} x={0} y={i * 60 + 30} points={[0, 0, 1000, 0]} stroke="#bbb" />
-      );
-    }
+    // TODO: 读取 Store 进行画线
 
     return (
       <Group>

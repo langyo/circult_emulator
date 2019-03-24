@@ -1327,7 +1327,7 @@ function listenForFocusKeys(win) {
   win.addEventListener('keyup', handleKeyUpEvent);
 }
 }).call(this,require('_process'))
-},{"../utils/ownerDocument":117,"@babel/runtime/helpers/interopRequireDefault":81,"_process":257,"warning":343}],9:[function(require,module,exports){
+},{"../utils/ownerDocument":117,"@babel/runtime/helpers/interopRequireDefault":81,"_process":257,"warning":342}],9:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -4702,7 +4702,7 @@ MenuList.defaultProps = {
 var _default = MenuList;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../List":37,"../utils/ownerDocument":117,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"_process":257,"prop-types":261,"react":304,"react-dom":265,"warning":343}],41:[function(require,module,exports){
+},{"../List":37,"../utils/ownerDocument":117,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"_process":257,"prop-types":261,"react":304,"react-dom":265,"warning":342}],41:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -5580,7 +5580,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../Backdrop":3,"../Portal":58,"../RootRef":60,"../styles/withStyles":112,"../utils/helpers":116,"../utils/ownerDocument":117,"./ModalManager":45,"./manageAriaHidden":48,"@babel/runtime/helpers/assertThisInitialized":74,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304,"react-dom":265,"warning":343}],45:[function(require,module,exports){
+},{"../Backdrop":3,"../Portal":58,"../RootRef":60,"../styles/withStyles":112,"../utils/helpers":116,"../utils/ownerDocument":117,"./ModalManager":45,"./manageAriaHidden":48,"@babel/runtime/helpers/assertThisInitialized":74,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304,"react-dom":265,"warning":342}],45:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -6161,7 +6161,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withStyles":112,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304,"warning":343}],52:[function(require,module,exports){
+},{"../styles/withStyles":112,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304,"warning":342}],52:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -6768,7 +6768,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../Grow":25,"../Modal":46,"../Paper":52,"../styles/withStyles":112,"../utils/helpers":116,"../utils/ownerDocument":117,"../utils/ownerWindow":118,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"debounce":137,"prop-types":261,"react":304,"react-dom":265,"react-event-listener":266,"warning":343}],54:[function(require,module,exports){
+},{"../Grow":25,"../Modal":46,"../Paper":52,"../styles/withStyles":112,"../utils/helpers":116,"../utils/ownerDocument":117,"../utils/ownerWindow":118,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"debounce":137,"prop-types":261,"react":304,"react-dom":265,"react-event-listener":266,"warning":342}],54:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -8177,7 +8177,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../Grow":25,"../Popper":56,"../RootRef":60,"../styles/withStyles":112,"../utils/helpers":116,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304,"warning":343}],64:[function(require,module,exports){
+},{"../Grow":25,"../Popper":56,"../RootRef":60,"../styles/withStyles":112,"../utils/helpers":116,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304,"warning":342}],64:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -9169,7 +9169,7 @@ if (!_utils.ponyfillGlobal.__MUI_STYLES__.MuiThemeProvider) {
 var _default = _utils.ponyfillGlobal.__MUI_STYLES__.MuiThemeProvider;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"./themeListener":110,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/interopRequireWildcard":82,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"brcast":130,"prop-types":261,"react":304,"warning":343}],92:[function(require,module,exports){
+},{"./themeListener":110,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/interopRequireWildcard":82,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"brcast":130,"prop-types":261,"react":304,"warning":342}],92:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -9458,7 +9458,7 @@ function lighten(color, coefficient) {
   return recomposeColor(color);
 }
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/interopRequireDefault":81,"_process":257,"warning":343}],93:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":81,"_process":257,"warning":342}],93:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -9598,7 +9598,7 @@ function createGenerateClassName() {
   };
 }
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/interopRequireDefault":81,"_process":257,"warning":343}],95:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":81,"_process":257,"warning":342}],95:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -9744,7 +9744,7 @@ function createMuiTheme() {
 var _default = createMuiTheme;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"./createBreakpoints":93,"./createMixins":95,"./createPalette":97,"./createTypography":99,"./shadows":107,"./shape":108,"./spacing":109,"./transitions":111,"./zIndex":114,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"deepmerge":138,"is-plain-object":155,"warning":343}],97:[function(require,module,exports){
+},{"./createBreakpoints":93,"./createMixins":95,"./createPalette":97,"./createTypography":99,"./shadows":107,"./shape":108,"./spacing":109,"./transitions":111,"./zIndex":114,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"deepmerge":138,"is-plain-object":155,"warning":342}],97:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -9952,7 +9952,7 @@ function createPalette(palette) {
   return paletteOutput;
 }
 }).call(this,require('_process'))
-},{"../colors/common":68,"../colors/grey":69,"../colors/indigo":70,"../colors/pink":71,"../colors/red":72,"./colorManipulator":92,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"deepmerge":138,"warning":343}],98:[function(require,module,exports){
+},{"../colors/common":68,"../colors/grey":69,"../colors/indigo":70,"../colors/pink":71,"../colors/red":72,"./colorManipulator":92,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"deepmerge":138,"warning":342}],98:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -10160,7 +10160,7 @@ function createTypography(palette, typography) {
   });
 }
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@material-ui/utils":124,"_process":257,"deepmerge":138,"warning":343}],100:[function(require,module,exports){
+},{"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@material-ui/utils":124,"_process":257,"deepmerge":138,"warning":342}],100:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -10217,7 +10217,7 @@ function getStylesCreator(stylesOrCreator) {
 var _default = getStylesCreator;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/typeof":90,"_process":257,"deepmerge":138,"warning":343}],101:[function(require,module,exports){
+},{"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/typeof":90,"_process":257,"deepmerge":138,"warning":342}],101:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -10397,7 +10397,7 @@ function mergeClasses() {
 var _default = mergeClasses;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@material-ui/utils":124,"_process":257,"warning":343}],105:[function(require,module,exports){
+},{"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@material-ui/utils":124,"_process":257,"warning":342}],105:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -10633,7 +10633,7 @@ var _default = {
 };
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"warning":343}],112:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"warning":342}],112:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -11028,7 +11028,7 @@ var _default = function _default(styles, options) {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"./createGenerateClassName":94,"./createMuiTheme":96,"./getStylesCreator":100,"./getThemeProps":101,"./jssPreset":103,"./mergeClasses":104,"./multiKeyStore":105,"./reactJssContext":106,"./themeListener":110,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"hoist-non-react-statics":152,"jss":171,"prop-types":261,"react":304,"warning":343}],113:[function(require,module,exports){
+},{"./createGenerateClassName":94,"./createMuiTheme":96,"./getStylesCreator":100,"./getThemeProps":101,"./jssPreset":103,"./mergeClasses":104,"./multiKeyStore":105,"./reactJssContext":106,"./themeListener":110,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"hoist-non-react-statics":152,"jss":171,"prop-types":261,"react":304,"warning":342}],113:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -11307,7 +11307,7 @@ function createChainedFunction() {
   }, function () {});
 }
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/typeof":90,"_process":257,"warning":343}],117:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/typeof":90,"_process":257,"warning":342}],117:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -52382,7 +52382,7 @@ exports.withOptions = withOptions;
 exports.default = EventListener;
 
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/classCallCheck":268,"@babel/runtime/helpers/createClass":269,"@babel/runtime/helpers/extends":270,"@babel/runtime/helpers/getPrototypeOf":271,"@babel/runtime/helpers/inherits":272,"@babel/runtime/helpers/objectWithoutProperties":273,"@babel/runtime/helpers/possibleConstructorReturn":275,"@babel/runtime/helpers/typeof":277,"_process":257,"prop-types":282,"react":304,"warning":343}],267:[function(require,module,exports){
+},{"@babel/runtime/helpers/classCallCheck":268,"@babel/runtime/helpers/createClass":269,"@babel/runtime/helpers/extends":270,"@babel/runtime/helpers/getPrototypeOf":271,"@babel/runtime/helpers/inherits":272,"@babel/runtime/helpers/objectWithoutProperties":273,"@babel/runtime/helpers/possibleConstructorReturn":275,"@babel/runtime/helpers/typeof":277,"_process":257,"prop-types":282,"react":304,"warning":342}],267:[function(require,module,exports){
 arguments[4][74][0].apply(exports,arguments)
 },{"dup":74}],268:[function(require,module,exports){
 arguments[4][75][0].apply(exports,arguments)
@@ -72700,50 +72700,6 @@ function symbolObservablePonyfill(root) {
 	return result;
 };
 },{}],342:[function(require,module,exports){
-var React = require('react');
-
-var defaultState = { image: undefined, status: 'loading' };
-
-module.exports = function useImage(url, crossOrigin) {
-  var res = React.useState(defaultState);
-  var image = res[0].image;
-  var status = res[0].status;
-
-  var setState = res[1];
-
-  React.useEffect(
-    function() {
-      if (!url) return;
-      const img = document.createElement('img');
-
-      function onload() {
-        setState({ image: img, status: 'loaded' });
-      }
-
-      function onerror() {
-        setState({ image: undefined, status: 'failed' });
-      }
-
-      img.addEventListener('load', onload);
-      img.addEventListener('error', onerror);
-      crossOrigin && (img.crossOrigin = crossOrigin);
-      img.src = url;
-
-      return function cleanup() {
-        img.removeEventListener('load', onload);
-        img.removeEventListener('error', onerror);
-      };
-    },
-    [url, crossOrigin]
-  );
-
-  // return array because it it better to use in case of several useImage hooks
-  // const [background, backgroundStatus] = useImage(url1);
-  // const [patter] = useImage(url2);
-  return [image, status];
-};
-
-},{"react":304}],343:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
@@ -72809,7 +72765,7 @@ if (__DEV__) {
 module.exports = warning;
 
 }).call(this,require('_process'))
-},{"_process":257}],344:[function(require,module,exports){
+},{"_process":257}],343:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -72855,7 +72811,7 @@ Ammeter.propTypes = {
 var _default = Ammeter;
 exports.default = _default;
 
-},{"prop-types":261,"react":304,"react-konva":290}],345:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],344:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -72908,7 +72864,7 @@ FixedResistance.propTypes = {
 var _default = FixedResistance;
 exports.default = _default;
 
-},{"prop-types":261,"react":304,"react-konva":290}],346:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],345:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -72960,7 +72916,7 @@ Light.propTypes = {
 var _default = Light;
 exports.default = _default;
 
-},{"prop-types":261,"react":304,"react-konva":290}],347:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],346:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73017,7 +72973,7 @@ Power.propTypes = {
 var _default = Power;
 exports.default = _default;
 
-},{"prop-types":261,"react":304,"react-konva":290}],348:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],347:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73100,7 +73056,7 @@ SlidingRheostat.propTypes = {
 var _default = SlidingRheostat;
 exports.default = _default;
 
-},{"prop-types":261,"react":304,"react-konva":290}],349:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],348:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73158,7 +73114,7 @@ SwitchOff.propTypes = {
 var _default = SwitchOff;
 exports.default = _default;
 
-},{"prop-types":261,"react":304,"react-konva":290}],350:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],349:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73216,7 +73172,7 @@ SwitchOn.propTypes = {
 var _default = SwitchOn;
 exports.default = _default;
 
-},{"prop-types":261,"react":304,"react-konva":290}],351:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],350:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73262,7 +73218,7 @@ Voltmeter.propTypes = {
 var _default = Voltmeter;
 exports.default = _default;
 
-},{"prop-types":261,"react":304,"react-konva":290}],352:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],351:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73316,7 +73272,7 @@ AboutDialog.propTypes = {
 var _default = AboutDialog;
 exports.default = _default;
 
-},{"@material-ui/core/Button":11,"@material-ui/core/Dialog":19,"@material-ui/core/DialogActions":13,"@material-ui/core/DialogContent":15,"@material-ui/core/DialogTitle":17,"@material-ui/core/Typography":66,"@material-ui/core/styles":102,"prop-types":261,"react":304}],353:[function(require,module,exports){
+},{"@material-ui/core/Button":11,"@material-ui/core/Dialog":19,"@material-ui/core/DialogActions":13,"@material-ui/core/DialogContent":15,"@material-ui/core/DialogTitle":17,"@material-ui/core/Typography":66,"@material-ui/core/styles":102,"prop-types":261,"react":304}],352:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73427,7 +73383,7 @@ ChooseComponentDialog.propTypes = {
 var _default = ChooseComponentDialog;
 exports.default = _default;
 
-},{"../svgs/ammeter":357,"../svgs/fixedResistance":358,"../svgs/light":359,"../svgs/power":360,"../svgs/slidingRheostat":361,"../svgs/switch":362,"../svgs/voltmeter":363,"@material-ui/core/Button":11,"@material-ui/core/Dialog":19,"@material-ui/core/DialogActions":13,"@material-ui/core/DialogContent":15,"@material-ui/core/DialogTitle":17,"@material-ui/core/ListItemIcon":29,"@material-ui/core/ListItemText":31,"@material-ui/core/MenuItem":39,"@material-ui/core/MenuList":41,"@material-ui/core/Typography":66,"@material-ui/core/styles":102,"prop-types":261,"react":304}],354:[function(require,module,exports){
+},{"../svgs/ammeter":356,"../svgs/fixedResistance":357,"../svgs/light":358,"../svgs/power":359,"../svgs/slidingRheostat":360,"../svgs/switch":361,"../svgs/voltmeter":362,"@material-ui/core/Button":11,"@material-ui/core/Dialog":19,"@material-ui/core/DialogActions":13,"@material-ui/core/DialogContent":15,"@material-ui/core/DialogTitle":17,"@material-ui/core/ListItemIcon":29,"@material-ui/core/ListItemText":31,"@material-ui/core/MenuItem":39,"@material-ui/core/MenuList":41,"@material-ui/core/Typography":66,"@material-ui/core/styles":102,"prop-types":261,"react":304}],353:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73471,7 +73427,7 @@ var _red = _interopRequireDefault(require("@material-ui/core/colors/red"));
 
 var _store = require("./store");
 
-var _grid = _interopRequireDefault(require("./views/grid"));
+var _mainCanva = _interopRequireDefault(require("./views/mainCanva"));
 
 var _chooseComponent = _interopRequireDefault(require("./dialogs/chooseComponent"));
 
@@ -73595,7 +73551,7 @@ class MainWindow extends _reflux.default.Component {
       onClick: this.handleDialogChooseComponentOpen
     }, _react.default.createElement(_plus.default, null))), _react.default.createElement("div", {
       className: classes.map
-    }, _react.default.createElement(_grid.default, null), _react.default.createElement(_chooseComponent.default, {
+    }, _react.default.createElement(_mainCanva.default, null), _react.default.createElement(_chooseComponent.default, {
       open: this.state.dialogChooseComponent,
       onClose: this.handleDialogChooseComponentClose,
       onChooseComponent: this.handleDialogChooseComponentGet
@@ -73615,7 +73571,7 @@ var _default = (0, _styles.withStyles)(styles)(MainWindow);
 
 exports.default = _default;
 
-},{"./dialogs/about":352,"./dialogs/chooseComponent":353,"./store":356,"./views/grid":365,"@material-ui/core/Fab":21,"@material-ui/core/IconButton":27,"@material-ui/core/Menu":43,"@material-ui/core/MenuItem":39,"@material-ui/core/Paper":52,"@material-ui/core/Tooltip":64,"@material-ui/core/Typography":66,"@material-ui/core/colors/blue":67,"@material-ui/core/colors/red":72,"@material-ui/core/styles":102,"classnames":131,"mdi-material-ui/menu":251,"mdi-material-ui/plus":252,"prop-types":261,"react":304,"reflux":322,"shortid":331}],355:[function(require,module,exports){
+},{"./dialogs/about":351,"./dialogs/chooseComponent":352,"./store":355,"./views/mainCanva":366,"@material-ui/core/Fab":21,"@material-ui/core/IconButton":27,"@material-ui/core/Menu":43,"@material-ui/core/MenuItem":39,"@material-ui/core/Paper":52,"@material-ui/core/Tooltip":64,"@material-ui/core/Typography":66,"@material-ui/core/colors/blue":67,"@material-ui/core/colors/red":72,"@material-ui/core/styles":102,"classnames":131,"mdi-material-ui/menu":251,"mdi-material-ui/plus":252,"prop-types":261,"react":304,"reflux":322,"shortid":331}],354:[function(require,module,exports){
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -73628,7 +73584,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 _reactDom.default.render(_react.default.createElement(_mainView.default, null), document.querySelector('#content'));
 
-},{"./mainView":354,"react":304,"react-dom":265}],356:[function(require,module,exports){
+},{"./mainView":353,"react":304,"react-dom":265}],355:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73708,7 +73664,7 @@ exports.Store = Store;
 let Actions = actions;
 exports.Actions = Actions;
 
-},{"prop-types":261,"react":304,"reflux":322}],357:[function(require,module,exports){
+},{"prop-types":261,"react":304,"reflux":322}],356:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73752,7 +73708,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":304}],358:[function(require,module,exports){
+},{"react":304}],357:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73810,7 +73766,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":304}],359:[function(require,module,exports){
+},{"react":304}],358:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73868,7 +73824,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":304}],360:[function(require,module,exports){
+},{"react":304}],359:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73941,7 +73897,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":304}],361:[function(require,module,exports){
+},{"react":304}],360:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -74064,7 +74020,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":304}],362:[function(require,module,exports){
+},{"react":304}],361:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -74136,7 +74092,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":304}],363:[function(require,module,exports){
+},{"react":304}],362:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -74180,7 +74136,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":304}],364:[function(require,module,exports){
+},{"react":304}],363:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -74192,42 +74148,9 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reflux = _interopRequireDefault(require("reflux"));
 
-var _propTypes = _interopRequireDefault(require("prop-types"));
-
 var _reactKonva = require("react-konva");
 
-var _useImage = _interopRequireDefault(require("use-image"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-class Element extends _reflux.default.Component {
-  render() {
-    return _react.default.createElement(_reactKonva.Image, {
-      image: (0, _useImage.default)(this.props.src)
-    });
-  }
-
-}
-
-Element.propTypes = {
-  src: _propTypes.default.string
-};
-var _default = Element;
-exports.default = _default;
-
-},{"prop-types":261,"react":304,"react-konva":290,"reflux":322,"use-image":342}],365:[function(require,module,exports){
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _reactKonva = require("react-konva");
-
-var _element = _interopRequireDefault(require("./element"));
+var _store = require("../store");
 
 var _ammeter = _interopRequireDefault(require("../components/ammeter"));
 
@@ -74247,7 +74170,78 @@ var _voltmeter = _interopRequireDefault(require("../components/voltmeter"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-class Grid extends _react.default.Component {
+const componentMap = {
+  "system.ammeter": (x, y) => _react.default.createElement(_ammeter.default, {
+    x: x,
+    y: y
+  }),
+  "system.fixedResistance": (x, y) => _react.default.createElement(_fixedResistance.default, {
+    x: x,
+    y: y
+  }),
+  "system.light": (x, y) => _react.default.createElement(_light.default, {
+    x: x,
+    y: y
+  }),
+  "system.power": (x, y) => _react.default.createElement(_power.default, {
+    x: x,
+    y: y
+  }),
+  "system.slidingRheostat": (x, y) => _react.default.createElement(_slidingRheostat.default, {
+    x: x,
+    y: y
+  }),
+  "system.switch": (x, y) => _react.default.createElement(_switchOn.default, {
+    x: x,
+    y: y
+  }),
+  "system.voltmeter": (x, y) => _react.default.createElement(_voltmeter.default, {
+    x: x,
+    y: y
+  })
+};
+
+class Components extends _reflux.default.Component {
+  constructor(props) {
+    super(props);
+    this.store = _store.Store;
+  }
+
+  render() {
+    return _react.default.createElement(_reactKonva.Group, null, this.state.components.map((n, index) => _react.default.createElement(_reactKonva.Group, {
+      key: index
+    }, componentMap[n.class](n.x, n.y))));
+  }
+
+}
+
+var _default = Components;
+exports.default = _default;
+
+},{"../components/ammeter":343,"../components/fixedResistance":344,"../components/light":345,"../components/power":346,"../components/slidingRheostat":347,"../components/switchOff":348,"../components/switchOn":349,"../components/voltmeter":350,"../store":355,"react":304,"react-konva":290,"reflux":322}],364:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reflux = _interopRequireDefault(require("reflux"));
+
+var _reactKonva = require("react-konva");
+
+var _store = require("../store");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class Grid extends _reflux.default.Component {
+  constructor(props) {
+    super(props);
+    this.store = _store.Store;
+  }
+
   render() {
     let list = [];
 
@@ -74271,34 +74265,7 @@ class Grid extends _react.default.Component {
       }));
     }
 
-    return _react.default.createElement(_reactKonva.Stage, {
-      width: window.innerWidth,
-      height: window.innerHeight
-    }, _react.default.createElement(_reactKonva.Layer, null, list, _react.default.createElement(_ammeter.default, {
-      x: 1,
-      y: 4
-    }), _react.default.createElement(_fixedResistance.default, {
-      x: 2,
-      y: 4
-    }), _react.default.createElement(_light.default, {
-      x: 3,
-      y: 4
-    }), _react.default.createElement(_power.default, {
-      x: 4,
-      y: 4
-    }), _react.default.createElement(_slidingRheostat.default, {
-      x: 1,
-      y: 5
-    }), _react.default.createElement(_switchOff.default, {
-      x: 2,
-      y: 5
-    }), _react.default.createElement(_switchOn.default, {
-      x: 3,
-      y: 5
-    }), _react.default.createElement(_voltmeter.default, {
-      x: 4,
-      y: 5
-    })));
+    return _react.default.createElement(_reactKonva.Group, null, list);
   }
 
 }
@@ -74306,4 +74273,81 @@ class Grid extends _react.default.Component {
 var _default = Grid;
 exports.default = _default;
 
-},{"../components/ammeter":344,"../components/fixedResistance":345,"../components/light":346,"../components/power":347,"../components/slidingRheostat":348,"../components/switchOff":349,"../components/switchOn":350,"../components/voltmeter":351,"./element":364,"react":304,"react-konva":290}]},{},[355]);
+},{"../store":355,"react":304,"react-konva":290,"reflux":322}],365:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reflux = _interopRequireDefault(require("reflux"));
+
+var _reactKonva = require("react-konva");
+
+var _store = require("../store");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class Grid extends _reflux.default.Component {
+  constructor(props) {
+    super(props);
+    this.store = _store.Store;
+  }
+
+  render() {
+    let list = []; // TODO: 读取 Store 进行画线
+
+    return _react.default.createElement(_reactKonva.Group, null, list);
+  }
+
+}
+
+var _default = Grid;
+exports.default = _default;
+
+},{"../store":355,"react":304,"react-konva":290,"reflux":322}],366:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reflux = _interopRequireDefault(require("reflux"));
+
+var _reactKonva = require("react-konva");
+
+var _store = require("../store");
+
+var _grid = _interopRequireDefault(require("./grid"));
+
+var _lineDrawer = _interopRequireDefault(require("./lineDrawer"));
+
+var _components = _interopRequireDefault(require("./components"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class MainCanva extends _reflux.default.Component {
+  constructor(props) {
+    super(props);
+    this.store = _store.Store;
+  }
+
+  render() {
+    return _react.default.createElement(_reactKonva.Stage, {
+      width: window.innerWidth,
+      height: window.innerHeight
+    }, _react.default.createElement(_reactKonva.Layer, null, _react.default.createElement(_grid.default, null), _react.default.createElement(_components.default, null)));
+  }
+
+}
+
+var _default = MainCanva;
+exports.default = _default;
+
+},{"../store":355,"./components":363,"./grid":364,"./lineDrawer":365,"react":304,"react-konva":290,"reflux":322}]},{},[354]);

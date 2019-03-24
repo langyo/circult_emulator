@@ -73641,7 +73641,20 @@ class Circult extends _reflux.default.Store {
           y: 0
         },
         state: {}
-      }]
+      }],
+      wirePaths: [
+        /*
+         * 格式：
+         * {
+         *   id: string,
+         *   x1: number,
+         *   y1: number,
+         *   x2: number,
+         *   y2: number,
+         *   type: enum["wire", "electron"]
+         * }
+         */
+      ]
     };
     this.listenToMany(actions);
   }

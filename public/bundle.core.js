@@ -67911,6 +67911,413 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _reactKonva = require("react-konva");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class FixedResistance extends _react.default.Component {
+  render() {
+    return _react.default.createElement(_reactKonva.Group, {
+      x: 60 * this.props.x + 30,
+      y: 60 * this.props.y + 30
+    }, _react.default.createElement(_reactKonva.Rect, {
+      stroke: "#000",
+      height: 10,
+      width: 50,
+      x: 5,
+      y: 25,
+      strokeWidth: "1.5",
+      fill: "#fff"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 0,
+      y: 30,
+      points: [0, 0, 5, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 55,
+      y: 30,
+      points: [0, 0, 5, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }));
+  }
+
+}
+
+FixedResistance.propTypes = {
+  x: _propTypes.default.number,
+  y: _propTypes.default.number
+};
+var _default = FixedResistance;
+exports.default = _default;
+
+},{"prop-types":242,"react":285,"react-konva":271}],327:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _reactKonva = require("react-konva");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class Light extends _react.default.Component {
+  render() {
+    return _react.default.createElement(_reactKonva.Group, {
+      x: 60 * this.props.x + 30,
+      y: 60 * this.props.y + 30
+    }, _react.default.createElement(_reactKonva.Circle, {
+      radius: 28,
+      x: 30,
+      y: 30,
+      strokeWidth: 1.5,
+      stroke: "#000",
+      fill: "#fff"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 10,
+      y: 10,
+      points: [0, 0, 40, 40],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 50,
+      y: 10,
+      points: [0, 0, -40, 40],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }));
+  }
+
+}
+
+Light.propTypes = {
+  x: _propTypes.default.number,
+  y: _propTypes.default.number
+};
+var _default = Light;
+exports.default = _default;
+
+},{"prop-types":242,"react":285,"react-konva":271}],328:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _reactKonva = require("react-konva");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class Power extends _react.default.Component {
+  render() {
+    return _react.default.createElement(_reactKonva.Group, {
+      x: 60 * this.props.x + 30,
+      y: 60 * this.props.y + 30
+    }, _react.default.createElement(_reactKonva.Line, {
+      x: 0,
+      y: 30,
+      points: [0, 0, 25, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 35,
+      y: 30,
+      points: [0, 0, 25, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 25,
+      y: 20,
+      points: [0, 0, 0, 20],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 35,
+      y: 10,
+      points: [0, 0, 0, 40],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }));
+  }
+
+}
+
+Power.propTypes = {
+  x: _propTypes.default.number,
+  y: _propTypes.default.number
+};
+var _default = Power;
+exports.default = _default;
+
+},{"prop-types":242,"react":285,"react-konva":271}],329:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _reactKonva = require("react-konva");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class SlidingRheostat extends _react.default.Component {
+  render() {
+    return _react.default.createElement(_reactKonva.Group, {
+      x: 60 * this.props.x + 30,
+      y: 60 * this.props.y + 30
+    }, _react.default.createElement(_reactKonva.Rect, {
+      stroke: "#000",
+      height: "10",
+      width: "45",
+      y: "25",
+      x: "5",
+      strokeWidth: "1.5",
+      fill: "#fff"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 0,
+      y: 30,
+      points: [0, 0, 5, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 55,
+      y: 30,
+      points: [0, 0, 5, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 55,
+      y: 10,
+      points: [0, 0, 0, 20],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 20,
+      y: 10,
+      points: [0, 0, 0, 15],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 20,
+      y: 10,
+      points: [0, 0, 35, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 15,
+      y: 19,
+      points: [0, 0, 5, 6],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 25,
+      y: 19,
+      points: [0, 0, -5, 6],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }));
+  }
+
+}
+
+SlidingRheostat.propTypes = {
+  x: _propTypes.default.number,
+  y: _propTypes.default.number
+};
+var _default = SlidingRheostat;
+exports.default = _default;
+
+},{"prop-types":242,"react":285,"react-konva":271}],330:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _reactKonva = require("react-konva");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class SwitchOff extends _react.default.Component {
+  render() {
+    return _react.default.createElement(_reactKonva.Group, {
+      x: 60 * this.props.x + 30,
+      y: 60 * this.props.y + 30
+    }, _react.default.createElement(_reactKonva.Line, {
+      x: 0,
+      y: 30,
+      points: [0, 0, 10, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 50,
+      y: 30,
+      points: [0, 0, 10, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Circle, {
+      x: 13,
+      y: 30,
+      radius: 3,
+      strokeWidth: 1.5,
+      stroke: "#000",
+      fill: "#fff"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 15,
+      y: 29,
+      points: [0, 0, 35, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }));
+  }
+
+}
+
+SwitchOff.propTypes = {
+  x: _propTypes.default.number,
+  y: _propTypes.default.number
+};
+var _default = SwitchOff;
+exports.default = _default;
+
+},{"prop-types":242,"react":285,"react-konva":271}],331:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _reactKonva = require("react-konva");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class SwitchOn extends _react.default.Component {
+  render() {
+    return _react.default.createElement(_reactKonva.Group, {
+      x: 60 * this.props.x + 30,
+      y: 60 * this.props.y + 30
+    }, _react.default.createElement(_reactKonva.Line, {
+      x: 0,
+      y: 30,
+      points: [0, 0, 10, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 50,
+      y: 30,
+      points: [0, 0, 10, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), _react.default.createElement(_reactKonva.Circle, {
+      x: 13,
+      y: 30,
+      radius: 3,
+      strokeWidth: 1.5,
+      stroke: "#000",
+      fill: "#fff"
+    }), _react.default.createElement(_reactKonva.Line, {
+      x: 16,
+      y: 30,
+      points: [0, 0, 25, -15],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }));
+  }
+
+}
+
+SwitchOn.propTypes = {
+  x: _propTypes.default.number,
+  y: _propTypes.default.number
+};
+var _default = SwitchOn;
+exports.default = _default;
+
+},{"prop-types":242,"react":285,"react-konva":271}],332:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _reactKonva = require("react-konva");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class Voltmeter extends _react.default.Component {
+  render() {
+    return _react.default.createElement(_reactKonva.Group, {
+      x: 60 * this.props.x + 30,
+      y: 60 * this.props.y + 30
+    }, _react.default.createElement(_reactKonva.Circle, {
+      radius: 28,
+      x: 30,
+      y: 30,
+      strokeWidth: 1.5,
+      stroke: "#000",
+      fill: "#fff"
+    }), _react.default.createElement(_reactKonva.Text, {
+      text: "V",
+      fontFamily: "Helvetica, Arial, sans-serif",
+      fontSize: "24",
+      y: 17,
+      x: 22
+    }));
+  }
+
+}
+
+Voltmeter.propTypes = {
+  x: _propTypes.default.number,
+  y: _propTypes.default.number
+};
+var _default = Voltmeter;
+exports.default = _default;
+
+},{"prop-types":242,"react":285,"react-konva":271}],333:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
 var _reflux = _interopRequireDefault(require("reflux"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
@@ -68047,7 +68454,7 @@ var _default = (0, _styles.withStyles)(styles)(MainWindow);
 
 exports.default = _default;
 
-},{"./views/grid":329,"@material-ui/core/Fab":11,"@material-ui/core/IconButton":17,"@material-ui/core/Menu":29,"@material-ui/core/MenuItem":25,"@material-ui/core/Paper":38,"@material-ui/core/Typography":48,"@material-ui/core/colors/blue":49,"@material-ui/core/colors/red":54,"@material-ui/core/styles":84,"classnames":113,"mdi-material-ui/menu":233,"mdi-material-ui/plus":234,"prop-types":242,"react":285,"reflux":303,"shortid":312}],327:[function(require,module,exports){
+},{"./views/grid":336,"@material-ui/core/Fab":11,"@material-ui/core/IconButton":17,"@material-ui/core/Menu":29,"@material-ui/core/MenuItem":25,"@material-ui/core/Paper":38,"@material-ui/core/Typography":48,"@material-ui/core/colors/blue":49,"@material-ui/core/colors/red":54,"@material-ui/core/styles":84,"classnames":113,"mdi-material-ui/menu":233,"mdi-material-ui/plus":234,"prop-types":242,"react":285,"reflux":303,"shortid":312}],334:[function(require,module,exports){
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -68060,7 +68467,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 _reactDom.default.render(_react.default.createElement(_mainView.default, null), document.querySelector('#content'));
 
-},{"./mainView":326,"react":285,"react-dom":246}],328:[function(require,module,exports){
+},{"./mainView":333,"react":285,"react-dom":246}],335:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -68095,7 +68502,7 @@ Element.propTypes = {
 var _default = Element;
 exports.default = _default;
 
-},{"prop-types":242,"react":285,"react-konva":271,"reflux":303,"use-image":323}],329:[function(require,module,exports){
+},{"prop-types":242,"react":285,"react-konva":271,"reflux":303,"use-image":323}],336:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -68110,6 +68517,20 @@ var _reactKonva = require("react-konva");
 var _element = _interopRequireDefault(require("./element"));
 
 var _ammeter = _interopRequireDefault(require("../components/ammeter"));
+
+var _fixedResistance = _interopRequireDefault(require("../components/fixedResistance"));
+
+var _light = _interopRequireDefault(require("../components/light"));
+
+var _power = _interopRequireDefault(require("../components/power"));
+
+var _slidingRheostat = _interopRequireDefault(require("../components/slidingRheostat"));
+
+var _switchOff = _interopRequireDefault(require("../components/switchOff"));
+
+var _switchOn = _interopRequireDefault(require("../components/switchOn"));
+
+var _voltmeter = _interopRequireDefault(require("../components/voltmeter"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -68143,6 +68564,27 @@ class Grid extends _react.default.Component {
     }, _react.default.createElement(_reactKonva.Layer, null, list, _react.default.createElement(_ammeter.default, {
       x: 1,
       y: 4
+    }), _react.default.createElement(_fixedResistance.default, {
+      x: 2,
+      y: 4
+    }), _react.default.createElement(_light.default, {
+      x: 3,
+      y: 4
+    }), _react.default.createElement(_power.default, {
+      x: 4,
+      y: 4
+    }), _react.default.createElement(_slidingRheostat.default, {
+      x: 1,
+      y: 5
+    }), _react.default.createElement(_switchOff.default, {
+      x: 2,
+      y: 5
+    }), _react.default.createElement(_switchOn.default, {
+      x: 3,
+      y: 5
+    }), _react.default.createElement(_voltmeter.default, {
+      x: 4,
+      y: 5
     })));
   }
 
@@ -68151,4 +68593,4 @@ class Grid extends _react.default.Component {
 var _default = Grid;
 exports.default = _default;
 
-},{"../components/ammeter":325,"./element":328,"react":285,"react-konva":271}]},{},[327]);
+},{"../components/ammeter":325,"../components/fixedResistance":326,"../components/light":327,"../components/power":328,"../components/slidingRheostat":329,"../components/switchOff":330,"../components/switchOn":331,"../components/voltmeter":332,"./element":335,"react":285,"react-konva":271}]},{},[334]);

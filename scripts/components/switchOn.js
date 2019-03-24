@@ -1,15 +1,23 @@
-<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Stage, Layer, Rect, Text, Circle, Line, Group } from 'react-konva';
 
- <g>
-  <title>background</title>
-  <rect x="-1" y="-1" width="26.489725" height="26.489725" id="canvas_background" fill="#fff"/>
- </g>
- <g>
-  <title>Layer 1</title>
-  <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="0" y1="30" x2="10" y2="30" id="svg_3" stroke-linejoin="null" stroke-linecap="null"/>
-  <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="50" y1="30" x2="60" y2="30" id="svg_4" stroke-linejoin="null" stroke-linecap="null"/>
-  <ellipse ry="3" rx="3" id="svg_1" cy="30" cx="13" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
-  <line stroke-linecap="null" stroke-linejoin="null" id="svg_5" y2="29" x2="50" y1="29" x1="17" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
- </g>
-</svg>
+class SwitchOn extends React.Component {
+    render() {
+        return (
+            <Group x={60 * this.props.x + 30} y={60 * this.props.y + 30}>
+                <Line x={0} y={30} points={[0, 0, 10, 0]} strokeWidth="1.5" stroke="#000" />
+                <Line x={50} y={30} points={[0, 0, 10, 0]} strokeWidth="1.5" stroke="#000" />
+                <Circle x={13} y={30} radius={3} strokeWidth={1.5} stroke="#000" fill="#fff" />
+                <Line x={16} y={30} points={[0, 0, 25, -15]} strokeWidth="1.5" stroke="#000" />
+            </Group>
+        )
+    }
+}
+
+SwitchOn.propTypes = {
+    x: PropTypes.number,
+    y: PropTypes.number
+}
+
+export default SwitchOn;

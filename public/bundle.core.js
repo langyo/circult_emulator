@@ -69069,7 +69069,7 @@ class Ammeter extends _react.default.Component {
       x: 60 * this.props.x + 30,
       y: 60 * this.props.y + 30
     }, _react.default.createElement(_reactKonva.Circle, {
-      radius: 28,
+      radius: 25,
       x: 30,
       y: 30,
       strokeWidth: 1.5,
@@ -69078,9 +69078,9 @@ class Ammeter extends _react.default.Component {
     }), _react.default.createElement(_reactKonva.Text, {
       text: "A",
       fontFamily: "Helvetica, Arial, sans-serif",
-      fontSize: "24",
-      y: 17,
-      x: 22
+      fontSize: "20",
+      y: 20,
+      x: 23
     }));
   }
 
@@ -69476,7 +69476,7 @@ class Voltmeter extends _react.default.Component {
       x: 60 * this.props.x + 30,
       y: 60 * this.props.y + 30
     }, _react.default.createElement(_reactKonva.Circle, {
-      radius: 28,
+      radius: 25,
       x: 30,
       y: 30,
       strokeWidth: 1.5,
@@ -69485,9 +69485,9 @@ class Voltmeter extends _react.default.Component {
     }), _react.default.createElement(_reactKonva.Text, {
       text: "V",
       fontFamily: "Helvetica, Arial, sans-serif",
-      fontSize: "24",
-      y: 17,
-      x: 22
+      fontSize: "20",
+      y: 20,
+      x: 23
     }));
   }
 

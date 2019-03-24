@@ -69,13 +69,13 @@ class ChooseComponentDialog extends React.Component {
                 open={this.props.open}
             >
                 <DialogTitle id="customized-dialog-title" onClose={this.onClose}>
-                    {"选择想向图纸添加的电路元件……"}
+                    {"选择向图纸添加的电路元件……"}
                 </DialogTitle>
                 <DialogContent>
                     <MenuList>
                         {
                             componentList.map((n, index) => (
-                                <MenuItem key={index}>
+                                <MenuItem key={index} onClick={() => this.props.onChooseComponent(n.class, n.text)}>
                                     <ListItemIcon>
                                         {n.icon}
                                     </ListItemIcon>

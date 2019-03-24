@@ -13,12 +13,15 @@ import Menu from '@material-ui/core/Menu';
 import IconButton from '@material-ui/core/IconButton';
 import Fab from '@material-ui/core/Fab';
 import Paper from '@material-ui/core/Paper';
+import Tooltip from '@material-ui/core/Tooltip';
 
 import AddIcon from 'mdi-material-ui/plus';
 import MenuIcon from 'mdi-material-ui/menu';
 
 import blue from '@material-ui/core/colors/blue';
 import red from '@material-ui/core/colors/red';
+
+import { Store, Actions } from './store';
 
 import Grid from "./views/grid";
 
@@ -60,25 +63,36 @@ const styles = theme => ({
 });
 
 class MainWindow extends Reflux.Component {
-    state = {
-        anchorEl: null,
+    constructor(props){
+        super(props);
 
-        choosingComponent: null,
+        this.state = {
+            anchorEl: null,
+    
+            choosingComponent: null,
+            choosingComponentText: "",
+    
+            dialogAbout: false,
+            dialogChooseComponent: false
+        }
 
-        dialogAbout: false,
-        dialogChooseComponent: false
+        this.store = Store;
     }
 
     handleOpenMenu = event => this.setState({ anchorEl: event.currentTarget });
     handleMenuItemClick = (event, index) => this.setState({ anchorEl: null });
     handleCloseMenu = () => this.setState({ anchorEl: null });
 
-    handleDialogAboutOpen = () => this.setState({ dialogAbout: true, anchorEl: null  });
-    handleDialogAboutClose = () => this.setState({ dialogAbout: false, anchorEl: null  });
+    handleDialogAboutOpen = () => this.setState({ dialogAbout: true, anchorEl: null });
+    handleDialogAboutClose = () => this.setState({ dialogAbout: false, anchorEl: null });
 
-    handleDialogChooseComponentOpen = () => this.setState({ dialogChooseComponent: true });
+    handleDialogChooseComponentOpen = () => this.setState({ dialogChooseComponent: true , choosingComponent: null});
     handleDialogChooseComponentClose = () => this.setState({ dialogChooseComponent: false });
-    handleDialogChooseComponentGet = (choosing) => this.setState( {dialogChooseComponent: false, choosingComponent: choosing });
+    handleDialogChooseComponentGet = (choosing, text) => this.setState({
+        dialogChooseComponent: false,
+        choosingComponent: choosing,
+        choosingComponentText: text
+    });
 
     render() {
         const { classes } = this.props;
@@ -114,16 +128,25 @@ class MainWindow extends Reflux.Component {
                 <IconButton className={classes.menuButton} onClick={this.handleOpenMenu}>
                     <MenuIcon />
                 </IconButton>
-                <Fab color="primary" className={classes.fab} onClick={this.handleDialogChooseComponentOpen}>
-                    <AddIcon />
-                </Fab>
+                <Tooltip
+                    open={this.state.choosingComponent != null}
+                    title={this.state.choosingComponentText}
+                    placement="left"
+                    disableFocusListener
+                    disableHoverListener
+                    disableTouchListener
+                >
+                    <Fab color="primary" className={classes.fab} onClick={this.handleDialogChooseComponentOpen}>
+                        <AddIcon />
+                    </Fab>
+                </Tooltip>
                 {/* 底部电路方格 */}
                 <div className={classes.map}>
                     <Grid />
                     <ChooseComponentDialog
                         open={this.state.dialogChooseComponent}
                         onClose={this.handleDialogChooseComponentClose}
-                        onChooseComponent={this.handleDialogChooseComponentGet} 
+                        onChooseComponent={this.handleDialogChooseComponentGet}
                     />
                     <AboutDialog open={this.state.dialogAbout} onClose={this.handleDialogAboutClose} />
                 </div>

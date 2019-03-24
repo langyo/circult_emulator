@@ -114,7 +114,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../Fade":23,"../styles/withStyles":108,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"_process":252,"classnames":127,"prop-types":256,"react":299}],3:[function(require,module,exports){
+},{"../Fade":23,"../styles/withStyles":112,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"classnames":131,"prop-types":261,"react":304}],3:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -130,7 +130,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _Backdrop = _interopRequireDefault(require("./Backdrop"));
-},{"./Backdrop":2,"@babel/runtime/helpers/interopRequireDefault":77}],4:[function(require,module,exports){
+},{"./Backdrop":2,"@babel/runtime/helpers/interopRequireDefault":81}],4:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -677,7 +677,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../NoSsr":50,"../styles/withStyles":108,"../utils/ownerWindow":114,"./TouchRipple":6,"./createRippleHandler":7,"./focusVisible":8,"@babel/runtime/helpers/assertThisInitialized":70,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@babel/runtime/helpers/possibleConstructorReturn":83,"@material-ui/utils":120,"_process":252,"classnames":127,"prop-types":256,"react":299,"react-dom":260}],5:[function(require,module,exports){
+},{"../NoSsr":50,"../styles/withStyles":112,"../utils/ownerWindow":118,"./TouchRipple":6,"./createRippleHandler":7,"./focusVisible":8,"@babel/runtime/helpers/assertThisInitialized":74,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304,"react-dom":265}],5:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -828,7 +828,7 @@ Ripple.defaultProps = {
 var _default = Ripple;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@babel/runtime/helpers/possibleConstructorReturn":83,"_process":252,"classnames":127,"prop-types":256,"react":299,"react-transition-group/Transition":293}],6:[function(require,module,exports){
+},{"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"_process":257,"classnames":131,"prop-types":261,"react":304,"react-transition-group/Transition":298}],6:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -1201,7 +1201,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withStyles":108,"./Ripple":5,"@babel/runtime/helpers/assertThisInitialized":70,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@babel/runtime/helpers/possibleConstructorReturn":83,"@babel/runtime/helpers/toConsumableArray":85,"_process":252,"classnames":127,"prop-types":256,"react":299,"react-dom":260,"react-transition-group/TransitionGroup":294}],7:[function(require,module,exports){
+},{"../styles/withStyles":112,"./Ripple":5,"@babel/runtime/helpers/assertThisInitialized":74,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@babel/runtime/helpers/toConsumableArray":89,"_process":257,"classnames":131,"prop-types":261,"react":304,"react-dom":265,"react-transition-group/TransitionGroup":299}],7:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1327,7 +1327,7 @@ function listenForFocusKeys(win) {
   win.addEventListener('keyup', handleKeyUpEvent);
 }
 }).call(this,require('_process'))
-},{"../utils/ownerDocument":113,"@babel/runtime/helpers/interopRequireDefault":77,"_process":252,"warning":338}],9:[function(require,module,exports){
+},{"../utils/ownerDocument":117,"@babel/runtime/helpers/interopRequireDefault":81,"_process":257,"warning":343}],9:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -1343,7 +1343,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _ButtonBase = _interopRequireDefault(require("./ButtonBase"));
-},{"./ButtonBase":4,"@babel/runtime/helpers/interopRequireDefault":77}],10:[function(require,module,exports){
+},{"./ButtonBase":4,"@babel/runtime/helpers/interopRequireDefault":81}],10:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -1772,7 +1772,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../ButtonBase":9,"../styles/colorManipulator":88,"../styles/withStyles":108,"../utils/helpers":112,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@material-ui/utils":120,"_process":252,"classnames":127,"prop-types":256,"react":299}],11:[function(require,module,exports){
+},{"../ButtonBase":9,"../styles/colorManipulator":92,"../styles/withStyles":112,"../utils/helpers":116,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304}],11:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -1788,7 +1788,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _Button = _interopRequireDefault(require("./Button"));
-},{"./Button":10,"@babel/runtime/helpers/interopRequireDefault":77}],12:[function(require,module,exports){
+},{"./Button":10,"@babel/runtime/helpers/interopRequireDefault":81}],12:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -1876,7 +1876,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../Button":11,"../styles/withStyles":108,"../utils/reactHelpers":115,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"_process":252,"classnames":127,"prop-types":256,"react":299}],13:[function(require,module,exports){
+},{"../Button":11,"../styles/withStyles":112,"../utils/reactHelpers":119,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"classnames":131,"prop-types":261,"react":304}],13:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -1892,7 +1892,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _DialogActions = _interopRequireDefault(require("./DialogActions"));
-},{"./DialogActions":12,"@babel/runtime/helpers/interopRequireDefault":77}],14:[function(require,module,exports){
+},{"./DialogActions":12,"@babel/runtime/helpers/interopRequireDefault":81}],14:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -1964,7 +1964,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withStyles":108,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"_process":252,"classnames":127,"prop-types":256,"react":299}],15:[function(require,module,exports){
+},{"../styles/withStyles":112,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"classnames":131,"prop-types":261,"react":304}],15:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -1980,7 +1980,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _DialogContent = _interopRequireDefault(require("./DialogContent"));
-},{"./DialogContent":14,"@babel/runtime/helpers/interopRequireDefault":77}],16:[function(require,module,exports){
+},{"./DialogContent":14,"@babel/runtime/helpers/interopRequireDefault":81}],16:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -2062,7 +2062,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../Typography":62,"../styles/withStyles":108,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"_process":252,"classnames":127,"prop-types":256,"react":299}],17:[function(require,module,exports){
+},{"../Typography":66,"../styles/withStyles":112,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"classnames":131,"prop-types":261,"react":304}],17:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -2078,7 +2078,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _DialogTitle = _interopRequireDefault(require("./DialogTitle"));
-},{"./DialogTitle":16,"@babel/runtime/helpers/interopRequireDefault":77}],18:[function(require,module,exports){
+},{"./DialogTitle":16,"@babel/runtime/helpers/interopRequireDefault":81}],18:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -2519,7 +2519,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../Fade":23,"../Modal":46,"../Paper":52,"../styles/transitions":107,"../styles/withStyles":108,"../utils/helpers":112,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@babel/runtime/helpers/possibleConstructorReturn":83,"@material-ui/utils":120,"_process":252,"classnames":127,"prop-types":256,"react":299}],19:[function(require,module,exports){
+},{"../Fade":23,"../Modal":46,"../Paper":52,"../styles/transitions":111,"../styles/withStyles":112,"../utils/helpers":116,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304}],19:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -2535,7 +2535,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _Dialog = _interopRequireDefault(require("./Dialog"));
-},{"./Dialog":18,"@babel/runtime/helpers/interopRequireDefault":77}],20:[function(require,module,exports){
+},{"./Dialog":18,"@babel/runtime/helpers/interopRequireDefault":81}],20:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -2804,7 +2804,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../ButtonBase":9,"../styles/withStyles":108,"../utils/helpers":112,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@material-ui/utils":120,"_process":252,"classnames":127,"prop-types":256,"react":299}],21:[function(require,module,exports){
+},{"../ButtonBase":9,"../styles/withStyles":112,"../utils/helpers":116,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304}],21:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -2820,7 +2820,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _Fab = _interopRequireDefault(require("./Fab"));
-},{"./Fab":20,"@babel/runtime/helpers/interopRequireDefault":77}],22:[function(require,module,exports){
+},{"./Fab":20,"@babel/runtime/helpers/interopRequireDefault":81}],22:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -2998,7 +2998,7 @@ var _default = (0, _withTheme.default)()(Fade);
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/transitions":107,"../styles/withTheme":109,"../transitions/utils":111,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@babel/runtime/helpers/possibleConstructorReturn":83,"_process":252,"prop-types":256,"react":299,"react-transition-group/Transition":293}],23:[function(require,module,exports){
+},{"../styles/transitions":111,"../styles/withTheme":113,"../transitions/utils":115,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"_process":257,"prop-types":261,"react":304,"react-transition-group/Transition":298}],23:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -3014,7 +3014,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _Fade = _interopRequireDefault(require("./Fade"));
-},{"./Fade":22,"@babel/runtime/helpers/interopRequireDefault":77}],24:[function(require,module,exports){
+},{"./Fade":22,"@babel/runtime/helpers/interopRequireDefault":81}],24:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -3253,7 +3253,7 @@ var _default = (0, _withTheme.default)()(Grow);
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withTheme":109,"../transitions/utils":111,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@babel/runtime/helpers/possibleConstructorReturn":83,"_process":252,"prop-types":256,"react":299,"react-transition-group/Transition":293}],25:[function(require,module,exports){
+},{"../styles/withTheme":113,"../transitions/utils":115,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"_process":257,"prop-types":261,"react":304,"react-transition-group/Transition":298}],25:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -3269,7 +3269,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _Grow = _interopRequireDefault(require("./Grow"));
-},{"./Grow":24,"@babel/runtime/helpers/interopRequireDefault":77}],26:[function(require,module,exports){
+},{"./Grow":24,"@babel/runtime/helpers/interopRequireDefault":81}],26:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -3456,7 +3456,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../ButtonBase":9,"../styles/colorManipulator":88,"../styles/withStyles":108,"../utils/helpers":112,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@material-ui/utils":120,"_process":252,"classnames":127,"prop-types":256,"react":299}],27:[function(require,module,exports){
+},{"../ButtonBase":9,"../styles/colorManipulator":92,"../styles/withStyles":112,"../utils/helpers":116,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304}],27:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -3472,7 +3472,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _IconButton = _interopRequireDefault(require("./IconButton"));
-},{"./IconButton":26,"@babel/runtime/helpers/interopRequireDefault":77}],28:[function(require,module,exports){
+},{"./IconButton":26,"@babel/runtime/helpers/interopRequireDefault":81}],28:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -3548,7 +3548,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withStyles":108,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"_process":252,"classnames":127,"prop-types":256,"react":299}],29:[function(require,module,exports){
+},{"../styles/withStyles":112,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"classnames":131,"prop-types":261,"react":304}],29:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -3564,7 +3564,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _ListItemIcon = _interopRequireDefault(require("./ListItemIcon"));
-},{"./ListItemIcon":28,"@babel/runtime/helpers/interopRequireDefault":77}],30:[function(require,module,exports){
+},{"./ListItemIcon":28,"@babel/runtime/helpers/interopRequireDefault":81}],30:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -3749,7 +3749,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../List/ListContext":36,"../Typography":62,"../styles/withStyles":108,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"_process":252,"classnames":127,"prop-types":256,"react":299}],31:[function(require,module,exports){
+},{"../List/ListContext":36,"../Typography":66,"../styles/withStyles":112,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"classnames":131,"prop-types":261,"react":304}],31:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -3765,7 +3765,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _ListItemText = _interopRequireDefault(require("./ListItemText"));
-},{"./ListItemText":30,"@babel/runtime/helpers/interopRequireDefault":77}],32:[function(require,module,exports){
+},{"./ListItemText":30,"@babel/runtime/helpers/interopRequireDefault":81}],32:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -4075,7 +4075,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../ButtonBase":9,"../styles/withStyles":108,"../utils/reactHelpers":115,"./MergeListContext":33,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@material-ui/utils":120,"_process":252,"classnames":127,"prop-types":256,"react":299}],33:[function(require,module,exports){
+},{"../ButtonBase":9,"../styles/withStyles":112,"../utils/reactHelpers":119,"./MergeListContext":33,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304}],33:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -4120,7 +4120,7 @@ process.env.NODE_ENV !== "production" ? MergeListContext.propTypes = {
 var _default = MergeListContext;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../List/ListContext":36,"@babel/runtime/helpers/interopRequireDefault":77,"_process":252,"prop-types":256,"react":299}],34:[function(require,module,exports){
+},{"../List/ListContext":36,"@babel/runtime/helpers/interopRequireDefault":81,"_process":257,"prop-types":261,"react":304}],34:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -4136,7 +4136,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _ListItem = _interopRequireDefault(require("./ListItem"));
-},{"./ListItem":32,"@babel/runtime/helpers/interopRequireDefault":77}],35:[function(require,module,exports){
+},{"./ListItem":32,"@babel/runtime/helpers/interopRequireDefault":81}],35:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -4265,7 +4265,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withStyles":108,"./ListContext":36,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@material-ui/utils":120,"_process":252,"classnames":127,"prop-types":256,"react":299}],36:[function(require,module,exports){
+},{"../styles/withStyles":112,"./ListContext":36,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304}],36:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -4284,7 +4284,7 @@ var ListContext = _react.default.createContext({});
 
 var _default = ListContext;
 exports.default = _default;
-},{"@babel/runtime/helpers/interopRequireDefault":77,"react":299}],37:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":81,"react":304}],37:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -4300,7 +4300,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _List = _interopRequireDefault(require("./List"));
-},{"./List":35,"@babel/runtime/helpers/interopRequireDefault":77}],38:[function(require,module,exports){
+},{"./List":35,"@babel/runtime/helpers/interopRequireDefault":81}],38:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -4426,7 +4426,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../ListItem":34,"../styles/withStyles":108,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@material-ui/utils":120,"_process":252,"classnames":127,"prop-types":256,"react":299}],39:[function(require,module,exports){
+},{"../ListItem":34,"../styles/withStyles":112,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304}],39:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -4442,7 +4442,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _MenuItem = _interopRequireDefault(require("./MenuItem"));
-},{"./MenuItem":38,"@babel/runtime/helpers/interopRequireDefault":77}],40:[function(require,module,exports){
+},{"./MenuItem":38,"@babel/runtime/helpers/interopRequireDefault":81}],40:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -4702,7 +4702,7 @@ MenuList.defaultProps = {
 var _default = MenuList;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../List":37,"../utils/ownerDocument":113,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@babel/runtime/helpers/possibleConstructorReturn":83,"_process":252,"prop-types":256,"react":299,"react-dom":260,"warning":338}],41:[function(require,module,exports){
+},{"../List":37,"../utils/ownerDocument":117,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"_process":257,"prop-types":261,"react":304,"react-dom":265,"warning":343}],41:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -4718,7 +4718,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _MenuList = _interopRequireDefault(require("./MenuList"));
-},{"./MenuList":40,"@babel/runtime/helpers/interopRequireDefault":77}],42:[function(require,module,exports){
+},{"./MenuList":40,"@babel/runtime/helpers/interopRequireDefault":81}],42:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -5008,7 +5008,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../MenuList":41,"../Popover":54,"../styles/withStyles":108,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@babel/runtime/helpers/possibleConstructorReturn":83,"_process":252,"dom-helpers/util/scrollbarSize":146,"prop-types":256,"react":299,"react-dom":260}],43:[function(require,module,exports){
+},{"../MenuList":41,"../Popover":54,"../styles/withStyles":112,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"_process":257,"dom-helpers/util/scrollbarSize":150,"prop-types":261,"react":304,"react-dom":265}],43:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -5024,7 +5024,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _Menu = _interopRequireDefault(require("./Menu"));
-},{"./Menu":42,"@babel/runtime/helpers/interopRequireDefault":77}],44:[function(require,module,exports){
+},{"./Menu":42,"@babel/runtime/helpers/interopRequireDefault":81}],44:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -5580,7 +5580,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../Backdrop":3,"../Portal":56,"../RootRef":58,"../styles/withStyles":108,"../utils/helpers":112,"../utils/ownerDocument":113,"./ModalManager":45,"./manageAriaHidden":48,"@babel/runtime/helpers/assertThisInitialized":70,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@babel/runtime/helpers/possibleConstructorReturn":83,"@material-ui/utils":120,"_process":252,"classnames":127,"prop-types":256,"react":299,"react-dom":260,"warning":338}],45:[function(require,module,exports){
+},{"../Backdrop":3,"../Portal":58,"../RootRef":60,"../styles/withStyles":112,"../utils/helpers":116,"../utils/ownerDocument":117,"./ModalManager":45,"./manageAriaHidden":48,"@babel/runtime/helpers/assertThisInitialized":74,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304,"react-dom":265,"warning":343}],45:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -5801,7 +5801,7 @@ function () {
 
 var _default = ModalManager;
 exports.default = _default;
-},{"../utils/ownerDocument":113,"./isOverflowing":47,"./manageAriaHidden":48,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/interopRequireDefault":77,"dom-helpers/style":137,"dom-helpers/util/scrollbarSize":146}],46:[function(require,module,exports){
+},{"../utils/ownerDocument":117,"./isOverflowing":47,"./manageAriaHidden":48,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/interopRequireDefault":81,"dom-helpers/style":141,"dom-helpers/util/scrollbarSize":150}],46:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -5825,7 +5825,7 @@ Object.defineProperty(exports, "ModalManager", {
 var _Modal = _interopRequireDefault(require("./Modal"));
 
 var _ModalManager = _interopRequireDefault(require("./ModalManager"));
-},{"./Modal":44,"./ModalManager":45,"@babel/runtime/helpers/interopRequireDefault":77}],47:[function(require,module,exports){
+},{"./Modal":44,"./ModalManager":45,"@babel/runtime/helpers/interopRequireDefault":81}],47:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -5862,7 +5862,7 @@ function isOverflowing(container) {
   var marginRight = parseInt(style.getPropertyValue('margin-right'), 10);
   return marginLeft + doc.body.clientWidth + marginRight < win.innerWidth;
 }
-},{"../utils/ownerDocument":113,"../utils/ownerWindow":114,"@babel/runtime/helpers/interopRequireDefault":77,"dom-helpers/query/isWindow":135}],48:[function(require,module,exports){
+},{"../utils/ownerDocument":117,"../utils/ownerWindow":118,"@babel/runtime/helpers/interopRequireDefault":81,"dom-helpers/query/isWindow":139}],48:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -6034,7 +6034,7 @@ NoSsr.defaultProps = {
 var _default = NoSsr;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/possibleConstructorReturn":83,"@material-ui/utils":120,"_process":252,"prop-types":256,"react":299}],50:[function(require,module,exports){
+},{"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"prop-types":261,"react":304}],50:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -6050,7 +6050,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _NoSsr = _interopRequireDefault(require("./NoSsr"));
-},{"./NoSsr":49,"@babel/runtime/helpers/interopRequireDefault":77}],51:[function(require,module,exports){
+},{"./NoSsr":49,"@babel/runtime/helpers/interopRequireDefault":81}],51:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -6161,7 +6161,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withStyles":108,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@material-ui/utils":120,"_process":252,"classnames":127,"prop-types":256,"react":299,"warning":338}],52:[function(require,module,exports){
+},{"../styles/withStyles":112,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304,"warning":343}],52:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -6177,7 +6177,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _Paper = _interopRequireDefault(require("./Paper"));
-},{"./Paper":51,"@babel/runtime/helpers/interopRequireDefault":77}],53:[function(require,module,exports){
+},{"./Paper":51,"@babel/runtime/helpers/interopRequireDefault":81}],53:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -6768,7 +6768,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../Grow":25,"../Modal":46,"../Paper":52,"../styles/withStyles":108,"../utils/helpers":112,"../utils/ownerDocument":113,"../utils/ownerWindow":114,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@babel/runtime/helpers/possibleConstructorReturn":83,"@material-ui/utils":120,"_process":252,"debounce":133,"prop-types":256,"react":299,"react-dom":260,"react-event-listener":261,"warning":338}],54:[function(require,module,exports){
+},{"../Grow":25,"../Modal":46,"../Paper":52,"../styles/withStyles":112,"../utils/helpers":116,"../utils/ownerDocument":117,"../utils/ownerWindow":118,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"debounce":137,"prop-types":261,"react":304,"react-dom":265,"react-event-listener":266,"warning":343}],54:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -6784,7 +6784,334 @@ Object.defineProperty(exports, "default", {
 });
 
 var _Popover = _interopRequireDefault(require("./Popover"));
-},{"./Popover":53,"@babel/runtime/helpers/interopRequireDefault":77}],55:[function(require,module,exports){
+},{"./Popover":53,"@babel/runtime/helpers/interopRequireDefault":81}],55:[function(require,module,exports){
+(function (process){
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutProperties"));
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/possibleConstructorReturn"));
+
+var _getPrototypeOf2 = _interopRequireDefault(require("@babel/runtime/helpers/getPrototypeOf"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/inherits"));
+
+var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/assertThisInitialized"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _popper = _interopRequireDefault(require("popper.js"));
+
+var _Portal = _interopRequireDefault(require("../Portal"));
+
+function flipPlacement(placement) {
+  var direction = typeof window !== 'undefined' && document.body.getAttribute('dir') || 'ltr';
+
+  if (direction !== 'rtl') {
+    return placement;
+  }
+
+  switch (placement) {
+    case 'bottom-end':
+      return 'bottom-start';
+
+    case 'bottom-start':
+      return 'bottom-end';
+
+    case 'top-end':
+      return 'top-start';
+
+    case 'top-start':
+      return 'top-end';
+
+    default:
+      return placement;
+  }
+}
+
+function getAnchorEl(anchorEl) {
+  return typeof anchorEl === 'function' ? anchorEl() : anchorEl;
+}
+/**
+ * Poppers rely on the 3rd party library [Popper.js](https://github.com/FezVrasta/popper.js) for positioning.
+ */
+
+
+var Popper =
+/*#__PURE__*/
+function (_React$Component) {
+  (0, _inherits2.default)(Popper, _React$Component);
+
+  function Popper(props) {
+    var _this;
+
+    (0, _classCallCheck2.default)(this, Popper);
+    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Popper).call(this));
+
+    _this.handleOpen = function () {
+      var _this$props = _this.props,
+          anchorEl = _this$props.anchorEl,
+          modifiers = _this$props.modifiers,
+          open = _this$props.open,
+          placement = _this$props.placement,
+          _this$props$popperOpt = _this$props.popperOptions,
+          popperOptions = _this$props$popperOpt === void 0 ? {} : _this$props$popperOpt,
+          disablePortal = _this$props.disablePortal;
+
+      var popperNode = _reactDom.default.findDOMNode((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));
+
+      if (!popperNode || !anchorEl || !open) {
+        return;
+      }
+
+      if (_this.popper) {
+        _this.popper.destroy();
+
+        _this.popper = null;
+      }
+
+      _this.popper = new _popper.default(getAnchorEl(anchorEl), popperNode, (0, _extends2.default)({
+        placement: flipPlacement(placement)
+      }, popperOptions, {
+        modifiers: (0, _extends2.default)({}, disablePortal ? {} : {
+          // It's using scrollParent by default, we can use the viewport when using a portal.
+          preventOverflow: {
+            boundariesElement: 'window'
+          }
+        }, modifiers, popperOptions.modifiers),
+        // We could have been using a custom modifier like react-popper is doing.
+        // But it seems this is the best public API for this use case.
+        onCreate: _this.handlePopperUpdate,
+        onUpdate: _this.handlePopperUpdate
+      }));
+    };
+
+    _this.handlePopperUpdate = function (data) {
+      if (data.placement !== _this.state.placement) {
+        _this.setState({
+          placement: data.placement
+        });
+      }
+    };
+
+    _this.handleExited = function () {
+      _this.setState({
+        exited: true
+      });
+
+      _this.handleClose();
+    };
+
+    _this.handleClose = function () {
+      if (!_this.popper) {
+        return;
+      }
+
+      _this.popper.destroy();
+
+      _this.popper = null;
+    };
+
+    _this.state = {
+      exited: !props.open
+    };
+    return _this;
+  }
+
+  (0, _createClass2.default)(Popper, [{
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      if (prevProps.open !== this.props.open && !this.props.open && !this.props.transition) {
+        // Otherwise handleExited will call this.
+        this.handleClose();
+      } // Let's update the popper position.
+
+
+      if (prevProps.open !== this.props.open || prevProps.anchorEl !== this.props.anchorEl || prevProps.popperOptions !== this.props.popperOptions || prevProps.modifiers !== this.props.modifiers || prevProps.disablePortal !== this.props.disablePortal || prevProps.placement !== this.props.placement) {
+        this.handleOpen();
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      this.handleClose();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props2 = this.props,
+          anchorEl = _this$props2.anchorEl,
+          children = _this$props2.children,
+          container = _this$props2.container,
+          disablePortal = _this$props2.disablePortal,
+          keepMounted = _this$props2.keepMounted,
+          modifiers = _this$props2.modifiers,
+          open = _this$props2.open,
+          placementProps = _this$props2.placement,
+          popperOptions = _this$props2.popperOptions,
+          transition = _this$props2.transition,
+          other = (0, _objectWithoutProperties2.default)(_this$props2, ["anchorEl", "children", "container", "disablePortal", "keepMounted", "modifiers", "open", "placement", "popperOptions", "transition"]);
+      var _this$state = this.state,
+          exited = _this$state.exited,
+          placement = _this$state.placement;
+
+      if (!keepMounted && !open && (!transition || exited)) {
+        return null;
+      }
+
+      var childProps = {
+        placement: placement || flipPlacement(placementProps)
+      };
+
+      if (transition) {
+        childProps.TransitionProps = {
+          in: open,
+          onExited: this.handleExited
+        };
+      }
+
+      return _react.default.createElement(_Portal.default, {
+        onRendered: this.handleOpen,
+        disablePortal: disablePortal,
+        container: container
+      }, _react.default.createElement("div", (0, _extends2.default)({
+        role: "tooltip",
+        style: {
+          // Prevents scroll issue, waiting for Popper.js to add this style once initiated.
+          position: 'absolute'
+        }
+      }, other), typeof children === 'function' ? children(childProps) : children));
+    }
+  }], [{
+    key: "getDerivedStateFromProps",
+    value: function getDerivedStateFromProps(nextProps) {
+      if (nextProps.open) {
+        return {
+          exited: false
+        };
+      }
+
+      if (!nextProps.transition) {
+        // Otherwise let handleExited take care of marking exited.
+        return {
+          exited: true
+        };
+      }
+
+      return null;
+    }
+  }]);
+  return Popper;
+}(_react.default.Component);
+
+process.env.NODE_ENV !== "production" ? Popper.propTypes = {
+  /**
+   * This is the DOM element, or a function that returns the DOM element,
+   * that may be used to set the position of the popover.
+   * The return value will passed as the reference object of the Popper
+   * instance.
+   */
+  anchorEl: _propTypes.default.oneOfType([_propTypes.default.object, _propTypes.default.func]),
+
+  /**
+   * Popper render function or node.
+   */
+  children: _propTypes.default.oneOfType([_propTypes.default.node, _propTypes.default.func]).isRequired,
+
+  /**
+   * A node, component instance, or function that returns either.
+   * The `container` will passed to the Modal component.
+   * By default, it uses the body of the anchorEl's top-level document object,
+   * so it's simply `document.body` most of the time.
+   */
+  container: _propTypes.default.oneOfType([_propTypes.default.object, _propTypes.default.func]),
+
+  /**
+   * Disable the portal behavior.
+   * The children stay within it's parent DOM hierarchy.
+   */
+  disablePortal: _propTypes.default.bool,
+
+  /**
+   * Always keep the children in the DOM.
+   * This property can be useful in SEO situation or
+   * when you want to maximize the responsiveness of the Popper.
+   */
+  keepMounted: _propTypes.default.bool,
+
+  /**
+   * Popper.js is based on a "plugin-like" architecture,
+   * most of its features are fully encapsulated "modifiers".
+   *
+   * A modifier is a function that is called each time Popper.js needs to
+   * compute the position of the popper.
+   * For this reason, modifiers should be very performant to avoid bottlenecks.
+   * To learn how to create a modifier, [read the modifiers documentation](https://github.com/FezVrasta/popper.js/blob/master/docs/_includes/popper-documentation.md#modifiers--object).
+   */
+  modifiers: _propTypes.default.object,
+
+  /**
+   * If `true`, the popper is visible.
+   */
+  open: _propTypes.default.bool.isRequired,
+
+  /**
+   * Popper placement.
+   */
+  placement: _propTypes.default.oneOf(['bottom-end', 'bottom-start', 'bottom', 'left-end', 'left-start', 'left', 'right-end', 'right-start', 'right', 'top-end', 'top-start', 'top']),
+
+  /**
+   * Options provided to the [`popper.js`](https://github.com/FezVrasta/popper.js) instance.
+   */
+  popperOptions: _propTypes.default.object,
+
+  /**
+   * Help supporting a react-transition-group/Transition component.
+   */
+  transition: _propTypes.default.bool
+} : void 0;
+Popper.defaultProps = {
+  disablePortal: false,
+  placement: 'bottom',
+  transition: false
+};
+var _default = Popper;
+exports.default = _default;
+}).call(this,require('_process'))
+},{"../Portal":58,"@babel/runtime/helpers/assertThisInitialized":74,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"_process":257,"popper.js":256,"prop-types":261,"react":304,"react-dom":265}],56:[function(require,module,exports){
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _Popper.default;
+  }
+});
+
+var _Popper = _interopRequireDefault(require("./Popper"));
+},{"./Popper":55,"@babel/runtime/helpers/interopRequireDefault":81}],57:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -6956,7 +7283,7 @@ if (process.env.NODE_ENV !== 'production') {
 var _default = Portal;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../utils/ownerDocument":113,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/possibleConstructorReturn":83,"@material-ui/utils":120,"_process":252,"prop-types":256,"react":299,"react-dom":260}],56:[function(require,module,exports){
+},{"../utils/ownerDocument":117,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"prop-types":261,"react":304,"react-dom":265}],58:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -6972,7 +7299,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _Portal = _interopRequireDefault(require("./Portal"));
-},{"./Portal":55,"@babel/runtime/helpers/interopRequireDefault":77}],57:[function(require,module,exports){
+},{"./Portal":57,"@babel/runtime/helpers/interopRequireDefault":81}],59:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -7098,7 +7425,7 @@ if (process.env.NODE_ENV !== 'production') {
 var _default = RootRef;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../utils/reactHelpers":115,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/possibleConstructorReturn":83,"@material-ui/utils":120,"_process":252,"prop-types":256,"react":299,"react-dom":260}],58:[function(require,module,exports){
+},{"../utils/reactHelpers":119,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"prop-types":261,"react":304,"react-dom":265}],60:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -7114,7 +7441,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _RootRef = _interopRequireDefault(require("./RootRef"));
-},{"./RootRef":57,"@babel/runtime/helpers/interopRequireDefault":77}],59:[function(require,module,exports){
+},{"./RootRef":59,"@babel/runtime/helpers/interopRequireDefault":81}],61:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -7301,7 +7628,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withStyles":108,"../utils/helpers":112,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@material-ui/utils":120,"_process":252,"classnames":127,"prop-types":256,"react":299}],60:[function(require,module,exports){
+},{"../styles/withStyles":112,"../utils/helpers":116,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304}],62:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -7317,7 +7644,556 @@ Object.defineProperty(exports, "default", {
 });
 
 var _SvgIcon = _interopRequireDefault(require("./SvgIcon"));
-},{"./SvgIcon":59,"@babel/runtime/helpers/interopRequireDefault":77}],61:[function(require,module,exports){
+},{"./SvgIcon":61,"@babel/runtime/helpers/interopRequireDefault":81}],63:[function(require,module,exports){
+(function (process){
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.styles = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutProperties"));
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/possibleConstructorReturn"));
+
+var _getPrototypeOf2 = _interopRequireDefault(require("@babel/runtime/helpers/getPrototypeOf"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/inherits"));
+
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _warning = _interopRequireDefault(require("warning"));
+
+var _classnames = _interopRequireDefault(require("classnames"));
+
+var _utils = require("@material-ui/utils");
+
+var _RootRef = _interopRequireDefault(require("../RootRef"));
+
+var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
+
+var _helpers = require("../utils/helpers");
+
+var _Grow = _interopRequireDefault(require("../Grow"));
+
+var _Popper = _interopRequireDefault(require("../Popper"));
+
+var styles = function styles(theme) {
+  return {
+    /* Styles applied to the Popper component. */
+    popper: {
+      zIndex: theme.zIndex.tooltip,
+      opacity: 0.9,
+      pointerEvents: 'none'
+    },
+
+    /* Styles applied to the Popper component if `interactive={true}`. */
+    popperInteractive: {
+      pointerEvents: 'auto'
+    },
+
+    /* Styles applied to the tooltip (label wrapper) element. */
+    tooltip: {
+      backgroundColor: theme.palette.grey[700],
+      borderRadius: theme.shape.borderRadius,
+      color: theme.palette.common.white,
+      fontFamily: theme.typography.fontFamily,
+      padding: '4px 8px',
+      fontSize: theme.typography.pxToRem(10),
+      lineHeight: "".concat(theme.typography.round(14 / 10), "em"),
+      maxWidth: 300
+    },
+
+    /* Styles applied to the tooltip (label wrapper) element if the tooltip is opened by touch. */
+    touch: {
+      padding: '8px 16px',
+      fontSize: theme.typography.pxToRem(14),
+      lineHeight: "".concat(theme.typography.round(16 / 14), "em")
+    },
+
+    /* Styles applied to the tooltip (label wrapper) element if `placement` contains "left". */
+    tooltipPlacementLeft: (0, _defineProperty2.default)({
+      transformOrigin: 'right center',
+      margin: '0 24px '
+    }, theme.breakpoints.up('sm'), {
+      margin: '0 14px'
+    }),
+
+    /* Styles applied to the tooltip (label wrapper) element if `placement` contains "right". */
+    tooltipPlacementRight: (0, _defineProperty2.default)({
+      transformOrigin: 'left center',
+      margin: '0 24px'
+    }, theme.breakpoints.up('sm'), {
+      margin: '0 14px'
+    }),
+
+    /* Styles applied to the tooltip (label wrapper) element if `placement` contains "top". */
+    tooltipPlacementTop: (0, _defineProperty2.default)({
+      transformOrigin: 'center bottom',
+      margin: '24px 0'
+    }, theme.breakpoints.up('sm'), {
+      margin: '14px 0'
+    }),
+
+    /* Styles applied to the tooltip (label wrapper) element if `placement` contains "bottom". */
+    tooltipPlacementBottom: (0, _defineProperty2.default)({
+      transformOrigin: 'center top',
+      margin: '24px 0'
+    }, theme.breakpoints.up('sm'), {
+      margin: '14px 0'
+    })
+  };
+};
+
+exports.styles = styles;
+
+var Tooltip =
+/*#__PURE__*/
+function (_React$Component) {
+  (0, _inherits2.default)(Tooltip, _React$Component);
+
+  function Tooltip(props) {
+    var _this;
+
+    (0, _classCallCheck2.default)(this, Tooltip);
+    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Tooltip).call(this));
+    _this.ignoreNonTouchEvents = false;
+
+    _this.onRootRef = function (ref) {
+      _this.childrenRef = ref;
+    };
+
+    _this.handleFocus = function (event) {
+      event.persist(); // The autoFocus of React might trigger the event before the componentDidMount.
+      // We need to account for this eventuality.
+
+      _this.focusTimer = setTimeout(function () {
+        // We need to make sure the focus hasn't moved since the event was triggered.
+        if (_this.childrenRef === document.activeElement) {
+          _this.handleEnter(event);
+        }
+      });
+      var childrenProps = _this.props.children.props;
+
+      if (childrenProps.onFocus) {
+        childrenProps.onFocus(event);
+      }
+    };
+
+    _this.handleEnter = function (event) {
+      var _this$props = _this.props,
+          children = _this$props.children,
+          enterDelay = _this$props.enterDelay;
+      var childrenProps = children.props;
+
+      if (event.type === 'mouseover' && childrenProps.onMouseOver) {
+        childrenProps.onMouseOver(event);
+      }
+
+      if (_this.ignoreNonTouchEvents && event.type !== 'touchstart') {
+        return;
+      } // Remove the title ahead of time.
+      // We don't want to wait for the next render commit.
+      // We would risk displaying two tooltips at the same time (native + this one).
+
+
+      _this.childrenRef.setAttribute('title', '');
+
+      clearTimeout(_this.enterTimer);
+      clearTimeout(_this.leaveTimer);
+
+      if (enterDelay) {
+        event.persist();
+        _this.enterTimer = setTimeout(function () {
+          _this.handleOpen(event);
+        }, enterDelay);
+      } else {
+        _this.handleOpen(event);
+      }
+    };
+
+    _this.handleOpen = function (event) {
+      // The mouseover event will trigger for every nested element in the tooltip.
+      // We can skip rerendering when the tooltip is already open.
+      // We are using the mouseover event instead of the mouseenter event to fix a hide/show issue.
+      if (!_this.isControlled && !_this.state.open) {
+        _this.setState({
+          open: true
+        });
+      }
+
+      if (_this.props.onOpen) {
+        _this.props.onOpen(event);
+      }
+    };
+
+    _this.handleLeave = function (event) {
+      var _this$props2 = _this.props,
+          children = _this$props2.children,
+          leaveDelay = _this$props2.leaveDelay;
+      var childrenProps = children.props;
+
+      if (event.type === 'blur' && childrenProps.onBlur) {
+        childrenProps.onBlur(event);
+      }
+
+      if (event.type === 'mouseleave' && childrenProps.onMouseLeave) {
+        childrenProps.onMouseLeave(event);
+      }
+
+      clearTimeout(_this.enterTimer);
+      clearTimeout(_this.leaveTimer);
+
+      if (leaveDelay) {
+        event.persist();
+        _this.leaveTimer = setTimeout(function () {
+          _this.handleClose(event);
+        }, leaveDelay);
+      } else {
+        _this.handleClose(event);
+      }
+    };
+
+    _this.handleClose = function (event) {
+      if (!_this.isControlled) {
+        _this.setState({
+          open: false
+        });
+      }
+
+      if (_this.props.onClose) {
+        _this.props.onClose(event);
+      }
+
+      clearTimeout(_this.closeTimer);
+      _this.closeTimer = setTimeout(function () {
+        _this.ignoreNonTouchEvents = false;
+      }, _this.props.theme.transitions.duration.shortest);
+    };
+
+    _this.handleTouchStart = function (event) {
+      _this.ignoreNonTouchEvents = true;
+      var _this$props3 = _this.props,
+          children = _this$props3.children,
+          enterTouchDelay = _this$props3.enterTouchDelay;
+
+      if (children.props.onTouchStart) {
+        children.props.onTouchStart(event);
+      }
+
+      clearTimeout(_this.leaveTimer);
+      clearTimeout(_this.closeTimer);
+      clearTimeout(_this.touchTimer);
+      event.persist();
+      _this.touchTimer = setTimeout(function () {
+        _this.handleEnter(event);
+      }, enterTouchDelay);
+    };
+
+    _this.handleTouchEnd = function (event) {
+      var _this$props4 = _this.props,
+          children = _this$props4.children,
+          leaveTouchDelay = _this$props4.leaveTouchDelay;
+
+      if (children.props.onTouchEnd) {
+        children.props.onTouchEnd(event);
+      }
+
+      clearTimeout(_this.touchTimer);
+      clearTimeout(_this.leaveTimer);
+      event.persist();
+      _this.leaveTimer = setTimeout(function () {
+        _this.handleClose(event);
+      }, leaveTouchDelay);
+    };
+
+    _this.isControlled = props.open != null;
+    _this.state = {
+      open: null
+    };
+
+    if (!_this.isControlled) {
+      // not controlled, use internal state
+      _this.state.open = false;
+    }
+
+    return _this;
+  }
+
+  (0, _createClass2.default)(Tooltip, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      process.env.NODE_ENV !== "production" ? (0, _warning.default)(!this.childrenRef.disabled || this.childrenRef.disabled && this.props.title === '' || this.childrenRef.tagName.toLowerCase() !== 'button', ['Material-UI: you are providing a disabled `button` child to the Tooltip component.', 'A disabled element does not fire events.', "Tooltip needs to listen to the child element's events to display the title.", '', 'Place a `div` container on top of the element.'].join('\n')) : void 0; // Fallback to this default id when possible.
+      // Use the random value for client side rendering only.
+      // We can't use it server-side.
+
+      this.defaultId = "mui-tooltip-".concat(Math.round(Math.random() * 1e5)); // Rerender with this.defaultId and this.childrenRef.
+
+      if (this.props.open) {
+        this.forceUpdate();
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      clearTimeout(this.closeTimer);
+      clearTimeout(this.enterTimer);
+      clearTimeout(this.focusTimer);
+      clearTimeout(this.leaveTimer);
+      clearTimeout(this.touchTimer);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var _this$props5 = this.props,
+          children = _this$props5.children,
+          classes = _this$props5.classes,
+          disableFocusListener = _this$props5.disableFocusListener,
+          disableHoverListener = _this$props5.disableHoverListener,
+          disableTouchListener = _this$props5.disableTouchListener,
+          enterDelay = _this$props5.enterDelay,
+          enterTouchDelay = _this$props5.enterTouchDelay,
+          id = _this$props5.id,
+          interactive = _this$props5.interactive,
+          leaveDelay = _this$props5.leaveDelay,
+          leaveTouchDelay = _this$props5.leaveTouchDelay,
+          onClose = _this$props5.onClose,
+          onOpen = _this$props5.onOpen,
+          openProp = _this$props5.open,
+          placement = _this$props5.placement,
+          PopperProps = _this$props5.PopperProps,
+          theme = _this$props5.theme,
+          title = _this$props5.title,
+          TransitionComponent = _this$props5.TransitionComponent,
+          TransitionProps = _this$props5.TransitionProps,
+          other = (0, _objectWithoutProperties2.default)(_this$props5, ["children", "classes", "disableFocusListener", "disableHoverListener", "disableTouchListener", "enterDelay", "enterTouchDelay", "id", "interactive", "leaveDelay", "leaveTouchDelay", "onClose", "onOpen", "open", "placement", "PopperProps", "theme", "title", "TransitionComponent", "TransitionProps"]);
+      var open = this.isControlled ? openProp : this.state.open; // There is no point in displaying an empty tooltip.
+
+      if (title === '') {
+        open = false;
+      } // For accessibility and SEO concerns, we render the title to the DOM node when
+      // the tooltip is hidden. However, we have made a tradeoff when
+      // `disableHoverListener` is set. This title logic is disabled.
+      // It's allowing us to keep the implementation size minimal.
+      // We are open to change the tradeoff.
+
+
+      var shouldShowNativeTitle = !open && !disableHoverListener;
+      var childrenProps = (0, _extends2.default)({
+        'aria-describedby': open ? id || this.defaultId : null,
+        title: shouldShowNativeTitle && typeof title === 'string' ? title : null
+      }, other, children.props, {
+        className: (0, _classnames.default)(other.className, children.props.className)
+      });
+
+      if (!disableTouchListener) {
+        childrenProps.onTouchStart = this.handleTouchStart;
+        childrenProps.onTouchEnd = this.handleTouchEnd;
+      }
+
+      if (!disableHoverListener) {
+        childrenProps.onMouseOver = this.handleEnter;
+        childrenProps.onMouseLeave = this.handleLeave;
+      }
+
+      if (!disableFocusListener) {
+        childrenProps.onFocus = this.handleFocus;
+        childrenProps.onBlur = this.handleLeave;
+      }
+
+      var interactiveWrapperListeners = interactive ? {
+        onMouseOver: childrenProps.onMouseOver,
+        onMouseLeave: childrenProps.onMouseLeave,
+        onFocus: childrenProps.onFocus,
+        onBlur: childrenProps.onBlur
+      } : {};
+      process.env.NODE_ENV !== "production" ? (0, _warning.default)(!children.props.title, ['Material-UI: you have provided a `title` property to the child of <Tooltip />.', "Remove this title property `".concat(children.props.title, "` or the Tooltip component.")].join('\n')) : void 0;
+      return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_RootRef.default, {
+        rootRef: this.onRootRef
+      }, _react.default.cloneElement(children, childrenProps)), _react.default.createElement(_Popper.default, (0, _extends2.default)({
+        className: (0, _classnames.default)(classes.popper, (0, _defineProperty2.default)({}, classes.popperInteractive, interactive)),
+        placement: placement,
+        anchorEl: this.childrenRef,
+        open: open,
+        id: childrenProps['aria-describedby'],
+        transition: true
+      }, interactiveWrapperListeners, PopperProps), function (_ref) {
+        var placementInner = _ref.placement,
+            TransitionPropsInner = _ref.TransitionProps;
+        return _react.default.createElement(TransitionComponent, (0, _extends2.default)({
+          timeout: theme.transitions.duration.shorter
+        }, TransitionPropsInner, TransitionProps), _react.default.createElement("div", {
+          className: (0, _classnames.default)(classes.tooltip, (0, _defineProperty2.default)({}, classes.touch, _this2.ignoreNonTouchEvents), classes["tooltipPlacement".concat((0, _helpers.capitalize)(placementInner.split('-')[0]))])
+        }, title));
+      }));
+    }
+  }]);
+  return Tooltip;
+}(_react.default.Component);
+
+process.env.NODE_ENV !== "production" ? Tooltip.propTypes = {
+  /**
+   * Tooltip reference element.
+   */
+  children: _propTypes.default.element.isRequired,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css-api) below for more details.
+   */
+  classes: _propTypes.default.object.isRequired,
+
+  /**
+   * Do not respond to focus events.
+   */
+  disableFocusListener: _propTypes.default.bool,
+
+  /**
+   * Do not respond to hover events.
+   */
+  disableHoverListener: _propTypes.default.bool,
+
+  /**
+   * Do not respond to long press touch events.
+   */
+  disableTouchListener: _propTypes.default.bool,
+
+  /**
+   * The number of milliseconds to wait before showing the tooltip.
+   * This property won't impact the enter touch delay (`enterTouchDelay`).
+   */
+  enterDelay: _propTypes.default.number,
+
+  /**
+   * The number of milliseconds a user must touch the element before showing the tooltip.
+   */
+  enterTouchDelay: _propTypes.default.number,
+
+  /**
+   * The relationship between the tooltip and the wrapper component is not clear from the DOM.
+   * This property is used with aria-describedby to solve the accessibility issue.
+   * If you don't provide this property. It falls back to a randomly generated id.
+   */
+  id: _propTypes.default.string,
+
+  /**
+   * Makes a tooltip interactive, i.e. will not close when the user
+   * hovers over the tooltip before the `leaveDelay` is expired.
+   */
+  interactive: _propTypes.default.bool,
+
+  /**
+   * The number of milliseconds to wait before hiding the tooltip.
+   * This property won't impact the leave touch delay (`leaveTouchDelay`).
+   */
+  leaveDelay: _propTypes.default.number,
+
+  /**
+   * The number of milliseconds after the user stops touching an element before hiding the tooltip.
+   */
+  leaveTouchDelay: _propTypes.default.number,
+
+  /**
+   * Callback fired when the tooltip requests to be closed.
+   *
+   * @param {object} event The event source of the callback
+   */
+  onClose: _propTypes.default.func,
+
+  /**
+   * Callback fired when the tooltip requests to be open.
+   *
+   * @param {object} event The event source of the callback
+   */
+  onOpen: _propTypes.default.func,
+
+  /**
+   * If `true`, the tooltip is shown.
+   */
+  open: _propTypes.default.bool,
+
+  /**
+   * Tooltip placement.
+   */
+  placement: _propTypes.default.oneOf(['bottom-end', 'bottom-start', 'bottom', 'left-end', 'left-start', 'left', 'right-end', 'right-start', 'right', 'top-end', 'top-start', 'top']),
+
+  /**
+   * Properties applied to the [`Popper`](/api/popper/) element.
+   */
+  PopperProps: _propTypes.default.object,
+
+  /**
+   * @ignore
+   */
+  theme: _propTypes.default.object.isRequired,
+
+  /**
+   * Tooltip title. Zero-length titles string are never displayed.
+   */
+  title: _propTypes.default.node.isRequired,
+
+  /**
+   * The component used for the transition.
+   */
+  TransitionComponent: _utils.componentPropType,
+
+  /**
+   * Properties applied to the `Transition` element.
+   */
+  TransitionProps: _propTypes.default.object
+} : void 0;
+Tooltip.defaultProps = {
+  disableFocusListener: false,
+  disableHoverListener: false,
+  disableTouchListener: false,
+  enterDelay: 0,
+  enterTouchDelay: 1000,
+  interactive: false,
+  leaveDelay: 0,
+  leaveTouchDelay: 1500,
+  placement: 'bottom',
+  TransitionComponent: _Grow.default
+};
+
+var _default = (0, _withStyles.default)(styles, {
+  name: 'MuiTooltip',
+  withTheme: true
+})(Tooltip);
+
+exports.default = _default;
+}).call(this,require('_process'))
+},{"../Grow":25,"../Popper":56,"../RootRef":60,"../styles/withStyles":112,"../utils/helpers":116,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304,"warning":343}],64:[function(require,module,exports){
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _Tooltip.default;
+  }
+});
+
+var _Tooltip = _interopRequireDefault(require("./Tooltip"));
+},{"./Tooltip":63,"@babel/runtime/helpers/interopRequireDefault":81}],65:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -7678,7 +8554,7 @@ var _default = (0, _withStyles.default)(styles, {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"../styles/withStyles":108,"../utils/helpers":112,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@material-ui/utils":120,"_process":252,"classnames":127,"prop-types":256,"react":299}],62:[function(require,module,exports){
+},{"../styles/withStyles":112,"../utils/helpers":116,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@material-ui/utils":124,"_process":257,"classnames":131,"prop-types":261,"react":304}],66:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -7694,7 +8570,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _Typography = _interopRequireDefault(require("./Typography"));
-},{"./Typography":61,"@babel/runtime/helpers/interopRequireDefault":77}],63:[function(require,module,exports){
+},{"./Typography":65,"@babel/runtime/helpers/interopRequireDefault":81}],67:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7719,7 +8595,7 @@ var blue = {
 };
 var _default = blue;
 exports.default = _default;
-},{}],64:[function(require,module,exports){
+},{}],68:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7732,7 +8608,7 @@ var common = {
 };
 var _default = common;
 exports.default = _default;
-},{}],65:[function(require,module,exports){
+},{}],69:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7757,7 +8633,7 @@ var grey = {
 };
 var _default = grey;
 exports.default = _default;
-},{}],66:[function(require,module,exports){
+},{}],70:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7782,7 +8658,7 @@ var indigo = {
 };
 var _default = indigo;
 exports.default = _default;
-},{}],67:[function(require,module,exports){
+},{}],71:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7807,7 +8683,7 @@ var pink = {
 };
 var _default = pink;
 exports.default = _default;
-},{}],68:[function(require,module,exports){
+},{}],72:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7832,7 +8708,7 @@ var red = {
 };
 var _default = red;
 exports.default = _default;
-},{}],69:[function(require,module,exports){
+},{}],73:[function(require,module,exports){
 function _arrayWithoutHoles(arr) {
   if (Array.isArray(arr)) {
     for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
@@ -7844,7 +8720,7 @@ function _arrayWithoutHoles(arr) {
 }
 
 module.exports = _arrayWithoutHoles;
-},{}],70:[function(require,module,exports){
+},{}],74:[function(require,module,exports){
 function _assertThisInitialized(self) {
   if (self === void 0) {
     throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
@@ -7854,7 +8730,7 @@ function _assertThisInitialized(self) {
 }
 
 module.exports = _assertThisInitialized;
-},{}],71:[function(require,module,exports){
+},{}],75:[function(require,module,exports){
 function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
     throw new TypeError("Cannot call a class as a function");
@@ -7862,7 +8738,7 @@ function _classCallCheck(instance, Constructor) {
 }
 
 module.exports = _classCallCheck;
-},{}],72:[function(require,module,exports){
+},{}],76:[function(require,module,exports){
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -7880,7 +8756,7 @@ function _createClass(Constructor, protoProps, staticProps) {
 }
 
 module.exports = _createClass;
-},{}],73:[function(require,module,exports){
+},{}],77:[function(require,module,exports){
 function _defineProperty(obj, key, value) {
   if (key in obj) {
     Object.defineProperty(obj, key, {
@@ -7897,7 +8773,7 @@ function _defineProperty(obj, key, value) {
 }
 
 module.exports = _defineProperty;
-},{}],74:[function(require,module,exports){
+},{}],78:[function(require,module,exports){
 function _extends() {
   module.exports = _extends = Object.assign || function (target) {
     for (var i = 1; i < arguments.length; i++) {
@@ -7917,7 +8793,7 @@ function _extends() {
 }
 
 module.exports = _extends;
-},{}],75:[function(require,module,exports){
+},{}],79:[function(require,module,exports){
 function _getPrototypeOf(o) {
   module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
     return o.__proto__ || Object.getPrototypeOf(o);
@@ -7926,7 +8802,7 @@ function _getPrototypeOf(o) {
 }
 
 module.exports = _getPrototypeOf;
-},{}],76:[function(require,module,exports){
+},{}],80:[function(require,module,exports){
 var setPrototypeOf = require("./setPrototypeOf");
 
 function _inherits(subClass, superClass) {
@@ -7945,9 +8821,9 @@ function _inherits(subClass, superClass) {
 }
 
 module.exports = _inherits;
-},{"./setPrototypeOf":84}],77:[function(require,module,exports){
+},{"./setPrototypeOf":88}],81:[function(require,module,exports){
 arguments[4][1][0].apply(exports,arguments)
-},{"dup":1}],78:[function(require,module,exports){
+},{"dup":1}],82:[function(require,module,exports){
 function _interopRequireWildcard(obj) {
   if (obj && obj.__esModule) {
     return obj;
@@ -7974,19 +8850,19 @@ function _interopRequireWildcard(obj) {
 }
 
 module.exports = _interopRequireWildcard;
-},{}],79:[function(require,module,exports){
+},{}],83:[function(require,module,exports){
 function _iterableToArray(iter) {
   if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
 }
 
 module.exports = _iterableToArray;
-},{}],80:[function(require,module,exports){
+},{}],84:[function(require,module,exports){
 function _nonIterableSpread() {
   throw new TypeError("Invalid attempt to spread non-iterable instance");
 }
 
 module.exports = _nonIterableSpread;
-},{}],81:[function(require,module,exports){
+},{}],85:[function(require,module,exports){
 var objectWithoutPropertiesLoose = require("./objectWithoutPropertiesLoose");
 
 function _objectWithoutProperties(source, excluded) {
@@ -8009,7 +8885,7 @@ function _objectWithoutProperties(source, excluded) {
 }
 
 module.exports = _objectWithoutProperties;
-},{"./objectWithoutPropertiesLoose":82}],82:[function(require,module,exports){
+},{"./objectWithoutPropertiesLoose":86}],86:[function(require,module,exports){
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null) return {};
   var target = {};
@@ -8026,7 +8902,7 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 }
 
 module.exports = _objectWithoutPropertiesLoose;
-},{}],83:[function(require,module,exports){
+},{}],87:[function(require,module,exports){
 var _typeof = require("../helpers/typeof");
 
 var assertThisInitialized = require("./assertThisInitialized");
@@ -8040,7 +8916,7 @@ function _possibleConstructorReturn(self, call) {
 }
 
 module.exports = _possibleConstructorReturn;
-},{"../helpers/typeof":86,"./assertThisInitialized":70}],84:[function(require,module,exports){
+},{"../helpers/typeof":90,"./assertThisInitialized":74}],88:[function(require,module,exports){
 function _setPrototypeOf(o, p) {
   module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
     o.__proto__ = p;
@@ -8051,7 +8927,7 @@ function _setPrototypeOf(o, p) {
 }
 
 module.exports = _setPrototypeOf;
-},{}],85:[function(require,module,exports){
+},{}],89:[function(require,module,exports){
 var arrayWithoutHoles = require("./arrayWithoutHoles");
 
 var iterableToArray = require("./iterableToArray");
@@ -8063,7 +8939,7 @@ function _toConsumableArray(arr) {
 }
 
 module.exports = _toConsumableArray;
-},{"./arrayWithoutHoles":69,"./iterableToArray":79,"./nonIterableSpread":80}],86:[function(require,module,exports){
+},{"./arrayWithoutHoles":73,"./iterableToArray":83,"./nonIterableSpread":84}],90:[function(require,module,exports){
 function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
 
 function _typeof(obj) {
@@ -8081,7 +8957,7 @@ function _typeof(obj) {
 }
 
 module.exports = _typeof;
-},{}],87:[function(require,module,exports){
+},{}],91:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -8293,7 +9169,7 @@ if (!_utils.ponyfillGlobal.__MUI_STYLES__.MuiThemeProvider) {
 var _default = _utils.ponyfillGlobal.__MUI_STYLES__.MuiThemeProvider;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"./themeListener":106,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/interopRequireWildcard":78,"@babel/runtime/helpers/possibleConstructorReturn":83,"@material-ui/utils":120,"_process":252,"brcast":126,"prop-types":256,"react":299,"warning":338}],88:[function(require,module,exports){
+},{"./themeListener":110,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/interopRequireWildcard":82,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"brcast":130,"prop-types":261,"react":304,"warning":343}],92:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -8582,7 +9458,7 @@ function lighten(color, coefficient) {
   return recomposeColor(color);
 }
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/interopRequireDefault":77,"_process":252,"warning":338}],89:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":81,"_process":257,"warning":343}],93:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -8664,7 +9540,7 @@ function createBreakpoints(breakpoints) {
     width: width
   }, other);
 }
-},{"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81}],90:[function(require,module,exports){
+},{"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85}],94:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -8722,7 +9598,7 @@ function createGenerateClassName() {
   };
 }
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/interopRequireDefault":77,"_process":252,"warning":338}],91:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":81,"_process":257,"warning":343}],95:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -8759,7 +9635,7 @@ function createMixins(breakpoints, spacing, mixins) {
     }), _toolbar)
   }, mixins);
 }
-},{"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77}],92:[function(require,module,exports){
+},{"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81}],96:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -8868,7 +9744,7 @@ function createMuiTheme() {
 var _default = createMuiTheme;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"./createBreakpoints":89,"./createMixins":91,"./createPalette":93,"./createTypography":95,"./shadows":103,"./shape":104,"./spacing":105,"./transitions":107,"./zIndex":110,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"_process":252,"deepmerge":134,"is-plain-object":151,"warning":338}],93:[function(require,module,exports){
+},{"./createBreakpoints":93,"./createMixins":95,"./createPalette":97,"./createTypography":99,"./shadows":107,"./shape":108,"./spacing":109,"./transitions":111,"./zIndex":114,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"deepmerge":138,"is-plain-object":155,"warning":343}],97:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -9076,7 +9952,7 @@ function createPalette(palette) {
   return paletteOutput;
 }
 }).call(this,require('_process'))
-},{"../colors/common":64,"../colors/grey":65,"../colors/indigo":66,"../colors/pink":67,"../colors/red":68,"./colorManipulator":88,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"_process":252,"deepmerge":134,"warning":338}],94:[function(require,module,exports){
+},{"../colors/common":68,"../colors/grey":69,"../colors/indigo":70,"../colors/pink":71,"../colors/red":72,"./colorManipulator":92,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"deepmerge":138,"warning":343}],98:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9087,7 +9963,7 @@ exports.default = createStyles;
 function createStyles(styles) {
   return styles;
 }
-},{}],95:[function(require,module,exports){
+},{}],99:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -9284,7 +10160,7 @@ function createTypography(palette, typography) {
   });
 }
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@material-ui/utils":120,"_process":252,"deepmerge":134,"warning":338}],96:[function(require,module,exports){
+},{"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@material-ui/utils":124,"_process":257,"deepmerge":138,"warning":343}],100:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -9341,7 +10217,7 @@ function getStylesCreator(stylesOrCreator) {
 var _default = getStylesCreator;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/typeof":86,"_process":252,"deepmerge":134,"warning":338}],97:[function(require,module,exports){
+},{"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/typeof":90,"_process":257,"deepmerge":138,"warning":343}],101:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9375,7 +10251,7 @@ function getThemeProps(params) {
 
 var _default = getThemeProps;
 exports.default = _default;
-},{}],98:[function(require,module,exports){
+},{}],102:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -9439,7 +10315,7 @@ var _createStyles = _interopRequireDefault(require("./createStyles"));
 var _withStyles = _interopRequireDefault(require("./withStyles"));
 
 var _withTheme = _interopRequireDefault(require("./withTheme"));
-},{"./MuiThemeProvider":87,"./createGenerateClassName":90,"./createMuiTheme":92,"./createStyles":94,"./jssPreset":99,"./withStyles":108,"./withTheme":109,"@babel/runtime/helpers/interopRequireDefault":77}],99:[function(require,module,exports){
+},{"./MuiThemeProvider":91,"./createGenerateClassName":94,"./createMuiTheme":96,"./createStyles":98,"./jssPreset":103,"./withStyles":112,"./withTheme":113,"@babel/runtime/helpers/interopRequireDefault":81}],103:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -9473,7 +10349,7 @@ function jssPreset() {
 
 var _default = jssPreset;
 exports.default = _default;
-},{"@babel/runtime/helpers/interopRequireDefault":77,"jss-camel-case":153,"jss-default-unit":155,"jss-global":156,"jss-nested":157,"jss-props-sort":159,"jss-vendor-prefixer":160}],100:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":81,"jss-camel-case":157,"jss-default-unit":159,"jss-global":160,"jss-nested":161,"jss-props-sort":163,"jss-vendor-prefixer":164}],104:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -9521,7 +10397,7 @@ function mergeClasses() {
 var _default = mergeClasses;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/interopRequireDefault":77,"@material-ui/utils":120,"_process":252,"warning":338}],101:[function(require,module,exports){
+},{"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/interopRequireDefault":81,"@material-ui/utils":124,"_process":257,"warning":343}],105:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9551,7 +10427,7 @@ var multiKeyStore = {
 };
 var _default = multiKeyStore;
 exports.default = _default;
-},{}],102:[function(require,module,exports){
+},{}],106:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9567,7 +10443,7 @@ var ns = {
 };
 var _default = ns;
 exports.default = _default;
-},{}],103:[function(require,module,exports){
+},{}],107:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9585,7 +10461,7 @@ function createShadow() {
 var shadows = ['none', createShadow(0, 1, 3, 0, 0, 1, 1, 0, 0, 2, 1, -1), createShadow(0, 1, 5, 0, 0, 2, 2, 0, 0, 3, 1, -2), createShadow(0, 1, 8, 0, 0, 3, 4, 0, 0, 3, 3, -2), createShadow(0, 2, 4, -1, 0, 4, 5, 0, 0, 1, 10, 0), createShadow(0, 3, 5, -1, 0, 5, 8, 0, 0, 1, 14, 0), createShadow(0, 3, 5, -1, 0, 6, 10, 0, 0, 1, 18, 0), createShadow(0, 4, 5, -2, 0, 7, 10, 1, 0, 2, 16, 1), createShadow(0, 5, 5, -3, 0, 8, 10, 1, 0, 3, 14, 2), createShadow(0, 5, 6, -3, 0, 9, 12, 1, 0, 3, 16, 2), createShadow(0, 6, 6, -3, 0, 10, 14, 1, 0, 4, 18, 3), createShadow(0, 6, 7, -4, 0, 11, 15, 1, 0, 4, 20, 3), createShadow(0, 7, 8, -4, 0, 12, 17, 2, 0, 5, 22, 4), createShadow(0, 7, 8, -4, 0, 13, 19, 2, 0, 5, 24, 4), createShadow(0, 7, 9, -4, 0, 14, 21, 2, 0, 5, 26, 4), createShadow(0, 8, 9, -5, 0, 15, 22, 2, 0, 6, 28, 5), createShadow(0, 8, 10, -5, 0, 16, 24, 2, 0, 6, 30, 5), createShadow(0, 8, 11, -5, 0, 17, 26, 2, 0, 6, 32, 5), createShadow(0, 9, 11, -5, 0, 18, 28, 2, 0, 7, 34, 6), createShadow(0, 9, 12, -6, 0, 19, 29, 2, 0, 7, 36, 6), createShadow(0, 10, 13, -6, 0, 20, 31, 3, 0, 8, 38, 7), createShadow(0, 10, 13, -6, 0, 21, 33, 3, 0, 8, 40, 7), createShadow(0, 10, 14, -6, 0, 22, 35, 3, 0, 8, 42, 7), createShadow(0, 11, 14, -7, 0, 23, 36, 3, 0, 9, 44, 8), createShadow(0, 11, 15, -7, 0, 24, 38, 3, 0, 9, 46, 8)];
 var _default = shadows;
 exports.default = _default;
-},{}],104:[function(require,module,exports){
+},{}],108:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9597,7 +10473,7 @@ var shape = {
 };
 var _default = shape;
 exports.default = _default;
-},{}],105:[function(require,module,exports){
+},{}],109:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9611,7 +10487,7 @@ var spacing = {
 };
 var _default = spacing;
 exports.default = _default;
-},{}],106:[function(require,module,exports){
+},{}],110:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -9650,7 +10526,7 @@ var themeListener = {
 };
 var _default = themeListener;
 exports.default = _default;
-},{"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/interopRequireDefault":77}],107:[function(require,module,exports){
+},{"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/interopRequireDefault":81}],111:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -9757,7 +10633,7 @@ var _default = {
 };
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"_process":252,"warning":338}],108:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"_process":257,"warning":343}],112:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -10152,7 +11028,7 @@ var _default = function _default(styles, options) {
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"./createGenerateClassName":90,"./createMuiTheme":92,"./getStylesCreator":96,"./getThemeProps":97,"./jssPreset":99,"./mergeClasses":100,"./multiKeyStore":101,"./reactJssContext":102,"./themeListener":106,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/defineProperty":73,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@babel/runtime/helpers/possibleConstructorReturn":83,"@material-ui/utils":120,"_process":252,"hoist-non-react-statics":148,"jss":167,"prop-types":256,"react":299,"warning":338}],109:[function(require,module,exports){
+},{"./createGenerateClassName":94,"./createMuiTheme":96,"./getStylesCreator":100,"./getThemeProps":101,"./jssPreset":103,"./mergeClasses":104,"./multiKeyStore":105,"./reactJssContext":106,"./themeListener":110,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/defineProperty":77,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"hoist-non-react-statics":152,"jss":171,"prop-types":261,"react":304,"warning":343}],113:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -10294,7 +11170,7 @@ if (!_utils.ponyfillGlobal.__MUI_STYLES__.withTheme) {
 var _default = _utils.ponyfillGlobal.__MUI_STYLES__.withTheme;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"./createMuiTheme":92,"./themeListener":106,"@babel/runtime/helpers/classCallCheck":71,"@babel/runtime/helpers/createClass":72,"@babel/runtime/helpers/extends":74,"@babel/runtime/helpers/getPrototypeOf":75,"@babel/runtime/helpers/inherits":76,"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/objectWithoutProperties":81,"@babel/runtime/helpers/possibleConstructorReturn":83,"@material-ui/utils":120,"_process":252,"hoist-non-react-statics":148,"prop-types":256,"react":299}],110:[function(require,module,exports){
+},{"./createMuiTheme":96,"./themeListener":110,"@babel/runtime/helpers/classCallCheck":75,"@babel/runtime/helpers/createClass":76,"@babel/runtime/helpers/extends":78,"@babel/runtime/helpers/getPrototypeOf":79,"@babel/runtime/helpers/inherits":80,"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/objectWithoutProperties":85,"@babel/runtime/helpers/possibleConstructorReturn":87,"@material-ui/utils":124,"_process":257,"hoist-non-react-statics":152,"prop-types":261,"react":304}],114:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -10313,7 +11189,7 @@ var zIndex = {
 };
 var _default = zIndex;
 exports.default = _default;
-},{}],111:[function(require,module,exports){
+},{}],115:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -10337,7 +11213,7 @@ function getTransitionProps(props, options) {
     delay: style.transitionDelay
   };
 }
-},{}],112:[function(require,module,exports){
+},{}],116:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -10431,7 +11307,7 @@ function createChainedFunction() {
   }, function () {});
 }
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/interopRequireDefault":77,"@babel/runtime/helpers/typeof":86,"_process":252,"warning":338}],113:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":81,"@babel/runtime/helpers/typeof":90,"_process":257,"warning":343}],117:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -10445,7 +11321,7 @@ function ownerDocument(node) {
 
 var _default = ownerDocument;
 exports.default = _default;
-},{}],114:[function(require,module,exports){
+},{}],118:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -10465,7 +11341,7 @@ function ownerWindow(node) {
 
 var _default = ownerWindow;
 exports.default = _default;
-},{"./ownerDocument":113,"@babel/runtime/helpers/interopRequireDefault":77}],115:[function(require,module,exports){
+},{"./ownerDocument":117,"@babel/runtime/helpers/interopRequireDefault":81}],119:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -10505,7 +11381,7 @@ function setRef(ref, value) {
     ref.current = value;
   }
 }
-},{"@babel/runtime/helpers/interopRequireDefault":77,"classnames":127,"react":299}],116:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":81,"classnames":131,"react":304}],120:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -10530,7 +11406,7 @@ function chainPropTypes(propType1, propType2) {
 var _default = chainPropTypes;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"_process":252}],117:[function(require,module,exports){
+},{"_process":257}],121:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -10590,7 +11466,7 @@ componentPropType.isRequired = createComponentProp(true);
 var _default = componentPropType;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/interopRequireDefault":123,"@babel/runtime/helpers/typeof":124,"_process":252,"react-is":281}],118:[function(require,module,exports){
+},{"@babel/runtime/helpers/interopRequireDefault":127,"@babel/runtime/helpers/typeof":128,"_process":257,"react-is":286}],122:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -10636,7 +11512,7 @@ function exactProp(propTypes) {
 var _default = exactProp;
 exports.default = _default;
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/defineProperty":121,"@babel/runtime/helpers/extends":122,"@babel/runtime/helpers/interopRequireDefault":123,"_process":252}],119:[function(require,module,exports){
+},{"@babel/runtime/helpers/defineProperty":125,"@babel/runtime/helpers/extends":126,"@babel/runtime/helpers/interopRequireDefault":127,"_process":257}],123:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -10669,7 +11545,7 @@ function getDisplayName(Component) {
 
 var _default = getDisplayName;
 exports.default = _default;
-},{}],120:[function(require,module,exports){
+},{}],124:[function(require,module,exports){
 /** @license Material-UI v3.0.0-alpha.3
  *
  * This source code is licensed under the MIT license found in the
@@ -10722,15 +11598,15 @@ var _exactProp = _interopRequireDefault(require("./exactProp"));
 var _getDisplayName = _interopRequireDefault(require("./getDisplayName"));
 
 var _ponyfillGlobal = _interopRequireDefault(require("./ponyfillGlobal"));
-},{"./chainPropTypes":116,"./componentPropType":117,"./exactProp":118,"./getDisplayName":119,"./ponyfillGlobal":125,"@babel/runtime/helpers/interopRequireDefault":123}],121:[function(require,module,exports){
-arguments[4][73][0].apply(exports,arguments)
-},{"dup":73}],122:[function(require,module,exports){
-arguments[4][74][0].apply(exports,arguments)
-},{"dup":74}],123:[function(require,module,exports){
+},{"./chainPropTypes":120,"./componentPropType":121,"./exactProp":122,"./getDisplayName":123,"./ponyfillGlobal":129,"@babel/runtime/helpers/interopRequireDefault":127}],125:[function(require,module,exports){
+arguments[4][77][0].apply(exports,arguments)
+},{"dup":77}],126:[function(require,module,exports){
+arguments[4][78][0].apply(exports,arguments)
+},{"dup":78}],127:[function(require,module,exports){
 arguments[4][1][0].apply(exports,arguments)
-},{"dup":1}],124:[function(require,module,exports){
-arguments[4][86][0].apply(exports,arguments)
-},{"dup":86}],125:[function(require,module,exports){
+},{"dup":1}],128:[function(require,module,exports){
+arguments[4][90][0].apply(exports,arguments)
+},{"dup":90}],129:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -10743,7 +11619,7 @@ exports.default = void 0;
 var _default = typeof window != 'undefined' && window.Math == Math ? window : typeof self != 'undefined' && self.Math == Math ? self : Function('return this')();
 
 exports.default = _default;
-},{}],126:[function(require,module,exports){
+},{}],130:[function(require,module,exports){
 function createBroadcast (initialState) {
   var listeners = {};
   var id = 1;
@@ -10785,7 +11661,7 @@ function createBroadcast (initialState) {
 
 module.exports = createBroadcast;
 
-},{}],127:[function(require,module,exports){
+},{}],131:[function(require,module,exports){
 /*!
   Copyright (c) 2017 Jed Watson.
   Licensed under the MIT License (MIT), see
@@ -10839,7 +11715,7 @@ module.exports = createBroadcast;
 	}
 }());
 
-},{}],128:[function(require,module,exports){
+},{}],132:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10861,7 +11737,7 @@ function camelize(str) {
 function toUpper(match, c) {
   return c ? c.toUpperCase() : '';
 }
-},{}],129:[function(require,module,exports){
+},{}],133:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10898,7 +11774,7 @@ exports['default'] = {
 exports.prefix = _prefix2['default'];
 exports.supportedProperty = _supportedProperty2['default'];
 exports.supportedValue = _supportedValue2['default'];
-},{"./prefix":130,"./supported-property":131,"./supported-value":132}],130:[function(require,module,exports){
+},{"./prefix":134,"./supported-property":135,"./supported-value":136}],134:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10948,7 +11824,7 @@ if (_isInBrowser2['default']) {
  * @api public
  */
 exports['default'] = { js: js, css: css };
-},{"is-in-browser":150}],131:[function(require,module,exports){
+},{"is-in-browser":154}],135:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -11021,7 +11897,7 @@ function supportedProperty(prop) {
 
   return cache[prop];
 }
-},{"./camelize":128,"./prefix":130,"is-in-browser":150}],132:[function(require,module,exports){
+},{"./camelize":132,"./prefix":134,"is-in-browser":154}],136:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -11096,7 +11972,7 @@ function supportedValue(property, value) {
 
   return cache[cacheKey];
 }
-},{"./prefix":130,"is-in-browser":150}],133:[function(require,module,exports){
+},{"./prefix":134,"is-in-browser":154}],137:[function(require,module,exports){
 /**
  * Returns a function, that, as long as it continues to be invoked, will not
  * be triggered. The function will be called after it stops being called for
@@ -11168,7 +12044,7 @@ debounce.debounce = debounce;
 
 module.exports = debounce;
 
-},{}],134:[function(require,module,exports){
+},{}],138:[function(require,module,exports){
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
 	typeof define === 'function' && define.amd ? define(factory) :
@@ -11275,7 +12151,7 @@ return deepmerge_1;
 
 })));
 
-},{}],135:[function(require,module,exports){
+},{}],139:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -11286,7 +12162,7 @@ function getWindow(node) {
 }
 
 module.exports = exports["default"];
-},{}],136:[function(require,module,exports){
+},{}],140:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -11331,7 +12207,7 @@ function _getComputedStyle(node) {
 }
 
 module.exports = exports["default"];
-},{"../util/camelizeStyle":142,"@babel/runtime/helpers/interopRequireDefault":1}],137:[function(require,module,exports){
+},{"../util/camelizeStyle":146,"@babel/runtime/helpers/interopRequireDefault":1}],141:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -11384,7 +12260,7 @@ function style(node, property, value) {
 }
 
 module.exports = exports["default"];
-},{"../transition/isTransform":139,"../transition/properties":140,"../util/camelizeStyle":142,"../util/hyphenateStyle":144,"./getComputedStyle":136,"./removeStyle":138,"@babel/runtime/helpers/interopRequireDefault":1}],138:[function(require,module,exports){
+},{"../transition/isTransform":143,"../transition/properties":144,"../util/camelizeStyle":146,"../util/hyphenateStyle":148,"./getComputedStyle":140,"./removeStyle":142,"@babel/runtime/helpers/interopRequireDefault":1}],142:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -11395,7 +12271,7 @@ function removeStyle(node, key) {
 }
 
 module.exports = exports["default"];
-},{}],139:[function(require,module,exports){
+},{}],143:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -11407,7 +12283,7 @@ function isTransform(property) {
 }
 
 module.exports = exports["default"];
-},{}],140:[function(require,module,exports){
+},{}],144:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -11500,7 +12376,7 @@ function getTransitionProperties() {
     prefix: prefix
   };
 }
-},{"../util/inDOM":145,"@babel/runtime/helpers/interopRequireDefault":1}],141:[function(require,module,exports){
+},{"../util/inDOM":149,"@babel/runtime/helpers/interopRequireDefault":1}],145:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -11514,7 +12390,7 @@ function camelize(string) {
 }
 
 module.exports = exports["default"];
-},{}],142:[function(require,module,exports){
+},{}],146:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -11536,7 +12412,7 @@ function camelizeStyleName(string) {
 }
 
 module.exports = exports["default"];
-},{"./camelize":141,"@babel/runtime/helpers/interopRequireDefault":1}],143:[function(require,module,exports){
+},{"./camelize":145,"@babel/runtime/helpers/interopRequireDefault":1}],147:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -11548,7 +12424,7 @@ function hyphenate(string) {
 }
 
 module.exports = exports["default"];
-},{}],144:[function(require,module,exports){
+},{}],148:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -11570,7 +12446,7 @@ function hyphenateStyleName(string) {
 }
 
 module.exports = exports["default"];
-},{"./hyphenate":143,"@babel/runtime/helpers/interopRequireDefault":1}],145:[function(require,module,exports){
+},{"./hyphenate":147,"@babel/runtime/helpers/interopRequireDefault":1}],149:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -11580,7 +12456,7 @@ var _default = !!(typeof window !== 'undefined' && window.document && window.doc
 
 exports.default = _default;
 module.exports = exports["default"];
-},{}],146:[function(require,module,exports){
+},{}],150:[function(require,module,exports){
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -11611,7 +12487,7 @@ function scrollbarSize(recalc) {
 }
 
 module.exports = exports["default"];
-},{"./inDOM":145,"@babel/runtime/helpers/interopRequireDefault":1}],147:[function(require,module,exports){
+},{"./inDOM":149,"@babel/runtime/helpers/interopRequireDefault":1}],151:[function(require,module,exports){
 'use strict';
 
 var has = Object.prototype.hasOwnProperty;
@@ -11902,7 +12778,7 @@ if ('undefined' !== typeof module) {
   module.exports = EventEmitter;
 }
 
-},{}],148:[function(require,module,exports){
+},{}],152:[function(require,module,exports){
 'use strict';
 
 /**
@@ -12007,7 +12883,7 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 
 module.exports = hoistNonReactStatics;
 
-},{"react-is":281}],149:[function(require,module,exports){
+},{"react-is":286}],153:[function(require,module,exports){
 'use strict';
 
 var uppercasePattern = /[A-Z]/g;
@@ -12025,7 +12901,7 @@ function hyphenateStyleName(string) {
 
 module.exports = hyphenateStyleName;
 
-},{}],150:[function(require,module,exports){
+},{}],154:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -12037,7 +12913,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 var isBrowser = exports.isBrowser = (typeof window === "undefined" ? "undefined" : _typeof(window)) === "object" && (typeof document === "undefined" ? "undefined" : _typeof(document)) === 'object' && document.nodeType === 9;
 
 exports.default = isBrowser;
-},{}],151:[function(require,module,exports){
+},{}],155:[function(require,module,exports){
 /*!
  * is-plain-object <https://github.com/jonschlinkert/is-plain-object>
  *
@@ -12076,7 +12952,7 @@ module.exports = function isPlainObject(o) {
   return true;
 };
 
-},{"isobject":152}],152:[function(require,module,exports){
+},{"isobject":156}],156:[function(require,module,exports){
 /*!
  * isobject <https://github.com/jonschlinkert/isobject>
  *
@@ -12090,7 +12966,7 @@ module.exports = function isObject(val) {
   return val != null && typeof val === 'object' && Array.isArray(val) === false;
 };
 
-},{}],153:[function(require,module,exports){
+},{}],157:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -12156,7 +13032,7 @@ function camelCase() {
 
   return { onProcessStyle: onProcessStyle, onChangeValue: onChangeValue };
 }
-},{"hyphenate-style-name":149}],154:[function(require,module,exports){
+},{"hyphenate-style-name":153}],158:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -12274,7 +13150,7 @@ exports['default'] = {
   'text-shadow-y': 'px',
   'text-shadow-blur': 'px'
 };
-},{}],155:[function(require,module,exports){
+},{}],159:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -12378,7 +13254,7 @@ function defaultUnit() {
 
   return { onProcessStyle: onProcessStyle, onChangeValue: onChangeValue };
 }
-},{"./defaultUnits":154}],156:[function(require,module,exports){
+},{"./defaultUnits":158}],160:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -12570,7 +13446,7 @@ function jssGlobal() {
 
   return { onCreateRule: onCreateRule, onProcessRule: onProcessRule };
 }
-},{"jss":167}],157:[function(require,module,exports){
+},{"jss":171}],161:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -12682,7 +13558,7 @@ function jssNested() {
 
   return { onProcessStyle: onProcessStyle };
 }
-},{"warning":158}],158:[function(require,module,exports){
+},{"warning":162}],162:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -12746,7 +13622,7 @@ if (process.env.NODE_ENV !== 'production') {
 module.exports = warning;
 
 }).call(this,require('_process'))
-},{"_process":252}],159:[function(require,module,exports){
+},{"_process":257}],163:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -12774,7 +13650,7 @@ function jssPropsSort() {
 
   return { onProcessStyle: onProcessStyle };
 }
-},{}],160:[function(require,module,exports){
+},{}],164:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -12830,7 +13706,7 @@ function jssVendorPrefixer() {
 
   return { onProcessRule: onProcessRule, onProcessStyle: onProcessStyle, onChangeValue: onChangeValue };
 }
-},{"css-vendor":129}],161:[function(require,module,exports){
+},{"css-vendor":133}],165:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -13042,7 +13918,7 @@ var Jss = function () {
 }();
 
 exports['default'] = Jss;
-},{"./PluginsRegistry":162,"./StyleSheet":166,"./plugins/functions":168,"./plugins/observables":169,"./plugins/rules":170,"./renderers/DomRenderer":171,"./renderers/VirtualRenderer":172,"./rules/StyleRule":177,"./sheets":179,"./utils/createGenerateClassName":181,"./utils/createRule":182,"is-in-browser":150}],162:[function(require,module,exports){
+},{"./PluginsRegistry":166,"./StyleSheet":170,"./plugins/functions":172,"./plugins/observables":173,"./plugins/rules":174,"./renderers/DomRenderer":175,"./renderers/VirtualRenderer":176,"./rules/StyleRule":181,"./sheets":183,"./utils/createGenerateClassName":185,"./utils/createRule":186,"is-in-browser":154}],166:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -13179,7 +14055,7 @@ var PluginsRegistry = function () {
 }();
 
 exports['default'] = PluginsRegistry;
-},{"warning":190}],163:[function(require,module,exports){
+},{"warning":194}],167:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -13427,7 +14303,7 @@ var RuleList = function () {
 }();
 
 exports['default'] = RuleList;
-},{"./rules/StyleRule":177,"./utils/createRule":182,"./utils/escape":183,"./utils/linkRule":186}],164:[function(require,module,exports){
+},{"./rules/StyleRule":181,"./utils/createRule":186,"./utils/escape":187,"./utils/linkRule":190}],168:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -13515,7 +14391,7 @@ var SheetsManager = function () {
 }();
 
 exports['default'] = SheetsManager;
-},{"warning":190}],165:[function(require,module,exports){
+},{"warning":194}],169:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -13614,7 +14490,7 @@ var SheetsRegistry = function () {
 }();
 
 exports['default'] = SheetsRegistry;
-},{}],166:[function(require,module,exports){
+},{}],170:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -13855,7 +14731,7 @@ var StyleSheet = function () {
 }();
 
 exports['default'] = StyleSheet;
-},{"./RuleList":163,"./utils/linkRule":186}],167:[function(require,module,exports){
+},{"./RuleList":167,"./utils/linkRule":190}],171:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -13943,7 +14819,7 @@ var create = exports.create = function create(options) {
  * A global Jss instance.
  */
 exports['default'] = create();
-},{"./Jss":161,"./RuleList":163,"./SheetsManager":164,"./SheetsRegistry":165,"./sheets":179,"./utils/createGenerateClassName":181,"./utils/getDynamicStyles":184,"./utils/toCssValue":189}],168:[function(require,module,exports){
+},{"./Jss":165,"./RuleList":167,"./SheetsManager":168,"./SheetsRegistry":169,"./sheets":183,"./utils/createGenerateClassName":185,"./utils/getDynamicStyles":188,"./utils/toCssValue":193}],172:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -14020,7 +14896,7 @@ exports['default'] = {
     }
   }
 };
-},{"../RuleList":163,"../rules/StyleRule":177,"../utils/createRule":182}],169:[function(require,module,exports){
+},{"../RuleList":167,"../rules/StyleRule":181,"../utils/createRule":186}],173:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -14084,7 +14960,7 @@ exports['default'] = {
     }
   }
 };
-},{"../rules/StyleRule":177,"../utils/createRule":182,"../utils/isObservable":185}],170:[function(require,module,exports){
+},{"../rules/StyleRule":181,"../utils/createRule":186,"../utils/isObservable":189}],174:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -14139,7 +15015,7 @@ var plugins = Object.keys(classes).map(function (key) {
 });
 
 exports['default'] = plugins;
-},{"../rules/ConditionalRule":173,"../rules/FontFaceRule":174,"../rules/KeyframesRule":175,"../rules/SimpleRule":176,"../rules/ViewportRule":178}],171:[function(require,module,exports){
+},{"../rules/ConditionalRule":177,"../rules/FontFaceRule":178,"../rules/KeyframesRule":179,"../rules/SimpleRule":180,"../rules/ViewportRule":182}],175:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -14596,7 +15472,7 @@ var DomRenderer = function () {
 }();
 
 exports['default'] = DomRenderer;
-},{"../rules/StyleRule":177,"../sheets":179,"../utils/toCssValue":189,"warning":190}],172:[function(require,module,exports){
+},{"../rules/StyleRule":181,"../sheets":183,"../utils/toCssValue":193,"warning":194}],176:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -14678,7 +15554,7 @@ var VirtualRenderer = function () {
 }();
 
 exports['default'] = VirtualRenderer;
-},{}],173:[function(require,module,exports){
+},{}],177:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -14769,7 +15645,7 @@ var ConditionalRule = function () {
 }();
 
 exports['default'] = ConditionalRule;
-},{"../RuleList":163}],174:[function(require,module,exports){
+},{"../RuleList":167}],178:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -14823,7 +15699,7 @@ var FontFaceRule = function () {
 }();
 
 exports['default'] = FontFaceRule;
-},{"../utils/toCss":188}],175:[function(require,module,exports){
+},{"../utils/toCss":192}],179:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -14886,7 +15762,7 @@ var KeyframesRule = function () {
 }();
 
 exports['default'] = KeyframesRule;
-},{"../RuleList":163}],176:[function(require,module,exports){
+},{"../RuleList":167}],180:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -14935,7 +15811,7 @@ var SimpleRule = function () {
 }();
 
 exports['default'] = SimpleRule;
-},{}],177:[function(require,module,exports){
+},{}],181:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -15103,7 +15979,7 @@ var StyleRule = function () {
 }();
 
 exports['default'] = StyleRule;
-},{"../utils/toCss":188,"../utils/toCssValue":189,"warning":190}],178:[function(require,module,exports){
+},{"../utils/toCss":192,"../utils/toCssValue":193,"warning":194}],182:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -15148,7 +16024,7 @@ var ViewportRule = function () {
 }();
 
 exports['default'] = ViewportRule;
-},{"../utils/toCss":188}],179:[function(require,module,exports){
+},{"../utils/toCss":192}],183:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -15168,7 +16044,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
  * each request in order to not leak sheets across requests.
  */
 exports['default'] = new _SheetsRegistry2['default']();
-},{"./SheetsRegistry":165}],180:[function(require,module,exports){
+},{"./SheetsRegistry":169}],184:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -15216,7 +16092,7 @@ function cloneStyle(style) {
 
   return newStyle;
 }
-},{"./isObservable":185}],181:[function(require,module,exports){
+},{"./isObservable":189}],185:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -15276,7 +16152,7 @@ exports['default'] = function () {
   };
 };
 }).call(this,require('_process'))
-},{"../StyleSheet":166,"./moduleId":187,"_process":252,"warning":190}],182:[function(require,module,exports){
+},{"../StyleSheet":170,"./moduleId":191,"_process":257,"warning":194}],186:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -15319,7 +16195,7 @@ function createRule() {
 
   return new _StyleRule2['default'](name, declCopy, options);
 }
-},{"../rules/StyleRule":177,"../utils/cloneStyle":180,"warning":190}],183:[function(require,module,exports){
+},{"../rules/StyleRule":181,"../utils/cloneStyle":184,"warning":194}],187:[function(require,module,exports){
 (function (process,global){
 'use strict';
 
@@ -15344,7 +16220,7 @@ exports['default'] = function (str) {
   return CSS.escape(str);
 };
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"_process":252}],184:[function(require,module,exports){
+},{"_process":257}],188:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -15378,7 +16254,7 @@ function getDynamicStyles(styles) {
 
   return to;
 }
-},{}],185:[function(require,module,exports){
+},{}],189:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -15394,7 +16270,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
 exports['default'] = function (value) {
   return value && value[_symbolObservable2['default']] && value === value[_symbolObservable2['default']]();
 };
-},{"symbol-observable":335}],186:[function(require,module,exports){
+},{"symbol-observable":340}],190:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -15408,7 +16284,7 @@ function linkRule(rule, cssRule) {
   rule.renderable = cssRule;
   if (rule.rules && cssRule.cssRules) rule.rules.link(cssRule.cssRules);
 }
-},{}],187:[function(require,module,exports){
+},{}],191:[function(require,module,exports){
 (function (global){
 'use strict';
 
@@ -15424,7 +16300,7 @@ if (global[ns] == null) global[ns] = 0;
 // the module.
 exports['default'] = global[ns]++;
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],188:[function(require,module,exports){
+},{}],192:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -15506,7 +16382,7 @@ function toCss(selector, style) {
 
   return result;
 }
-},{"./toCssValue":189}],189:[function(require,module,exports){
+},{"./toCssValue":193}],193:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -15555,9 +16431,9 @@ function toCssValue(value) {
 
   return cssValue;
 }
-},{}],190:[function(require,module,exports){
-arguments[4][158][0].apply(exports,arguments)
-},{"_process":252,"dup":158}],191:[function(require,module,exports){
+},{}],194:[function(require,module,exports){
+arguments[4][162][0].apply(exports,arguments)
+},{"_process":257,"dup":162}],195:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Global_1 = require("./Global");
@@ -15703,7 +16579,7 @@ var Animation = (function () {
 }());
 exports.Animation = Animation;
 
-},{"./Global":199}],192:[function(require,module,exports){
+},{"./Global":203}],196:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -15893,7 +16769,7 @@ BaseLayer.prototype.nodeType = 'BaseLayer';
 Factory_1.Factory.addGetterSetter(BaseLayer, 'clearBeforeDraw', true);
 Util_1.Collection.mapMethods(BaseLayer);
 
-},{"./Canvas":193,"./Container":194,"./Factory":197,"./Node":202,"./Util":206}],193:[function(require,module,exports){
+},{"./Canvas":197,"./Container":198,"./Factory":201,"./Node":206,"./Util":210}],197:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -16027,7 +16903,7 @@ var HitCanvas = (function (_super) {
 }(Canvas));
 exports.HitCanvas = HitCanvas;
 
-},{"./Context":195,"./Factory":197,"./Global":199,"./Util":206,"./Validators":207}],194:[function(require,module,exports){
+},{"./Context":199,"./Factory":201,"./Global":203,"./Util":210,"./Validators":211}],198:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -16376,7 +17252,7 @@ Factory_1.Factory.addGetterSetter(Container, 'clipHeight', undefined, Validators
 Factory_1.Factory.addGetterSetter(Container, 'clipFunc');
 Util_1.Collection.mapMethods(Container);
 
-},{"./DragAndDrop":196,"./Factory":197,"./Node":202,"./Util":206,"./Validators":207}],195:[function(require,module,exports){
+},{"./DragAndDrop":200,"./Factory":201,"./Node":206,"./Util":210,"./Validators":211}],199:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -16894,7 +17770,7 @@ var HitContext = (function (_super) {
 }(Context));
 exports.HitContext = HitContext;
 
-},{"./Global":199,"./Util":206}],196:[function(require,module,exports){
+},{"./Global":203,"./Util":210}],200:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Animation_1 = require("./Animation");
@@ -16991,7 +17867,7 @@ if (Global_1.Konva.isBrowser) {
     window.addEventListener('touchend', exports.DD._endDragAfter, false);
 }
 
-},{"./Animation":191,"./Global":199}],197:[function(require,module,exports){
+},{"./Animation":195,"./Global":203}],201:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Util_1 = require("./Util");
@@ -17112,7 +17988,7 @@ exports.Factory = {
     }
 };
 
-},{"./Util":206,"./Validators":207}],198:[function(require,module,exports){
+},{"./Util":210,"./Validators":211}],202:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -17168,7 +18044,7 @@ FastLayer.prototype.nodeType = 'FastLayer';
 Global_1._registerNode(FastLayer);
 Util_1.Collection.mapMethods(FastLayer);
 
-},{"./BaseLayer":192,"./Container":194,"./Global":199,"./Util":206}],199:[function(require,module,exports){
+},{"./BaseLayer":196,"./Container":198,"./Global":203,"./Util":210}],203:[function(require,module,exports){
 (function (global){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -17258,7 +18134,7 @@ exports._registerNode = function (NodeClass) {
 };
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],200:[function(require,module,exports){
+},{}],204:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -17295,7 +18171,7 @@ Group.prototype.nodeType = 'Group';
 Global_1._registerNode(Group);
 Util_1.Collection.mapMethods(Group);
 
-},{"./Container":194,"./Global":199,"./Util":206}],201:[function(require,module,exports){
+},{"./Container":198,"./Global":203,"./Util":210}],205:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -17468,7 +18344,7 @@ Global_1._registerNode(Layer);
 Factory_1.Factory.addGetterSetter(Layer, 'hitGraphEnabled', true, Validators_1.getBooleanValidator());
 Util_1.Collection.mapMethods(Layer);
 
-},{"./BaseLayer":192,"./Canvas":193,"./Container":194,"./Factory":197,"./Global":199,"./Shape":203,"./Util":206,"./Validators":207}],202:[function(require,module,exports){
+},{"./BaseLayer":196,"./Canvas":197,"./Container":198,"./Factory":201,"./Global":203,"./Shape":207,"./Util":210,"./Validators":211}],206:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Util_1 = require("./Util");
@@ -18748,7 +19624,7 @@ Factory_1.Factory.backCompat(Node, {
 });
 Util_1.Collection.mapMethods(Node);
 
-},{"./Canvas":193,"./DragAndDrop":196,"./Factory":197,"./Global":199,"./Util":206,"./Validators":207}],203:[function(require,module,exports){
+},{"./Canvas":197,"./DragAndDrop":200,"./Factory":201,"./Global":203,"./Util":210,"./Validators":211}],207:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -19259,7 +20135,7 @@ Factory_1.Factory.backCompat(Shape, {
 });
 Util_1.Collection.mapMethods(Shape);
 
-},{"./Factory":197,"./Global":199,"./Node":202,"./Util":206,"./Validators":207}],204:[function(require,module,exports){
+},{"./Factory":201,"./Global":203,"./Node":206,"./Util":210,"./Validators":211}],208:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -19820,7 +20696,7 @@ Stage.prototype.nodeType = STAGE;
 Global_2._registerNode(Stage);
 Factory_1.Factory.addGetterSetter(Stage, 'container');
 
-},{"./Canvas":193,"./Container":194,"./DragAndDrop":196,"./Factory":197,"./Global":199,"./Util":206}],205:[function(require,module,exports){
+},{"./Canvas":197,"./Container":198,"./DragAndDrop":200,"./Factory":201,"./Global":203,"./Util":210}],209:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Util_1 = require("./Util");
@@ -20337,7 +21213,7 @@ exports.Easings = {
     }
 };
 
-},{"./Animation":191,"./Global":199,"./Node":202,"./Util":206}],206:[function(require,module,exports){
+},{"./Animation":195,"./Global":203,"./Node":206,"./Util":210}],210:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Global_1 = require("./Global");
@@ -21048,7 +21924,7 @@ exports.Util = {
     }
 };
 
-},{"./Global":199}],207:[function(require,module,exports){
+},{"./Global":203}],211:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Global_1 = require("./Global");
@@ -21199,7 +22075,7 @@ function getComponentValidator(components) {
 }
 exports.getComponentValidator = getComponentValidator;
 
-},{"./Global":199,"./Util":206}],208:[function(require,module,exports){
+},{"./Global":203,"./Util":210}],212:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Global_1 = require("./Global");
@@ -21238,7 +22114,7 @@ exports.Konva = Util_1.Util._assign(Global_1.Konva, {
     Canvas: Canvas_1.Canvas
 });
 
-},{"./Animation":191,"./Canvas":193,"./Container":194,"./Context":195,"./DragAndDrop":196,"./FastLayer":198,"./Global":199,"./Group":200,"./Layer":201,"./Node":202,"./Shape":203,"./Stage":204,"./Tween":205,"./Util":206}],209:[function(require,module,exports){
+},{"./Animation":195,"./Canvas":197,"./Container":198,"./Context":199,"./DragAndDrop":200,"./FastLayer":202,"./Global":203,"./Group":204,"./Layer":205,"./Node":206,"./Shape":207,"./Stage":208,"./Tween":209,"./Util":210}],213:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var _CoreInternals_1 = require("./_CoreInternals");
@@ -21320,7 +22196,7 @@ exports.Konva = _CoreInternals_1.Konva.Util._assign(_CoreInternals_1.Konva, {
     }
 });
 
-},{"./_CoreInternals":208,"./filters/Blur":210,"./filters/Brighten":211,"./filters/Contrast":212,"./filters/Emboss":213,"./filters/Enhance":214,"./filters/Grayscale":215,"./filters/HSL":216,"./filters/HSV":217,"./filters/Invert":218,"./filters/Kaleidoscope":219,"./filters/Mask":220,"./filters/Noise":221,"./filters/Pixelate":222,"./filters/Posterize":223,"./filters/RGB":224,"./filters/RGBA":225,"./filters/Sepia":226,"./filters/Solarize":227,"./filters/Threshold":228,"./shapes/Arc":230,"./shapes/Arrow":231,"./shapes/Circle":232,"./shapes/Ellipse":233,"./shapes/Image":234,"./shapes/Label":235,"./shapes/Line":236,"./shapes/Path":237,"./shapes/Rect":238,"./shapes/RegularPolygon":239,"./shapes/Ring":240,"./shapes/Sprite":241,"./shapes/Star":242,"./shapes/Text":243,"./shapes/TextPath":244,"./shapes/Transformer":245,"./shapes/Wedge":246}],210:[function(require,module,exports){
+},{"./_CoreInternals":212,"./filters/Blur":214,"./filters/Brighten":215,"./filters/Contrast":216,"./filters/Emboss":217,"./filters/Enhance":218,"./filters/Grayscale":219,"./filters/HSL":220,"./filters/HSV":221,"./filters/Invert":222,"./filters/Kaleidoscope":223,"./filters/Mask":224,"./filters/Noise":225,"./filters/Pixelate":226,"./filters/Posterize":227,"./filters/RGB":228,"./filters/RGBA":229,"./filters/Sepia":230,"./filters/Solarize":231,"./filters/Threshold":232,"./shapes/Arc":234,"./shapes/Arrow":235,"./shapes/Circle":236,"./shapes/Ellipse":237,"./shapes/Image":238,"./shapes/Label":239,"./shapes/Line":240,"./shapes/Path":241,"./shapes/Rect":242,"./shapes/RegularPolygon":243,"./shapes/Ring":244,"./shapes/Sprite":245,"./shapes/Star":246,"./shapes/Text":247,"./shapes/TextPath":248,"./shapes/Transformer":249,"./shapes/Wedge":250}],214:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22021,7 +22897,7 @@ exports.Blur = function Blur(imageData) {
 };
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'blurRadius', 0, Validators_1.getNumberValidator(), Factory_1.Factory.afterSetFilter);
 
-},{"../Factory":197,"../Node":202,"../Validators":207}],211:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Validators":211}],215:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22037,7 +22913,7 @@ exports.Brighten = function (imageData) {
 };
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'brightness', 0, Validators_1.getNumberValidator(), Factory_1.Factory.afterSetFilter);
 
-},{"../Factory":197,"../Node":202,"../Validators":207}],212:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Validators":211}],216:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22075,7 +22951,7 @@ exports.Contrast = function (imageData) {
 };
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'contrast', 0, Validators_1.getNumberValidator(), Factory_1.Factory.afterSetFilter);
 
-},{"../Factory":197,"../Node":202,"../Validators":207}],213:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Validators":211}],217:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22181,7 +23057,7 @@ Factory_1.Factory.addGetterSetter(Node_1.Node, 'embossWhiteLevel', 0.5, Validato
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'embossDirection', 'top-left', null, Factory_1.Factory.afterSetFilter);
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'embossBlend', false, null, Factory_1.Factory.afterSetFilter);
 
-},{"../Factory":197,"../Node":202,"../Util":206,"../Validators":207}],214:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Util":210,"../Validators":211}],218:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22268,7 +23144,7 @@ exports.Enhance = function (imageData) {
 };
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'enhance', 0, Validators_1.getNumberValidator(), Factory_1.Factory.afterSetFilter);
 
-},{"../Factory":197,"../Node":202,"../Validators":207}],215:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Validators":211}],219:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Grayscale = function (imageData) {
@@ -22281,7 +23157,7 @@ exports.Grayscale = function (imageData) {
     }
 };
 
-},{}],216:[function(require,module,exports){
+},{}],220:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22309,7 +23185,7 @@ exports.HSL = function (imageData) {
     }
 };
 
-},{"../Factory":197,"../Node":202,"../Validators":207}],217:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Validators":211}],221:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22337,7 +23213,7 @@ Factory_1.Factory.addGetterSetter(Node_1.Node, 'hue', 0, Validators_1.getNumberV
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'saturation', 0, Validators_1.getNumberValidator(), Factory_1.Factory.afterSetFilter);
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'value', 0, Validators_1.getNumberValidator(), Factory_1.Factory.afterSetFilter);
 
-},{"../Factory":197,"../Node":202,"../Validators":207}],218:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Validators":211}],222:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Invert = function (imageData) {
@@ -22349,7 +23225,7 @@ exports.Invert = function (imageData) {
     }
 };
 
-},{}],219:[function(require,module,exports){
+},{}],223:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22485,7 +23361,7 @@ exports.Kaleidoscope = function (imageData) {
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'kaleidoscopePower', 2, Validators_1.getNumberValidator(), Factory_1.Factory.afterSetFilter);
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'kaleidoscopeAngle', 0, Validators_1.getNumberValidator(), Factory_1.Factory.afterSetFilter);
 
-},{"../Factory":197,"../Node":202,"../Util":206,"../Validators":207}],220:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Util":210,"../Validators":211}],224:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22629,7 +23505,7 @@ exports.Mask = function (imageData) {
 };
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'threshold', 0, Validators_1.getNumberValidator(), Factory_1.Factory.afterSetFilter);
 
-},{"../Factory":197,"../Node":202,"../Validators":207}],221:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Validators":211}],225:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22645,7 +23521,7 @@ exports.Noise = function (imageData) {
 };
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'noise', 0.2, Validators_1.getNumberValidator(), Factory_1.Factory.afterSetFilter);
 
-},{"../Factory":197,"../Node":202,"../Validators":207}],222:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Validators":211}],226:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22710,7 +23586,7 @@ exports.Pixelate = function (imageData) {
 };
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'pixelSize', 8, Validators_1.getNumberValidator(), Factory_1.Factory.afterSetFilter);
 
-},{"../Factory":197,"../Node":202,"../Util":206,"../Validators":207}],223:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Util":210,"../Validators":211}],227:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22724,7 +23600,7 @@ exports.Posterize = function (imageData) {
 };
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'levels', 0.5, Validators_1.getNumberValidator(), Factory_1.Factory.afterSetFilter);
 
-},{"../Factory":197,"../Node":202,"../Validators":207}],224:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Validators":211}],228:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22767,7 +23643,7 @@ Factory_1.Factory.addGetterSetter(Node_1.Node, 'green', 0, function (val) {
 });
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'blue', 0, Validators_1.RGBComponent, Factory_1.Factory.afterSetFilter);
 
-},{"../Factory":197,"../Node":202,"../Validators":207}],225:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Validators":211}],229:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22820,7 +23696,7 @@ Factory_1.Factory.addGetterSetter(Node_1.Node, 'alpha', 1, function (val) {
     }
 });
 
-},{"../Factory":197,"../Node":202,"../Validators":207}],226:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Validators":211}],230:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Sepia = function (imageData) {
@@ -22835,7 +23711,7 @@ exports.Sepia = function (imageData) {
     }
 };
 
-},{}],227:[function(require,module,exports){
+},{}],231:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Solarize = function (imageData) {
@@ -22864,7 +23740,7 @@ exports.Solarize = function (imageData) {
     } while (--y);
 };
 
-},{}],228:[function(require,module,exports){
+},{}],232:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Factory_1 = require("../Factory");
@@ -22878,13 +23754,13 @@ exports.Threshold = function (imageData) {
 };
 Factory_1.Factory.addGetterSetter(Node_1.Node, 'threshold', 0.5, Validators_1.getNumberValidator(), Factory_1.Factory.afterSetFilter);
 
-},{"../Factory":197,"../Node":202,"../Validators":207}],229:[function(require,module,exports){
+},{"../Factory":201,"../Node":206,"../Validators":211}],233:[function(require,module,exports){
 var Konva = require('./_FullInternals').Konva;
 Konva._injectGlobal(Konva);
 exports['default'] = Konva;
 module.exports = exports['default'];
 
-},{"./_FullInternals":209}],230:[function(require,module,exports){
+},{"./_FullInternals":213}],234:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -22944,7 +23820,7 @@ Factory_1.Factory.addGetterSetter(Arc, 'angle', 0, Validators_1.getNumberValidat
 Factory_1.Factory.addGetterSetter(Arc, 'clockwise', false, Validators_1.getBooleanValidator());
 Util_1.Collection.mapMethods(Arc);
 
-},{"../Factory":197,"../Global":199,"../Shape":203,"../Util":206,"../Validators":207}],231:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Shape":207,"../Util":210,"../Validators":211}],235:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -23039,7 +23915,7 @@ Factory_1.Factory.addGetterSetter(Arrow, 'pointerWidth', 10, Validators_1.getNum
 Factory_1.Factory.addGetterSetter(Arrow, 'pointerAtBeginning', false);
 Util_1.Collection.mapMethods(Arrow);
 
-},{"../Factory":197,"../Global":199,"../Util":206,"../Validators":207,"./Line":236}],232:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Util":210,"../Validators":211,"./Line":240}],236:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -23097,7 +23973,7 @@ Global_1._registerNode(Circle);
 Factory_1.Factory.addGetterSetter(Circle, 'radius', 0, Validators_1.getNumberValidator());
 Util_1.Collection.mapMethods(Circle);
 
-},{"../Factory":197,"../Global":199,"../Shape":203,"../Util":206,"../Validators":207}],233:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Shape":207,"../Util":210,"../Validators":211}],237:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -23159,7 +24035,7 @@ Factory_1.Factory.addGetterSetter(Ellipse, 'radiusX', 0, Validators_1.getNumberV
 Factory_1.Factory.addGetterSetter(Ellipse, 'radiusY', 0, Validators_1.getNumberValidator());
 Util_1.Collection.mapMethods(Ellipse);
 
-},{"../Factory":197,"../Global":199,"../Shape":203,"../Util":206,"../Validators":207}],234:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Shape":207,"../Util":210,"../Validators":211}],238:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -23261,7 +24137,7 @@ Factory_1.Factory.addGetterSetter(Image, 'cropWidth', 0, Validators_1.getNumberV
 Factory_1.Factory.addGetterSetter(Image, 'cropHeight', 0, Validators_1.getNumberValidator());
 Util_1.Collection.mapMethods(Image);
 
-},{"../Factory":197,"../Global":199,"../Shape":203,"../Util":206,"../Validators":207}],235:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Shape":207,"../Util":210,"../Validators":211}],239:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -23465,7 +24341,7 @@ Factory_1.Factory.addGetterSetter(Tag, 'pointerHeight', 0, Validators_1.getNumbe
 Factory_1.Factory.addGetterSetter(Tag, 'cornerRadius', 0, Validators_1.getNumberValidator());
 Util_1.Collection.mapMethods(Tag);
 
-},{"../Factory":197,"../Global":199,"../Group":200,"../Shape":203,"../Util":206,"../Validators":207}],236:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Group":204,"../Shape":207,"../Util":210,"../Validators":211}],240:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -23609,7 +24485,7 @@ Factory_1.Factory.addGetterSetter(Line, 'tension', 0, Validators_1.getNumberVali
 Factory_1.Factory.addGetterSetter(Line, 'points', [], Validators_1.getNumberArrayValidator());
 Util_1.Collection.mapMethods(Line);
 
-},{"../Factory":197,"../Global":199,"../Shape":203,"../Util":206,"../Validators":207}],237:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Shape":207,"../Util":210,"../Validators":211}],241:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -24222,7 +25098,7 @@ Global_1._registerNode(Path);
 Factory_1.Factory.addGetterSetter(Path, 'data');
 Util_1.Collection.mapMethods(Path);
 
-},{"../Factory":197,"../Global":199,"../Shape":203,"../Util":206}],238:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Shape":207,"../Util":210}],242:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -24277,7 +25153,7 @@ Global_1._registerNode(Rect);
 Factory_1.Factory.addGetterSetter(Rect, 'cornerRadius', 0, Validators_1.getNumberValidator());
 Util_1.Collection.mapMethods(Rect);
 
-},{"../Factory":197,"../Global":199,"../Shape":203,"../Util":206,"../Validators":207}],239:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Shape":207,"../Util":210,"../Validators":211}],243:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -24338,7 +25214,7 @@ Factory_1.Factory.addGetterSetter(RegularPolygon, 'radius', 0, Validators_1.getN
 Factory_1.Factory.addGetterSetter(RegularPolygon, 'sides', 0, Validators_1.getNumberValidator());
 Util_1.Collection.mapMethods(RegularPolygon);
 
-},{"../Factory":197,"../Global":199,"../Shape":203,"../Util":206,"../Validators":207}],240:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Shape":207,"../Util":210,"../Validators":211}],244:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -24396,7 +25272,7 @@ Factory_1.Factory.addGetterSetter(Ring, 'innerRadius', 0, Validators_1.getNumber
 Factory_1.Factory.addGetterSetter(Ring, 'outerRadius', 0, Validators_1.getNumberValidator());
 Util_1.Collection.mapMethods(Ring);
 
-},{"../Factory":197,"../Global":199,"../Shape":203,"../Util":206,"../Validators":207}],241:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Shape":207,"../Util":210,"../Validators":211}],245:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -24527,7 +25403,7 @@ Factory_1.Factory.backCompat(Sprite, {
 });
 Util_1.Collection.mapMethods(Sprite);
 
-},{"../Animation":191,"../Factory":197,"../Global":199,"../Shape":203,"../Util":206,"../Validators":207}],242:[function(require,module,exports){
+},{"../Animation":195,"../Factory":201,"../Global":203,"../Shape":207,"../Util":210,"../Validators":211}],246:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -24590,7 +25466,7 @@ Factory_1.Factory.addGetterSetter(Star, 'innerRadius', 0, Validators_1.getNumber
 Factory_1.Factory.addGetterSetter(Star, 'outerRadius', 0, Validators_1.getNumberValidator());
 Util_1.Collection.mapMethods(Star);
 
-},{"../Factory":197,"../Global":199,"../Shape":203,"../Util":206,"../Validators":207}],243:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Shape":207,"../Util":210,"../Validators":211}],247:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -24931,7 +25807,7 @@ Factory_1.Factory.addGetterSetter(Text, 'text', '', Validators_1.getStringValida
 Factory_1.Factory.addGetterSetter(Text, 'textDecoration', '');
 Util_1.Collection.mapMethods(Text);
 
-},{"../Factory":197,"../Global":199,"../Shape":203,"../Util":206,"../Validators":207}],244:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Shape":207,"../Util":210,"../Validators":211}],248:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -25291,7 +26167,7 @@ Factory_1.Factory.addGetterSetter(TextPath, 'textDecoration', null);
 Factory_1.Factory.addGetterSetter(TextPath, 'kerningFunc', null);
 Util_1.Collection.mapMethods(TextPath);
 
-},{"../Factory":197,"../Global":199,"../Shape":203,"../Util":206,"../Validators":207,"./Path":237,"./Text":243}],245:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Shape":207,"../Util":210,"../Validators":211,"./Path":241,"./Text":247}],249:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -25968,7 +26844,7 @@ Factory_1.Factory.backCompat(Transformer, {
 });
 Util_1.Collection.mapMethods(Transformer);
 
-},{"../Factory":197,"../Global":199,"../Group":200,"../Node":202,"../Shape":203,"../Util":206,"../Validators":207,"./Rect":238}],246:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Group":204,"../Node":206,"../Shape":207,"../Util":210,"../Validators":211,"./Rect":242}],250:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -26031,7 +26907,7 @@ Factory_1.Factory.backCompat(Wedge, {
 });
 Util_1.Collection.mapMethods(Wedge);
 
-},{"../Factory":197,"../Global":199,"../Shape":203,"../Util":206,"../Validators":207}],247:[function(require,module,exports){
+},{"../Factory":201,"../Global":203,"../Shape":207,"../Util":210,"../Validators":211}],251:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26045,7 +26921,7 @@ var _createIcon2 = _interopRequireDefault(_createIcon);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = (0, _createIcon2.default)('M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z');
-},{"./util/createIcon":249}],248:[function(require,module,exports){
+},{"./util/createIcon":253}],252:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26059,7 +26935,7 @@ var _createIcon2 = _interopRequireDefault(_createIcon);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = (0, _createIcon2.default)('M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z');
-},{"./util/createIcon":249}],249:[function(require,module,exports){
+},{"./util/createIcon":253}],253:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26087,7 +26963,7 @@ exports.default = function (path) {
   Icon.muiName = 'SvgIcon';
   return Icon;
 };
-},{"@material-ui/core/SvgIcon":60,"react":299}],250:[function(require,module,exports){
+},{"@material-ui/core/SvgIcon":62,"react":304}],254:[function(require,module,exports){
 /**
  * Secure random string generator with custom alphabet.
  *
@@ -26139,7 +27015,7 @@ module.exports = function (random, alphabet, size) {
  * @return {number[]} Random bytes.
  */
 
-},{}],251:[function(require,module,exports){
+},{}],255:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -26231,7 +27107,2600 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],252:[function(require,module,exports){
+},{}],256:[function(require,module,exports){
+(function (global){
+/**!
+ * @fileOverview Kickass library to create and place poppers near their reference elements.
+ * @version 1.14.7
+ * @license
+ * Copyright (c) 2016 Federico Zivolo and contributors
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+(function (global, factory) {
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+	typeof define === 'function' && define.amd ? define(factory) :
+	(global.Popper = factory());
+}(this, (function () { 'use strict';
+
+var isBrowser = typeof window !== 'undefined' && typeof document !== 'undefined';
+
+var longerTimeoutBrowsers = ['Edge', 'Trident', 'Firefox'];
+var timeoutDuration = 0;
+for (var i = 0; i < longerTimeoutBrowsers.length; i += 1) {
+  if (isBrowser && navigator.userAgent.indexOf(longerTimeoutBrowsers[i]) >= 0) {
+    timeoutDuration = 1;
+    break;
+  }
+}
+
+function microtaskDebounce(fn) {
+  var called = false;
+  return function () {
+    if (called) {
+      return;
+    }
+    called = true;
+    window.Promise.resolve().then(function () {
+      called = false;
+      fn();
+    });
+  };
+}
+
+function taskDebounce(fn) {
+  var scheduled = false;
+  return function () {
+    if (!scheduled) {
+      scheduled = true;
+      setTimeout(function () {
+        scheduled = false;
+        fn();
+      }, timeoutDuration);
+    }
+  };
+}
+
+var supportsMicroTasks = isBrowser && window.Promise;
+
+/**
+* Create a debounced version of a method, that's asynchronously deferred
+* but called in the minimum time possible.
+*
+* @method
+* @memberof Popper.Utils
+* @argument {Function} fn
+* @returns {Function}
+*/
+var debounce = supportsMicroTasks ? microtaskDebounce : taskDebounce;
+
+/**
+ * Check if the given variable is a function
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Any} functionToCheck - variable to check
+ * @returns {Boolean} answer to: is a function?
+ */
+function isFunction(functionToCheck) {
+  var getType = {};
+  return functionToCheck && getType.toString.call(functionToCheck) === '[object Function]';
+}
+
+/**
+ * Get CSS computed property of the given element
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Eement} element
+ * @argument {String} property
+ */
+function getStyleComputedProperty(element, property) {
+  if (element.nodeType !== 1) {
+    return [];
+  }
+  // NOTE: 1 DOM access here
+  var window = element.ownerDocument.defaultView;
+  var css = window.getComputedStyle(element, null);
+  return property ? css[property] : css;
+}
+
+/**
+ * Returns the parentNode or the host of the element
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Element} element
+ * @returns {Element} parent
+ */
+function getParentNode(element) {
+  if (element.nodeName === 'HTML') {
+    return element;
+  }
+  return element.parentNode || element.host;
+}
+
+/**
+ * Returns the scrolling parent of the given element
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Element} element
+ * @returns {Element} scroll parent
+ */
+function getScrollParent(element) {
+  // Return body, `getScroll` will take care to get the correct `scrollTop` from it
+  if (!element) {
+    return document.body;
+  }
+
+  switch (element.nodeName) {
+    case 'HTML':
+    case 'BODY':
+      return element.ownerDocument.body;
+    case '#document':
+      return element.body;
+  }
+
+  // Firefox want us to check `-x` and `-y` variations as well
+
+  var _getStyleComputedProp = getStyleComputedProperty(element),
+      overflow = _getStyleComputedProp.overflow,
+      overflowX = _getStyleComputedProp.overflowX,
+      overflowY = _getStyleComputedProp.overflowY;
+
+  if (/(auto|scroll|overlay)/.test(overflow + overflowY + overflowX)) {
+    return element;
+  }
+
+  return getScrollParent(getParentNode(element));
+}
+
+var isIE11 = isBrowser && !!(window.MSInputMethodContext && document.documentMode);
+var isIE10 = isBrowser && /MSIE 10/.test(navigator.userAgent);
+
+/**
+ * Determines if the browser is Internet Explorer
+ * @method
+ * @memberof Popper.Utils
+ * @param {Number} version to check
+ * @returns {Boolean} isIE
+ */
+function isIE(version) {
+  if (version === 11) {
+    return isIE11;
+  }
+  if (version === 10) {
+    return isIE10;
+  }
+  return isIE11 || isIE10;
+}
+
+/**
+ * Returns the offset parent of the given element
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Element} element
+ * @returns {Element} offset parent
+ */
+function getOffsetParent(element) {
+  if (!element) {
+    return document.documentElement;
+  }
+
+  var noOffsetParent = isIE(10) ? document.body : null;
+
+  // NOTE: 1 DOM access here
+  var offsetParent = element.offsetParent || null;
+  // Skip hidden elements which don't have an offsetParent
+  while (offsetParent === noOffsetParent && element.nextElementSibling) {
+    offsetParent = (element = element.nextElementSibling).offsetParent;
+  }
+
+  var nodeName = offsetParent && offsetParent.nodeName;
+
+  if (!nodeName || nodeName === 'BODY' || nodeName === 'HTML') {
+    return element ? element.ownerDocument.documentElement : document.documentElement;
+  }
+
+  // .offsetParent will return the closest TH, TD or TABLE in case
+  // no offsetParent is present, I hate this job...
+  if (['TH', 'TD', 'TABLE'].indexOf(offsetParent.nodeName) !== -1 && getStyleComputedProperty(offsetParent, 'position') === 'static') {
+    return getOffsetParent(offsetParent);
+  }
+
+  return offsetParent;
+}
+
+function isOffsetContainer(element) {
+  var nodeName = element.nodeName;
+
+  if (nodeName === 'BODY') {
+    return false;
+  }
+  return nodeName === 'HTML' || getOffsetParent(element.firstElementChild) === element;
+}
+
+/**
+ * Finds the root node (document, shadowDOM root) of the given element
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Element} node
+ * @returns {Element} root node
+ */
+function getRoot(node) {
+  if (node.parentNode !== null) {
+    return getRoot(node.parentNode);
+  }
+
+  return node;
+}
+
+/**
+ * Finds the offset parent common to the two provided nodes
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Element} element1
+ * @argument {Element} element2
+ * @returns {Element} common offset parent
+ */
+function findCommonOffsetParent(element1, element2) {
+  // This check is needed to avoid errors in case one of the elements isn't defined for any reason
+  if (!element1 || !element1.nodeType || !element2 || !element2.nodeType) {
+    return document.documentElement;
+  }
+
+  // Here we make sure to give as "start" the element that comes first in the DOM
+  var order = element1.compareDocumentPosition(element2) & Node.DOCUMENT_POSITION_FOLLOWING;
+  var start = order ? element1 : element2;
+  var end = order ? element2 : element1;
+
+  // Get common ancestor container
+  var range = document.createRange();
+  range.setStart(start, 0);
+  range.setEnd(end, 0);
+  var commonAncestorContainer = range.commonAncestorContainer;
+
+  // Both nodes are inside #document
+
+  if (element1 !== commonAncestorContainer && element2 !== commonAncestorContainer || start.contains(end)) {
+    if (isOffsetContainer(commonAncestorContainer)) {
+      return commonAncestorContainer;
+    }
+
+    return getOffsetParent(commonAncestorContainer);
+  }
+
+  // one of the nodes is inside shadowDOM, find which one
+  var element1root = getRoot(element1);
+  if (element1root.host) {
+    return findCommonOffsetParent(element1root.host, element2);
+  } else {
+    return findCommonOffsetParent(element1, getRoot(element2).host);
+  }
+}
+
+/**
+ * Gets the scroll value of the given element in the given side (top and left)
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Element} element
+ * @argument {String} side `top` or `left`
+ * @returns {number} amount of scrolled pixels
+ */
+function getScroll(element) {
+  var side = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'top';
+
+  var upperSide = side === 'top' ? 'scrollTop' : 'scrollLeft';
+  var nodeName = element.nodeName;
+
+  if (nodeName === 'BODY' || nodeName === 'HTML') {
+    var html = element.ownerDocument.documentElement;
+    var scrollingElement = element.ownerDocument.scrollingElement || html;
+    return scrollingElement[upperSide];
+  }
+
+  return element[upperSide];
+}
+
+/*
+ * Sum or subtract the element scroll values (left and top) from a given rect object
+ * @method
+ * @memberof Popper.Utils
+ * @param {Object} rect - Rect object you want to change
+ * @param {HTMLElement} element - The element from the function reads the scroll values
+ * @param {Boolean} subtract - set to true if you want to subtract the scroll values
+ * @return {Object} rect - The modifier rect object
+ */
+function includeScroll(rect, element) {
+  var subtract = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
+
+  var scrollTop = getScroll(element, 'top');
+  var scrollLeft = getScroll(element, 'left');
+  var modifier = subtract ? -1 : 1;
+  rect.top += scrollTop * modifier;
+  rect.bottom += scrollTop * modifier;
+  rect.left += scrollLeft * modifier;
+  rect.right += scrollLeft * modifier;
+  return rect;
+}
+
+/*
+ * Helper to detect borders of a given element
+ * @method
+ * @memberof Popper.Utils
+ * @param {CSSStyleDeclaration} styles
+ * Result of `getStyleComputedProperty` on the given element
+ * @param {String} axis - `x` or `y`
+ * @return {number} borders - The borders size of the given axis
+ */
+
+function getBordersSize(styles, axis) {
+  var sideA = axis === 'x' ? 'Left' : 'Top';
+  var sideB = sideA === 'Left' ? 'Right' : 'Bottom';
+
+  return parseFloat(styles['border' + sideA + 'Width'], 10) + parseFloat(styles['border' + sideB + 'Width'], 10);
+}
+
+function getSize(axis, body, html, computedStyle) {
+  return Math.max(body['offset' + axis], body['scroll' + axis], html['client' + axis], html['offset' + axis], html['scroll' + axis], isIE(10) ? parseInt(html['offset' + axis]) + parseInt(computedStyle['margin' + (axis === 'Height' ? 'Top' : 'Left')]) + parseInt(computedStyle['margin' + (axis === 'Height' ? 'Bottom' : 'Right')]) : 0);
+}
+
+function getWindowSizes(document) {
+  var body = document.body;
+  var html = document.documentElement;
+  var computedStyle = isIE(10) && getComputedStyle(html);
+
+  return {
+    height: getSize('Height', body, html, computedStyle),
+    width: getSize('Width', body, html, computedStyle)
+  };
+}
+
+var classCallCheck = function (instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+};
+
+var createClass = function () {
+  function defineProperties(target, props) {
+    for (var i = 0; i < props.length; i++) {
+      var descriptor = props[i];
+      descriptor.enumerable = descriptor.enumerable || false;
+      descriptor.configurable = true;
+      if ("value" in descriptor) descriptor.writable = true;
+      Object.defineProperty(target, descriptor.key, descriptor);
+    }
+  }
+
+  return function (Constructor, protoProps, staticProps) {
+    if (protoProps) defineProperties(Constructor.prototype, protoProps);
+    if (staticProps) defineProperties(Constructor, staticProps);
+    return Constructor;
+  };
+}();
+
+
+
+
+
+var defineProperty = function (obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+};
+
+var _extends = Object.assign || function (target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i];
+
+    for (var key in source) {
+      if (Object.prototype.hasOwnProperty.call(source, key)) {
+        target[key] = source[key];
+      }
+    }
+  }
+
+  return target;
+};
+
+/**
+ * Given element offsets, generate an output similar to getBoundingClientRect
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Object} offsets
+ * @returns {Object} ClientRect like output
+ */
+function getClientRect(offsets) {
+  return _extends({}, offsets, {
+    right: offsets.left + offsets.width,
+    bottom: offsets.top + offsets.height
+  });
+}
+
+/**
+ * Get bounding client rect of given element
+ * @method
+ * @memberof Popper.Utils
+ * @param {HTMLElement} element
+ * @return {Object} client rect
+ */
+function getBoundingClientRect(element) {
+  var rect = {};
+
+  // IE10 10 FIX: Please, don't ask, the element isn't
+  // considered in DOM in some circumstances...
+  // This isn't reproducible in IE10 compatibility mode of IE11
+  try {
+    if (isIE(10)) {
+      rect = element.getBoundingClientRect();
+      var scrollTop = getScroll(element, 'top');
+      var scrollLeft = getScroll(element, 'left');
+      rect.top += scrollTop;
+      rect.left += scrollLeft;
+      rect.bottom += scrollTop;
+      rect.right += scrollLeft;
+    } else {
+      rect = element.getBoundingClientRect();
+    }
+  } catch (e) {}
+
+  var result = {
+    left: rect.left,
+    top: rect.top,
+    width: rect.right - rect.left,
+    height: rect.bottom - rect.top
+  };
+
+  // subtract scrollbar size from sizes
+  var sizes = element.nodeName === 'HTML' ? getWindowSizes(element.ownerDocument) : {};
+  var width = sizes.width || element.clientWidth || result.right - result.left;
+  var height = sizes.height || element.clientHeight || result.bottom - result.top;
+
+  var horizScrollbar = element.offsetWidth - width;
+  var vertScrollbar = element.offsetHeight - height;
+
+  // if an hypothetical scrollbar is detected, we must be sure it's not a `border`
+  // we make this check conditional for performance reasons
+  if (horizScrollbar || vertScrollbar) {
+    var styles = getStyleComputedProperty(element);
+    horizScrollbar -= getBordersSize(styles, 'x');
+    vertScrollbar -= getBordersSize(styles, 'y');
+
+    result.width -= horizScrollbar;
+    result.height -= vertScrollbar;
+  }
+
+  return getClientRect(result);
+}
+
+function getOffsetRectRelativeToArbitraryNode(children, parent) {
+  var fixedPosition = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
+
+  var isIE10 = isIE(10);
+  var isHTML = parent.nodeName === 'HTML';
+  var childrenRect = getBoundingClientRect(children);
+  var parentRect = getBoundingClientRect(parent);
+  var scrollParent = getScrollParent(children);
+
+  var styles = getStyleComputedProperty(parent);
+  var borderTopWidth = parseFloat(styles.borderTopWidth, 10);
+  var borderLeftWidth = parseFloat(styles.borderLeftWidth, 10);
+
+  // In cases where the parent is fixed, we must ignore negative scroll in offset calc
+  if (fixedPosition && isHTML) {
+    parentRect.top = Math.max(parentRect.top, 0);
+    parentRect.left = Math.max(parentRect.left, 0);
+  }
+  var offsets = getClientRect({
+    top: childrenRect.top - parentRect.top - borderTopWidth,
+    left: childrenRect.left - parentRect.left - borderLeftWidth,
+    width: childrenRect.width,
+    height: childrenRect.height
+  });
+  offsets.marginTop = 0;
+  offsets.marginLeft = 0;
+
+  // Subtract margins of documentElement in case it's being used as parent
+  // we do this only on HTML because it's the only element that behaves
+  // differently when margins are applied to it. The margins are included in
+  // the box of the documentElement, in the other cases not.
+  if (!isIE10 && isHTML) {
+    var marginTop = parseFloat(styles.marginTop, 10);
+    var marginLeft = parseFloat(styles.marginLeft, 10);
+
+    offsets.top -= borderTopWidth - marginTop;
+    offsets.bottom -= borderTopWidth - marginTop;
+    offsets.left -= borderLeftWidth - marginLeft;
+    offsets.right -= borderLeftWidth - marginLeft;
+
+    // Attach marginTop and marginLeft because in some circumstances we may need them
+    offsets.marginTop = marginTop;
+    offsets.marginLeft = marginLeft;
+  }
+
+  if (isIE10 && !fixedPosition ? parent.contains(scrollParent) : parent === scrollParent && scrollParent.nodeName !== 'BODY') {
+    offsets = includeScroll(offsets, parent);
+  }
+
+  return offsets;
+}
+
+function getViewportOffsetRectRelativeToArtbitraryNode(element) {
+  var excludeScroll = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+
+  var html = element.ownerDocument.documentElement;
+  var relativeOffset = getOffsetRectRelativeToArbitraryNode(element, html);
+  var width = Math.max(html.clientWidth, window.innerWidth || 0);
+  var height = Math.max(html.clientHeight, window.innerHeight || 0);
+
+  var scrollTop = !excludeScroll ? getScroll(html) : 0;
+  var scrollLeft = !excludeScroll ? getScroll(html, 'left') : 0;
+
+  var offset = {
+    top: scrollTop - relativeOffset.top + relativeOffset.marginTop,
+    left: scrollLeft - relativeOffset.left + relativeOffset.marginLeft,
+    width: width,
+    height: height
+  };
+
+  return getClientRect(offset);
+}
+
+/**
+ * Check if the given element is fixed or is inside a fixed parent
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Element} element
+ * @argument {Element} customContainer
+ * @returns {Boolean} answer to "isFixed?"
+ */
+function isFixed(element) {
+  var nodeName = element.nodeName;
+  if (nodeName === 'BODY' || nodeName === 'HTML') {
+    return false;
+  }
+  if (getStyleComputedProperty(element, 'position') === 'fixed') {
+    return true;
+  }
+  var parentNode = getParentNode(element);
+  if (!parentNode) {
+    return false;
+  }
+  return isFixed(parentNode);
+}
+
+/**
+ * Finds the first parent of an element that has a transformed property defined
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Element} element
+ * @returns {Element} first transformed parent or documentElement
+ */
+
+function getFixedPositionOffsetParent(element) {
+  // This check is needed to avoid errors in case one of the elements isn't defined for any reason
+  if (!element || !element.parentElement || isIE()) {
+    return document.documentElement;
+  }
+  var el = element.parentElement;
+  while (el && getStyleComputedProperty(el, 'transform') === 'none') {
+    el = el.parentElement;
+  }
+  return el || document.documentElement;
+}
+
+/**
+ * Computed the boundaries limits and return them
+ * @method
+ * @memberof Popper.Utils
+ * @param {HTMLElement} popper
+ * @param {HTMLElement} reference
+ * @param {number} padding
+ * @param {HTMLElement} boundariesElement - Element used to define the boundaries
+ * @param {Boolean} fixedPosition - Is in fixed position mode
+ * @returns {Object} Coordinates of the boundaries
+ */
+function getBoundaries(popper, reference, padding, boundariesElement) {
+  var fixedPosition = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;
+
+  // NOTE: 1 DOM access here
+
+  var boundaries = { top: 0, left: 0 };
+  var offsetParent = fixedPosition ? getFixedPositionOffsetParent(popper) : findCommonOffsetParent(popper, reference);
+
+  // Handle viewport case
+  if (boundariesElement === 'viewport') {
+    boundaries = getViewportOffsetRectRelativeToArtbitraryNode(offsetParent, fixedPosition);
+  } else {
+    // Handle other cases based on DOM element used as boundaries
+    var boundariesNode = void 0;
+    if (boundariesElement === 'scrollParent') {
+      boundariesNode = getScrollParent(getParentNode(reference));
+      if (boundariesNode.nodeName === 'BODY') {
+        boundariesNode = popper.ownerDocument.documentElement;
+      }
+    } else if (boundariesElement === 'window') {
+      boundariesNode = popper.ownerDocument.documentElement;
+    } else {
+      boundariesNode = boundariesElement;
+    }
+
+    var offsets = getOffsetRectRelativeToArbitraryNode(boundariesNode, offsetParent, fixedPosition);
+
+    // In case of HTML, we need a different computation
+    if (boundariesNode.nodeName === 'HTML' && !isFixed(offsetParent)) {
+      var _getWindowSizes = getWindowSizes(popper.ownerDocument),
+          height = _getWindowSizes.height,
+          width = _getWindowSizes.width;
+
+      boundaries.top += offsets.top - offsets.marginTop;
+      boundaries.bottom = height + offsets.top;
+      boundaries.left += offsets.left - offsets.marginLeft;
+      boundaries.right = width + offsets.left;
+    } else {
+      // for all the other DOM elements, this one is good
+      boundaries = offsets;
+    }
+  }
+
+  // Add paddings
+  padding = padding || 0;
+  var isPaddingNumber = typeof padding === 'number';
+  boundaries.left += isPaddingNumber ? padding : padding.left || 0;
+  boundaries.top += isPaddingNumber ? padding : padding.top || 0;
+  boundaries.right -= isPaddingNumber ? padding : padding.right || 0;
+  boundaries.bottom -= isPaddingNumber ? padding : padding.bottom || 0;
+
+  return boundaries;
+}
+
+function getArea(_ref) {
+  var width = _ref.width,
+      height = _ref.height;
+
+  return width * height;
+}
+
+/**
+ * Utility used to transform the `auto` placement to the placement with more
+ * available space.
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Object} data - The data object generated by update method
+ * @argument {Object} options - Modifiers configuration and options
+ * @returns {Object} The data object, properly modified
+ */
+function computeAutoPlacement(placement, refRect, popper, reference, boundariesElement) {
+  var padding = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 0;
+
+  if (placement.indexOf('auto') === -1) {
+    return placement;
+  }
+
+  var boundaries = getBoundaries(popper, reference, padding, boundariesElement);
+
+  var rects = {
+    top: {
+      width: boundaries.width,
+      height: refRect.top - boundaries.top
+    },
+    right: {
+      width: boundaries.right - refRect.right,
+      height: boundaries.height
+    },
+    bottom: {
+      width: boundaries.width,
+      height: boundaries.bottom - refRect.bottom
+    },
+    left: {
+      width: refRect.left - boundaries.left,
+      height: boundaries.height
+    }
+  };
+
+  var sortedAreas = Object.keys(rects).map(function (key) {
+    return _extends({
+      key: key
+    }, rects[key], {
+      area: getArea(rects[key])
+    });
+  }).sort(function (a, b) {
+    return b.area - a.area;
+  });
+
+  var filteredAreas = sortedAreas.filter(function (_ref2) {
+    var width = _ref2.width,
+        height = _ref2.height;
+    return width >= popper.clientWidth && height >= popper.clientHeight;
+  });
+
+  var computedPlacement = filteredAreas.length > 0 ? filteredAreas[0].key : sortedAreas[0].key;
+
+  var variation = placement.split('-')[1];
+
+  return computedPlacement + (variation ? '-' + variation : '');
+}
+
+/**
+ * Get offsets to the reference element
+ * @method
+ * @memberof Popper.Utils
+ * @param {Object} state
+ * @param {Element} popper - the popper element
+ * @param {Element} reference - the reference element (the popper will be relative to this)
+ * @param {Element} fixedPosition - is in fixed position mode
+ * @returns {Object} An object containing the offsets which will be applied to the popper
+ */
+function getReferenceOffsets(state, popper, reference) {
+  var fixedPosition = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : null;
+
+  var commonOffsetParent = fixedPosition ? getFixedPositionOffsetParent(popper) : findCommonOffsetParent(popper, reference);
+  return getOffsetRectRelativeToArbitraryNode(reference, commonOffsetParent, fixedPosition);
+}
+
+/**
+ * Get the outer sizes of the given element (offset size + margins)
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Element} element
+ * @returns {Object} object containing width and height properties
+ */
+function getOuterSizes(element) {
+  var window = element.ownerDocument.defaultView;
+  var styles = window.getComputedStyle(element);
+  var x = parseFloat(styles.marginTop || 0) + parseFloat(styles.marginBottom || 0);
+  var y = parseFloat(styles.marginLeft || 0) + parseFloat(styles.marginRight || 0);
+  var result = {
+    width: element.offsetWidth + y,
+    height: element.offsetHeight + x
+  };
+  return result;
+}
+
+/**
+ * Get the opposite placement of the given one
+ * @method
+ * @memberof Popper.Utils
+ * @argument {String} placement
+ * @returns {String} flipped placement
+ */
+function getOppositePlacement(placement) {
+  var hash = { left: 'right', right: 'left', bottom: 'top', top: 'bottom' };
+  return placement.replace(/left|right|bottom|top/g, function (matched) {
+    return hash[matched];
+  });
+}
+
+/**
+ * Get offsets to the popper
+ * @method
+ * @memberof Popper.Utils
+ * @param {Object} position - CSS position the Popper will get applied
+ * @param {HTMLElement} popper - the popper element
+ * @param {Object} referenceOffsets - the reference offsets (the popper will be relative to this)
+ * @param {String} placement - one of the valid placement options
+ * @returns {Object} popperOffsets - An object containing the offsets which will be applied to the popper
+ */
+function getPopperOffsets(popper, referenceOffsets, placement) {
+  placement = placement.split('-')[0];
+
+  // Get popper node sizes
+  var popperRect = getOuterSizes(popper);
+
+  // Add position, width and height to our offsets object
+  var popperOffsets = {
+    width: popperRect.width,
+    height: popperRect.height
+  };
+
+  // depending by the popper placement we have to compute its offsets slightly differently
+  var isHoriz = ['right', 'left'].indexOf(placement) !== -1;
+  var mainSide = isHoriz ? 'top' : 'left';
+  var secondarySide = isHoriz ? 'left' : 'top';
+  var measurement = isHoriz ? 'height' : 'width';
+  var secondaryMeasurement = !isHoriz ? 'height' : 'width';
+
+  popperOffsets[mainSide] = referenceOffsets[mainSide] + referenceOffsets[measurement] / 2 - popperRect[measurement] / 2;
+  if (placement === secondarySide) {
+    popperOffsets[secondarySide] = referenceOffsets[secondarySide] - popperRect[secondaryMeasurement];
+  } else {
+    popperOffsets[secondarySide] = referenceOffsets[getOppositePlacement(secondarySide)];
+  }
+
+  return popperOffsets;
+}
+
+/**
+ * Mimics the `find` method of Array
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Array} arr
+ * @argument prop
+ * @argument value
+ * @returns index or -1
+ */
+function find(arr, check) {
+  // use native find if supported
+  if (Array.prototype.find) {
+    return arr.find(check);
+  }
+
+  // use `filter` to obtain the same behavior of `find`
+  return arr.filter(check)[0];
+}
+
+/**
+ * Return the index of the matching object
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Array} arr
+ * @argument prop
+ * @argument value
+ * @returns index or -1
+ */
+function findIndex(arr, prop, value) {
+  // use native findIndex if supported
+  if (Array.prototype.findIndex) {
+    return arr.findIndex(function (cur) {
+      return cur[prop] === value;
+    });
+  }
+
+  // use `find` + `indexOf` if `findIndex` isn't supported
+  var match = find(arr, function (obj) {
+    return obj[prop] === value;
+  });
+  return arr.indexOf(match);
+}
+
+/**
+ * Loop trough the list of modifiers and run them in order,
+ * each of them will then edit the data object.
+ * @method
+ * @memberof Popper.Utils
+ * @param {dataObject} data
+ * @param {Array} modifiers
+ * @param {String} ends - Optional modifier name used as stopper
+ * @returns {dataObject}
+ */
+function runModifiers(modifiers, data, ends) {
+  var modifiersToRun = ends === undefined ? modifiers : modifiers.slice(0, findIndex(modifiers, 'name', ends));
+
+  modifiersToRun.forEach(function (modifier) {
+    if (modifier['function']) {
+      // eslint-disable-line dot-notation
+      console.warn('`modifier.function` is deprecated, use `modifier.fn`!');
+    }
+    var fn = modifier['function'] || modifier.fn; // eslint-disable-line dot-notation
+    if (modifier.enabled && isFunction(fn)) {
+      // Add properties to offsets to make them a complete clientRect object
+      // we do this before each modifier to make sure the previous one doesn't
+      // mess with these values
+      data.offsets.popper = getClientRect(data.offsets.popper);
+      data.offsets.reference = getClientRect(data.offsets.reference);
+
+      data = fn(data, modifier);
+    }
+  });
+
+  return data;
+}
+
+/**
+ * Updates the position of the popper, computing the new offsets and applying
+ * the new style.<br />
+ * Prefer `scheduleUpdate` over `update` because of performance reasons.
+ * @method
+ * @memberof Popper
+ */
+function update() {
+  // if popper is destroyed, don't perform any further update
+  if (this.state.isDestroyed) {
+    return;
+  }
+
+  var data = {
+    instance: this,
+    styles: {},
+    arrowStyles: {},
+    attributes: {},
+    flipped: false,
+    offsets: {}
+  };
+
+  // compute reference element offsets
+  data.offsets.reference = getReferenceOffsets(this.state, this.popper, this.reference, this.options.positionFixed);
+
+  // compute auto placement, store placement inside the data object,
+  // modifiers will be able to edit `placement` if needed
+  // and refer to originalPlacement to know the original value
+  data.placement = computeAutoPlacement(this.options.placement, data.offsets.reference, this.popper, this.reference, this.options.modifiers.flip.boundariesElement, this.options.modifiers.flip.padding);
+
+  // store the computed placement inside `originalPlacement`
+  data.originalPlacement = data.placement;
+
+  data.positionFixed = this.options.positionFixed;
+
+  // compute the popper offsets
+  data.offsets.popper = getPopperOffsets(this.popper, data.offsets.reference, data.placement);
+
+  data.offsets.popper.position = this.options.positionFixed ? 'fixed' : 'absolute';
+
+  // run the modifiers
+  data = runModifiers(this.modifiers, data);
+
+  // the first `update` will call `onCreate` callback
+  // the other ones will call `onUpdate` callback
+  if (!this.state.isCreated) {
+    this.state.isCreated = true;
+    this.options.onCreate(data);
+  } else {
+    this.options.onUpdate(data);
+  }
+}
+
+/**
+ * Helper used to know if the given modifier is enabled.
+ * @method
+ * @memberof Popper.Utils
+ * @returns {Boolean}
+ */
+function isModifierEnabled(modifiers, modifierName) {
+  return modifiers.some(function (_ref) {
+    var name = _ref.name,
+        enabled = _ref.enabled;
+    return enabled && name === modifierName;
+  });
+}
+
+/**
+ * Get the prefixed supported property name
+ * @method
+ * @memberof Popper.Utils
+ * @argument {String} property (camelCase)
+ * @returns {String} prefixed property (camelCase or PascalCase, depending on the vendor prefix)
+ */
+function getSupportedPropertyName(property) {
+  var prefixes = [false, 'ms', 'Webkit', 'Moz', 'O'];
+  var upperProp = property.charAt(0).toUpperCase() + property.slice(1);
+
+  for (var i = 0; i < prefixes.length; i++) {
+    var prefix = prefixes[i];
+    var toCheck = prefix ? '' + prefix + upperProp : property;
+    if (typeof document.body.style[toCheck] !== 'undefined') {
+      return toCheck;
+    }
+  }
+  return null;
+}
+
+/**
+ * Destroys the popper.
+ * @method
+ * @memberof Popper
+ */
+function destroy() {
+  this.state.isDestroyed = true;
+
+  // touch DOM only if `applyStyle` modifier is enabled
+  if (isModifierEnabled(this.modifiers, 'applyStyle')) {
+    this.popper.removeAttribute('x-placement');
+    this.popper.style.position = '';
+    this.popper.style.top = '';
+    this.popper.style.left = '';
+    this.popper.style.right = '';
+    this.popper.style.bottom = '';
+    this.popper.style.willChange = '';
+    this.popper.style[getSupportedPropertyName('transform')] = '';
+  }
+
+  this.disableEventListeners();
+
+  // remove the popper if user explicity asked for the deletion on destroy
+  // do not use `remove` because IE11 doesn't support it
+  if (this.options.removeOnDestroy) {
+    this.popper.parentNode.removeChild(this.popper);
+  }
+  return this;
+}
+
+/**
+ * Get the window associated with the element
+ * @argument {Element} element
+ * @returns {Window}
+ */
+function getWindow(element) {
+  var ownerDocument = element.ownerDocument;
+  return ownerDocument ? ownerDocument.defaultView : window;
+}
+
+function attachToScrollParents(scrollParent, event, callback, scrollParents) {
+  var isBody = scrollParent.nodeName === 'BODY';
+  var target = isBody ? scrollParent.ownerDocument.defaultView : scrollParent;
+  target.addEventListener(event, callback, { passive: true });
+
+  if (!isBody) {
+    attachToScrollParents(getScrollParent(target.parentNode), event, callback, scrollParents);
+  }
+  scrollParents.push(target);
+}
+
+/**
+ * Setup needed event listeners used to update the popper position
+ * @method
+ * @memberof Popper.Utils
+ * @private
+ */
+function setupEventListeners(reference, options, state, updateBound) {
+  // Resize event listener on window
+  state.updateBound = updateBound;
+  getWindow(reference).addEventListener('resize', state.updateBound, { passive: true });
+
+  // Scroll event listener on scroll parents
+  var scrollElement = getScrollParent(reference);
+  attachToScrollParents(scrollElement, 'scroll', state.updateBound, state.scrollParents);
+  state.scrollElement = scrollElement;
+  state.eventsEnabled = true;
+
+  return state;
+}
+
+/**
+ * It will add resize/scroll events and start recalculating
+ * position of the popper element when they are triggered.
+ * @method
+ * @memberof Popper
+ */
+function enableEventListeners() {
+  if (!this.state.eventsEnabled) {
+    this.state = setupEventListeners(this.reference, this.options, this.state, this.scheduleUpdate);
+  }
+}
+
+/**
+ * Remove event listeners used to update the popper position
+ * @method
+ * @memberof Popper.Utils
+ * @private
+ */
+function removeEventListeners(reference, state) {
+  // Remove resize event listener on window
+  getWindow(reference).removeEventListener('resize', state.updateBound);
+
+  // Remove scroll event listener on scroll parents
+  state.scrollParents.forEach(function (target) {
+    target.removeEventListener('scroll', state.updateBound);
+  });
+
+  // Reset state
+  state.updateBound = null;
+  state.scrollParents = [];
+  state.scrollElement = null;
+  state.eventsEnabled = false;
+  return state;
+}
+
+/**
+ * It will remove resize/scroll events and won't recalculate popper position
+ * when they are triggered. It also won't trigger `onUpdate` callback anymore,
+ * unless you call `update` method manually.
+ * @method
+ * @memberof Popper
+ */
+function disableEventListeners() {
+  if (this.state.eventsEnabled) {
+    cancelAnimationFrame(this.scheduleUpdate);
+    this.state = removeEventListeners(this.reference, this.state);
+  }
+}
+
+/**
+ * Tells if a given input is a number
+ * @method
+ * @memberof Popper.Utils
+ * @param {*} input to check
+ * @return {Boolean}
+ */
+function isNumeric(n) {
+  return n !== '' && !isNaN(parseFloat(n)) && isFinite(n);
+}
+
+/**
+ * Set the style to the given popper
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Element} element - Element to apply the style to
+ * @argument {Object} styles
+ * Object with a list of properties and values which will be applied to the element
+ */
+function setStyles(element, styles) {
+  Object.keys(styles).forEach(function (prop) {
+    var unit = '';
+    // add unit if the value is numeric and is one of the following
+    if (['width', 'height', 'top', 'right', 'bottom', 'left'].indexOf(prop) !== -1 && isNumeric(styles[prop])) {
+      unit = 'px';
+    }
+    element.style[prop] = styles[prop] + unit;
+  });
+}
+
+/**
+ * Set the attributes to the given popper
+ * @method
+ * @memberof Popper.Utils
+ * @argument {Element} element - Element to apply the attributes to
+ * @argument {Object} styles
+ * Object with a list of properties and values which will be applied to the element
+ */
+function setAttributes(element, attributes) {
+  Object.keys(attributes).forEach(function (prop) {
+    var value = attributes[prop];
+    if (value !== false) {
+      element.setAttribute(prop, attributes[prop]);
+    } else {
+      element.removeAttribute(prop);
+    }
+  });
+}
+
+/**
+ * @function
+ * @memberof Modifiers
+ * @argument {Object} data - The data object generated by `update` method
+ * @argument {Object} data.styles - List of style properties - values to apply to popper element
+ * @argument {Object} data.attributes - List of attribute properties - values to apply to popper element
+ * @argument {Object} options - Modifiers configuration and options
+ * @returns {Object} The same data object
+ */
+function applyStyle(data) {
+  // any property present in `data.styles` will be applied to the popper,
+  // in this way we can make the 3rd party modifiers add custom styles to it
+  // Be aware, modifiers could override the properties defined in the previous
+  // lines of this modifier!
+  setStyles(data.instance.popper, data.styles);
+
+  // any property present in `data.attributes` will be applied to the popper,
+  // they will be set as HTML attributes of the element
+  setAttributes(data.instance.popper, data.attributes);
+
+  // if arrowElement is defined and arrowStyles has some properties
+  if (data.arrowElement && Object.keys(data.arrowStyles).length) {
+    setStyles(data.arrowElement, data.arrowStyles);
+  }
+
+  return data;
+}
+
+/**
+ * Set the x-placement attribute before everything else because it could be used
+ * to add margins to the popper margins needs to be calculated to get the
+ * correct popper offsets.
+ * @method
+ * @memberof Popper.modifiers
+ * @param {HTMLElement} reference - The reference element used to position the popper
+ * @param {HTMLElement} popper - The HTML element used as popper
+ * @param {Object} options - Popper.js options
+ */
+function applyStyleOnLoad(reference, popper, options, modifierOptions, state) {
+  // compute reference element offsets
+  var referenceOffsets = getReferenceOffsets(state, popper, reference, options.positionFixed);
+
+  // compute auto placement, store placement inside the data object,
+  // modifiers will be able to edit `placement` if needed
+  // and refer to originalPlacement to know the original value
+  var placement = computeAutoPlacement(options.placement, referenceOffsets, popper, reference, options.modifiers.flip.boundariesElement, options.modifiers.flip.padding);
+
+  popper.setAttribute('x-placement', placement);
+
+  // Apply `position` to popper before anything else because
+  // without the position applied we can't guarantee correct computations
+  setStyles(popper, { position: options.positionFixed ? 'fixed' : 'absolute' });
+
+  return options;
+}
+
+/**
+ * @function
+ * @memberof Popper.Utils
+ * @argument {Object} data - The data object generated by `update` method
+ * @argument {Boolean} shouldRound - If the offsets should be rounded at all
+ * @returns {Object} The popper's position offsets rounded
+ *
+ * The tale of pixel-perfect positioning. It's still not 100% perfect, but as
+ * good as it can be within reason.
+ * Discussion here: https://github.com/FezVrasta/popper.js/pull/715
+ *
+ * Low DPI screens cause a popper to be blurry if not using full pixels (Safari
+ * as well on High DPI screens).
+ *
+ * Firefox prefers no rounding for positioning and does not have blurriness on
+ * high DPI screens.
+ *
+ * Only horizontal placement and left/right values need to be considered.
+ */
+function getRoundedOffsets(data, shouldRound) {
+  var _data$offsets = data.offsets,
+      popper = _data$offsets.popper,
+      reference = _data$offsets.reference;
+  var round = Math.round,
+      floor = Math.floor;
+
+  var noRound = function noRound(v) {
+    return v;
+  };
+
+  var referenceWidth = round(reference.width);
+  var popperWidth = round(popper.width);
+
+  var isVertical = ['left', 'right'].indexOf(data.placement) !== -1;
+  var isVariation = data.placement.indexOf('-') !== -1;
+  var sameWidthParity = referenceWidth % 2 === popperWidth % 2;
+  var bothOddWidth = referenceWidth % 2 === 1 && popperWidth % 2 === 1;
+
+  var horizontalToInteger = !shouldRound ? noRound : isVertical || isVariation || sameWidthParity ? round : floor;
+  var verticalToInteger = !shouldRound ? noRound : round;
+
+  return {
+    left: horizontalToInteger(bothOddWidth && !isVariation && shouldRound ? popper.left - 1 : popper.left),
+    top: verticalToInteger(popper.top),
+    bottom: verticalToInteger(popper.bottom),
+    right: horizontalToInteger(popper.right)
+  };
+}
+
+var isFirefox = isBrowser && /Firefox/i.test(navigator.userAgent);
+
+/**
+ * @function
+ * @memberof Modifiers
+ * @argument {Object} data - The data object generated by `update` method
+ * @argument {Object} options - Modifiers configuration and options
+ * @returns {Object} The data object, properly modified
+ */
+function computeStyle(data, options) {
+  var x = options.x,
+      y = options.y;
+  var popper = data.offsets.popper;
+
+  // Remove this legacy support in Popper.js v2
+
+  var legacyGpuAccelerationOption = find(data.instance.modifiers, function (modifier) {
+    return modifier.name === 'applyStyle';
+  }).gpuAcceleration;
+  if (legacyGpuAccelerationOption !== undefined) {
+    console.warn('WARNING: `gpuAcceleration` option moved to `computeStyle` modifier and will not be supported in future versions of Popper.js!');
+  }
+  var gpuAcceleration = legacyGpuAccelerationOption !== undefined ? legacyGpuAccelerationOption : options.gpuAcceleration;
+
+  var offsetParent = getOffsetParent(data.instance.popper);
+  var offsetParentRect = getBoundingClientRect(offsetParent);
+
+  // Styles
+  var styles = {
+    position: popper.position
+  };
+
+  var offsets = getRoundedOffsets(data, window.devicePixelRatio < 2 || !isFirefox);
+
+  var sideA = x === 'bottom' ? 'top' : 'bottom';
+  var sideB = y === 'right' ? 'left' : 'right';
+
+  // if gpuAcceleration is set to `true` and transform is supported,
+  //  we use `translate3d` to apply the position to the popper we
+  // automatically use the supported prefixed version if needed
+  var prefixedProperty = getSupportedPropertyName('transform');
+
+  // now, let's make a step back and look at this code closely (wtf?)
+  // If the content of the popper grows once it's been positioned, it
+  // may happen that the popper gets misplaced because of the new content
+  // overflowing its reference element
+  // To avoid this problem, we provide two options (x and y), which allow
+  // the consumer to define the offset origin.
+  // If we position a popper on top of a reference element, we can set
+  // `x` to `top` to make the popper grow towards its top instead of
+  // its bottom.
+  var left = void 0,
+      top = void 0;
+  if (sideA === 'bottom') {
+    // when offsetParent is <html> the positioning is relative to the bottom of the screen (excluding the scrollbar)
+    // and not the bottom of the html element
+    if (offsetParent.nodeName === 'HTML') {
+      top = -offsetParent.clientHeight + offsets.bottom;
+    } else {
+      top = -offsetParentRect.height + offsets.bottom;
+    }
+  } else {
+    top = offsets.top;
+  }
+  if (sideB === 'right') {
+    if (offsetParent.nodeName === 'HTML') {
+      left = -offsetParent.clientWidth + offsets.right;
+    } else {
+      left = -offsetParentRect.width + offsets.right;
+    }
+  } else {
+    left = offsets.left;
+  }
+  if (gpuAcceleration && prefixedProperty) {
+    styles[prefixedProperty] = 'translate3d(' + left + 'px, ' + top + 'px, 0)';
+    styles[sideA] = 0;
+    styles[sideB] = 0;
+    styles.willChange = 'transform';
+  } else {
+    // othwerise, we use the standard `top`, `left`, `bottom` and `right` properties
+    var invertTop = sideA === 'bottom' ? -1 : 1;
+    var invertLeft = sideB === 'right' ? -1 : 1;
+    styles[sideA] = top * invertTop;
+    styles[sideB] = left * invertLeft;
+    styles.willChange = sideA + ', ' + sideB;
+  }
+
+  // Attributes
+  var attributes = {
+    'x-placement': data.placement
+  };
+
+  // Update `data` attributes, styles and arrowStyles
+  data.attributes = _extends({}, attributes, data.attributes);
+  data.styles = _extends({}, styles, data.styles);
+  data.arrowStyles = _extends({}, data.offsets.arrow, data.arrowStyles);
+
+  return data;
+}
+
+/**
+ * Helper used to know if the given modifier depends from another one.<br />
+ * It checks if the needed modifier is listed and enabled.
+ * @method
+ * @memberof Popper.Utils
+ * @param {Array} modifiers - list of modifiers
+ * @param {String} requestingName - name of requesting modifier
+ * @param {String} requestedName - name of requested modifier
+ * @returns {Boolean}
+ */
+function isModifierRequired(modifiers, requestingName, requestedName) {
+  var requesting = find(modifiers, function (_ref) {
+    var name = _ref.name;
+    return name === requestingName;
+  });
+
+  var isRequired = !!requesting && modifiers.some(function (modifier) {
+    return modifier.name === requestedName && modifier.enabled && modifier.order < requesting.order;
+  });
+
+  if (!isRequired) {
+    var _requesting = '`' + requestingName + '`';
+    var requested = '`' + requestedName + '`';
+    console.warn(requested + ' modifier is required by ' + _requesting + ' modifier in order to work, be sure to include it before ' + _requesting + '!');
+  }
+  return isRequired;
+}
+
+/**
+ * @function
+ * @memberof Modifiers
+ * @argument {Object} data - The data object generated by update method
+ * @argument {Object} options - Modifiers configuration and options
+ * @returns {Object} The data object, properly modified
+ */
+function arrow(data, options) {
+  var _data$offsets$arrow;
+
+  // arrow depends on keepTogether in order to work
+  if (!isModifierRequired(data.instance.modifiers, 'arrow', 'keepTogether')) {
+    return data;
+  }
+
+  var arrowElement = options.element;
+
+  // if arrowElement is a string, suppose it's a CSS selector
+  if (typeof arrowElement === 'string') {
+    arrowElement = data.instance.popper.querySelector(arrowElement);
+
+    // if arrowElement is not found, don't run the modifier
+    if (!arrowElement) {
+      return data;
+    }
+  } else {
+    // if the arrowElement isn't a query selector we must check that the
+    // provided DOM node is child of its popper node
+    if (!data.instance.popper.contains(arrowElement)) {
+      console.warn('WARNING: `arrow.element` must be child of its popper element!');
+      return data;
+    }
+  }
+
+  var placement = data.placement.split('-')[0];
+  var _data$offsets = data.offsets,
+      popper = _data$offsets.popper,
+      reference = _data$offsets.reference;
+
+  var isVertical = ['left', 'right'].indexOf(placement) !== -1;
+
+  var len = isVertical ? 'height' : 'width';
+  var sideCapitalized = isVertical ? 'Top' : 'Left';
+  var side = sideCapitalized.toLowerCase();
+  var altSide = isVertical ? 'left' : 'top';
+  var opSide = isVertical ? 'bottom' : 'right';
+  var arrowElementSize = getOuterSizes(arrowElement)[len];
+
+  //
+  // extends keepTogether behavior making sure the popper and its
+  // reference have enough pixels in conjunction
+  //
+
+  // top/left side
+  if (reference[opSide] - arrowElementSize < popper[side]) {
+    data.offsets.popper[side] -= popper[side] - (reference[opSide] - arrowElementSize);
+  }
+  // bottom/right side
+  if (reference[side] + arrowElementSize > popper[opSide]) {
+    data.offsets.popper[side] += reference[side] + arrowElementSize - popper[opSide];
+  }
+  data.offsets.popper = getClientRect(data.offsets.popper);
+
+  // compute center of the popper
+  var center = reference[side] + reference[len] / 2 - arrowElementSize / 2;
+
+  // Compute the sideValue using the updated popper offsets
+  // take popper margin in account because we don't have this info available
+  var css = getStyleComputedProperty(data.instance.popper);
+  var popperMarginSide = parseFloat(css['margin' + sideCapitalized], 10);
+  var popperBorderSide = parseFloat(css['border' + sideCapitalized + 'Width'], 10);
+  var sideValue = center - data.offsets.popper[side] - popperMarginSide - popperBorderSide;
+
+  // prevent arrowElement from being placed not contiguously to its popper
+  sideValue = Math.max(Math.min(popper[len] - arrowElementSize, sideValue), 0);
+
+  data.arrowElement = arrowElement;
+  data.offsets.arrow = (_data$offsets$arrow = {}, defineProperty(_data$offsets$arrow, side, Math.round(sideValue)), defineProperty(_data$offsets$arrow, altSide, ''), _data$offsets$arrow);
+
+  return data;
+}
+
+/**
+ * Get the opposite placement variation of the given one
+ * @method
+ * @memberof Popper.Utils
+ * @argument {String} placement variation
+ * @returns {String} flipped placement variation
+ */
+function getOppositeVariation(variation) {
+  if (variation === 'end') {
+    return 'start';
+  } else if (variation === 'start') {
+    return 'end';
+  }
+  return variation;
+}
+
+/**
+ * List of accepted placements to use as values of the `placement` option.<br />
+ * Valid placements are:
+ * - `auto`
+ * - `top`
+ * - `right`
+ * - `bottom`
+ * - `left`
+ *
+ * Each placement can have a variation from this list:
+ * - `-start`
+ * - `-end`
+ *
+ * Variations are interpreted easily if you think of them as the left to right
+ * written languages. Horizontally (`top` and `bottom`), `start` is left and `end`
+ * is right.<br />
+ * Vertically (`left` and `right`), `start` is top and `end` is bottom.
+ *
+ * Some valid examples are:
+ * - `top-end` (on top of reference, right aligned)
+ * - `right-start` (on right of reference, top aligned)
+ * - `bottom` (on bottom, centered)
+ * - `auto-end` (on the side with more space available, alignment depends by placement)
+ *
+ * @static
+ * @type {Array}
+ * @enum {String}
+ * @readonly
+ * @method placements
+ * @memberof Popper
+ */
+var placements = ['auto-start', 'auto', 'auto-end', 'top-start', 'top', 'top-end', 'right-start', 'right', 'right-end', 'bottom-end', 'bottom', 'bottom-start', 'left-end', 'left', 'left-start'];
+
+// Get rid of `auto` `auto-start` and `auto-end`
+var validPlacements = placements.slice(3);
+
+/**
+ * Given an initial placement, returns all the subsequent placements
+ * clockwise (or counter-clockwise).
+ *
+ * @method
+ * @memberof Popper.Utils
+ * @argument {String} placement - A valid placement (it accepts variations)
+ * @argument {Boolean} counter - Set to true to walk the placements counterclockwise
+ * @returns {Array} placements including their variations
+ */
+function clockwise(placement) {
+  var counter = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+
+  var index = validPlacements.indexOf(placement);
+  var arr = validPlacements.slice(index + 1).concat(validPlacements.slice(0, index));
+  return counter ? arr.reverse() : arr;
+}
+
+var BEHAVIORS = {
+  FLIP: 'flip',
+  CLOCKWISE: 'clockwise',
+  COUNTERCLOCKWISE: 'counterclockwise'
+};
+
+/**
+ * @function
+ * @memberof Modifiers
+ * @argument {Object} data - The data object generated by update method
+ * @argument {Object} options - Modifiers configuration and options
+ * @returns {Object} The data object, properly modified
+ */
+function flip(data, options) {
+  // if `inner` modifier is enabled, we can't use the `flip` modifier
+  if (isModifierEnabled(data.instance.modifiers, 'inner')) {
+    return data;
+  }
+
+  if (data.flipped && data.placement === data.originalPlacement) {
+    // seems like flip is trying to loop, probably there's not enough space on any of the flippable sides
+    return data;
+  }
+
+  var boundaries = getBoundaries(data.instance.popper, data.instance.reference, options.padding, options.boundariesElement, data.positionFixed);
+
+  var placement = data.placement.split('-')[0];
+  var placementOpposite = getOppositePlacement(placement);
+  var variation = data.placement.split('-')[1] || '';
+
+  var flipOrder = [];
+
+  switch (options.behavior) {
+    case BEHAVIORS.FLIP:
+      flipOrder = [placement, placementOpposite];
+      break;
+    case BEHAVIORS.CLOCKWISE:
+      flipOrder = clockwise(placement);
+      break;
+    case BEHAVIORS.COUNTERCLOCKWISE:
+      flipOrder = clockwise(placement, true);
+      break;
+    default:
+      flipOrder = options.behavior;
+  }
+
+  flipOrder.forEach(function (step, index) {
+    if (placement !== step || flipOrder.length === index + 1) {
+      return data;
+    }
+
+    placement = data.placement.split('-')[0];
+    placementOpposite = getOppositePlacement(placement);
+
+    var popperOffsets = data.offsets.popper;
+    var refOffsets = data.offsets.reference;
+
+    // using floor because the reference offsets may contain decimals we are not going to consider here
+    var floor = Math.floor;
+    var overlapsRef = placement === 'left' && floor(popperOffsets.right) > floor(refOffsets.left) || placement === 'right' && floor(popperOffsets.left) < floor(refOffsets.right) || placement === 'top' && floor(popperOffsets.bottom) > floor(refOffsets.top) || placement === 'bottom' && floor(popperOffsets.top) < floor(refOffsets.bottom);
+
+    var overflowsLeft = floor(popperOffsets.left) < floor(boundaries.left);
+    var overflowsRight = floor(popperOffsets.right) > floor(boundaries.right);
+    var overflowsTop = floor(popperOffsets.top) < floor(boundaries.top);
+    var overflowsBottom = floor(popperOffsets.bottom) > floor(boundaries.bottom);
+
+    var overflowsBoundaries = placement === 'left' && overflowsLeft || placement === 'right' && overflowsRight || placement === 'top' && overflowsTop || placement === 'bottom' && overflowsBottom;
+
+    // flip the variation if required
+    var isVertical = ['top', 'bottom'].indexOf(placement) !== -1;
+    var flippedVariation = !!options.flipVariations && (isVertical && variation === 'start' && overflowsLeft || isVertical && variation === 'end' && overflowsRight || !isVertical && variation === 'start' && overflowsTop || !isVertical && variation === 'end' && overflowsBottom);
+
+    if (overlapsRef || overflowsBoundaries || flippedVariation) {
+      // this boolean to detect any flip loop
+      data.flipped = true;
+
+      if (overlapsRef || overflowsBoundaries) {
+        placement = flipOrder[index + 1];
+      }
+
+      if (flippedVariation) {
+        variation = getOppositeVariation(variation);
+      }
+
+      data.placement = placement + (variation ? '-' + variation : '');
+
+      // this object contains `position`, we want to preserve it along with
+      // any additional property we may add in the future
+      data.offsets.popper = _extends({}, data.offsets.popper, getPopperOffsets(data.instance.popper, data.offsets.reference, data.placement));
+
+      data = runModifiers(data.instance.modifiers, data, 'flip');
+    }
+  });
+  return data;
+}
+
+/**
+ * @function
+ * @memberof Modifiers
+ * @argument {Object} data - The data object generated by update method
+ * @argument {Object} options - Modifiers configuration and options
+ * @returns {Object} The data object, properly modified
+ */
+function keepTogether(data) {
+  var _data$offsets = data.offsets,
+      popper = _data$offsets.popper,
+      reference = _data$offsets.reference;
+
+  var placement = data.placement.split('-')[0];
+  var floor = Math.floor;
+  var isVertical = ['top', 'bottom'].indexOf(placement) !== -1;
+  var side = isVertical ? 'right' : 'bottom';
+  var opSide = isVertical ? 'left' : 'top';
+  var measurement = isVertical ? 'width' : 'height';
+
+  if (popper[side] < floor(reference[opSide])) {
+    data.offsets.popper[opSide] = floor(reference[opSide]) - popper[measurement];
+  }
+  if (popper[opSide] > floor(reference[side])) {
+    data.offsets.popper[opSide] = floor(reference[side]);
+  }
+
+  return data;
+}
+
+/**
+ * Converts a string containing value + unit into a px value number
+ * @function
+ * @memberof {modifiers~offset}
+ * @private
+ * @argument {String} str - Value + unit string
+ * @argument {String} measurement - `height` or `width`
+ * @argument {Object} popperOffsets
+ * @argument {Object} referenceOffsets
+ * @returns {Number|String}
+ * Value in pixels, or original string if no values were extracted
+ */
+function toValue(str, measurement, popperOffsets, referenceOffsets) {
+  // separate value from unit
+  var split = str.match(/((?:\-|\+)?\d*\.?\d*)(.*)/);
+  var value = +split[1];
+  var unit = split[2];
+
+  // If it's not a number it's an operator, I guess
+  if (!value) {
+    return str;
+  }
+
+  if (unit.indexOf('%') === 0) {
+    var element = void 0;
+    switch (unit) {
+      case '%p':
+        element = popperOffsets;
+        break;
+      case '%':
+      case '%r':
+      default:
+        element = referenceOffsets;
+    }
+
+    var rect = getClientRect(element);
+    return rect[measurement] / 100 * value;
+  } else if (unit === 'vh' || unit === 'vw') {
+    // if is a vh or vw, we calculate the size based on the viewport
+    var size = void 0;
+    if (unit === 'vh') {
+      size = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    } else {
+      size = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    }
+    return size / 100 * value;
+  } else {
+    // if is an explicit pixel unit, we get rid of the unit and keep the value
+    // if is an implicit unit, it's px, and we return just the value
+    return value;
+  }
+}
+
+/**
+ * Parse an `offset` string to extrapolate `x` and `y` numeric offsets.
+ * @function
+ * @memberof {modifiers~offset}
+ * @private
+ * @argument {String} offset
+ * @argument {Object} popperOffsets
+ * @argument {Object} referenceOffsets
+ * @argument {String} basePlacement
+ * @returns {Array} a two cells array with x and y offsets in numbers
+ */
+function parseOffset(offset, popperOffsets, referenceOffsets, basePlacement) {
+  var offsets = [0, 0];
+
+  // Use height if placement is left or right and index is 0 otherwise use width
+  // in this way the first offset will use an axis and the second one
+  // will use the other one
+  var useHeight = ['right', 'left'].indexOf(basePlacement) !== -1;
+
+  // Split the offset string to obtain a list of values and operands
+  // The regex addresses values with the plus or minus sign in front (+10, -20, etc)
+  var fragments = offset.split(/(\+|\-)/).map(function (frag) {
+    return frag.trim();
+  });
+
+  // Detect if the offset string contains a pair of values or a single one
+  // they could be separated by comma or space
+  var divider = fragments.indexOf(find(fragments, function (frag) {
+    return frag.search(/,|\s/) !== -1;
+  }));
+
+  if (fragments[divider] && fragments[divider].indexOf(',') === -1) {
+    console.warn('Offsets separated by white space(s) are deprecated, use a comma (,) instead.');
+  }
+
+  // If divider is found, we divide the list of values and operands to divide
+  // them by ofset X and Y.
+  var splitRegex = /\s*,\s*|\s+/;
+  var ops = divider !== -1 ? [fragments.slice(0, divider).concat([fragments[divider].split(splitRegex)[0]]), [fragments[divider].split(splitRegex)[1]].concat(fragments.slice(divider + 1))] : [fragments];
+
+  // Convert the values with units to absolute pixels to allow our computations
+  ops = ops.map(function (op, index) {
+    // Most of the units rely on the orientation of the popper
+    var measurement = (index === 1 ? !useHeight : useHeight) ? 'height' : 'width';
+    var mergeWithPrevious = false;
+    return op
+    // This aggregates any `+` or `-` sign that aren't considered operators
+    // e.g.: 10 + +5 => [10, +, +5]
+    .reduce(function (a, b) {
+      if (a[a.length - 1] === '' && ['+', '-'].indexOf(b) !== -1) {
+        a[a.length - 1] = b;
+        mergeWithPrevious = true;
+        return a;
+      } else if (mergeWithPrevious) {
+        a[a.length - 1] += b;
+        mergeWithPrevious = false;
+        return a;
+      } else {
+        return a.concat(b);
+      }
+    }, [])
+    // Here we convert the string values into number values (in px)
+    .map(function (str) {
+      return toValue(str, measurement, popperOffsets, referenceOffsets);
+    });
+  });
+
+  // Loop trough the offsets arrays and execute the operations
+  ops.forEach(function (op, index) {
+    op.forEach(function (frag, index2) {
+      if (isNumeric(frag)) {
+        offsets[index] += frag * (op[index2 - 1] === '-' ? -1 : 1);
+      }
+    });
+  });
+  return offsets;
+}
+
+/**
+ * @function
+ * @memberof Modifiers
+ * @argument {Object} data - The data object generated by update method
+ * @argument {Object} options - Modifiers configuration and options
+ * @argument {Number|String} options.offset=0
+ * The offset value as described in the modifier description
+ * @returns {Object} The data object, properly modified
+ */
+function offset(data, _ref) {
+  var offset = _ref.offset;
+  var placement = data.placement,
+      _data$offsets = data.offsets,
+      popper = _data$offsets.popper,
+      reference = _data$offsets.reference;
+
+  var basePlacement = placement.split('-')[0];
+
+  var offsets = void 0;
+  if (isNumeric(+offset)) {
+    offsets = [+offset, 0];
+  } else {
+    offsets = parseOffset(offset, popper, reference, basePlacement);
+  }
+
+  if (basePlacement === 'left') {
+    popper.top += offsets[0];
+    popper.left -= offsets[1];
+  } else if (basePlacement === 'right') {
+    popper.top += offsets[0];
+    popper.left += offsets[1];
+  } else if (basePlacement === 'top') {
+    popper.left += offsets[0];
+    popper.top -= offsets[1];
+  } else if (basePlacement === 'bottom') {
+    popper.left += offsets[0];
+    popper.top += offsets[1];
+  }
+
+  data.popper = popper;
+  return data;
+}
+
+/**
+ * @function
+ * @memberof Modifiers
+ * @argument {Object} data - The data object generated by `update` method
+ * @argument {Object} options - Modifiers configuration and options
+ * @returns {Object} The data object, properly modified
+ */
+function preventOverflow(data, options) {
+  var boundariesElement = options.boundariesElement || getOffsetParent(data.instance.popper);
+
+  // If offsetParent is the reference element, we really want to
+  // go one step up and use the next offsetParent as reference to
+  // avoid to make this modifier completely useless and look like broken
+  if (data.instance.reference === boundariesElement) {
+    boundariesElement = getOffsetParent(boundariesElement);
+  }
+
+  // NOTE: DOM access here
+  // resets the popper's position so that the document size can be calculated excluding
+  // the size of the popper element itself
+  var transformProp = getSupportedPropertyName('transform');
+  var popperStyles = data.instance.popper.style; // assignment to help minification
+  var top = popperStyles.top,
+      left = popperStyles.left,
+      transform = popperStyles[transformProp];
+
+  popperStyles.top = '';
+  popperStyles.left = '';
+  popperStyles[transformProp] = '';
+
+  var boundaries = getBoundaries(data.instance.popper, data.instance.reference, options.padding, boundariesElement, data.positionFixed);
+
+  // NOTE: DOM access here
+  // restores the original style properties after the offsets have been computed
+  popperStyles.top = top;
+  popperStyles.left = left;
+  popperStyles[transformProp] = transform;
+
+  options.boundaries = boundaries;
+
+  var order = options.priority;
+  var popper = data.offsets.popper;
+
+  var check = {
+    primary: function primary(placement) {
+      var value = popper[placement];
+      if (popper[placement] < boundaries[placement] && !options.escapeWithReference) {
+        value = Math.max(popper[placement], boundaries[placement]);
+      }
+      return defineProperty({}, placement, value);
+    },
+    secondary: function secondary(placement) {
+      var mainSide = placement === 'right' ? 'left' : 'top';
+      var value = popper[mainSide];
+      if (popper[placement] > boundaries[placement] && !options.escapeWithReference) {
+        value = Math.min(popper[mainSide], boundaries[placement] - (placement === 'right' ? popper.width : popper.height));
+      }
+      return defineProperty({}, mainSide, value);
+    }
+  };
+
+  order.forEach(function (placement) {
+    var side = ['left', 'top'].indexOf(placement) !== -1 ? 'primary' : 'secondary';
+    popper = _extends({}, popper, check[side](placement));
+  });
+
+  data.offsets.popper = popper;
+
+  return data;
+}
+
+/**
+ * @function
+ * @memberof Modifiers
+ * @argument {Object} data - The data object generated by `update` method
+ * @argument {Object} options - Modifiers configuration and options
+ * @returns {Object} The data object, properly modified
+ */
+function shift(data) {
+  var placement = data.placement;
+  var basePlacement = placement.split('-')[0];
+  var shiftvariation = placement.split('-')[1];
+
+  // if shift shiftvariation is specified, run the modifier
+  if (shiftvariation) {
+    var _data$offsets = data.offsets,
+        reference = _data$offsets.reference,
+        popper = _data$offsets.popper;
+
+    var isVertical = ['bottom', 'top'].indexOf(basePlacement) !== -1;
+    var side = isVertical ? 'left' : 'top';
+    var measurement = isVertical ? 'width' : 'height';
+
+    var shiftOffsets = {
+      start: defineProperty({}, side, reference[side]),
+      end: defineProperty({}, side, reference[side] + reference[measurement] - popper[measurement])
+    };
+
+    data.offsets.popper = _extends({}, popper, shiftOffsets[shiftvariation]);
+  }
+
+  return data;
+}
+
+/**
+ * @function
+ * @memberof Modifiers
+ * @argument {Object} data - The data object generated by update method
+ * @argument {Object} options - Modifiers configuration and options
+ * @returns {Object} The data object, properly modified
+ */
+function hide(data) {
+  if (!isModifierRequired(data.instance.modifiers, 'hide', 'preventOverflow')) {
+    return data;
+  }
+
+  var refRect = data.offsets.reference;
+  var bound = find(data.instance.modifiers, function (modifier) {
+    return modifier.name === 'preventOverflow';
+  }).boundaries;
+
+  if (refRect.bottom < bound.top || refRect.left > bound.right || refRect.top > bound.bottom || refRect.right < bound.left) {
+    // Avoid unnecessary DOM access if visibility hasn't changed
+    if (data.hide === true) {
+      return data;
+    }
+
+    data.hide = true;
+    data.attributes['x-out-of-boundaries'] = '';
+  } else {
+    // Avoid unnecessary DOM access if visibility hasn't changed
+    if (data.hide === false) {
+      return data;
+    }
+
+    data.hide = false;
+    data.attributes['x-out-of-boundaries'] = false;
+  }
+
+  return data;
+}
+
+/**
+ * @function
+ * @memberof Modifiers
+ * @argument {Object} data - The data object generated by `update` method
+ * @argument {Object} options - Modifiers configuration and options
+ * @returns {Object} The data object, properly modified
+ */
+function inner(data) {
+  var placement = data.placement;
+  var basePlacement = placement.split('-')[0];
+  var _data$offsets = data.offsets,
+      popper = _data$offsets.popper,
+      reference = _data$offsets.reference;
+
+  var isHoriz = ['left', 'right'].indexOf(basePlacement) !== -1;
+
+  var subtractLength = ['top', 'left'].indexOf(basePlacement) === -1;
+
+  popper[isHoriz ? 'left' : 'top'] = reference[basePlacement] - (subtractLength ? popper[isHoriz ? 'width' : 'height'] : 0);
+
+  data.placement = getOppositePlacement(placement);
+  data.offsets.popper = getClientRect(popper);
+
+  return data;
+}
+
+/**
+ * Modifier function, each modifier can have a function of this type assigned
+ * to its `fn` property.<br />
+ * These functions will be called on each update, this means that you must
+ * make sure they are performant enough to avoid performance bottlenecks.
+ *
+ * @function ModifierFn
+ * @argument {dataObject} data - The data object generated by `update` method
+ * @argument {Object} options - Modifiers configuration and options
+ * @returns {dataObject} The data object, properly modified
+ */
+
+/**
+ * Modifiers are plugins used to alter the behavior of your poppers.<br />
+ * Popper.js uses a set of 9 modifiers to provide all the basic functionalities
+ * needed by the library.
+ *
+ * Usually you don't want to override the `order`, `fn` and `onLoad` props.
+ * All the other properties are configurations that could be tweaked.
+ * @namespace modifiers
+ */
+var modifiers = {
+  /**
+   * Modifier used to shift the popper on the start or end of its reference
+   * element.<br />
+   * It will read the variation of the `placement` property.<br />
+   * It can be one either `-end` or `-start`.
+   * @memberof modifiers
+   * @inner
+   */
+  shift: {
+    /** @prop {number} order=100 - Index used to define the order of execution */
+    order: 100,
+    /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
+    enabled: true,
+    /** @prop {ModifierFn} */
+    fn: shift
+  },
+
+  /**
+   * The `offset` modifier can shift your popper on both its axis.
+   *
+   * It accepts the following units:
+   * - `px` or unit-less, interpreted as pixels
+   * - `%` or `%r`, percentage relative to the length of the reference element
+   * - `%p`, percentage relative to the length of the popper element
+   * - `vw`, CSS viewport width unit
+   * - `vh`, CSS viewport height unit
+   *
+   * For length is intended the main axis relative to the placement of the popper.<br />
+   * This means that if the placement is `top` or `bottom`, the length will be the
+   * `width`. In case of `left` or `right`, it will be the `height`.
+   *
+   * You can provide a single value (as `Number` or `String`), or a pair of values
+   * as `String` divided by a comma or one (or more) white spaces.<br />
+   * The latter is a deprecated method because it leads to confusion and will be
+   * removed in v2.<br />
+   * Additionally, it accepts additions and subtractions between different units.
+   * Note that multiplications and divisions aren't supported.
+   *
+   * Valid examples are:
+   * ```
+   * 10
+   * '10%'
+   * '10, 10'
+   * '10%, 10'
+   * '10 + 10%'
+   * '10 - 5vh + 3%'
+   * '-10px + 5vh, 5px - 6%'
+   * ```
+   * > **NB**: If you desire to apply offsets to your poppers in a way that may make them overlap
+   * > with their reference element, unfortunately, you will have to disable the `flip` modifier.
+   * > You can read more on this at this [issue](https://github.com/FezVrasta/popper.js/issues/373).
+   *
+   * @memberof modifiers
+   * @inner
+   */
+  offset: {
+    /** @prop {number} order=200 - Index used to define the order of execution */
+    order: 200,
+    /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
+    enabled: true,
+    /** @prop {ModifierFn} */
+    fn: offset,
+    /** @prop {Number|String} offset=0
+     * The offset value as described in the modifier description
+     */
+    offset: 0
+  },
+
+  /**
+   * Modifier used to prevent the popper from being positioned outside the boundary.
+   *
+   * A scenario exists where the reference itself is not within the boundaries.<br />
+   * We can say it has "escaped the boundaries" — or just "escaped".<br />
+   * In this case we need to decide whether the popper should either:
+   *
+   * - detach from the reference and remain "trapped" in the boundaries, or
+   * - if it should ignore the boundary and "escape with its reference"
+   *
+   * When `escapeWithReference` is set to`true` and reference is completely
+   * outside its boundaries, the popper will overflow (or completely leave)
+   * the boundaries in order to remain attached to the edge of the reference.
+   *
+   * @memberof modifiers
+   * @inner
+   */
+  preventOverflow: {
+    /** @prop {number} order=300 - Index used to define the order of execution */
+    order: 300,
+    /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
+    enabled: true,
+    /** @prop {ModifierFn} */
+    fn: preventOverflow,
+    /**
+     * @prop {Array} [priority=['left','right','top','bottom']]
+     * Popper will try to prevent overflow following these priorities by default,
+     * then, it could overflow on the left and on top of the `boundariesElement`
+     */
+    priority: ['left', 'right', 'top', 'bottom'],
+    /**
+     * @prop {number} padding=5
+     * Amount of pixel used to define a minimum distance between the boundaries
+     * and the popper. This makes sure the popper always has a little padding
+     * between the edges of its container
+     */
+    padding: 5,
+    /**
+     * @prop {String|HTMLElement} boundariesElement='scrollParent'
+     * Boundaries used by the modifier. Can be `scrollParent`, `window`,
+     * `viewport` or any DOM element.
+     */
+    boundariesElement: 'scrollParent'
+  },
+
+  /**
+   * Modifier used to make sure the reference and its popper stay near each other
+   * without leaving any gap between the two. Especially useful when the arrow is
+   * enabled and you want to ensure that it points to its reference element.
+   * It cares only about the first axis. You can still have poppers with margin
+   * between the popper and its reference element.
+   * @memberof modifiers
+   * @inner
+   */
+  keepTogether: {
+    /** @prop {number} order=400 - Index used to define the order of execution */
+    order: 400,
+    /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
+    enabled: true,
+    /** @prop {ModifierFn} */
+    fn: keepTogether
+  },
+
+  /**
+   * This modifier is used to move the `arrowElement` of the popper to make
+   * sure it is positioned between the reference element and its popper element.
+   * It will read the outer size of the `arrowElement` node to detect how many
+   * pixels of conjunction are needed.
+   *
+   * It has no effect if no `arrowElement` is provided.
+   * @memberof modifiers
+   * @inner
+   */
+  arrow: {
+    /** @prop {number} order=500 - Index used to define the order of execution */
+    order: 500,
+    /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
+    enabled: true,
+    /** @prop {ModifierFn} */
+    fn: arrow,
+    /** @prop {String|HTMLElement} element='[x-arrow]' - Selector or node used as arrow */
+    element: '[x-arrow]'
+  },
+
+  /**
+   * Modifier used to flip the popper's placement when it starts to overlap its
+   * reference element.
+   *
+   * Requires the `preventOverflow` modifier before it in order to work.
+   *
+   * **NOTE:** this modifier will interrupt the current update cycle and will
+   * restart it if it detects the need to flip the placement.
+   * @memberof modifiers
+   * @inner
+   */
+  flip: {
+    /** @prop {number} order=600 - Index used to define the order of execution */
+    order: 600,
+    /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
+    enabled: true,
+    /** @prop {ModifierFn} */
+    fn: flip,
+    /**
+     * @prop {String|Array} behavior='flip'
+     * The behavior used to change the popper's placement. It can be one of
+     * `flip`, `clockwise`, `counterclockwise` or an array with a list of valid
+     * placements (with optional variations)
+     */
+    behavior: 'flip',
+    /**
+     * @prop {number} padding=5
+     * The popper will flip if it hits the edges of the `boundariesElement`
+     */
+    padding: 5,
+    /**
+     * @prop {String|HTMLElement} boundariesElement='viewport'
+     * The element which will define the boundaries of the popper position.
+     * The popper will never be placed outside of the defined boundaries
+     * (except if `keepTogether` is enabled)
+     */
+    boundariesElement: 'viewport'
+  },
+
+  /**
+   * Modifier used to make the popper flow toward the inner of the reference element.
+   * By default, when this modifier is disabled, the popper will be placed outside
+   * the reference element.
+   * @memberof modifiers
+   * @inner
+   */
+  inner: {
+    /** @prop {number} order=700 - Index used to define the order of execution */
+    order: 700,
+    /** @prop {Boolean} enabled=false - Whether the modifier is enabled or not */
+    enabled: false,
+    /** @prop {ModifierFn} */
+    fn: inner
+  },
+
+  /**
+   * Modifier used to hide the popper when its reference element is outside of the
+   * popper boundaries. It will set a `x-out-of-boundaries` attribute which can
+   * be used to hide with a CSS selector the popper when its reference is
+   * out of boundaries.
+   *
+   * Requires the `preventOverflow` modifier before it in order to work.
+   * @memberof modifiers
+   * @inner
+   */
+  hide: {
+    /** @prop {number} order=800 - Index used to define the order of execution */
+    order: 800,
+    /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
+    enabled: true,
+    /** @prop {ModifierFn} */
+    fn: hide
+  },
+
+  /**
+   * Computes the style that will be applied to the popper element to gets
+   * properly positioned.
+   *
+   * Note that this modifier will not touch the DOM, it just prepares the styles
+   * so that `applyStyle` modifier can apply it. This separation is useful
+   * in case you need to replace `applyStyle` with a custom implementation.
+   *
+   * This modifier has `850` as `order` value to maintain backward compatibility
+   * with previous versions of Popper.js. Expect the modifiers ordering method
+   * to change in future major versions of the library.
+   *
+   * @memberof modifiers
+   * @inner
+   */
+  computeStyle: {
+    /** @prop {number} order=850 - Index used to define the order of execution */
+    order: 850,
+    /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
+    enabled: true,
+    /** @prop {ModifierFn} */
+    fn: computeStyle,
+    /**
+     * @prop {Boolean} gpuAcceleration=true
+     * If true, it uses the CSS 3D transformation to position the popper.
+     * Otherwise, it will use the `top` and `left` properties
+     */
+    gpuAcceleration: true,
+    /**
+     * @prop {string} [x='bottom']
+     * Where to anchor the X axis (`bottom` or `top`). AKA X offset origin.
+     * Change this if your popper should grow in a direction different from `bottom`
+     */
+    x: 'bottom',
+    /**
+     * @prop {string} [x='left']
+     * Where to anchor the Y axis (`left` or `right`). AKA Y offset origin.
+     * Change this if your popper should grow in a direction different from `right`
+     */
+    y: 'right'
+  },
+
+  /**
+   * Applies the computed styles to the popper element.
+   *
+   * All the DOM manipulations are limited to this modifier. This is useful in case
+   * you want to integrate Popper.js inside a framework or view library and you
+   * want to delegate all the DOM manipulations to it.
+   *
+   * Note that if you disable this modifier, you must make sure the popper element
+   * has its position set to `absolute` before Popper.js can do its work!
+   *
+   * Just disable this modifier and define your own to achieve the desired effect.
+   *
+   * @memberof modifiers
+   * @inner
+   */
+  applyStyle: {
+    /** @prop {number} order=900 - Index used to define the order of execution */
+    order: 900,
+    /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
+    enabled: true,
+    /** @prop {ModifierFn} */
+    fn: applyStyle,
+    /** @prop {Function} */
+    onLoad: applyStyleOnLoad,
+    /**
+     * @deprecated since version 1.10.0, the property moved to `computeStyle` modifier
+     * @prop {Boolean} gpuAcceleration=true
+     * If true, it uses the CSS 3D transformation to position the popper.
+     * Otherwise, it will use the `top` and `left` properties
+     */
+    gpuAcceleration: undefined
+  }
+};
+
+/**
+ * The `dataObject` is an object containing all the information used by Popper.js.
+ * This object is passed to modifiers and to the `onCreate` and `onUpdate` callbacks.
+ * @name dataObject
+ * @property {Object} data.instance The Popper.js instance
+ * @property {String} data.placement Placement applied to popper
+ * @property {String} data.originalPlacement Placement originally defined on init
+ * @property {Boolean} data.flipped True if popper has been flipped by flip modifier
+ * @property {Boolean} data.hide True if the reference element is out of boundaries, useful to know when to hide the popper
+ * @property {HTMLElement} data.arrowElement Node used as arrow by arrow modifier
+ * @property {Object} data.styles Any CSS property defined here will be applied to the popper. It expects the JavaScript nomenclature (eg. `marginBottom`)
+ * @property {Object} data.arrowStyles Any CSS property defined here will be applied to the popper arrow. It expects the JavaScript nomenclature (eg. `marginBottom`)
+ * @property {Object} data.boundaries Offsets of the popper boundaries
+ * @property {Object} data.offsets The measurements of popper, reference and arrow elements
+ * @property {Object} data.offsets.popper `top`, `left`, `width`, `height` values
+ * @property {Object} data.offsets.reference `top`, `left`, `width`, `height` values
+ * @property {Object} data.offsets.arrow] `top` and `left` offsets, only one of them will be different from 0
+ */
+
+/**
+ * Default options provided to Popper.js constructor.<br />
+ * These can be overridden using the `options` argument of Popper.js.<br />
+ * To override an option, simply pass an object with the same
+ * structure of the `options` object, as the 3rd argument. For example:
+ * ```
+ * new Popper(ref, pop, {
+ *   modifiers: {
+ *     preventOverflow: { enabled: false }
+ *   }
+ * })
+ * ```
+ * @type {Object}
+ * @static
+ * @memberof Popper
+ */
+var Defaults = {
+  /**
+   * Popper's placement.
+   * @prop {Popper.placements} placement='bottom'
+   */
+  placement: 'bottom',
+
+  /**
+   * Set this to true if you want popper to position it self in 'fixed' mode
+   * @prop {Boolean} positionFixed=false
+   */
+  positionFixed: false,
+
+  /**
+   * Whether events (resize, scroll) are initially enabled.
+   * @prop {Boolean} eventsEnabled=true
+   */
+  eventsEnabled: true,
+
+  /**
+   * Set to true if you want to automatically remove the popper when
+   * you call the `destroy` method.
+   * @prop {Boolean} removeOnDestroy=false
+   */
+  removeOnDestroy: false,
+
+  /**
+   * Callback called when the popper is created.<br />
+   * By default, it is set to no-op.<br />
+   * Access Popper.js instance with `data.instance`.
+   * @prop {onCreate}
+   */
+  onCreate: function onCreate() {},
+
+  /**
+   * Callback called when the popper is updated. This callback is not called
+   * on the initialization/creation of the popper, but only on subsequent
+   * updates.<br />
+   * By default, it is set to no-op.<br />
+   * Access Popper.js instance with `data.instance`.
+   * @prop {onUpdate}
+   */
+  onUpdate: function onUpdate() {},
+
+  /**
+   * List of modifiers used to modify the offsets before they are applied to the popper.
+   * They provide most of the functionalities of Popper.js.
+   * @prop {modifiers}
+   */
+  modifiers: modifiers
+};
+
+/**
+ * @callback onCreate
+ * @param {dataObject} data
+ */
+
+/**
+ * @callback onUpdate
+ * @param {dataObject} data
+ */
+
+// Utils
+// Methods
+var Popper = function () {
+  /**
+   * Creates a new Popper.js instance.
+   * @class Popper
+   * @param {HTMLElement|referenceObject} reference - The reference element used to position the popper
+   * @param {HTMLElement} popper - The HTML element used as the popper
+   * @param {Object} options - Your custom options to override the ones defined in [Defaults](#defaults)
+   * @return {Object} instance - The generated Popper.js instance
+   */
+  function Popper(reference, popper) {
+    var _this = this;
+
+    var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+    classCallCheck(this, Popper);
+
+    this.scheduleUpdate = function () {
+      return requestAnimationFrame(_this.update);
+    };
+
+    // make update() debounced, so that it only runs at most once-per-tick
+    this.update = debounce(this.update.bind(this));
+
+    // with {} we create a new object with the options inside it
+    this.options = _extends({}, Popper.Defaults, options);
+
+    // init state
+    this.state = {
+      isDestroyed: false,
+      isCreated: false,
+      scrollParents: []
+    };
+
+    // get reference and popper elements (allow jQuery wrappers)
+    this.reference = reference && reference.jquery ? reference[0] : reference;
+    this.popper = popper && popper.jquery ? popper[0] : popper;
+
+    // Deep merge modifiers options
+    this.options.modifiers = {};
+    Object.keys(_extends({}, Popper.Defaults.modifiers, options.modifiers)).forEach(function (name) {
+      _this.options.modifiers[name] = _extends({}, Popper.Defaults.modifiers[name] || {}, options.modifiers ? options.modifiers[name] : {});
+    });
+
+    // Refactoring modifiers' list (Object => Array)
+    this.modifiers = Object.keys(this.options.modifiers).map(function (name) {
+      return _extends({
+        name: name
+      }, _this.options.modifiers[name]);
+    })
+    // sort the modifiers by order
+    .sort(function (a, b) {
+      return a.order - b.order;
+    });
+
+    // modifiers have the ability to execute arbitrary code when Popper.js get inited
+    // such code is executed in the same order of its modifier
+    // they could add new properties to their options configuration
+    // BE AWARE: don't add options to `options.modifiers.name` but to `modifierOptions`!
+    this.modifiers.forEach(function (modifierOptions) {
+      if (modifierOptions.enabled && isFunction(modifierOptions.onLoad)) {
+        modifierOptions.onLoad(_this.reference, _this.popper, _this.options, modifierOptions, _this.state);
+      }
+    });
+
+    // fire the first update to position the popper in the right place
+    this.update();
+
+    var eventsEnabled = this.options.eventsEnabled;
+    if (eventsEnabled) {
+      // setup event listeners, they will take care of update the position in specific situations
+      this.enableEventListeners();
+    }
+
+    this.state.eventsEnabled = eventsEnabled;
+  }
+
+  // We can't use class properties because they don't get listed in the
+  // class prototype and break stuff like Sinon stubs
+
+
+  createClass(Popper, [{
+    key: 'update',
+    value: function update$$1() {
+      return update.call(this);
+    }
+  }, {
+    key: 'destroy',
+    value: function destroy$$1() {
+      return destroy.call(this);
+    }
+  }, {
+    key: 'enableEventListeners',
+    value: function enableEventListeners$$1() {
+      return enableEventListeners.call(this);
+    }
+  }, {
+    key: 'disableEventListeners',
+    value: function disableEventListeners$$1() {
+      return disableEventListeners.call(this);
+    }
+
+    /**
+     * Schedules an update. It will run on the next UI update available.
+     * @method scheduleUpdate
+     * @memberof Popper
+     */
+
+
+    /**
+     * Collection of utilities useful when writing custom modifiers.
+     * Starting from version 1.7, this method is available only if you
+     * include `popper-utils.js` before `popper.js`.
+     *
+     * **DEPRECATION**: This way to access PopperUtils is deprecated
+     * and will be removed in v2! Use the PopperUtils module directly instead.
+     * Due to the high instability of the methods contained in Utils, we can't
+     * guarantee them to follow semver. Use them at your own risk!
+     * @static
+     * @private
+     * @type {Object}
+     * @deprecated since version 1.8
+     * @member Utils
+     * @memberof Popper
+     */
+
+  }]);
+  return Popper;
+}();
+
+/**
+ * The `referenceObject` is an object that provides an interface compatible with Popper.js
+ * and lets you use it as replacement of a real DOM node.<br />
+ * You can use this method to position a popper relatively to a set of coordinates
+ * in case you don't have a DOM node to use as reference.
+ *
+ * ```
+ * new Popper(referenceObject, popperNode);
+ * ```
+ *
+ * NB: This feature isn't supported in Internet Explorer 10.
+ * @name referenceObject
+ * @property {Function} data.getBoundingClientRect
+ * A function that returns a set of coordinates compatible with the native `getBoundingClientRect` method.
+ * @property {number} data.clientWidth
+ * An ES6 getter that will return the width of the virtual reference element.
+ * @property {number} data.clientHeight
+ * An ES6 getter that will return the height of the virtual reference element.
+ */
+
+
+Popper.Utils = (typeof window !== 'undefined' ? window : global).PopperUtils;
+Popper.placements = placements;
+Popper.Defaults = Defaults;
+
+return Popper;
+
+})));
+
+
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{}],257:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -26417,7 +29886,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],253:[function(require,module,exports){
+},{}],258:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -26512,7 +29981,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 module.exports = checkPropTypes;
 
 }).call(this,require('_process'))
-},{"./lib/ReactPropTypesSecret":257,"_process":252}],254:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":262,"_process":257}],259:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -26573,7 +30042,7 @@ module.exports = function() {
   return ReactPropTypes;
 };
 
-},{"./lib/ReactPropTypesSecret":257}],255:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":262}],260:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -27132,7 +30601,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 };
 
 }).call(this,require('_process'))
-},{"./checkPropTypes":253,"./lib/ReactPropTypesSecret":257,"_process":252,"object-assign":251}],256:[function(require,module,exports){
+},{"./checkPropTypes":258,"./lib/ReactPropTypesSecret":262,"_process":257,"object-assign":255}],261:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -27164,7 +30633,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./factoryWithThrowingShims":254,"./factoryWithTypeCheckers":255,"_process":252}],257:[function(require,module,exports){
+},{"./factoryWithThrowingShims":259,"./factoryWithTypeCheckers":260,"_process":257}],262:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -27178,7 +30647,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
 
-},{}],258:[function(require,module,exports){
+},{}],263:[function(require,module,exports){
 (function (process){
 /** @license React v16.8.4
  * react-dom.development.js
@@ -48414,7 +51883,7 @@ module.exports = reactDom;
 }
 
 }).call(this,require('_process'))
-},{"_process":252,"object-assign":251,"prop-types/checkPropTypes":253,"react":299,"scheduler":324,"scheduler/tracing":325}],259:[function(require,module,exports){
+},{"_process":257,"object-assign":255,"prop-types/checkPropTypes":258,"react":304,"scheduler":329,"scheduler/tracing":330}],264:[function(require,module,exports){
 /** @license React v16.8.4
  * react-dom.production.min.js
  *
@@ -48685,7 +52154,7 @@ x("38"):void 0;return Si(a,b,c,!1,d)},unmountComponentAtNode:function(a){Qi(a)?v
 X;X=!0;try{ki(a)}finally{(X=b)||W||Yh(1073741823,!1)}},__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{Events:[Ia,Ja,Ka,Ba.injectEventPluginsByName,pa,Qa,function(a){ya(a,Pa)},Eb,Fb,Dd,Da]}};function Ui(a,b){Qi(a)?void 0:x("299","unstable_createRoot");return new Pi(a,!0,null!=b&&!0===b.hydrate)}
 (function(a){var b=a.findFiberByHostInstance;return Te(n({},a,{overrideProps:null,currentDispatcherRef:Tb.ReactCurrentDispatcher,findHostInstanceByFiber:function(a){a=hd(a);return null===a?null:a.stateNode},findFiberByHostInstance:function(a){return b?b(a):null}}))})({findFiberByHostInstance:Ha,bundleType:0,version:"16.8.4",rendererPackageName:"react-dom"});var Wi={default:Vi},Xi=Wi&&Vi||Wi;module.exports=Xi.default||Xi;
 
-},{"object-assign":251,"react":299,"scheduler":324}],260:[function(require,module,exports){
+},{"object-assign":255,"react":304,"scheduler":329}],265:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -48727,7 +52196,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react-dom.development.js":258,"./cjs/react-dom.production.min.js":259,"_process":252}],261:[function(require,module,exports){
+},{"./cjs/react-dom.development.js":263,"./cjs/react-dom.production.min.js":264,"_process":257}],266:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -48913,41 +52382,41 @@ exports.withOptions = withOptions;
 exports.default = EventListener;
 
 }).call(this,require('_process'))
-},{"@babel/runtime/helpers/classCallCheck":263,"@babel/runtime/helpers/createClass":264,"@babel/runtime/helpers/extends":265,"@babel/runtime/helpers/getPrototypeOf":266,"@babel/runtime/helpers/inherits":267,"@babel/runtime/helpers/objectWithoutProperties":268,"@babel/runtime/helpers/possibleConstructorReturn":270,"@babel/runtime/helpers/typeof":272,"_process":252,"prop-types":277,"react":299,"warning":338}],262:[function(require,module,exports){
-arguments[4][70][0].apply(exports,arguments)
-},{"dup":70}],263:[function(require,module,exports){
-arguments[4][71][0].apply(exports,arguments)
-},{"dup":71}],264:[function(require,module,exports){
-arguments[4][72][0].apply(exports,arguments)
-},{"dup":72}],265:[function(require,module,exports){
+},{"@babel/runtime/helpers/classCallCheck":268,"@babel/runtime/helpers/createClass":269,"@babel/runtime/helpers/extends":270,"@babel/runtime/helpers/getPrototypeOf":271,"@babel/runtime/helpers/inherits":272,"@babel/runtime/helpers/objectWithoutProperties":273,"@babel/runtime/helpers/possibleConstructorReturn":275,"@babel/runtime/helpers/typeof":277,"_process":257,"prop-types":282,"react":304,"warning":343}],267:[function(require,module,exports){
 arguments[4][74][0].apply(exports,arguments)
-},{"dup":74}],266:[function(require,module,exports){
+},{"dup":74}],268:[function(require,module,exports){
 arguments[4][75][0].apply(exports,arguments)
-},{"dup":75}],267:[function(require,module,exports){
+},{"dup":75}],269:[function(require,module,exports){
 arguments[4][76][0].apply(exports,arguments)
-},{"./setPrototypeOf":271,"dup":76}],268:[function(require,module,exports){
-arguments[4][81][0].apply(exports,arguments)
-},{"./objectWithoutPropertiesLoose":269,"dup":81}],269:[function(require,module,exports){
-arguments[4][82][0].apply(exports,arguments)
-},{"dup":82}],270:[function(require,module,exports){
-arguments[4][83][0].apply(exports,arguments)
-},{"../helpers/typeof":272,"./assertThisInitialized":262,"dup":83}],271:[function(require,module,exports){
-arguments[4][84][0].apply(exports,arguments)
-},{"dup":84}],272:[function(require,module,exports){
+},{"dup":76}],270:[function(require,module,exports){
+arguments[4][78][0].apply(exports,arguments)
+},{"dup":78}],271:[function(require,module,exports){
+arguments[4][79][0].apply(exports,arguments)
+},{"dup":79}],272:[function(require,module,exports){
+arguments[4][80][0].apply(exports,arguments)
+},{"./setPrototypeOf":276,"dup":80}],273:[function(require,module,exports){
+arguments[4][85][0].apply(exports,arguments)
+},{"./objectWithoutPropertiesLoose":274,"dup":85}],274:[function(require,module,exports){
 arguments[4][86][0].apply(exports,arguments)
-},{"dup":86}],273:[function(require,module,exports){
-arguments[4][251][0].apply(exports,arguments)
-},{"dup":251}],274:[function(require,module,exports){
-arguments[4][253][0].apply(exports,arguments)
-},{"./lib/ReactPropTypesSecret":278,"_process":252,"dup":253}],275:[function(require,module,exports){
-arguments[4][254][0].apply(exports,arguments)
-},{"./lib/ReactPropTypesSecret":278,"dup":254}],276:[function(require,module,exports){
+},{"dup":86}],275:[function(require,module,exports){
+arguments[4][87][0].apply(exports,arguments)
+},{"../helpers/typeof":277,"./assertThisInitialized":267,"dup":87}],276:[function(require,module,exports){
+arguments[4][88][0].apply(exports,arguments)
+},{"dup":88}],277:[function(require,module,exports){
+arguments[4][90][0].apply(exports,arguments)
+},{"dup":90}],278:[function(require,module,exports){
 arguments[4][255][0].apply(exports,arguments)
-},{"./checkPropTypes":274,"./lib/ReactPropTypesSecret":278,"_process":252,"dup":255,"object-assign":273}],277:[function(require,module,exports){
-arguments[4][256][0].apply(exports,arguments)
-},{"./factoryWithThrowingShims":275,"./factoryWithTypeCheckers":276,"_process":252,"dup":256}],278:[function(require,module,exports){
-arguments[4][257][0].apply(exports,arguments)
-},{"dup":257}],279:[function(require,module,exports){
+},{"dup":255}],279:[function(require,module,exports){
+arguments[4][258][0].apply(exports,arguments)
+},{"./lib/ReactPropTypesSecret":283,"_process":257,"dup":258}],280:[function(require,module,exports){
+arguments[4][259][0].apply(exports,arguments)
+},{"./lib/ReactPropTypesSecret":283,"dup":259}],281:[function(require,module,exports){
+arguments[4][260][0].apply(exports,arguments)
+},{"./checkPropTypes":279,"./lib/ReactPropTypesSecret":283,"_process":257,"dup":260,"object-assign":278}],282:[function(require,module,exports){
+arguments[4][261][0].apply(exports,arguments)
+},{"./factoryWithThrowingShims":280,"./factoryWithTypeCheckers":281,"_process":257,"dup":261}],283:[function(require,module,exports){
+arguments[4][262][0].apply(exports,arguments)
+},{"dup":262}],284:[function(require,module,exports){
 (function (process){
 /** @license React v16.8.4
  * react-is.development.js
@@ -49178,7 +52647,7 @@ exports.isSuspense = isSuspense;
 }
 
 }).call(this,require('_process'))
-},{"_process":252}],280:[function(require,module,exports){
+},{"_process":257}],285:[function(require,module,exports){
 /** @license React v16.8.4
  * react-is.production.min.js
  *
@@ -49195,7 +52664,7 @@ exports.Fragment=e;exports.Lazy=r;exports.Memo=q;exports.Portal=d;exports.Profil
 exports.isContextProvider=function(a){return t(a)===h};exports.isElement=function(a){return"object"===typeof a&&null!==a&&a.$$typeof===c};exports.isForwardRef=function(a){return t(a)===n};exports.isFragment=function(a){return t(a)===e};exports.isLazy=function(a){return t(a)===r};exports.isMemo=function(a){return t(a)===q};exports.isPortal=function(a){return t(a)===d};exports.isProfiler=function(a){return t(a)===g};exports.isStrictMode=function(a){return t(a)===f};
 exports.isSuspense=function(a){return t(a)===p};
 
-},{}],281:[function(require,module,exports){
+},{}],286:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -49206,7 +52675,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react-is.development.js":279,"./cjs/react-is.production.min.js":280,"_process":252}],282:[function(require,module,exports){
+},{"./cjs/react-is.development.js":284,"./cjs/react-is.production.min.js":285,"_process":257}],287:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -49250,7 +52719,7 @@ var didNotFindHydratableContainerInstance = exports.didNotFindHydratableContaine
 var didNotFindHydratableContainerTextInstance = exports.didNotFindHydratableContainerTextInstance = shim;
 var didNotFindHydratableInstance = exports.didNotFindHydratableInstance = shim;
 var didNotFindHydratableTextInstance = exports.didNotFindHydratableTextInstance = shim;
-},{"./invariant":287}],283:[function(require,module,exports){
+},{"./invariant":292}],288:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -49288,7 +52757,7 @@ var replaceContainerChildren = exports.replaceContainerChildren = shim;
 var cloneHiddenInstance = exports.cloneHiddenInstance = shim;
 var cloneUnhiddenInstance = exports.cloneUnhiddenInstance = shim;
 var createHiddenTextInstance = exports.createHiddenTextInstance = shim;
-},{"./invariant":287}],284:[function(require,module,exports){
+},{"./invariant":292}],289:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -49329,7 +52798,7 @@ function getClosestInstanceFromNode(node) {
 
   return null;
 }
-},{}],285:[function(require,module,exports){
+},{}],290:[function(require,module,exports){
 (function (process){
 /**
  * Based on ReactArt.js
@@ -49495,7 +52964,7 @@ module.exports = _extends({}, TYPES, {
   useStrictMode: toggleStrictMode
 });
 }).call(this,require('_process'))
-},{"./ReactDOMComponentTree":284,"./ReactKonvaHostConfig":286,"./makeUpdates":288,"_process":252,"konva":229,"react":299,"react-reconciler":292}],286:[function(require,module,exports){
+},{"./ReactDOMComponentTree":289,"./ReactKonvaHostConfig":291,"./makeUpdates":293,"_process":257,"konva":233,"react":304,"react-reconciler":297}],291:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -49755,7 +53224,7 @@ function unhideInstance(instance, props) {
 function unhideTextInstance(textInstance, text) {
   // Noop
 }
-},{"./HostConfigWithNoHydration":282,"./HostConfigWithNoPersistence":283,"./invariant":287,"./makeUpdates":288,"konva":229,"scheduler":324}],287:[function(require,module,exports){
+},{"./HostConfigWithNoHydration":287,"./HostConfigWithNoPersistence":288,"./invariant":292,"./makeUpdates":293,"konva":233,"scheduler":329}],292:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -49810,7 +53279,7 @@ function invariant(condition, format) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":252}],288:[function(require,module,exports){
+},{"_process":257}],293:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -49917,7 +53386,7 @@ function updatePicture(node) {
   var drawingNode = node.getLayer() || node.getStage();
   drawingNode && drawingNode.batchDraw();
 }
-},{}],289:[function(require,module,exports){
+},{}],294:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', { value: true });
@@ -50081,7 +53550,7 @@ function polyfill(Component) {
 
 exports.polyfill = polyfill;
 
-},{}],290:[function(require,module,exports){
+},{}],295:[function(require,module,exports){
 (function (process){
 /** @license React v0.20.2
  * react-reconciler.development.js
@@ -62829,7 +66298,7 @@ module.exports = reactReconciler;
 }
 
 }).call(this,require('_process'))
-},{"_process":252,"object-assign":251,"prop-types/checkPropTypes":253,"react":299,"scheduler":324,"scheduler/tracing":325}],291:[function(require,module,exports){
+},{"_process":257,"object-assign":255,"prop-types/checkPropTypes":258,"react":304,"scheduler":329,"scheduler/tracing":330}],296:[function(require,module,exports){
 /** @license React v0.20.2
  * react-reconciler.production.min.js
  *
@@ -62999,7 +66468,7 @@ module.exports=Gf.default||Gf;
     return $$$renderer;
 };
 
-},{"object-assign":251,"react":299,"scheduler":324}],292:[function(require,module,exports){
+},{"object-assign":255,"react":304,"scheduler":329}],297:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -63010,7 +66479,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react-reconciler.development.js":290,"./cjs/react-reconciler.production.min.js":291,"_process":252}],293:[function(require,module,exports){
+},{"./cjs/react-reconciler.development.js":295,"./cjs/react-reconciler.production.min.js":296,"_process":257}],298:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -63619,7 +67088,7 @@ var _default = (0, _reactLifecyclesCompat.polyfill)(Transition);
 
 exports.default = _default;
 }).call(this,require('_process'))
-},{"./utils/PropTypes":296,"_process":252,"prop-types":256,"react":299,"react-dom":260,"react-lifecycles-compat":289}],294:[function(require,module,exports){
+},{"./utils/PropTypes":301,"_process":257,"prop-types":261,"react":304,"react-dom":265,"react-lifecycles-compat":294}],299:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -63823,7 +67292,7 @@ var _default = (0, _reactLifecyclesCompat.polyfill)(TransitionGroup);
 exports.default = _default;
 module.exports = exports["default"];
 }).call(this,require('_process'))
-},{"./utils/ChildMapping":295,"_process":252,"prop-types":256,"react":299,"react-lifecycles-compat":289}],295:[function(require,module,exports){
+},{"./utils/ChildMapping":300,"_process":257,"prop-types":261,"react":304,"react-lifecycles-compat":294}],300:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -63974,7 +67443,7 @@ function getNextChildMapping(nextProps, prevChildMapping, onExited) {
   });
   return children;
 }
-},{"react":299}],296:[function(require,module,exports){
+},{"react":304}],301:[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -64005,7 +67474,7 @@ var classNamesShape = process.env.NODE_ENV !== 'production' ? _propTypes.default
 })]) : null;
 exports.classNamesShape = classNamesShape;
 }).call(this,require('_process'))
-},{"_process":252,"prop-types":256}],297:[function(require,module,exports){
+},{"_process":257,"prop-types":261}],302:[function(require,module,exports){
 (function (process){
 /** @license React v16.8.4
  * react.development.js
@@ -65910,7 +69379,7 @@ module.exports = react;
 }
 
 }).call(this,require('_process'))
-},{"_process":252,"object-assign":251,"prop-types/checkPropTypes":253}],298:[function(require,module,exports){
+},{"_process":257,"object-assign":255,"prop-types/checkPropTypes":258}],303:[function(require,module,exports){
 /** @license React v16.8.4
  * react.production.min.js
  *
@@ -65937,7 +69406,7 @@ b,d){return W().useImperativeHandle(a,b,d)},useDebugValue:function(){},useLayout
 b){void 0!==b.ref&&(h=b.ref,f=J.current);void 0!==b.key&&(g=""+b.key);var l=void 0;a.type&&a.type.defaultProps&&(l=a.type.defaultProps);for(c in b)K.call(b,c)&&!L.hasOwnProperty(c)&&(e[c]=void 0===b[c]&&void 0!==l?l[c]:b[c])}c=arguments.length-2;if(1===c)e.children=d;else if(1<c){l=Array(c);for(var m=0;m<c;m++)l[m]=arguments[m+2];e.children=l}return{$$typeof:p,type:a.type,key:g,ref:h,props:e,_owner:f}},createFactory:function(a){var b=M.bind(null,a);b.type=a;return b},isValidElement:N,version:"16.8.4",
 unstable_ConcurrentMode:x,unstable_Profiler:u,__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentDispatcher:I,ReactCurrentOwner:J,assign:k}},Y={default:X},Z=Y&&X||Y;module.exports=Z.default||Z;
 
-},{"object-assign":251}],299:[function(require,module,exports){
+},{"object-assign":255}],304:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -65948,13 +69417,13 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react.development.js":297,"./cjs/react.production.min.js":298,"_process":252}],300:[function(require,module,exports){
+},{"./cjs/react.development.js":302,"./cjs/react.production.min.js":303,"_process":257}],305:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-},{}],301:[function(require,module,exports){
+},{}],306:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -66001,7 +69470,7 @@ exports.addAction = addAction;
 exports.createdStores = createdStores;
 exports.createdActions = createdActions;
 exports.reset = reset;
-},{}],302:[function(require,module,exports){
+},{}],307:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -66239,7 +69708,7 @@ var joinConcat = exports.joinConcat = (0, _joins.instanceJoinCreator)("all");
  * @returns {Object} A subscription obj where `stop` is an unsub function and `listenable` is an array of listenables
  */
 var joinStrict = exports.joinStrict = (0, _joins.instanceJoinCreator)("strict");
-},{"./joins":309,"./utils":311}],303:[function(require,module,exports){
+},{"./joins":314,"./utils":316}],308:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -66343,9 +69812,9 @@ var deferWith = exports.deferWith = function deferWith(callback) {
         callback.apply(ctx, [resolver].concat([].splice.call(arguments, 0)));
     };
 };
-},{"./utils":311}],304:[function(require,module,exports){
-arguments[4][300][0].apply(exports,arguments)
-},{"dup":300}],305:[function(require,module,exports){
+},{"./utils":316}],309:[function(require,module,exports){
+arguments[4][305][0].apply(exports,arguments)
+},{"dup":305}],310:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -66375,7 +69844,7 @@ function bindMethods(store, definition) {
 
     return store;
 }
-},{}],306:[function(require,module,exports){
+},{}],311:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -66465,7 +69934,7 @@ function createAction(definition) {
 
     return functor;
 }
-},{"./ActionMethods":300,"./Keep":301,"./PublisherMethods":303,"./utils":311}],307:[function(require,module,exports){
+},{"./ActionMethods":305,"./Keep":306,"./PublisherMethods":308,"./utils":316}],312:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -66552,7 +70021,7 @@ function createStore(definition) {
 
     return store;
 }
-},{"./Keep":301,"./ListenerMethods":302,"./PublisherMethods":303,"./StoreMethods":304,"./bindMethods":305,"./mixer":310,"./utils":311}],308:[function(require,module,exports){
+},{"./Keep":306,"./ListenerMethods":307,"./PublisherMethods":308,"./StoreMethods":309,"./bindMethods":310,"./mixer":315,"./utils":316}],313:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -66695,7 +70164,7 @@ Object.defineProperty(exports, "default", {
 if (!Function.prototype.bind) {
     console.error("Function.prototype.bind not available. " + "ES5 shim required. " + "https://github.com/spoike/refluxjs#es5");
 }
-},{"./ActionMethods":300,"./Keep":301,"./ListenerMethods":302,"./PublisherMethods":303,"./StoreMethods":304,"./createAction":306,"./createStore":307,"./joins":309,"./utils":311}],309:[function(require,module,exports){
+},{"./ActionMethods":305,"./Keep":306,"./ListenerMethods":307,"./PublisherMethods":308,"./StoreMethods":309,"./createAction":311,"./createStore":312,"./joins":314,"./utils":316}],314:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -66823,7 +70292,7 @@ function emitIfAllListenablesEmitted(join) {
     join.callback.apply(join.listener, join.args);
     reset(join);
 }
-},{"./createStore":307,"./utils":311}],310:[function(require,module,exports){
+},{"./createStore":312,"./utils":316}],315:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -66892,7 +70361,7 @@ function mix(def) {
 
     return updated;
 }
-},{"./utils":311}],311:[function(require,module,exports){
+},{"./utils":316}],316:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -66977,7 +70446,7 @@ function throwIf(val, msg) {
         throw Error(msg || val);
     }
 }
-},{"eventemitter3":147}],312:[function(require,module,exports){
+},{"eventemitter3":151}],317:[function(require,module,exports){
 var _ = require('reflux-core/lib/utils'),
     ListenerMethods = require('reflux-core/lib/ListenerMethods');
 
@@ -66996,7 +70465,7 @@ module.exports = _.extend({
 
 }, ListenerMethods);
 
-},{"reflux-core/lib/ListenerMethods":302,"reflux-core/lib/utils":311}],313:[function(require,module,exports){
+},{"reflux-core/lib/ListenerMethods":307,"reflux-core/lib/utils":316}],318:[function(require,module,exports){
 
 /* globals React: false */
 
@@ -67037,7 +70506,7 @@ if (typeof React !== 'undefined' && React) {
 	} catch (e) {}
 }
 
-},{"./defineReact":316,"react":299,"reflux-core":308}],314:[function(require,module,exports){
+},{"./defineReact":321,"react":304,"reflux-core":313}],319:[function(require,module,exports){
 var ListenerMethods = require('reflux-core/lib/ListenerMethods'),
     ListenerMixin = require('./ListenerMixin'),
     _ = require('reflux-core/lib/utils');
@@ -67067,7 +70536,7 @@ module.exports = function(listenable, key) {
     };
 };
 
-},{"./ListenerMixin":312,"reflux-core/lib/ListenerMethods":302,"reflux-core/lib/utils":311}],315:[function(require,module,exports){
+},{"./ListenerMixin":317,"reflux-core/lib/ListenerMethods":307,"reflux-core/lib/utils":316}],320:[function(require,module,exports){
 var ListenerMethods = require('reflux-core/lib/ListenerMethods'),
     ListenerMixin = require('./ListenerMixin'),
     _ = require('reflux-core/lib/utils');
@@ -67104,7 +70573,7 @@ module.exports = function(listenable, key, filterFunc) {
     };
 };
 
-},{"./ListenerMixin":312,"reflux-core/lib/ListenerMethods":302,"reflux-core/lib/utils":311}],316:[function(require,module,exports){
+},{"./ListenerMixin":317,"reflux-core/lib/ListenerMethods":307,"reflux-core/lib/utils":316}],321:[function(require,module,exports){
 /* globals React: false */
 
 var Reflux = require('reflux-core');
@@ -67578,7 +71047,7 @@ function clone(frm, to) {
 module.exports = defineReact;
 
 
-},{"reflux-core":308}],317:[function(require,module,exports){
+},{"reflux-core":313}],322:[function(require,module,exports){
 var Reflux = require('reflux-core');
 
 Reflux.serverMode = typeof window !== 'object';
@@ -67597,7 +71066,7 @@ require('./addES6');
 
 module.exports = Reflux;
 
-},{"./ListenerMixin":312,"./addES6":313,"./connect":314,"./connectFilter":315,"./listenTo":318,"./listenToMany":319,"reflux-core":308}],318:[function(require,module,exports){
+},{"./ListenerMixin":317,"./addES6":318,"./connect":319,"./connectFilter":320,"./listenTo":323,"./listenToMany":324,"reflux-core":313}],323:[function(require,module,exports){
 var ListenerMethods = require('reflux-core/lib/ListenerMethods');
 
 /**
@@ -67634,7 +71103,7 @@ module.exports = function(listenable,callback,initial){
     };
 };
 
-},{"reflux-core/lib/ListenerMethods":302}],319:[function(require,module,exports){
+},{"reflux-core/lib/ListenerMethods":307}],324:[function(require,module,exports){
 var ListenerMethods = require('reflux-core/lib/ListenerMethods');
 
 /**
@@ -67669,7 +71138,7 @@ module.exports = function(listenables){
     };
 };
 
-},{"reflux-core/lib/ListenerMethods":302}],320:[function(require,module,exports){
+},{"reflux-core/lib/ListenerMethods":307}],325:[function(require,module,exports){
 (function (process){
 /** @license React v0.13.4
  * scheduler-tracing.development.js
@@ -68096,7 +71565,7 @@ exports.unstable_unsubscribe = unstable_unsubscribe;
 }
 
 }).call(this,require('_process'))
-},{"_process":252}],321:[function(require,module,exports){
+},{"_process":257}],326:[function(require,module,exports){
 /** @license React v0.13.4
  * scheduler-tracing.production.min.js
  *
@@ -68108,7 +71577,7 @@ exports.unstable_unsubscribe = unstable_unsubscribe;
 
 'use strict';Object.defineProperty(exports,"__esModule",{value:!0});var b=0;exports.__interactionsRef=null;exports.__subscriberRef=null;exports.unstable_clear=function(a){return a()};exports.unstable_getCurrent=function(){return null};exports.unstable_getThreadID=function(){return++b};exports.unstable_trace=function(a,d,c){return c()};exports.unstable_wrap=function(a){return a};exports.unstable_subscribe=function(){};exports.unstable_unsubscribe=function(){};
 
-},{}],322:[function(require,module,exports){
+},{}],327:[function(require,module,exports){
 (function (process,global){
 /** @license React v0.13.4
  * scheduler.development.js
@@ -68811,7 +72280,7 @@ exports.unstable_getFirstCallbackNode = unstable_getFirstCallbackNode;
 }
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"_process":252}],323:[function(require,module,exports){
+},{"_process":257}],328:[function(require,module,exports){
 (function (global){
 /** @license React v0.13.4
  * scheduler.production.min.js
@@ -68836,7 +72305,7 @@ b=c.previous;b.next=c.previous=a;a.next=c;a.previous=b}return a};exports.unstabl
 exports.unstable_shouldYield=function(){return!e&&(null!==d&&d.expirationTime<l||w())};exports.unstable_continueExecution=function(){null!==d&&p()};exports.unstable_pauseExecution=function(){};exports.unstable_getFirstCallbackNode=function(){return d};
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],324:[function(require,module,exports){
+},{}],329:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -68847,7 +72316,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/scheduler.development.js":322,"./cjs/scheduler.production.min.js":323,"_process":252}],325:[function(require,module,exports){
+},{"./cjs/scheduler.development.js":327,"./cjs/scheduler.production.min.js":328,"_process":257}],330:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -68858,11 +72327,11 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/scheduler-tracing.development.js":320,"./cjs/scheduler-tracing.production.min.js":321,"_process":252}],326:[function(require,module,exports){
+},{"./cjs/scheduler-tracing.development.js":325,"./cjs/scheduler-tracing.production.min.js":326,"_process":257}],331:[function(require,module,exports){
 'use strict';
 module.exports = require('./lib/index');
 
-},{"./lib/index":330}],327:[function(require,module,exports){
+},{"./lib/index":335}],332:[function(require,module,exports){
 'use strict';
 
 var randomFromSeed = require('./random/random-from-seed');
@@ -68967,7 +72436,7 @@ module.exports = {
     shuffled: getShuffled
 };
 
-},{"./random/random-from-seed":333}],328:[function(require,module,exports){
+},{"./random/random-from-seed":338}],333:[function(require,module,exports){
 'use strict';
 
 var generate = require('./generate');
@@ -69015,7 +72484,7 @@ function build(clusterWorkerId) {
 
 module.exports = build;
 
-},{"./alphabet":327,"./generate":329}],329:[function(require,module,exports){
+},{"./alphabet":332,"./generate":334}],334:[function(require,module,exports){
 'use strict';
 
 var alphabet = require('./alphabet');
@@ -69038,7 +72507,7 @@ function generate(number) {
 
 module.exports = generate;
 
-},{"./alphabet":327,"./random/random-byte":332,"nanoid/format":250}],330:[function(require,module,exports){
+},{"./alphabet":332,"./random/random-byte":337,"nanoid/format":254}],335:[function(require,module,exports){
 'use strict';
 
 var alphabet = require('./alphabet');
@@ -69102,7 +72571,7 @@ module.exports.worker = worker;
 module.exports.characters = characters;
 module.exports.isValid = isValid;
 
-},{"./alphabet":327,"./build":328,"./is-valid":331,"./util/cluster-worker-id":334}],331:[function(require,module,exports){
+},{"./alphabet":332,"./build":333,"./is-valid":336,"./util/cluster-worker-id":339}],336:[function(require,module,exports){
 'use strict';
 var alphabet = require('./alphabet');
 
@@ -69119,7 +72588,7 @@ function isShortId(id) {
 
 module.exports = isShortId;
 
-},{"./alphabet":327}],332:[function(require,module,exports){
+},{"./alphabet":332}],337:[function(require,module,exports){
 'use strict';
 
 var crypto = typeof window === 'object' && (window.crypto || window.msCrypto); // IE 11 uses window.msCrypto
@@ -69142,7 +72611,7 @@ if (!crypto || !crypto.getRandomValues) {
 
 module.exports = randomByte;
 
-},{}],333:[function(require,module,exports){
+},{}],338:[function(require,module,exports){
 'use strict';
 
 // Found this seed-based random generator somewhere
@@ -69169,12 +72638,12 @@ module.exports = {
     seed: setSeed
 };
 
-},{}],334:[function(require,module,exports){
+},{}],339:[function(require,module,exports){
 'use strict';
 
 module.exports = 0;
 
-},{}],335:[function(require,module,exports){
+},{}],340:[function(require,module,exports){
 (function (global){
 'use strict';
 
@@ -69206,7 +72675,7 @@ if (typeof self !== 'undefined') {
 var result = (0, _ponyfill2['default'])(root);
 exports['default'] = result;
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./ponyfill.js":336}],336:[function(require,module,exports){
+},{"./ponyfill.js":341}],341:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -69230,7 +72699,7 @@ function symbolObservablePonyfill(root) {
 
 	return result;
 };
-},{}],337:[function(require,module,exports){
+},{}],342:[function(require,module,exports){
 var React = require('react');
 
 var defaultState = { image: undefined, status: 'loading' };
@@ -69274,7 +72743,7 @@ module.exports = function useImage(url, crossOrigin) {
   return [image, status];
 };
 
-},{"react":299}],338:[function(require,module,exports){
+},{"react":304}],343:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
@@ -69340,7 +72809,7 @@ if (__DEV__) {
 module.exports = warning;
 
 }).call(this,require('_process'))
-},{"_process":252}],339:[function(require,module,exports){
+},{"_process":257}],344:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -69362,7 +72831,7 @@ class Ammeter extends _react.default.Component {
       x: 60 * this.props.x + 30,
       y: 60 * this.props.y + 30
     }, _react.default.createElement(_reactKonva.Circle, {
-      radius: 25,
+      radius: 28,
       x: 30,
       y: 30,
       strokeWidth: 1.5,
@@ -69386,7 +72855,7 @@ Ammeter.propTypes = {
 var _default = Ammeter;
 exports.default = _default;
 
-},{"prop-types":256,"react":299,"react-konva":285}],340:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],345:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -69439,7 +72908,7 @@ FixedResistance.propTypes = {
 var _default = FixedResistance;
 exports.default = _default;
 
-},{"prop-types":256,"react":299,"react-konva":285}],341:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],346:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -69491,7 +72960,7 @@ Light.propTypes = {
 var _default = Light;
 exports.default = _default;
 
-},{"prop-types":256,"react":299,"react-konva":285}],342:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],347:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -69548,7 +73017,7 @@ Power.propTypes = {
 var _default = Power;
 exports.default = _default;
 
-},{"prop-types":256,"react":299,"react-konva":285}],343:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],348:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -69631,7 +73100,7 @@ SlidingRheostat.propTypes = {
 var _default = SlidingRheostat;
 exports.default = _default;
 
-},{"prop-types":256,"react":299,"react-konva":285}],344:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],349:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -69689,7 +73158,7 @@ SwitchOff.propTypes = {
 var _default = SwitchOff;
 exports.default = _default;
 
-},{"prop-types":256,"react":299,"react-konva":285}],345:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],350:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -69747,7 +73216,7 @@ SwitchOn.propTypes = {
 var _default = SwitchOn;
 exports.default = _default;
 
-},{"prop-types":256,"react":299,"react-konva":285}],346:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],351:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -69769,7 +73238,7 @@ class Voltmeter extends _react.default.Component {
       x: 60 * this.props.x + 30,
       y: 60 * this.props.y + 30
     }, _react.default.createElement(_reactKonva.Circle, {
-      radius: 25,
+      radius: 28,
       x: 30,
       y: 30,
       strokeWidth: 1.5,
@@ -69793,7 +73262,7 @@ Voltmeter.propTypes = {
 var _default = Voltmeter;
 exports.default = _default;
 
-},{"prop-types":256,"react":299,"react-konva":285}],347:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290}],352:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -69847,7 +73316,7 @@ AboutDialog.propTypes = {
 var _default = AboutDialog;
 exports.default = _default;
 
-},{"@material-ui/core/Button":11,"@material-ui/core/Dialog":19,"@material-ui/core/DialogActions":13,"@material-ui/core/DialogContent":15,"@material-ui/core/DialogTitle":17,"@material-ui/core/Typography":62,"@material-ui/core/styles":98,"prop-types":256,"react":299}],348:[function(require,module,exports){
+},{"@material-ui/core/Button":11,"@material-ui/core/Dialog":19,"@material-ui/core/DialogActions":13,"@material-ui/core/DialogContent":15,"@material-ui/core/DialogTitle":17,"@material-ui/core/Typography":66,"@material-ui/core/styles":102,"prop-types":261,"react":304}],353:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -69939,8 +73408,9 @@ class ChooseComponentDialog extends _react.default.Component {
     }, _react.default.createElement(_DialogTitle.default, {
       id: "customized-dialog-title",
       onClose: this.onClose
-    }, "选择想向图纸添加的电路元件……"), _react.default.createElement(_DialogContent.default, null, _react.default.createElement(_MenuList.default, null, componentList.map((n, index) => _react.default.createElement(_MenuItem.default, {
-      key: index
+    }, "选择向图纸添加的电路元件……"), _react.default.createElement(_DialogContent.default, null, _react.default.createElement(_MenuList.default, null, componentList.map((n, index) => _react.default.createElement(_MenuItem.default, {
+      key: index,
+      onClick: () => this.props.onChooseComponent(n.class, n.text)
     }, _react.default.createElement(_ListItemIcon.default, null, n.icon), _react.default.createElement(_ListItemText.default, null, n.text))))), _react.default.createElement(_DialogActions.default, null, _react.default.createElement(_Button.default, {
       onClick: this.props.onClose,
       color: "primary"
@@ -69957,7 +73427,7 @@ ChooseComponentDialog.propTypes = {
 var _default = ChooseComponentDialog;
 exports.default = _default;
 
-},{"../svgs/ammeter":351,"../svgs/fixedResistance":352,"../svgs/light":353,"../svgs/power":354,"../svgs/slidingRheostat":355,"../svgs/switch":356,"../svgs/voltmeter":357,"@material-ui/core/Button":11,"@material-ui/core/Dialog":19,"@material-ui/core/DialogActions":13,"@material-ui/core/DialogContent":15,"@material-ui/core/DialogTitle":17,"@material-ui/core/ListItemIcon":29,"@material-ui/core/ListItemText":31,"@material-ui/core/MenuItem":39,"@material-ui/core/MenuList":41,"@material-ui/core/Typography":62,"@material-ui/core/styles":98,"prop-types":256,"react":299}],349:[function(require,module,exports){
+},{"../svgs/ammeter":357,"../svgs/fixedResistance":358,"../svgs/light":359,"../svgs/power":360,"../svgs/slidingRheostat":361,"../svgs/switch":362,"../svgs/voltmeter":363,"@material-ui/core/Button":11,"@material-ui/core/Dialog":19,"@material-ui/core/DialogActions":13,"@material-ui/core/DialogContent":15,"@material-ui/core/DialogTitle":17,"@material-ui/core/ListItemIcon":29,"@material-ui/core/ListItemText":31,"@material-ui/core/MenuItem":39,"@material-ui/core/MenuList":41,"@material-ui/core/Typography":66,"@material-ui/core/styles":102,"prop-types":261,"react":304}],354:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -69989,6 +73459,8 @@ var _Fab = _interopRequireDefault(require("@material-ui/core/Fab"));
 
 var _Paper = _interopRequireDefault(require("@material-ui/core/Paper"));
 
+var _Tooltip = _interopRequireDefault(require("@material-ui/core/Tooltip"));
+
 var _plus = _interopRequireDefault(require("mdi-material-ui/plus"));
 
 var _menu = _interopRequireDefault(require("mdi-material-ui/menu"));
@@ -69996,6 +73468,8 @@ var _menu = _interopRequireDefault(require("mdi-material-ui/menu"));
 var _blue = _interopRequireDefault(require("@material-ui/core/colors/blue"));
 
 var _red = _interopRequireDefault(require("@material-ui/core/colors/red"));
+
+var _store = require("./store");
 
 var _grid = _interopRequireDefault(require("./views/grid"));
 
@@ -70042,15 +73516,8 @@ const styles = theme => ({
 });
 
 class MainWindow extends _reflux.default.Component {
-  constructor(...args) {
-    super(...args);
-
-    _defineProperty(this, "state", {
-      anchorEl: null,
-      choosingComponent: null,
-      dialogAbout: false,
-      dialogChooseComponent: false
-    });
+  constructor(props) {
+    super(props);
 
     _defineProperty(this, "handleOpenMenu", event => this.setState({
       anchorEl: event.currentTarget
@@ -70075,17 +73542,28 @@ class MainWindow extends _reflux.default.Component {
     }));
 
     _defineProperty(this, "handleDialogChooseComponentOpen", () => this.setState({
-      dialogChooseComponent: true
+      dialogChooseComponent: true,
+      choosingComponent: null
     }));
 
     _defineProperty(this, "handleDialogChooseComponentClose", () => this.setState({
       dialogChooseComponent: false
     }));
 
-    _defineProperty(this, "handleDialogChooseComponentGet", choosing => this.setState({
+    _defineProperty(this, "handleDialogChooseComponentGet", (choosing, text) => this.setState({
       dialogChooseComponent: false,
-      choosingComponent: choosing
+      choosingComponent: choosing,
+      choosingComponentText: text
     }));
+
+    this.state = {
+      anchorEl: null,
+      choosingComponent: null,
+      choosingComponentText: "",
+      dialogAbout: false,
+      dialogChooseComponent: false
+    };
+    this.store = _store.Store;
   }
 
   render() {
@@ -70104,11 +73582,18 @@ class MainWindow extends _reflux.default.Component {
     }, "关于")), _react.default.createElement(_IconButton.default, {
       className: classes.menuButton,
       onClick: this.handleOpenMenu
-    }, _react.default.createElement(_menu.default, null)), _react.default.createElement(_Fab.default, {
+    }, _react.default.createElement(_menu.default, null)), _react.default.createElement(_Tooltip.default, {
+      open: this.state.choosingComponent != null,
+      title: this.state.choosingComponentText,
+      placement: "left",
+      disableFocusListener: true,
+      disableHoverListener: true,
+      disableTouchListener: true
+    }, _react.default.createElement(_Fab.default, {
       color: "primary",
       className: classes.fab,
       onClick: this.handleDialogChooseComponentOpen
-    }, _react.default.createElement(_plus.default, null)), _react.default.createElement("div", {
+    }, _react.default.createElement(_plus.default, null))), _react.default.createElement("div", {
       className: classes.map
     }, _react.default.createElement(_grid.default, null), _react.default.createElement(_chooseComponent.default, {
       open: this.state.dialogChooseComponent,
@@ -70130,7 +73615,7 @@ var _default = (0, _styles.withStyles)(styles)(MainWindow);
 
 exports.default = _default;
 
-},{"./dialogs/about":347,"./dialogs/chooseComponent":348,"./views/grid":359,"@material-ui/core/Fab":21,"@material-ui/core/IconButton":27,"@material-ui/core/Menu":43,"@material-ui/core/MenuItem":39,"@material-ui/core/Paper":52,"@material-ui/core/Typography":62,"@material-ui/core/colors/blue":63,"@material-ui/core/colors/red":68,"@material-ui/core/styles":98,"classnames":127,"mdi-material-ui/menu":247,"mdi-material-ui/plus":248,"prop-types":256,"react":299,"reflux":317,"shortid":326}],350:[function(require,module,exports){
+},{"./dialogs/about":352,"./dialogs/chooseComponent":353,"./store":356,"./views/grid":365,"@material-ui/core/Fab":21,"@material-ui/core/IconButton":27,"@material-ui/core/Menu":43,"@material-ui/core/MenuItem":39,"@material-ui/core/Paper":52,"@material-ui/core/Tooltip":64,"@material-ui/core/Typography":66,"@material-ui/core/colors/blue":67,"@material-ui/core/colors/red":72,"@material-ui/core/styles":102,"classnames":131,"mdi-material-ui/menu":251,"mdi-material-ui/plus":252,"prop-types":261,"react":304,"reflux":322,"shortid":331}],355:[function(require,module,exports){
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -70143,7 +73628,87 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 _reactDom.default.render(_react.default.createElement(_mainView.default, null), document.querySelector('#content'));
 
-},{"./mainView":349,"react":299,"react-dom":260}],351:[function(require,module,exports){
+},{"./mainView":354,"react":304,"react-dom":265}],356:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Actions = exports.Store = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reflux = _interopRequireDefault(require("reflux"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// 宏观动作，例如更改线路、元件的摆放位置等
+let actions = _reflux.default.createActions(["makeLine", // 创建连接线
+"makeCoomponent", // 创建元件
+"updateComponent", // 更新元件，例如改变固定 props 状态、移动元件
+"destoryLine", // 销毁连接线
+"destoryComponent" // 销毁元件
+]); // 电路本体存储，包括各元件位置及具体信息
+
+
+class Circult extends _reflux.default.Store {
+  constructor() {
+    super();
+    this.state = {
+      components: [{
+        class: "system.power",
+        x: 0,
+        y: 0,
+        props: {
+          U: 6,
+          source: true // 指定了此属性的元件会被作为电源看待，所有计算参数都先依赖于这个元件
+
+        },
+        state: {}
+      }, {
+        class: "system.light",
+        x: 3,
+        y: 0,
+        props: {
+          R: 12
+        }
+      }],
+      wires: [{
+        begin: {
+          x: 0,
+          y: 0
+        },
+        end: {
+          x: 3,
+          y: 0
+        },
+        state: {}
+      }]
+    };
+    this.listenToMany(actions);
+  }
+
+  makeLine(from, to) {}
+
+  makeComponent(className) {}
+
+  updateComponent(x, y, object) {}
+
+  destoryLine(from, to) {}
+
+  destoryComponent(x, y) {}
+
+}
+
+let Store = _reflux.default.initStore(Circult);
+
+exports.Store = Store;
+let Actions = actions;
+exports.Actions = Actions;
+
+},{"prop-types":261,"react":304,"reflux":322}],357:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -70187,7 +73752,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":299}],352:[function(require,module,exports){
+},{"react":304}],358:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -70245,7 +73810,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":299}],353:[function(require,module,exports){
+},{"react":304}],359:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -70303,7 +73868,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":299}],354:[function(require,module,exports){
+},{"react":304}],360:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -70376,7 +73941,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":299}],355:[function(require,module,exports){
+},{"react":304}],361:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -70499,7 +74064,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":299}],356:[function(require,module,exports){
+},{"react":304}],362:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -70571,7 +74136,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":299}],357:[function(require,module,exports){
+},{"react":304}],363:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -70615,7 +74180,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":299}],358:[function(require,module,exports){
+},{"react":304}],364:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -70650,7 +74215,7 @@ Element.propTypes = {
 var _default = Element;
 exports.default = _default;
 
-},{"prop-types":256,"react":299,"react-konva":285,"reflux":317,"use-image":337}],359:[function(require,module,exports){
+},{"prop-types":261,"react":304,"react-konva":290,"reflux":322,"use-image":342}],365:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -70741,4 +74306,4 @@ class Grid extends _react.default.Component {
 var _default = Grid;
 exports.default = _default;
 
-},{"../components/ammeter":339,"../components/fixedResistance":340,"../components/light":341,"../components/power":342,"../components/slidingRheostat":343,"../components/switchOff":344,"../components/switchOn":345,"../components/voltmeter":346,"./element":358,"react":299,"react-konva":285}]},{},[350]);
+},{"../components/ammeter":344,"../components/fixedResistance":345,"../components/light":346,"../components/power":347,"../components/slidingRheostat":348,"../components/switchOff":349,"../components/switchOn":350,"../components/voltmeter":351,"./element":364,"react":304,"react-konva":290}]},{},[355]);

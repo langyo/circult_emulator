@@ -22,6 +22,7 @@ import red from '@material-ui/core/colors/red';
 
 import Grid from "./views/grid";
 
+import ChooseComponentDialog from "./dialogs/chooseComponent";
 import AboutDialog from "./dialogs/about";
 
 const theme = createMuiTheme({
@@ -62,7 +63,10 @@ class MainWindow extends Reflux.Component {
     state = {
         anchorEl: null,
 
-        dialogAbout: false
+        choosingComponent: null,
+
+        dialogAbout: false,
+        dialogChooseComponent: false
     }
 
     handleOpenMenu = event => this.setState({ anchorEl: event.currentTarget });
@@ -71,6 +75,10 @@ class MainWindow extends Reflux.Component {
 
     handleDialogAboutOpen = () => this.setState({ dialogAbout: true, anchorEl: null  });
     handleDialogAboutClose = () => this.setState({ dialogAbout: false, anchorEl: null  });
+
+    handleDialogChooseComponentOpen = () => this.setState({ dialogChooseComponent: true });
+    handleDialogChooseComponentClose = () => this.setState({ dialogChooseComponent: false });
+    handleDialogChooseComponentGet = (choosing) => this.setState( {dialogChooseComponent: false, choosingComponent: choosing });
 
     render() {
         const { classes } = this.props;
@@ -106,12 +114,17 @@ class MainWindow extends Reflux.Component {
                 <IconButton className={classes.menuButton} onClick={this.handleOpenMenu}>
                     <MenuIcon />
                 </IconButton>
-                <Fab color="primary" className={classes.fab}>
+                <Fab color="primary" className={classes.fab} onClick={this.handleDialogChooseComponentOpen}>
                     <AddIcon />
                 </Fab>
                 {/* 底部电路方格 */}
                 <div className={classes.map}>
                     <Grid />
+                    <ChooseComponentDialog
+                        open={this.state.dialogChooseComponent}
+                        onClose={this.handleDialogChooseComponentClose}
+                        onChooseComponent={this.handleDialogChooseComponentGet} 
+                    />
                     <AboutDialog open={this.state.dialogAbout} onClose={this.handleDialogAboutClose} />
                 </div>
             </MuiThemeProvider>

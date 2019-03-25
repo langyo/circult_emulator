@@ -74405,15 +74405,32 @@ class Grid extends _reflux.default.Component {
   }
 
   render() {
-    return _react.default.createElement(_reactKonva.Group, null, this.state.wires.map(m => m.through.map(n => {
-      return _react.default.createElement(_wire.default, {
-        key: _shortid.default.generate(),
-        x: n.x,
-        y: n.y,
-        begin: "left",
-        end: "right"
+    return _react.default.createElement(_reactKonva.Group, null, this.state.wires.map(m => {
+      /* 生成连线方向列表 */
+      let list = [];
+
+      let parseTurn = (a, b) => {
+        if (a.y == b.y) {
+          // 两者在同一平面
+          if (a.x > b.x) {
+            // a 在 b 右边
+            return ["left", "right"];
+          } // TODO
+
+        }
+      }; // 先处理开头 begin 与 through 的第一个元素的方向判定
+
+
+      m.through.map((n, index) => {
+        return _react.default.createElement(_wire.default, {
+          key: _shortid.default.generate(),
+          x: n.x,
+          y: n.y,
+          begin: "left",
+          end: "right"
+        });
       });
-    })).reduce((prev, curr) => prev.concat(curr)));
+    }).reduce((prev, curr) => prev.concat(curr)));
   }
 
 }

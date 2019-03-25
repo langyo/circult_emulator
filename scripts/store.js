@@ -24,6 +24,7 @@ class Circult extends Reflux.Store {
                     y: 0,
                     props: {
                         U: 6,
+                        R: 0,
                         source: true    // 指定了此属性的元件会被作为电源看待，所有计算参数都先依赖于这个元件
                     },
                     state: {}

@@ -73230,6 +73230,91 @@ var _react = _interopRequireDefault(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
+var _reactKonva = require("react-konva");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class Light extends _react.default.Component {
+  render() {
+    return _react.default.createElement(_reactKonva.Group, {
+      x: 60 * this.props.x + 30,
+      y: 60 * this.props.y + 30
+    }, this.props.begin == "left" && _react.default.createElement(_reactKonva.Line, {
+      x: 0,
+      y: 30,
+      points: [0, 0, 30, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), this.props.begin == "right" && _react.default.createElement(_reactKonva.Line, {
+      x: 30,
+      y: 30,
+      points: [0, 0, 30, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), this.props.begin == "top" && _react.default.createElement(_reactKonva.Line, {
+      x: 30,
+      y: 0,
+      points: [0, 0, 0, 30],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), this.props.begin == "bottom" && _react.default.createElement(_reactKonva.Line, {
+      x: 30,
+      y: 30,
+      points: [0, 0, 0, 30],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), this.props.end == "left" && _react.default.createElement(_reactKonva.Line, {
+      x: 0,
+      y: 30,
+      points: [0, 0, 30, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), this.props.end == "right" && _react.default.createElement(_reactKonva.Line, {
+      x: 30,
+      y: 30,
+      points: [0, 0, 30, 0],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), this.props.end == "top" && _react.default.createElement(_reactKonva.Line, {
+      x: 30,
+      y: 0,
+      points: [0, 0, 0, 30],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }), this.props.end == "bottom" && _react.default.createElement(_reactKonva.Line, {
+      x: 30,
+      y: 30,
+      points: [0, 0, 0, 30],
+      strokeWidth: "1.5",
+      stroke: "#000"
+    }));
+  }
+
+}
+
+Light.propTypes = {
+  x: _propTypes.default.number,
+  y: _propTypes.default.number,
+  // begin 与 end 均只有以下的值：
+  // "left"|"right"|"top"|"bottom"
+  begin: _propTypes.default.string,
+  end: _propTypes.default.string
+};
+var _default = Light;
+exports.default = _default;
+
+},{"prop-types":261,"react":304,"react-konva":290}],352:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
 var _styles = require("@material-ui/core/styles");
 
 var _Button = _interopRequireDefault(require("@material-ui/core/Button"));
@@ -73282,7 +73367,7 @@ AboutDialog.propTypes = {
 var _default = AboutDialog;
 exports.default = _default;
 
-},{"@material-ui/core/Button":11,"@material-ui/core/Dialog":19,"@material-ui/core/DialogActions":13,"@material-ui/core/DialogContent":15,"@material-ui/core/DialogTitle":17,"@material-ui/core/Typography":66,"@material-ui/core/styles":102,"prop-types":261,"react":304}],352:[function(require,module,exports){
+},{"@material-ui/core/Button":11,"@material-ui/core/Dialog":19,"@material-ui/core/DialogActions":13,"@material-ui/core/DialogContent":15,"@material-ui/core/DialogTitle":17,"@material-ui/core/Typography":66,"@material-ui/core/styles":102,"prop-types":261,"react":304}],353:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73393,7 +73478,7 @@ ChooseComponentDialog.propTypes = {
 var _default = ChooseComponentDialog;
 exports.default = _default;
 
-},{"../svgs/ammeter":356,"../svgs/fixedResistance":357,"../svgs/light":358,"../svgs/power":359,"../svgs/slidingRheostat":360,"../svgs/switch":361,"../svgs/voltmeter":362,"@material-ui/core/Button":11,"@material-ui/core/Dialog":19,"@material-ui/core/DialogActions":13,"@material-ui/core/DialogContent":15,"@material-ui/core/DialogTitle":17,"@material-ui/core/ListItemIcon":29,"@material-ui/core/ListItemText":31,"@material-ui/core/MenuItem":39,"@material-ui/core/MenuList":41,"@material-ui/core/Typography":66,"@material-ui/core/styles":102,"prop-types":261,"react":304}],353:[function(require,module,exports){
+},{"../svgs/ammeter":357,"../svgs/fixedResistance":358,"../svgs/light":359,"../svgs/power":360,"../svgs/slidingRheostat":361,"../svgs/switch":362,"../svgs/voltmeter":363,"@material-ui/core/Button":11,"@material-ui/core/Dialog":19,"@material-ui/core/DialogActions":13,"@material-ui/core/DialogContent":15,"@material-ui/core/DialogTitle":17,"@material-ui/core/ListItemIcon":29,"@material-ui/core/ListItemText":31,"@material-ui/core/MenuItem":39,"@material-ui/core/MenuList":41,"@material-ui/core/Typography":66,"@material-ui/core/styles":102,"prop-types":261,"react":304}],354:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73581,7 +73666,7 @@ var _default = (0, _styles.withStyles)(styles)(MainWindow);
 
 exports.default = _default;
 
-},{"./dialogs/about":351,"./dialogs/chooseComponent":352,"./store":355,"./views/mainCanva":366,"@material-ui/core/Fab":21,"@material-ui/core/IconButton":27,"@material-ui/core/Menu":43,"@material-ui/core/MenuItem":39,"@material-ui/core/Paper":52,"@material-ui/core/Tooltip":64,"@material-ui/core/Typography":66,"@material-ui/core/colors/blue":67,"@material-ui/core/colors/red":72,"@material-ui/core/styles":102,"classnames":131,"mdi-material-ui/menu":251,"mdi-material-ui/plus":252,"prop-types":261,"react":304,"reflux":322,"shortid":331}],354:[function(require,module,exports){
+},{"./dialogs/about":352,"./dialogs/chooseComponent":353,"./store":356,"./views/mainCanva":367,"@material-ui/core/Fab":21,"@material-ui/core/IconButton":27,"@material-ui/core/Menu":43,"@material-ui/core/MenuItem":39,"@material-ui/core/Paper":52,"@material-ui/core/Tooltip":64,"@material-ui/core/Typography":66,"@material-ui/core/colors/blue":67,"@material-ui/core/colors/red":72,"@material-ui/core/styles":102,"classnames":131,"mdi-material-ui/menu":251,"mdi-material-ui/plus":252,"prop-types":261,"react":304,"reflux":322,"shortid":331}],355:[function(require,module,exports){
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -73594,7 +73679,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 _reactDom.default.render(_react.default.createElement(_mainView.default, null), document.querySelector('#content'));
 
-},{"./mainView":353,"react":304,"react-dom":265}],355:[function(require,module,exports){
+},{"./mainView":354,"react":304,"react-dom":265}],356:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73651,21 +73736,15 @@ class Circult extends _reflux.default.Store {
           x: 3,
           y: 0
         },
+        through: [{
+          x: 1,
+          y: 0
+        }, {
+          x: 2,
+          y: 0
+        }],
         state: {}
-      }],
-      wirePaths: [
-        /*
-         * 格式：
-         * {
-         *   id: string,
-         *   x1: number,
-         *   y1: number,
-         *   x2: number,
-         *   y2: number,
-         *   type: enum["wire", "electron"]
-         * }
-         */
-      ]
+      }]
     };
     this.listenToMany(actions);
   }
@@ -73688,7 +73767,7 @@ exports.Store = Store;
 let Actions = actions;
 exports.Actions = Actions;
 
-},{"prop-types":261,"react":304,"reflux":322}],356:[function(require,module,exports){
+},{"prop-types":261,"react":304,"reflux":322}],357:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73732,7 +73811,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":304}],357:[function(require,module,exports){
+},{"react":304}],358:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73790,7 +73869,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":304}],358:[function(require,module,exports){
+},{"react":304}],359:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73848,7 +73927,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":304}],359:[function(require,module,exports){
+},{"react":304}],360:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73921,7 +74000,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":304}],360:[function(require,module,exports){
+},{"react":304}],361:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -74044,7 +74123,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":304}],361:[function(require,module,exports){
+},{"react":304}],362:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -74116,7 +74195,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":304}],362:[function(require,module,exports){
+},{"react":304}],363:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -74160,7 +74239,7 @@ var _default = () => {
 
 exports.default = _default;
 
-},{"react":304}],363:[function(require,module,exports){
+},{"react":304}],364:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -74242,7 +74321,7 @@ class Components extends _reflux.default.Component {
 var _default = Components;
 exports.default = _default;
 
-},{"../components/ammeter":343,"../components/fixedResistance":344,"../components/light":345,"../components/power":346,"../components/slidingRheostat":347,"../components/switchOff":348,"../components/switchOn":349,"../components/voltmeter":350,"../store":355,"react":304,"react-konva":290,"reflux":322}],364:[function(require,module,exports){
+},{"../components/ammeter":343,"../components/fixedResistance":344,"../components/light":345,"../components/power":346,"../components/slidingRheostat":347,"../components/switchOff":348,"../components/switchOn":349,"../components/voltmeter":350,"../store":356,"react":304,"react-konva":290,"reflux":322}],365:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -74297,7 +74376,7 @@ class Grid extends _reflux.default.Component {
 var _default = Grid;
 exports.default = _default;
 
-},{"../store":355,"react":304,"react-konva":290,"reflux":322}],365:[function(require,module,exports){
+},{"../store":356,"react":304,"react-konva":290,"reflux":322}],366:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -74309,9 +74388,13 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reflux = _interopRequireDefault(require("reflux"));
 
+var _shortid = _interopRequireDefault(require("shortid"));
+
 var _reactKonva = require("react-konva");
 
 var _store = require("../store");
+
+var _wire = _interopRequireDefault(require("../components/wire"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -74322,9 +74405,15 @@ class Grid extends _reflux.default.Component {
   }
 
   render() {
-    let list = []; // TODO: 读取 Store 进行画线
-
-    return _react.default.createElement(_reactKonva.Group, null, list);
+    return _react.default.createElement(_reactKonva.Group, null, this.state.wires.map(m => m.through.map(n => {
+      return _react.default.createElement(_wire.default, {
+        key: _shortid.default.generate(),
+        x: n.x,
+        y: n.y,
+        begin: "left",
+        end: "right"
+      });
+    })).reduce((prev, curr) => prev.concat(curr)));
   }
 
 }
@@ -74332,7 +74421,7 @@ class Grid extends _reflux.default.Component {
 var _default = Grid;
 exports.default = _default;
 
-},{"../store":355,"react":304,"react-konva":290,"reflux":322}],366:[function(require,module,exports){
+},{"../components/wire":351,"../store":356,"react":304,"react-konva":290,"reflux":322,"shortid":331}],367:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -74366,7 +74455,7 @@ class MainCanva extends _reflux.default.Component {
     return _react.default.createElement(_reactKonva.Stage, {
       width: window.innerWidth,
       height: window.innerHeight
-    }, _react.default.createElement(_reactKonva.Layer, null, _react.default.createElement(_grid.default, null), _react.default.createElement(_components.default, null)));
+    }, _react.default.createElement(_reactKonva.Layer, null, _react.default.createElement(_grid.default, null), _react.default.createElement(_components.default, null), _react.default.createElement(_lineDrawer.default, null)));
   }
 
 }
@@ -74374,4 +74463,4 @@ class MainCanva extends _reflux.default.Component {
 var _default = MainCanva;
 exports.default = _default;
 
-},{"../store":355,"./components":363,"./grid":364,"./lineDrawer":365,"react":304,"react-konva":290,"reflux":322}]},{},[354]);
+},{"../store":356,"./components":364,"./grid":365,"./lineDrawer":366,"react":304,"react-konva":290,"reflux":322}]},{},[355]);

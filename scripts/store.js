@@ -13,7 +13,7 @@ let actions = Reflux.createActions([
 
 // 电路本体存储，包括各元件位置及具体信息
 class Circult extends Reflux.Store {
-    constructor(){
+    constructor() {
         super();
 
         this.state = {
@@ -39,7 +39,7 @@ class Circult extends Reflux.Store {
                 }
             ],
             wires: [
-                {
+                {   
                     begin: {
                         x: 0,
                         y: 0
@@ -48,44 +48,42 @@ class Circult extends Reflux.Store {
                         x: 3,
                         y: 0
                     },
+                    through: [
+                        
+                        {
+                            x: 1,
+                            y: 0
+                        },
+                        {
+                            x: 2,
+                            y: 0
+                        },
+                    ],
                     state: {}
                 }
-            ],
-            wirePaths: [
-                /*
-                 * 格式：
-                 * {
-                 *   id: string,
-                 *   x1: number,
-                 *   y1: number,
-                 *   x2: number,
-                 *   y2: number,
-                 *   type: enum["wire", "electron"]
-                 * }
-                 */
             ]
         }
 
         this.listenToMany(actions);
     }
 
-    makeLine(from, to){
-
-    }
-    
-    makeComponent(className){
+    makeLine(from, to) {
 
     }
 
-    updateComponent(x, y, object){
+    makeComponent(className) {
 
     }
 
-    destoryLine(from, to){
+    updateComponent(x, y, object) {
 
     }
 
-    destoryComponent(x, y){
+    destoryLine(from, to) {
+
+    }
+
+    destoryComponent(x, y) {
 
     }
 }

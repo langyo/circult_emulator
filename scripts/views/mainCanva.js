@@ -1,6 +1,6 @@
 import React from "react";
 import Reflux from "reflux";
-import { Stage, Layer } from "react-konva";
+import { Stage, Layer, Line } from "react-konva";
 
 import { Store, Actions } from '../store';
 
@@ -20,6 +20,7 @@ class MainCanva extends Reflux.Component {
         <Layer>
           <Grid />
           <Components />
+          <LineDrawer />
         </Layer>
       </Stage>
     );

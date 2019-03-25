@@ -73256,8 +73256,18 @@ class AboutDialog extends _react.default.Component {
       id: "customized-dialog-title",
       onClose: this.onClose
     }, "\u5173\u4E8E"), _react.default.createElement(_DialogContent.default, null, _react.default.createElement(_Typography.default, {
+      variant: "body1",
       gutterBottom: true
-    }, "\u8BE5\u8F6F\u4EF6\u7684\u5F00\u6E90\u5730\u5740\uFF1Ahttps://github.com/langyo/circult_emulator")), _react.default.createElement(_DialogActions.default, null, _react.default.createElement(_Button.default, {
+    }, "\u8BE5\u8F6F\u4EF6\u7684\u5F00\u6E90\u5730\u5740\uFF1Ahttps://github.com/langyo/circult_emulator"), _react.default.createElement(_Typography.default, {
+      variant: "body1",
+      gutterBottom: true
+    }, "\u8FD9\u662F\u4E00\u4E2A\u7528\u4E8E\u521D\u4E2D\u7269\u7406\u6559\u5B66\u7684\u8868\u9762\u770B\u8D77\u6765\u5F88\u7B80\u5355\u7684\u8F6F\u4EF6\uFF0C\u80FD\u505A\u5230\u57FA\u7840\u7684\u7535\u8DEF\u6A21\u62DF\u3002"), _react.default.createElement(_Typography.default, {
+      variant: "body1",
+      gutterBottom: true
+    }, "\u8FD9\u662F\u4E00\u4E2A\u53C2\u8D5B\u8F6F\u4EF6\uFF0C\u6240\u4EE5\u5728\u6BD4\u8D5B\u7ED3\u675F\u524D\u8BE5\u8F6F\u4EF6\u7684\u5F00\u6E90\u534F\u8BAE\u5C06\u4FDD\u6301 Unlicense\uFF0C\u7981\u6B62\u4EFB\u4F55\u4EBA\u5728\u8BE5\u8F6F\u4EF6\u6539\u53D8\u5F00\u6E90\u534F\u8BAE\u524D\u4F7F\u7528\u6240\u6709\u7684\u8F6F\u4EF6\u6E90\u4EE3\u7801\u53CA\u5176\u9644\u5C5E\u8D44\u6E90\u3002"), _react.default.createElement(_Typography.default, {
+      variant: "body1",
+      gutterBottom: true
+    }, "\u8BF7\u6CE8\u610F\uFF0C\u8BE5\u8F6F\u4EF6\u4E0D\u80FD\u5AB2\u7F8E\u67D0\u4E9B\u5DF2\u5728\u884C\u4E1A\u4E2D\u5341\u5206\u6210\u719F\u7684\u91CD\u91CF\u7EA7\u7535\u8DEF\u8BBE\u8BA1\u73AF\u5883\u3002\u5982\u679C\u60A8\u7684\u7528\u9014\u4E0D\u662F\u7528\u4E8E\u7B80\u5355\u7535\u8DEF\u7684\u6559\u5B66\uFF0C\u8BF7\u4E0D\u8981\u5BF9\u8BE5\u8F6F\u4EF6\u62B1\u6709\u592A\u5927\u539A\u671B\u3002")), _react.default.createElement(_DialogActions.default, null, _react.default.createElement(_Button.default, {
       onClick: this.props.onClose,
       color: "primary"
     }, "\u5173\u95ED")));
@@ -73619,6 +73629,7 @@ class Circult extends _reflux.default.Store {
         y: 0,
         props: {
           U: 6,
+          R: 0,
           source: true // 指定了此属性的元件会被作为电源看待，所有计算参数都先依赖于这个元件
 
         },

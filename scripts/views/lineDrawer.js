@@ -33,12 +33,17 @@ class Grid extends Reflux.Component {
             if(l.y < n.y && n.y < r.y && l.x == n.x && n.x == r.x) return ["top", "bottom"];
             if(r.y < n.y && n.y < l.y && l.x == n.x && n.x == r.x) return ["bottom", "top"];
           }
-          // 先处理开头 begin 与 through 的第一个元素的方向判定
-          list.push(parse(m.begin, m.through[0], m.through[1]));
-          // 中间各线
-          for(let i = 1; i < m.through.length - 1; ++i) list.push(parse(m.through[i - 1], m.through[i], m.through[i + 1]));
-          // 最后处理 through 最后一个元素与末尾 end 处的方向判定
-          list.push(parse(m.through[m.through.length - 2], m.through[m.through.length - 1], m.end));
+          // 检查是否只有一点点空隙
+          if(m.through.length == 1){
+            list.push(parse(m.begin, m.through[0], m.end));
+          }else{
+            // 先处理开头 begin 与 through 的第一个元素的方向判定
+            list.push(parse(m.begin, m.through[0], m.through[1]));
+            // 中间各线
+            for(let i = 1; i < m.through.length - 1; ++i) list.push(parse(m.through[i - 1], m.through[i], m.through[i + 1]));
+            // 最后处理 through 最后一个元素与末尾 end 处的方向判定
+            list.push(parse(m.through[m.through.length - 2], m.through[m.through.length - 1], m.end));
+          }
 
           // 渲染
           return m.through.map((n, index) => {

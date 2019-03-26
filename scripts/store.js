@@ -25,8 +25,8 @@ class Circult extends Reflux.Store {
             components: [
                 {
                     class: "system.power",
-                    x: 0,
-                    y: 0,
+                    x: 5,
+                    y: 4,
                     props: {
                         U: 6,
                         R: 0,
@@ -36,8 +36,8 @@ class Circult extends Reflux.Store {
                 },
                 {
                     class: "system.light",
-                    x: 3,
-                    y: 0,
+                    x: 7,
+                    y: 4,
                     props: {
                         R: 12
                     }
@@ -46,27 +46,45 @@ class Circult extends Reflux.Store {
             wires: [
                 {   
                     begin: {
-                        x: 0,
-                        y: 0
+                        x: 5,
+                        y: 4
                     },
                     end: {
-                        x: 3,
-                        y: 0
+                        x: 7,
+                        y: 4
                     },
                     through: [
-                        
                         {
-                            x: 1,
-                            y: 0
-                        },
-                        {
-                            x: 2,
-                            y: 0
-                        },
+                            x: 6,
+                            y: 4
+                        }
                     ],
                     state: {}
                 }
-            ]
+            ],
+            mouseState: {
+                move: {
+                    x: 0,
+                    y: 0
+                },
+                click: {
+                    x: 0,
+                    y: 0
+                },
+                clickType: ""   // "single"|"double"|"right"
+            },
+            selector: {
+                grid: {
+                    x: 5,
+                    y: 4
+                },
+                post: {
+                    x: 0,
+                    y: 0,
+                    sX: 0,
+                    sY: 0
+                }
+            }
         }
 
         this.listenToMany(actions);
@@ -92,12 +110,22 @@ class Circult extends Reflux.Store {
 
     }
 
-    mouseMove(x, y){
-        console.log("move ", x, " , " , y);
+    mouseMove(pos){
+        this.setState({
+            mouseState: {
+                move: pos
+            }
+        });
+        console.log(this.state.mouseState.move);
     }
 
     mouseClick(e){
-        console.log("click ", e);
+        this.setState({
+            mouseState: {
+                click: this.state.mouseState.move,
+                clickType: "single"
+            }
+        });
     }
 
     mouseDoubleClick(e){

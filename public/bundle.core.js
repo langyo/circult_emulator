@@ -73863,7 +73863,11 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reflux = _interopRequireDefault(require("reflux"));
 
-var _propTypes = _interopRequireDefault(require("prop-types"));
+var _propTypes = _interopRequireWildcard(require("prop-types"));
+
+var _shortid = _interopRequireDefault(require("shortid"));
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -73885,6 +73889,7 @@ class Circult extends _reflux.default.Store {
     this.state = {
       components: [{
         class: "system.power",
+        id: _shortid.default.generate(),
         x: 5,
         y: 4,
         props: {
@@ -73893,14 +73898,20 @@ class Circult extends _reflux.default.Store {
           source: true // 指定了此属性的元件会被作为电源看待，所有计算参数都先依赖于这个元件
 
         },
-        state: {}
+        state: {},
+        in: [],
+        out: []
       }, {
         class: "system.light",
+        id: _shortid.default.generate(),
         x: 7,
         y: 4,
         props: {
           R: 12
-        }
+        },
+        state: {},
+        in: [],
+        out: []
       }],
       wires: [{
         begin: {
@@ -73929,6 +73940,12 @@ class Circult extends _reflux.default.Store {
         clickType: "" // "single"|"double"|"right"
 
       },
+      lineDrawingState: {
+        hasDrawing: false,
+        path: [
+          /* {x: num, y: num} */
+        ]
+      },
       selector: {
         grid: {
           x: 5,
@@ -73942,6 +73959,10 @@ class Circult extends _reflux.default.Store {
         }
       }
     };
+    this.state.components[0].in.push(this.state.components[1].id);
+    this.state.components[0].out.push(this.state.components[1].id);
+    this.state.components[1].in.push(this.state.components[0].id);
+    this.state.components[1].out.push(this.state.components[0].id);
     this.listenToMany(actions);
   }
 
@@ -73949,13 +73970,64 @@ class Circult extends _reflux.default.Store {
 
   makeComponent(className) {}
 
-  updateComponent(id, state) {}
+  updateComponent(id, state) {
+    let components = this.state.components;
+
+    for (let n of components) {
+      if (n.id == id) {
+        for (let i of Object.keys(state)) {
+          n.state[i] = state[i];
+        }
+
+        break;
+      }
+    }
+
+    console.log("更新了状态", this.state.components);
+  }
 
   destoryLine(from, to, path) {}
 
   destoryComponent(id) {}
 
   mouseMove(pos) {
+    // if (this.state.lineDrawingState.hasDrawing) {
+    //     let path = this.state.lineDrawingState.path;
+    //     console.log(path)
+    //     if (path.length > 0) {
+    //         // 检查 path，与当前鼠标坐标进行比对，保证不会重复绘制
+    //         let latest = path[path.length - 1];
+    //         latest.x = latest.x * 60 + 30;
+    //         latest.y = latest.y * 60 + 30;
+    //         if (latest.x < pos.x && pos.x < (latest.x + 60) && latest.y < pos.y && pos.y < (latest.y + 60)) return;
+    //         // 如果鼠标移动了 path 中倒数第二个方格，则绘制路径会回退一格
+    //         let latest2 = path[path.length - 2];
+    //         latest2.x = latest.x * 60 + 30;
+    //         latest2.y = latest.y * 60 + 30;
+    //         if (latest2.x < pos.x && pos.x < (latest2.x + 60) && latest2.y < pos.y && pos.y < (latest2.y + 60)) path.pop();
+    //         // 其余的情况就是多移动了一格了，将此格子的坐标记录进 path
+    //         else path.push({ x: (pos.x - 30) / 60, y: (pos.y - 30) / 60 });
+    //     }else{
+    //         // 没有任何记录的情况，直接记录
+    //         path.push({ x: (pos.x - 30) / 60, y: (pos.y - 30) / 60 });
+    //     }
+    //     this.setState({
+    //         mouseState: {
+    //             move: pos
+    //         },
+    //         lineDrawingState: {
+    //             path: path
+    //         }
+    //     })
+    // }
+    // else this.setState({
+    //     mouseState: {
+    //         move: pos
+    //     },
+    //     lineDrawingState: {
+    //         path: []
+    //     }
+    // });
     this.setState({
       mouseState: {
         move: pos
@@ -73964,11 +74036,16 @@ class Circult extends _reflux.default.Store {
   }
 
   mouseClick(e) {
+    console.log(this.state);
     this.setState({
       mouseState: {
         click: this.state.mouseState.move,
         clickType: "single"
-      }
+      } // lineDrawingState: {
+      //     hasDrawing: !this.state.lineDrawingState.hasDrawing,
+      //     path: []
+      // }
+
     });
   }
 
@@ -73988,7 +74065,7 @@ exports.Store = Store;
 let Actions = actions;
 exports.Actions = Actions;
 
-},{"prop-types":261,"react":304,"reflux":322}],360:[function(require,module,exports){
+},{"prop-types":261,"react":304,"reflux":322,"shortid":331}],360:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {

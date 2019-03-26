@@ -1,6 +1,7 @@
 import React from 'react';
 import Reflux from 'reflux';
-import PropTypes from 'prop-types';
+import PropTypes, { number } from 'prop-types';
+import shortid from 'shortid';
 
 // 宏观动作，例如更改线路、元件的摆放位置等
 let actions = Reflux.createActions([
@@ -25,6 +26,7 @@ class Circult extends Reflux.Store {
             components: [
                 {
                     class: "system.power",
+                    id: shortid.generate(),
                     x: 5,
                     y: 4,
                     props: {
@@ -32,19 +34,25 @@ class Circult extends Reflux.Store {
                         R: 0,
                         source: true    // 指定了此属性的元件会被作为电源看待，所有计算参数都先依赖于这个元件
                     },
-                    state: {}
+                    state: {},
+                    in: [],
+                    out: []
                 },
                 {
                     class: "system.light",
+                    id: shortid.generate(),
                     x: 7,
                     y: 4,
                     props: {
                         R: 12
-                    }
+                    },
+                    state: {},
+                    in: [],
+                    out: []
                 }
             ],
             wires: [
-                {   
+                {
                     begin: {
                         x: 5,
                         y: 4
@@ -73,6 +81,10 @@ class Circult extends Reflux.Store {
                 },
                 clickType: ""   // "single"|"double"|"right"
             },
+            lineDrawingState: {
+                hasDrawing: false,
+                path: [ /* {x: num, y: num} */]
+            },
             selector: {
                 grid: {
                     x: 5,
@@ -87,6 +99,11 @@ class Circult extends Reflux.Store {
             }
         }
 
+        this.state.components[0].in.push(this.state.components[1].id);
+        this.state.components[0].out.push(this.state.components[1].id);
+        this.state.components[1].in.push(this.state.components[0].id);
+        this.state.components[1].out.push(this.state.components[0].id);
+
         this.listenToMany(actions);
     }
 
@@ -99,7 +116,16 @@ class Circult extends Reflux.Store {
     }
 
     updateComponent(id, state) {
-
+        let components = this.state.components;
+        for(let n of components){
+            if(n.id == id){
+                for(let i of Object.keys(state)){
+                    n.state[i] = state[i];
+                }
+                break;
+            }
+        }
+        console.log("更新了状态", this.state.components);
     }
 
     destoryLine(from, to, path) {
@@ -110,7 +136,46 @@ class Circult extends Reflux.Store {
 
     }
 
-    mouseMove(pos){
+    mouseMove(pos) {
+        // if (this.state.lineDrawingState.hasDrawing) {
+        //     let path = this.state.lineDrawingState.path;
+        //     console.log(path)
+
+        //     if (path.length > 0) {
+        //         // 检查 path，与当前鼠标坐标进行比对，保证不会重复绘制
+        //         let latest = path[path.length - 1];
+        //         latest.x = latest.x * 60 + 30;
+        //         latest.y = latest.y * 60 + 30;
+        //         if (latest.x < pos.x && pos.x < (latest.x + 60) && latest.y < pos.y && pos.y < (latest.y + 60)) return;
+        //         // 如果鼠标移动了 path 中倒数第二个方格，则绘制路径会回退一格
+        //         let latest2 = path[path.length - 2];
+        //         latest2.x = latest.x * 60 + 30;
+        //         latest2.y = latest.y * 60 + 30;
+        //         if (latest2.x < pos.x && pos.x < (latest2.x + 60) && latest2.y < pos.y && pos.y < (latest2.y + 60)) path.pop();
+        //         // 其余的情况就是多移动了一格了，将此格子的坐标记录进 path
+        //         else path.push({ x: (pos.x - 30) / 60, y: (pos.y - 30) / 60 });
+        //     }else{
+        //         // 没有任何记录的情况，直接记录
+        //         path.push({ x: (pos.x - 30) / 60, y: (pos.y - 30) / 60 });
+        //     }
+            
+        //     this.setState({
+        //         mouseState: {
+        //             move: pos
+        //         },
+        //         lineDrawingState: {
+        //             path: path
+        //         }
+        //     })
+        // }
+        // else this.setState({
+        //     mouseState: {
+        //         move: pos
+        //     },
+        //     lineDrawingState: {
+        //         path: []
+        //     }
+        // });
         this.setState({
             mouseState: {
                 move: pos
@@ -118,20 +183,25 @@ class Circult extends Reflux.Store {
         });
     }
 
-    mouseClick(e){
+    mouseClick(e) {
+        console.log(this.state);
         this.setState({
             mouseState: {
                 click: this.state.mouseState.move,
                 clickType: "single"
-            }
+            },
+            // lineDrawingState: {
+            //     hasDrawing: !this.state.lineDrawingState.hasDrawing,
+            //     path: []
+            // }
         });
     }
 
-    mouseDoubleClick(e){
+    mouseDoubleClick(e) {
         console.log("doubleClick ", e);
     }
 
-    mouseRightClick(e){
+    mouseRightClick(e) {
         console.log("rightClick ", e);
     }
 }

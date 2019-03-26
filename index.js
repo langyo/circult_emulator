@@ -17,7 +17,7 @@ function createMainWnd() {
     mainWnd.on('ready-to-show', ()=>{
         Menu.setApplicationMenu(null);
         mainWnd.show();
-        // mainWnd.webContents.openDevTools({ detach:true });
+        mainWnd.webContents.openDevTools({ detach:true });
     });
 
   mainWnd.on('closed', () => {

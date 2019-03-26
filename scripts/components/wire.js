@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Line, Group } from 'react-konva';
 
-class Light extends React.Component {
+class Wire extends React.Component {
     render() {
         return (
             <Group x={60 * this.props.x + 30} y={60 * this.props.y + 30}>
@@ -20,7 +20,7 @@ class Light extends React.Component {
     }
 }
 
-Light.propTypes = {
+Wire.propTypes = {
     x: PropTypes.number,
     y: PropTypes.number,
     // begin 与 end 均只有以下的值：
@@ -29,4 +29,4 @@ Light.propTypes = {
     end: PropTypes.string
 }
 
-export default Light;
+export default Wire;

@@ -56,8 +56,28 @@ export default (components, wires) => {
     // 生成串并联结构
     // 两节点入队，三节点递归
     const nodeCount = (n) => n.in.length + n.out.length;
-    let dfs = (nodes) => {
-
+    const visit = (nodes, id) => {
+        for(let n of nodes){
+            if(n.id == id) return n;
+        }
+    };
+    let DFS = (nodes) => {
+        let ret = {
+            type: "series", // 串连为 "series"，并连为 "parallel",
+            list: []
+        }
+        for(let n of nodes){
+            if(nodeCount(n) == 2){
+                // 为串连电路的一部分，加入列表
+                ret.list.push(n);
+            }else{
+                // 说明要建立新的并连电路，解析每个 out 端口
+                let list = [];
+                for(let id of n.out){
+                    list.push(DFS(components[id]))
+                }
+            }
+        }
     }
-    let circults = forest.map(n => dfs(n));
+    let circults = forest.map(n => DFS(n));
 }

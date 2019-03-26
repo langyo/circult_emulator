@@ -16,11 +16,11 @@ class MainCanva extends Reflux.Component {
   render() {
     return (
       <Group>
-          {this.state.mouseState.move && (<ComponentSelector
-            x={(this.state.mouseState.move.x - 30) % 60}
-            y={(this.state.mouseState.move.x - 30) % 60}
+          {/* {this.state.mouseState.move && (<ComponentSelector
+            x={(this.state.mouseState.move.x - 30) / 60}
+            y={(this.state.mouseState.move.y - 30) / 60}
             type="move" 
-          />)}
+          />)} */}
           <ComponentSelector
             x={this.state.selector.grid.x}
             y={this.state.selector.grid.y}

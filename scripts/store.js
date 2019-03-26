@@ -116,7 +116,6 @@ class Circult extends Reflux.Store {
                 move: pos
             }
         });
-        console.log(this.state.mouseState.move);
     }
 
     mouseClick(e){

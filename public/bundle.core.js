@@ -72869,11 +72869,7 @@ class MainCanva extends _reflux.default.Component {
   }
 
   render() {
-    return _react.default.createElement(_reactKonva.Group, null, this.state.mouseState.move && _react.default.createElement(_componentSelector.default, {
-      x: (this.state.mouseState.move.x - 30) % 60,
-      y: (this.state.mouseState.move.x - 30) % 60,
-      type: "move"
-    }), _react.default.createElement(_componentSelector.default, {
+    return _react.default.createElement(_reactKonva.Group, null, _react.default.createElement(_componentSelector.default, {
       x: this.state.selector.grid.x,
       y: this.state.selector.grid.y,
       type: "choosing"
@@ -73965,7 +73961,6 @@ class Circult extends _reflux.default.Store {
         move: pos
       }
     });
-    console.log(this.state.mouseState.move);
   }
 
   mouseClick(e) {
@@ -74705,6 +74700,8 @@ var _components = _interopRequireDefault(require("./components"));
 
 var _controller = _interopRequireDefault(require("../canvaElements/controller"));
 
+var _componentSelector = _interopRequireDefault(require("../canvaElements/componentSelector"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 class MainCanva extends _reflux.default.Component {
@@ -74727,4 +74724,4 @@ class MainCanva extends _reflux.default.Component {
 var _default = MainCanva;
 exports.default = _default;
 
-},{"../canvaElements/controller":344,"../store":359,"./components":367,"./grid":368,"./lineDrawer":369,"react":304,"react-konva":290,"reflux":322}]},{},[358]);
+},{"../canvaElements/componentSelector":343,"../canvaElements/controller":344,"../store":359,"./components":367,"./grid":368,"./lineDrawer":369,"react":304,"react-konva":290,"reflux":322}]},{},[358]);

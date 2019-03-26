@@ -8,7 +8,12 @@ let actions = Reflux.createActions([
     "makeCoomponent",   // 创建元件
     "updateComponent",  // 更新元件，例如改变固定 props 状态、移动元件
     "destoryLine",      // 销毁连接线
-    "destoryComponent"  // 销毁元件
+    "destoryComponent", // 销毁元件
+
+    "mouseMove",        // 鼠标移动事件
+    "mouseClick",       // 鼠标点击事件
+    "mouseDoubleClick", // 鼠标双击事件
+    "mouseRightClick",  // 鼠标右键点击事件
 ]);
 
 // 电路本体存储，包括各元件位置及具体信息
@@ -67,7 +72,7 @@ class Circult extends Reflux.Store {
         this.listenToMany(actions);
     }
 
-    makeLine(from, to) {
+    makeLine(from, to, path) {
 
     }
 
@@ -75,16 +80,32 @@ class Circult extends Reflux.Store {
 
     }
 
-    updateComponent(x, y, object) {
+    updateComponent(id, state) {
 
     }
 
-    destoryLine(from, to) {
+    destoryLine(from, to, path) {
 
     }
 
-    destoryComponent(x, y) {
+    destoryComponent(id) {
 
+    }
+
+    mouseMove(x, y){
+        console.log("move ", x, " , " , y);
+    }
+
+    mouseClick(e){
+        console.log("click ", e);
+    }
+
+    mouseDoubleClick(e){
+        console.log("doubleClick ", e);
+    }
+
+    mouseRightClick(e){
+        console.log("rightClick ", e);
     }
 }
 

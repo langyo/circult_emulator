@@ -73831,8 +73831,11 @@ let actions = _reflux.default.createActions(["makeLine", // 创建连接线
 "makeCoomponent", // 创建元件
 "updateComponent", // 更新元件，例如改变固定 props 状态、移动元件
 "destoryLine", // 销毁连接线
-"destoryComponent" // 销毁元件
-]); // 电路本体存储，包括各元件位置及具体信息
+"destoryComponent", // 销毁元件
+"mouseMove", // 鼠标移动事件
+"mouseClick", // 鼠标点击事件
+"mouseDoubleClick", // 鼠标双击事件
+"mouseRightClick"]); // 电路本体存储，包括各元件位置及具体信息
 
 
 class Circult extends _reflux.default.Store {
@@ -73880,15 +73883,31 @@ class Circult extends _reflux.default.Store {
     this.listenToMany(actions);
   }
 
-  makeLine(from, to) {}
+  makeLine(from, to, path) {}
 
   makeComponent(className) {}
 
-  updateComponent(x, y, object) {}
+  updateComponent(id, state) {}
 
-  destoryLine(from, to) {}
+  destoryLine(from, to, path) {}
 
-  destoryComponent(x, y) {}
+  destoryComponent(id) {}
+
+  mouseMove(x, y) {
+    console.log("move ", x, " , ", y);
+  }
+
+  mouseClick(e) {
+    console.log("click ", e);
+  }
+
+  mouseDoubleClick(e) {
+    console.log("doubleClick ", e);
+  }
+
+  mouseRightClick(e) {
+    console.log("rightClick ", e);
+  }
 
 }
 
@@ -74617,7 +74636,9 @@ class MainCanva extends _reflux.default.Component {
   render() {
     return _react.default.createElement(_reactKonva.Stage, {
       width: window.innerWidth,
-      height: window.innerHeight
+      height: window.innerHeight,
+      onMouseMove: n => n.target.pointerPos && _store.Actions.mouseMove(n.target.pointerPos.x, n.target.pointerPos.y),
+      onClick: _store.Actions.mouseClick
     }, _react.default.createElement(_reactKonva.Layer, null, _react.default.createElement(_grid.default, null), _react.default.createElement(_components.default, null), _react.default.createElement(_lineDrawer.default, null), _react.default.createElement(_componentSelector.default, {
       x: 1,
       y: 1,

@@ -19,7 +19,10 @@ class MainCanva extends Reflux.Component {
 
   render() {
     return (
-      <Stage width={window.innerWidth} height={window.innerHeight}>
+      <Stage width={window.innerWidth} height={window.innerHeight}
+        onMouseMove={(n) => n.target.pointerPos && Actions.mouseMove(n.target.pointerPos.x, n.target.pointerPos.y)}
+        onClick={Actions.mouseClick}
+      >
         <Layer>
           <Grid />
           <Components />
